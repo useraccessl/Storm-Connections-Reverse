@@ -1,0 +1,5 @@
+*.xfbin filter=lfs diff=lfs merge=lfs -text
+*.rdc filter=lfs diff=lfs merge=lfs -text
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+storm_connections_itachi_tools/gpu_captures/trail_draws.json filter=lfs diff=lfs merge=lfs -text
