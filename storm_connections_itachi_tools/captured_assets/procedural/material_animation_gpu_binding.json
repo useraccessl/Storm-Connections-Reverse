@@ -1,0 +1,63 @@
+{
+  "draws": [
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "event": 5815,
+      "compatibleCurveKeys": [
+        1
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "event": 5833,
+      "compatibleCurveKeys": [
+        3
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "event": 5903,
+      "compatibleCurveKeys": [
+        5
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "event": 5921,
+      "compatibleCurveKeys": [
+        7,
+        8
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "event": 5714,
+      "compatibleCurveKeys": [
+        1
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "event": 5732,
+      "compatibleCurveKeys": [
+        3
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "event": 5750,
+      "compatibleCurveKeys": [
+        5
+      ]
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "event": 5768,
+      "compatibleCurveKeys": [
+        7,
+        8
+      ]
+    }
+  ],
+  "limitations": "Channel correspondence only; curve-key phase is not independently recovered."
+}

@@ -1,0 +1,109 @@
+{
+  "inventory": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\nud_inventory.json",
+  "property_mapping": {
+    "nud": "NU_uvScaleScreen",
+    "gpu": "g_uvScaleScreen"
+  },
+  "pixel_shader_hash_prefix": "915c5e6e",
+  "tolerance": 1e-06,
+  "inventory_group_values": {
+    "4efb_amt00": [
+      3.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "4efb_amt01": [
+      3.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "4efb_amt05": [
+      3.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "4efb_amt07": [
+      3.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "4efb_amt08": [
+      1.0,
+      1.0,
+      3.0,
+      3.0
+    ],
+    "4efb_amt15": [
+      1.0,
+      1.0,
+      3.0,
+      3.0
+    ]
+  },
+  "draw_count": 213,
+  "capture_count": 7,
+  "captures": [
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "draw_count": 7,
+      "assets": {
+        "4efb_amt00": 1,
+        "4efb_amt01": 6
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "draw_count": 16,
+      "assets": {
+        "4efb_amt00": 3,
+        "4efb_amt01": 13
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22127.effect_coverage_reference.json",
+      "draw_count": 44,
+      "assets": {
+        "4efb_amt00": 23,
+        "4efb_amt01": 21
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22136.effect_coverage_reference.json",
+      "draw_count": 47,
+      "assets": {
+        "4efb_amt00": 25,
+        "4efb_amt01": 22
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22149.effect_coverage_reference.json",
+      "draw_count": 47,
+      "assets": {
+        "4efb_amt00": 25,
+        "4efb_amt01": 22
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22171.effect_coverage_reference.json",
+      "draw_count": 40,
+      "assets": {
+        "4efb_amt00": 23,
+        "4efb_amt01": 17
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22200.effect_coverage_reference.json",
+      "draw_count": 12,
+      "assets": {
+        "4efb_amt00": 11,
+        "4efb_amt01": 1
+      }
+    }
+  ],
+  "mismatches": [],
+  "finding": "serialized NUD material property values match the captured GPU constant for every selected draw"
+}

@@ -1,0 +1,209 @@
+{
+ "package": "4efb_gkk1_x",
+ "scripts": {
+  "4efb_gkk1_e_begin00": {
+   "error": null,
+   "actors": [
+    [
+     "4efb_gkk1_e_begin00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_blt00",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "4efb_gkk1_e_ge_attach00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_ge00",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "4efb_gkk1_e_ge_attach00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_ge00",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "4efb_gkk1_e_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_fcv_exp00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_hitworld01",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_eff01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "1efc_e_exp_ge_g01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ]
+   ],
+   "effects": [
+    "4efb_gkk1_blt00",
+    "4efb_gkk1_ge00",
+    "1efc_fcv_exp00",
+    "1efc_exp_hitworld01",
+    "1efc_exp_ge_g01"
+   ],
+   "frames": 400,
+   "peak_particles": 75,
+   "draws": 4249,
+   "notes": [
+    "1efc_e_exp_hitworld01: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+   ],
+   "skipped": {},
+   "still_running": [
+    "1efc_exp_ge_g01"
+   ],
+   "dropped": {}
+  },
+  "4efb_gkk1_e_begin00b": {
+   "error": null,
+   "actors": [
+    [
+     "4efb_gkk1_e_begin00b",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_blt00b",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "4efb_gkk1_e_ge_attach00b",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_ge00b",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "4efb_gkk1_e_ge_attach00b",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_ge00b",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "4efb_gkk1_e_hit00b",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_fcv_exp00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_hitworld01",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_eff01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "1efc_e_exp_ge_g01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ]
+   ],
+   "effects": [
+    "4efb_gkk1_blt00b",
+    "4efb_gkk1_ge00b",
+    "1efc_fcv_exp00",
+    "1efc_exp_hitworld01",
+    "1efc_exp_ge_g01"
+   ],
+   "frames": 400,
+   "peak_particles": 75,
+   "draws": 4286,
+   "notes": [
+    "1efc_e_exp_hitworld01: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+   ],
+   "skipped": {},
+   "still_running": [
+    "1efc_exp_ge_g01"
+   ],
+   "dropped": {}
+  },
+  "4efb_gkk1_e_begin00s": {
+   "error": null,
+   "actors": [
+    [
+     "4efb_gkk1_e_begin00s",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_gkk1_e_blt00s",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "4efb_gkk1_e_hit00s",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_fcv_exp00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_hitworld01",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1efc_e_exp_eff01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "1efc_e_exp_ge_g01",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ]
+   ],
+   "effects": [
+    "4efb_gkk1_blt00s",
+    "1efc_fcv_exp00",
+    "1efc_exp_hitworld01",
+    "1efc_exp_ge_g01"
+   ],
+   "frames": 400,
+   "peak_particles": 76,
+   "draws": 4311,
+   "notes": [
+    "1efc_e_exp_hitworld01: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+   ],
+   "skipped": {},
+   "still_running": [
+    "1efc_exp_ge_g01"
+   ],
+   "dropped": {}
+  }
+ },
+ "engine_notes": [
+  "light mode 3 was never captured: its ambient is the host default"
+ ],
+ "models_without_shader": {},
+ "not_imported": [
+  [
+   "trail 1efc_exp_trl00",
+   "trail 0: render state 0x121 and white render context colour, as captured for 4efb_amt1_blt00; the material words +80/+82/+86 that could change them have no writer found"
+  ],
+  [
+   "trail 1efc_exp_trl00",
+   "trail 1: render state 0x121 and white render context colour, as captured for 4efb_amt1_blt00; the material words +80/+82/+86 that could change them have no writer found"
+  ]
+ ],
+ "meshes_drawn": 29,
+ "meshes_never_drawn": [
+  "storm_fx_r28_4efb_gkk1_x_1efc_fire06_1",
+  "storm_fx_r28_4efb_gkk1_x_1efc_fire09_1",
+  "storm_fx_r28_4efb_gkk1_x_1efc_trl05g_1"
+ ]
+}

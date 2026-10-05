@@ -1,0 +1,13 @@
+{
+ "effect": "1efc_exp_hit00",
+ "peak_intensity": 3.0,
+ "weapon_script": "wcsbn_e_begin00",
+ "frames": 240,
+ "lit_draws": 189,
+ "draws_reached_by_the_light": 96,
+ "draws_with_unused_slot": 93,
+ "constants_compared": 1701,
+ "light_frames": 29,
+ "largest_intensity_seen": 3.0,
+ "light_ended_at_frame": 29
+}

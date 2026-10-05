@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skill id="2efb_amt_e_hit00" type="SKILL_TYPE_EFFECT">
+	<Files num="1">
+		<File path="data/effect/2efb_amt.xfbin"/>
+	</Files>
+	<Actions num="1">
+		<!--天照：ヒットエフェクト-->
+		<Action id="0" type="SKILL_ACTION_TYPE_NONE">
+			<Animation chunk="2efb_amt_hit00"/>
+			<Event type="SKILL_EVENT_TYPE_ANIMATION_END" command="SKILL_EVENT_COMMAND_KILL" commandParameter="0"/>
+			<SoundEffect code="S_exp1" delay="0" repeat="1" interval="0"/>
+			<SoundEffect code="S_fire" delay="0" repeat="1" interval="0"/>
+		</Action>
+	</Actions>
+</Skill>

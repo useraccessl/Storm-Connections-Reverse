@@ -1,0 +1,734 @@
+[
+  {
+    "event": 5249,
+    "vertex_count": 4,
+    "uv": [
+      0.875,
+      7.5,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 34,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5279,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5294,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5309,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5339,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5369,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5384,
+    "vertex_count": 4,
+    "uv": [
+      2.200000047683716,
+      0.4000000059604645,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 11,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5399,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.75,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 28,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5414,
+    "vertex_count": 4,
+    "uv": [
+      0.6000000238418579,
+      0.6000000238418579,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 9,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5444,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5459,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5474,
+    "vertex_count": 4,
+    "uv": [
+      0.20000000298023224,
+      0.6000000238418579,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 8,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5489,
+    "vertex_count": 4,
+    "uv": [
+      0.800000011920929,
+      0.0,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 2,
+        "step_ticks": 50,
+        "position_error": 0.0
+      },
+      {
+        "resource": "4efb_amt07",
+        "key": 4,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5504,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5519,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5534,
+    "vertex_count": 4,
+    "uv": [
+      4.400000095367432,
+      0.800000011920929,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 22,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5549,
+    "vertex_count": 4,
+    "uv": [
+      0.625,
+      5.875,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 21,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5577,
+    "vertex_count": 4,
+    "uv": [
+      0.0,
+      0.4000000059604645,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 5,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5592,
+    "vertex_count": 4,
+    "uv": [
+      0.625,
+      5.875,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 21,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5607,
+    "vertex_count": 4,
+    "uv": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 3,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5622,
+    "vertex_count": 4,
+    "uv": [
+      0.0,
+      0.800000011920929,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 10,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5637,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5652,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5667,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5682,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5697,
+    "vertex_count": 4,
+    "uv": [
+      1.399999976158142,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 7,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5712,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5727,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5742,
+    "vertex_count": 4,
+    "uv": [
+      0.800000011920929,
+      0.4000000059604645,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 7,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5770,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5785,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.125,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 23,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5813,
+    "vertex_count": 4,
+    "uv": [
+      3.6000001430511475,
+      0.6000000238418579,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 18,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5828,
+    "vertex_count": 4,
+    "uv": [
+      0.4000000059604645,
+      0.0,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 1,
+        "step_ticks": 50,
+        "position_error": 0.0
+      },
+      {
+        "resource": "4efb_amt07",
+        "key": 2,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5843,
+    "vertex_count": 4,
+    "uv": [
+      0.6000000238418579,
+      0.800000011920929,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 13,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5858,
+    "vertex_count": 4,
+    "uv": [
+      0.6000000238418579,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 4,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5873,
+    "vertex_count": 4,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt00",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5888,
+    "vertex_count": 4,
+    "uv": [
+      2.799999952316284,
+      0.4000000059604645,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 14,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5903,
+    "vertex_count": 4,
+    "uv": [
+      0.6000000238418579,
+      0.0,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt07",
+        "key": 3,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5933,
+    "vertex_count": 27,
+    "uv": [
+      0.75,
+      6.375,
+      0.125,
+      0.125
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt05",
+        "key": 25,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  },
+  {
+    "event": 5948,
+    "vertex_count": 4,
+    "uv": [
+      0.20000000298023224,
+      0.800000011920929,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "candidates": [
+      {
+        "resource": "4efb_amt01",
+        "key": 11,
+        "step_ticks": 50,
+        "position_error": 0.0
+      }
+    ]
+  }
+]

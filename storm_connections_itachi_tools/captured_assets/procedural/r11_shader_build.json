@@ -1,0 +1,14 @@
+{
+  "compiler": "C:\\Windows\\System32\\d3dcompiler_47.dll",
+  "shaders": [
+    {
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\shaders\\amt_projected_anim_ps30.hlsl",
+      "target": "ps_3_0",
+      "codeBytes": 832,
+      "packageBytes": 481,
+      "destination": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\..\\storm_amaterasu_lab\\shaders\\fxc\\amt_projected_anim_ps30.vcs",
+      "sha256": "c7a01c5c49793405e3fe991a3ef07df3abba921d17b911248013c9243cc8a93a"
+    }
+  ],
+  "scope": "Compilation and package structure/bytecode integrity; live GPU and original pixel equivalence pending."
+}

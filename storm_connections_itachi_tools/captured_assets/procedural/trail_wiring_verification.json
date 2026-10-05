@@ -1,0 +1,32 @@
+{
+ "package": "4efb_amt1_x",
+ "control": false,
+ "edges": {
+  "checked": 4,
+  "unresolved": [],
+  "ambiguous": []
+ },
+ "effects": {
+  "4efb_amt1_blt00": {
+   "frames": 150,
+   "ribbons": 42,
+   "vertices": 1992,
+   "differ": 0,
+   "max_position_error": 5.632424904777776e-08
+  }
+ },
+ "ribbons": 42,
+ "vertices": 1992,
+ "differ": 0,
+ "count_mismatch": 0,
+ "failures": [],
+ "animated_uv_billboards": [
+  "1efc_fire05"
+ ],
+ "fields": {
+  "checked": 2,
+  "resolved": 2,
+  "at_origin": [],
+  "moved_samples": 378
+ }
+}

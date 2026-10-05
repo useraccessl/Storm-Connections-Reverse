@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "euler": 3003,
+    "normalize": 3003,
+    "angleWrap": 3004,
+    "rightBasis": 3000
+  },
+  "codeSha256": {
+    "0x1411b8760": "def1d257c03f5663c0304e62a1049df431a198c0578dedad27c3b23a2ca19b3d",
+    "0x1411acbb0": "705781c68a5c5b8bd66d8d7e5f80bf96cebf21d6839bfc8e55e670e4801f84b1",
+    "0x1412ccd80": "cfee9dcb2b2baa7ed450cebc9c03e468e8b95777951be809ae6da5dcd5082864",
+    "0x1411e7e40": "b95175a928043f1704d5f5f49a75c3da1b06f0381f1de152270720abff05ece3",
+    "0x1411bd720": "cbc18d5e3d66ae414162c4a417b073a375f2804b50567d073ef1c62e50d8d523"
+  },
+  "scope": "Original bounded Euler, normalization, angle quantization and 4x4-by-3x3 helpers, byte-exact outputs and guards. Euler CRT import targets mapped to UCRT cosf/sinf. Full parent builder and travel basis remain statically translated, not independently native verified."
+}

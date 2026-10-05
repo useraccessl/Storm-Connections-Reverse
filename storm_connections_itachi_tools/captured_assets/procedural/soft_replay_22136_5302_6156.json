@@ -1,0 +1,45 @@
+{
+  "frame": 22136,
+  "first": 5302,
+  "last": 6156,
+  "draws": 59,
+  "stats": {
+    "pixels": 1459676
+  },
+  "targets": [
+    {
+      "target": "ResourceId::45595",
+      "pixels_changed_by_layer": 1456224,
+      "exact": 1373551,
+      "within_1": 1456071,
+      "within_2": 1456071,
+      "max_error_255": 255.0,
+      "mean_error_255": 0.024804219603538513,
+      "mismatch_outside_layer": 0
+    },
+    {
+      "target": "ResourceId::45598",
+      "pixels_changed_by_layer": 1459719,
+      "exact": 1430236,
+      "within_1": 1459566,
+      "within_2": 1459566,
+      "max_error_255": 255.0,
+      "mean_error_255": 0.012570741586387157,
+      "mismatch_outside_layer": 0
+    },
+    {
+      "target": "ResourceId::45601",
+      "pixels_changed_by_layer": 0,
+      "exact": 0,
+      "within_1": 0,
+      "within_2": 0,
+      "max_error_255": 0.0,
+      "mean_error_255": 0.0,
+      "mismatch_outside_layer": 0
+    }
+  ],
+  "depth": {
+    "max_abs_error": 0.005648910999298096,
+    "pixels_differing": 153
+  }
+}

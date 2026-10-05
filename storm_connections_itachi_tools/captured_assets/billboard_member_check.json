@@ -1,0 +1,744 @@
+{
+ "packages": [
+  {
+   "package": "3mdr_2_x",
+   "animations": {
+    "1efc_wtr_ptc03": {
+     "models": [
+      "1efc_wtr06_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "1efc_wtr_ptc04": {
+     "models": [
+      "1efc_wtr07_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "3mdreff1_2_awalight_ptc00": {
+     "models": [
+      "1efc_light07"
+     ],
+     "billboards": [
+      "1efc_light07"
+     ],
+     "draws": 59,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "3mdreff1_2_awamgt_hit00": {
+     "models": [
+      "1efc_light07"
+     ],
+     "billboards": [
+      "1efc_light07"
+     ],
+     "draws": 59,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "3mdreff1_2_awashock00_ptc00": {
+     "models": [
+      "3mdreff1_2_awadst01"
+     ],
+     "billboards": [],
+     "draws": 59,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "cw0_x",
+   "animations": {
+    "1efc_ring_ptc02": {
+     "models": [
+      "1efc_part02"
+     ],
+     "billboards": [],
+     "draws": 13,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "1efc_rpl_ptc02": {
+     "models": [
+      "1efc_wtr01"
+     ],
+     "billboards": [],
+     "draws": 27,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "wtch_hit01": {
+     "models": [
+      "1efc_spk03",
+      "wtch_03"
+     ],
+     "billboards": [
+      "wtch_03"
+     ],
+     "draws": 78,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "7brn_x",
+   "animations": {
+    "1efc_rpl_ptc02": {
+     "models": [
+      "1efc_wtr01"
+     ],
+     "billboards": [],
+     "draws": 27,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "7brneff1_thd_ptc03": {
+     "models": [
+      "7brneff1_bigthd02"
+     ],
+     "billboards": [
+      "7brneff1_bigthd02"
+     ],
+     "draws": 90,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 1.7297034138330503e-08,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "2nej_x",
+   "animations": {
+    "1efc_ring_ptc02": {
+     "models": [
+      "1efc_part02"
+     ],
+     "billboards": [],
+     "draws": 13,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "1efc_rpl_ptc02": {
+     "models": [
+      "1efc_wtr01"
+     ],
+     "billboards": [],
+     "draws": 27,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "2nejeff1_awa_core01": {
+     "models": [
+      "2nejeff1_awa_core01"
+     ],
+     "billboards": [
+      "2nejeff1_awa_core01"
+     ],
+     "draws": 90,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "2nejeff1_awaspt_blt00": {
+     "models": [
+      "2nejeff1_02"
+     ],
+     "billboards": [],
+     "draws": 49,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "2nejeff1_hkk_blt01": {
+     "models": [
+      "2nejeff1_02"
+     ],
+     "billboards": [],
+     "draws": 31,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "2nejeff1_hkk_blt02": {
+     "models": [
+      "2nejeff1_02"
+     ],
+     "billboards": [],
+     "draws": 31,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "4efb_2hnt1_x",
+   "animations": {
+    "1efc_wtr_ptc03": {
+     "models": [
+      "1efc_wtr06_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "1efc_wtr_ptc04": {
+     "models": [
+      "1efc_wtr07_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "4efb_2hnt1_skl_blt00": {
+     "models": [
+      "1efc_part01",
+      "4efb_2hnt1_02"
+     ],
+     "billboards": [
+      "1efc_part01"
+     ],
+     "draws": 180,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "3efbtf_2sin1_x",
+   "animations": {
+    "2efb_hma_blt01": {
+     "models": [
+      "2sineff1_08"
+     ],
+     "billboards": [
+      "2sineff1_08"
+     ],
+     "draws": 90,
+     "frames_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      0
+     ],
+     "worst_matrix": 0.0,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  },
+  {
+   "package": "1efcmn_x",
+   "animations": {
+    "1efc_wtr_ptc03": {
+     "models": [
+      "1efc_wtr06_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 2.6382819343756676e-08,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    },
+    "1efc_wtr_ptc04": {
+     "models": [
+      "1efc_wtr07_00"
+     ],
+     "billboards": [],
+     "draws": 61,
+     "frames_seen": [],
+     "worst_matrix": 2.6382819343756676e-08,
+     "worst_constant": 0.0,
+     "other_draws": 0
+    }
+   },
+   "not_played": {}
+  }
+ ],
+ "negativeControl": {
+  "package": "3mdr_2_x",
+  "animations": {
+   "1efc_wtr_ptc03": {
+    "models": [
+     "1efc_wtr06_00"
+    ],
+    "billboards": [],
+    "draws": 61,
+    "frames_seen": [],
+    "worst_matrix": 0.9999595171538316,
+    "worst_constant": 0.0,
+    "other_draws": 0
+   },
+   "1efc_wtr_ptc04": {
+    "models": [
+     "1efc_wtr07_00"
+    ],
+    "billboards": [],
+    "draws": 61,
+    "frames_seen": [],
+    "worst_matrix": 0.9999595171538316,
+    "worst_constant": 0.0,
+    "other_draws": 0
+   },
+   "3mdreff1_2_awalight_ptc00": {
+    "models": [
+     "1efc_light07"
+    ],
+    "billboards": [
+     "1efc_light07"
+    ],
+    "draws": 59,
+    "frames_seen": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "worst_matrix": 0.052856092242038646,
+    "worst_constant": 0.0,
+    "other_draws": 0
+   },
+   "3mdreff1_2_awamgt_hit00": {
+    "models": [
+     "1efc_light07"
+    ],
+    "billboards": [
+     "1efc_light07"
+    ],
+    "draws": 59,
+    "frames_seen": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "worst_matrix": 0.052856092242038646,
+    "worst_constant": 0.0,
+    "other_draws": 0
+   },
+   "3mdreff1_2_awashock00_ptc00": {
+    "models": [
+     "3mdreff1_2_awadst01"
+    ],
+    "billboards": [],
+    "draws": 59,
+    "frames_seen": [],
+    "worst_matrix": 1.0,
+    "worst_constant": 0.0,
+    "other_draws": 0
+   }
+  },
+  "not_played": {}
+ }
+}

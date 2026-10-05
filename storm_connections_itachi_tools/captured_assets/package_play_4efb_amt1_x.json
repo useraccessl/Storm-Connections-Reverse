@@ -1,0 +1,75 @@
+{
+ "package": "4efb_amt1_x",
+ "scripts": {
+  "4efb_amt1_e_begin00": {
+   "error": null,
+   "actors": [
+    [
+     "4efb_amt1_e_begin00",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "4efb_amt1_e_blt00",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "4efb_amt1_e_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ]
+   ],
+   "effects": [
+    "4efb_amt1_blt00",
+    "4efb_amt1_hit00"
+   ],
+   "frames": 379,
+   "peak_particles": 71,
+   "draws": 2089,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  },
+  "4efb_amt2_e_begin00": {
+   "error": null,
+   "actors": [
+    [
+     "4efb_amt2_e_begin00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_amt2_e_blt00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_amt2_e_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "4efb_amt1_e_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ]
+   ],
+   "effects": [
+    "4efb_amt1_blt00",
+    "4efb_amt1_hit00"
+   ],
+   "frames": 388,
+   "peak_particles": 71,
+   "draws": 1978,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  }
+ },
+ "engine_notes": [
+  "light set 0 was never captured: its ambient is the host default"
+ ],
+ "models_without_shader": {},
+ "not_imported": [],
+ "meshes_drawn": 20,
+ "meshes_never_drawn": [
+  "storm_fx_r21_4efb_amt1_x_1efc_part11b_1",
+  "storm_fx_r21_4efb_amt1_x_4efb_amt13_1"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+  "rules": [
+    "1. Buffer layout = D3DReflect variables merged per register slot over VS+PS;",
+    "captured field offsets must equal the reflected StartOffset.",
+    "2. NUD material property \"NU_x\" is staged as shader constant \"g_x\"",
+    "(0x141270830 builds \"g_%s\" from name+3; 0x141271ea0 applies it).",
+    "3. The per-program staging block is zero-filled after each model draw",
+    "(0x141237b80), so a constant no native writer touches is uploaded as zero.",
+    "4. Every enabled blend state is one colour mode and one alpha mode of the",
+    "two native 13-entry tables (0x14126bc70).",
+    "5. A NUD material fixes blend modes (dest_factor nibbles), depth write",
+    "(source_factor bit 2) and cull (cull_mode) as decoded in 0x141270830,",
+    "and blend enable through its sort bucket (source_factor bit 0,"
+  ],
+  "stats": {
+    "draws": 475,
+    "nud_state_draws": 319,
+    "nud_state_draws_all_candidates_agree": 213,
+    "material_group_name": 245,
+    "buffers": 528,
+    "buffers_size_equal_merged": 528,
+    "fields": 6292,
+    "accessor_or_standard_fields": 5519,
+    "unwritten_fields": 327,
+    "nud_property_fields": 235,
+    "material_texture_count": 74,
+    "blend_enabled_draws": 109,
+    "material_unresolved": 156
+  },
+  "blend_mode_use": {
+    "colour 1 alpha 11": 59,
+    "colour 1 alpha 0": 10,
+    "colour 3 alpha 0": 12,
+    "colour 2 alpha 9": 28
+  },
+  "shader_pairs": {
+    "612d54c9/915c5e6e": {
+      "draws": 213,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 272
+        }
+      }
+    },
+    "f65da7b4/c4ee9b55": {
+      "draws": 147,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 208
+        }
+      }
+    },
+    "19f002_v/19f002_p": {
+      "draws": 8,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 272
+        }
+      }
+    },
+    "3dc10cf4/f826fc2c": {
+      "draws": 9,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 176
+        }
+      }
+    },
+    "19f007_v/19f007_p": {
+      "draws": 6,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 272
+        }
+      }
+    },
+    "01f008_v/01f008_p": {
+      "draws": 46,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 288
+        }
+      }
+    },
+    "01f002_v/01f002_p": {
+      "draws": 45,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 208
+        }
+      }
+    },
+    "3dc10cf4/4bf6e191": {
+      "draws": 1,
+      "buffers": {
+        "perMaterialBuffer": {
+          "slot": 0,
+          "size": 176
+        }
+      }
+    }
+  },
+  "failures": [],
+  "failure_count": 0,
+  "non_nud_draw_fields_needing_a_writer": {
+    "3dc10cf4/f826fc2c": {
+      "g_uvScaleNormal": 9,
+      "g_uvScaleAlpha": 9
+    },
+    "3dc10cf4/4bf6e191": {
+      "g_uvScaleNormal": 1,
+      "g_uvScaleAlpha": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "address": "0x14129ad7b",
+    "function": "0x14129a900",
+    "asm": "mov qword ptr [rsi + 0x958], rbp"
+  },
+  {
+    "address": "0x14129d957",
+    "function": "0x14129d760",
+    "asm": "mov eax, dword ptr [rdi + 0x958]"
+  },
+  {
+    "address": "0x14129d96d",
+    "function": "0x14129d760",
+    "asm": "mov dword ptr [rdi + 0x958], eax"
+  },
+  {
+    "address": "0x1412a4eb0",
+    "function": null,
+    "asm": "mov eax, dword ptr [rcx + 0x958]"
+  },
+  {
+    "address": "0x1413173f5",
+    "function": "0x141316e40",
+    "asm": "mov dword ptr [rbp + rcx + 0x958], eax"
+  }
+]

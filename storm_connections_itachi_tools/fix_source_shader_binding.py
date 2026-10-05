@@ -1,0 +1,15 @@
+from pathlib import Path
+root=Path('.')
+s=(root/'shaders/amt_secondary_r9_ps30.hlsl').read_text(encoding='utf-8-sig')
+s=s.replace('float4 SamplerPolicy : register(c4); // half texel.xy, original address mode.z','float4 TexturePixelSize : register(c4); // engine-owned reciprocal dimensions; custom mode is Common.w')
+s=s.replace('float2 sampleUV=uv;', 'float2 sampleUV=uv;\n    float2 halfTexel=TexturePixelSize.xy*.5;')
+s=s.replace('SamplerPolicy.z','Common.w').replace('SamplerPolicy.xy','halfTexel')
+(root/'shaders/amt_secondary_r11_ps30.hlsl').write_text(s,encoding='utf-8')
+p=root/'../storm_amaterasu_lab/lua/storm_amt_lab/procedural_player.lua';s=p.read_text(encoding='utf-8-sig')
+s=s.replace("version='r10'","version='r11'").replace('amt_secondary_r9_ps30','amt_secondary_r11_ps30').replace('storm_amt_procedural_r10_','storm_amt_procedural_r11_')
+if "['$tcsize1']" not in s:
+    s=s.replace("['$vertexcolor']='1'", "['$tcsize1']='2',['$vertexcolor']='1'")
+s=s.replace('constant(mat,4,resource.samplerPolicy)','-- c4 is engine-owned reciprocal texture dimensions.')
+s=s.replace('constant(mat,2,{film,threshold,alpha,0})','constant(mat,2,{film,threshold,alpha,resource.samplerPolicy[3]})')
+s=s.replace('impact r10:', 'impact r11:').replace('r10 CPU:', 'r11 CPU:')
+p.write_text(s,encoding='utf-8')

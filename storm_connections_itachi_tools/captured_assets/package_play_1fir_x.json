@@ -1,0 +1,133 @@
+{
+ "package": "1fir_x",
+ "scripts": {
+  "1fireff1_jrt_e_begin00": {
+   "error": null,
+   "actors": [
+    [
+     "1fireff1_jrt_e_begin00",
+     "SKILL_ACTION_TYPE_CRAWLER"
+    ],
+    [
+     "1fireff1_jrt_hitworld",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_jrt_hitworld",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_jrt_hitworld",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_jrt_hitworld",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1firskl1_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "1fireff1_hit_d00",
+     "SKILL_ACTION_TYPE_NONE"
+    ]
+   ],
+   "effects": [
+    "1fireff1_01_ptc",
+    "1fireff1_gr_hit00",
+    "1fireff1_ptc05",
+    "1fireff1_17_ptc"
+   ],
+   "frames": 141,
+   "peak_particles": 42,
+   "draws": 1186,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  }
+ },
+ "engine_notes": [
+  "light mode 3 was never captured: its ambient is the host default"
+ ],
+ "models_without_shader": {},
+ "not_imported": [],
+ "meshes_drawn": 21,
+ "meshes_never_drawn": [
+  "storm_fx_r28_1fir_x_1efc_bd_shock03_1",
+  "storm_fx_r28_1fir_x_1efc_bd_shock04_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk05_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk12_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk21_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk22_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk23_1",
+  "storm_fx_r28_1fir_x_1efc_bd_smk24_1",
+  "storm_fx_r28_1fir_x_1efc_bd_wtr02_1",
+  "storm_fx_r28_1fir_x_1efc_line02_1",
+  "storm_fx_r28_1fir_x_1efc_part03_1",
+  "storm_fx_r28_1fir_x_1efc_part09b_1",
+  "storm_fx_r28_1fir_x_1efc_part16b_1",
+  "storm_fx_r28_1fir_x_1efc_part18b_1",
+  "storm_fx_r28_1fir_x_1efc_ring03_1",
+  "storm_fx_r28_1fir_x_1efc_ring11_1",
+  "storm_fx_r28_1fir_x_1efc_rpl01_1",
+  "storm_fx_r28_1fir_x_1efc_shock09_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_00_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_01_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_02_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_03_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_04_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_05_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_06_1",
+  "storm_fx_r28_1fir_x_1efc_shock11_07_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_00_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_01_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_02_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_03_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_04_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_05_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_06_1",
+  "storm_fx_r28_1fir_x_1efc_shock12_07_1",
+  "storm_fx_r28_1fir_x_1efc_stn01_1",
+  "storm_fx_r28_1fir_x_1efc_stn03_1",
+  "storm_fx_r28_1fir_x_1efc_stn05_1",
+  "storm_fx_r28_1fir_x_1efc_wtr03_1",
+  "storm_fx_r28_1fir_x_1efc_wtr06_00_1",
+  "storm_fx_r28_1fir_x_1efc_wtr07_00_1",
+  "storm_fx_r28_1fir_x_1efc_wtr08_00_1",
+  "storm_fx_r28_1fir_x_1efc_wtr08_01_1",
+  "storm_fx_r28_1fir_x_1efc_wtr08_03_1",
+  "storm_fx_r28_1fir_x_1efc_wtr09_1",
+  "storm_fx_r28_1fir_x_1efc_wtr10_1",
+  "storm_fx_r28_1fir_x_1efc_wtr11_1"
+ ]
+}

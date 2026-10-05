@@ -1,0 +1,149 @@
+{
+  "method": "Exact SHA256 of top-mip native texture blocks; all captured passes and shaders. Texture identity is not resource/particle identity.",
+  "captures": [
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "draws": 14,
+      "textures": {
+        "4efb_amt00": 1,
+        "4efb_fire04": 1,
+        "4efb_amt01": 6,
+        "4efb_amt03": 4,
+        "1efc_nor_water01": 2
+      },
+      "shaderPairs": {
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 7,
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 1,
+        "19f002_vs / 19f002_ps": 4,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 2
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "draws": 26,
+      "textures": {
+        "4efb_fire04": 4,
+        "4efb_amt00": 3,
+        "4efb_amt01": 13,
+        "4efb_amt03": 4,
+        "1efc_nor_water01": 2
+      },
+      "shaderPairs": {
+        "19f007_vs / 19f007_ps": 1,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 16,
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 3,
+        "19f002_vs / 19f002_ps": 4,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 2
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22127.effect_coverage_reference.json",
+      "draws": 76,
+      "textures": {
+        "4efb_fire04": 13,
+        "4efb_amt02": 6,
+        "4efb_amt00": 23,
+        "4efb_amt01": 21,
+        "1efc_part12": 7,
+        "1efc_board01": 1,
+        "1efc_part01": 3,
+        "1efc_nor_water01": 2
+      },
+      "shaderPairs": {
+        "19f007_vs / 19f007_ps": 2,
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 24,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 44,
+        "01f008_vs / 01f008_ps": 1,
+        "01f002_vs / 01f002_ps": 3,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / 4bf6e191a6ee3c0d9bef835c77c3a611a24d95a7dd7eca7909ac91ea76a5b6a2": 1,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 1
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22136.effect_coverage_reference.json",
+      "draws": 93,
+      "textures": {
+        "4efb_fire04": 14,
+        "4efb_amt02": 7,
+        "4efb_amt00": 25,
+        "4efb_amt01": 22,
+        "1efc_part12": 8,
+        "1efc_part01": 4,
+        "1efc_board01": 12,
+        "1efc_nor_water01": 1
+      },
+      "shaderPairs": {
+        "19f007_vs / 19f007_ps": 2,
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 27,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 47,
+        "01f002_vs / 01f002_ps": 4,
+        "01f008_vs / 01f008_ps": 12,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 1
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22149.effect_coverage_reference.json",
+      "draws": 94,
+      "textures": {
+        "4efb_amt02": 7,
+        "4efb_fire04": 14,
+        "4efb_amt00": 25,
+        "4efb_amt01": 22,
+        "1efc_part12": 9,
+        "1efc_part01": 4,
+        "1efc_board01": 12,
+        "1efc_nor_water01": 1
+      },
+      "shaderPairs": {
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 29,
+        "19f007_vs / 19f007_ps": 1,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 47,
+        "01f002_vs / 01f002_ps": 4,
+        "01f008_vs / 01f008_ps": 12,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 1
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22171.effect_coverage_reference.json",
+      "draws": 91,
+      "textures": {
+        "4efb_amt02": 7,
+        "4efb_fire04": 11,
+        "4efb_amt00": 23,
+        "4efb_amt01": 17,
+        "1efc_part12": 10,
+        "1efc_part01": 14,
+        "1efc_board01": 8,
+        "1efc_nor_water01": 1
+      },
+      "shaderPairs": {
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 28,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 40,
+        "01f002_vs / 01f002_ps": 14,
+        "01f008_vs / 01f008_ps": 8,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 1
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22200.effect_coverage_reference.json",
+      "draws": 81,
+      "textures": {
+        "4efb_amt02": 5,
+        "4efb_fire04": 9,
+        "4efb_amt00": 11,
+        "4efb_amt01": 1,
+        "1efc_part12": 21,
+        "1efc_board01": 18,
+        "1efc_part01": 15,
+        "1efc_nor_water01": 1
+      },
+      "shaderPairs": {
+        "f65da7b479a3604a910dc02d37eaad9ac250d2f3b2a2a176a8d1ac42be8cee85 / c4ee9b551b8516275d362df3e70fed099b9b0aedf43c2bd130585512dcbc2a80": 35,
+        "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23 / 915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd": 12,
+        "01f002_vs / 01f002_ps": 20,
+        "01f008_vs / 01f008_ps": 13,
+        "3dc10cf4ebe3a6925421502089b03f8b3a712e3b363ed025b6ab4b29dce2017b / f826fc2c090f08bd75f178695d13688f5e272b4e9a915d60c0d1e591beb61368": 1
+      }
+    }
+  ]
+}

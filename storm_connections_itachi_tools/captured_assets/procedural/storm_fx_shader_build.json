@@ -1,0 +1,56 @@
+[
+  {
+    "name": "storm_tone_ps30",
+    "target": "ps_3_0",
+    "bytecode": 1132,
+    "package": 643
+  },
+  {
+    "name": "storm_fx_vs30",
+    "target": "vs_3_0",
+    "bytecode": 580,
+    "package": 359
+  },
+  {
+    "name": "storm_fx_ps30",
+    "target": "ps_3_0",
+    "bytecode": 820,
+    "package": 501
+  },
+  {
+    "name": "storm_fx_film1_ps30",
+    "target": "ps_3_0",
+    "bytecode": 1116,
+    "package": 603
+  },
+  {
+    "name": "storm_fx_film2_ps30",
+    "target": "ps_3_0",
+    "bytecode": 1264,
+    "package": 646
+  },
+  {
+    "name": "storm_fx_falloff_vs30",
+    "target": "vs_3_0",
+    "bytecode": 520,
+    "package": 352
+  },
+  {
+    "name": "storm_fx_falloff_ps30",
+    "target": "ps_3_0",
+    "bytecode": 1036,
+    "package": 583
+  },
+  {
+    "name": "storm_fx_distort_vs30",
+    "target": "vs_3_0",
+    "bytecode": 416,
+    "package": 324
+  },
+  {
+    "name": "storm_fx_distort_ps30",
+    "target": "ps_3_0",
+    "bytecode": 772,
+    "package": 469
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "tracks": 79,
+  "models": 3,
+  "states": [
+    7,
+    16,
+    44,
+    47,
+    47,
+    40,
+    12
+  ],
+  "linked_transitions": 134,
+  "method": "original atlas keys; inferred particle links; interpolated measured transforms"
+}

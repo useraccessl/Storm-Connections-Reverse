@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+    "$basetexture" "storm_amt_lab/1efc_smk11"
+    "$detail" "storm_amt_lab/1efc_film_clash00"
+    "$detailscale" "3"
+    "$detailblendmode" "0"
+    "$detailblendfactor" "0.55"
+    "$model" "1"
+    "$translucent" "1"
+    "$vertexalpha" "1"
+    "$vertexcolor" "1"
+    "$nocull" "1"
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+    "event": 5815,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+    "event": 5833,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+    "event": 5903,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+    "event": 5921,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+    "event": 5714,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+    "event": 5732,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+    "event": 5750,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+    "event": 5768,
+    "vertexCount": 68,
+    "indices": 149,
+    "positionErrorsVsAmt15": [
+      0.0
+    ],
+    "shaders": {
+      "ShaderStage.Vertex": "19f002_vs",
+      "ShaderStage.Pixel": "19f002_ps"
+    },
+    "blend": {
+      "enabled": true,
+      "writeMask": 15,
+      "rgb": [
+        "BlendMultiplier.SrcAlpha",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ],
+      "alpha": [
+        "BlendMultiplier.One",
+        "BlendMultiplier.InvSrcAlpha",
+        "BlendOperation.Add"
+      ]
+    },
+    "depth": {
+      "enable": true,
+      "writes": false,
+      "function": "CompareFunction.LessEqual"
+    },
+    "targets": [
+      "ResourceId::45595",
+      "ResourceId::45598",
+      "ResourceId::45601"
+    ]
+  }
+]

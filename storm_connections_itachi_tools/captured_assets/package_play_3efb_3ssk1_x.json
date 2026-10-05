@@ -1,0 +1,91 @@
+{
+ "package": "3efb_3ssk1_x",
+ "scripts": {
+  "3efb_3ssk1_e_blt01": {
+   "error": null,
+   "actors": [
+    [
+     "3efb_3ssk1_e_blt01",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "3efb_3ssk1_e_hit01",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "3efb_3ssk1_e_blt02",
+     "SKILL_ACTION_TYPE_ARROW"
+    ]
+   ],
+   "effects": [
+    "3efb_3ssk1_blt01",
+    "3efb_3ssk1_hit01",
+    "3efb_3ssk1_blt02"
+   ],
+   "frames": 106,
+   "peak_particles": 30,
+   "draws": 586,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  },
+  "3efb_3ssk1_e_blt01a": {
+   "error": null,
+   "actors": [
+    [
+     "3efb_3ssk1_e_blt01a",
+     "SKILL_ACTION_TYPE_ARROW"
+    ],
+    [
+     "3efb_3ssk1_e_hit01",
+     "SKILL_ACTION_TYPE_NONE"
+    ],
+    [
+     "3efb_3ssk1_e_blt02a",
+     "SKILL_ACTION_TYPE_ARROW"
+    ]
+   ],
+   "effects": [
+    "3efb_3ssk1_blt01",
+    "3efb_3ssk1_hit01",
+    "3efb_3ssk1_blt02"
+   ],
+   "frames": 105,
+   "peak_particles": 30,
+   "draws": 576,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  },
+  "3efb_3ssk1_e_hit00": {
+   "error": null,
+   "actors": [
+    [
+     "3efb_3ssk1_e_hit00",
+     "SKILL_ACTION_TYPE_NONE"
+    ]
+   ],
+   "effects": [
+    "3efb_3ssk1_hit00"
+   ],
+   "frames": 40,
+   "peak_particles": 8,
+   "draws": 18,
+   "notes": [],
+   "skipped": {},
+   "still_running": [],
+   "dropped": {}
+  }
+ },
+ "engine_notes": [
+  "light set 7 was never captured: its ambient is the host default"
+ ],
+ "models_without_shader": {},
+ "not_imported": [],
+ "meshes_drawn": 14,
+ "meshes_never_drawn": [
+  "storm_fx_r21_3efb_3ssk1_x_1efc_slash03_1"
+ ]
+}

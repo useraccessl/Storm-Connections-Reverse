@@ -1,0 +1,96 @@
+{
+  "frame": 22171,
+  "signature": "888da036868a0e9277cdd7e4c0a13c4489b551e45815b1cf7e96a31ff8aad086",
+  "families": {
+    "c4ee9b55": {
+      "draws": 28,
+      "pixels": 420352,
+      "exact": 420332,
+      "within_1": 420352,
+      "max_error_255": 1.0000075101852417,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "915c5e6e": {
+      "draws": 40,
+      "pixels": 5909169,
+      "exact": 5907405,
+      "within_1": 5909164,
+      "max_error_255": 127.5,
+      "coverage_mismatch": 5,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f002_p": {
+      "draws": 14,
+      "pixels": 20048714,
+      "exact": 20048690,
+      "within_1": 20048712,
+      "max_error_255": 127.5,
+      "coverage_mismatch": 2,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f008_p": {
+      "draws": 0,
+      "pixels": 0,
+      "exact": 0,
+      "within_1": 0,
+      "max_error_255": 0.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 8
+    }
+  },
+  "draws_over_1": [
+    {
+      "frame": 22171,
+      "event": 5294,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 318762
+    },
+    {
+      "frame": 22171,
+      "event": 5384,
+      "family": "915c5e6e",
+      "max_error_255": 122.5,
+      "pixels_over_1": 1,
+      "pixels": 19197
+    },
+    {
+      "frame": 22171,
+      "event": 5592,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 226781
+    },
+    {
+      "frame": 22171,
+      "event": 5903,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 68791
+    },
+    {
+      "frame": 22171,
+      "event": 5933,
+      "family": "915c5e6e",
+      "max_error_255": 118.5,
+      "pixels_over_1": 1,
+      "pixels": 205766
+    },
+    {
+      "frame": 22171,
+      "event": 6360,
+      "family": "01f002_p",
+      "max_error_255": 127.5,
+      "pixels_over_1": 2,
+      "pixels": 1421195
+    }
+  ]
+}

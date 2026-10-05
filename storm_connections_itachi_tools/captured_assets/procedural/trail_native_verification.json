@@ -1,0 +1,20 @@
+{
+  "subdivide": {
+    "cases": 3000,
+    "points": 18215,
+    "empty": 177,
+    "differ": 0
+  },
+  "vertices": {
+    "cases": 3000,
+    "vertices": 123338,
+    "differ": 0
+  },
+  "field": {
+    "cases": 3000,
+    "edges": 20810,
+    "pushed": 9025,
+    "drifting": 3194,
+    "differ": 0
+  }
+}

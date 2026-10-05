@@ -1,0 +1,14 @@
+{
+  "capture": "itachi_amaterasu_frame22136.rdc",
+  "out_dir": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\gpu_captures\\rd_dumps\\frame22136",
+  "dumps": [
+    {
+      "event": 7896,
+      "resources": [
+        "ResourceId::45670",
+        "ResourceId::45667"
+      ],
+      "tag": "tone_7896"
+    }
+  ]
+}

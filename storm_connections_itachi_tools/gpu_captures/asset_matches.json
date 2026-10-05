@@ -1,0 +1,59 @@
+[
+  {
+    "gpu_resource": "83525",
+    "asset": "4efb_amt00",
+    "size": [
+      1024,
+      2048
+    ],
+    "identical_compressed_blocks": true,
+    "compressed_sha256": "7b34bce38028ac6cd7df3f86463ecf45c7eeac0cde7443cc6bdc4dd40bd28d73",
+    "identical_pixels": false,
+    "max_rgba_error": [
+      2,
+      2,
+      2,
+      0
+    ],
+    "gpu_sha256": "0dcace4c0b6f34000833931e391cb4de8c8f146b3f4fc809b124b70ccd04b558",
+    "asset_sha256": "cd631d957ce569df447ae0af63369ccdc72d6dbd3152aa58b33b634eabaaed4f"
+  },
+  {
+    "gpu_resource": "83527",
+    "asset": "4efb_amt01",
+    "size": [
+      512,
+      512
+    ],
+    "identical_compressed_blocks": true,
+    "compressed_sha256": "3a76142f5569a54baa1606e4d692e11af06732e823bed3ae1e503fdcfe1b0eeb",
+    "identical_pixels": false,
+    "max_rgba_error": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "gpu_sha256": "d39d1fac0c5485ddfc346bad66b749e91821e700f6733af140d31c01097afab4",
+    "asset_sha256": "70447bf6af08f60e42e7957973aab7f3b09b03d316cde5e6a59d9a2eb2a70c38"
+  },
+  {
+    "gpu_resource": "83535",
+    "asset": "4efb_maplus01",
+    "size": [
+      512,
+      512
+    ],
+    "identical_compressed_blocks": true,
+    "compressed_sha256": "ddcae1285c1778ed1c4c111ebb534b4bb5e7cc625923c472428f741f41506a58",
+    "identical_pixels": true,
+    "max_rgba_error": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "gpu_sha256": "cd1bd16e3908cfccbd68d7741fee77c9f2c64a0b36fca445f2a2368cb8c36a4c",
+    "asset_sha256": "cd1bd16e3908cfccbd68d7741fee77c9f2c64a0b36fca445f2a2368cb8c36a4c"
+  }
+]

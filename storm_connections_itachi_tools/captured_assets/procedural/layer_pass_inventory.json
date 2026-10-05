@@ -1,0 +1,1347 @@
+{
+  "begin_layer_thunk": "0x14121c240",
+  "advance_layer_thunk": "0x14121c450",
+  "functions": [
+    {
+      "function_va": "0x140c19920",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x141221640",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "SetRenderTarget command": 1,
+        "target bind": 1,
+        "target helper 0x141221470": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14124e830"
+      ]
+    },
+    {
+      "function_va": "0x141222cc0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "SetRenderTarget command": 1,
+        "target bind": 1,
+        "target helper 0x141221470": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14124e830"
+      ]
+    },
+    {
+      "function_va": "0x141222df0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "SetRenderTarget command": 1,
+        "target bind": 1,
+        "target helper 0x141221470": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x141223a20",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "SetRenderTarget command": 1,
+        "target bind": 1,
+        "target helper 0x141221470": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14129b3c0",
+      "begin_layer": 1,
+      "advance_layer": 0,
+      "target_helpers": {},
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x140ad4da0",
+        "0x1412bbc80",
+        "0x1412bbed0",
+        "0x14135dea0",
+        "0x14135e090"
+      ]
+    },
+    {
+      "function_va": "0x14129b9e0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14129d760",
+        "0x14129dab0",
+        "0x14129f560"
+      ]
+    },
+    {
+      "function_va": "0x14129bf90",
+      "begin_layer": 0,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x140ad4da0",
+        "0x1412bbc80",
+        "0x1412bbed0",
+        "0x14135dea0",
+        "0x14135e090"
+      ]
+    },
+    {
+      "function_va": "0x14129d760",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {},
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14129f560"
+      ]
+    },
+    {
+      "function_va": "0x14129dab0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14129f560",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x140ad5640",
+        "0x1410a03a0",
+        "0x1410a0bf0",
+        "0x1410a0d20"
+      ]
+    },
+    {
+      "function_va": "0x1412bbed0",
+      "begin_layer": 4,
+      "advance_layer": 3,
+      "target_helpers": {
+        "target helper 0x141223e90": 3
+      },
+      "resolved_names": [
+        "adjust",
+        "ps_texZ",
+        "g_sampler0",
+        "g_matInvViewProj",
+        "g_matDecal",
+        "clipNearFar",
+        "zClip",
+        "decalColor",
+        "g_matViewProj",
+        "textureSize"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x1412ca250",
+      "begin_layer": 3,
+      "advance_layer": 3,
+      "target_helpers": {
+        "target helper 0x141223e90": 3
+      },
+      "resolved_names": [
+        "textureSize"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14133e370"
+      ]
+    },
+    {
+      "function_va": "0x1412d5620",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x141351f40"
+      ]
+    },
+    {
+      "function_va": "0x1412e6100",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14133b9f0"
+      ]
+    },
+    {
+      "function_va": "0x1412e6e80",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14133b9f0"
+      ]
+    },
+    {
+      "function_va": "0x1412fe660",
+      "begin_layer": 2,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14133bd50",
+        "0x14133c010",
+        "0x14133c5c0",
+        "0x14133c6e0",
+        "0x14133c7e0",
+        "0x14133cd50"
+      ]
+    },
+    {
+      "function_va": "0x1412fe860",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayer@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x1412fec10",
+      "begin_layer": 0,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14133bd50",
+        "0x14133c010",
+        "0x14133c5c0",
+        "0x14133c6e0",
+        "0x14133c7e0",
+        "0x14133cd50"
+      ]
+    },
+    {
+      "function_va": "0x141304fc0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "texY",
+        "texU",
+        "texV"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14130e6f0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x141355880",
+        "0x1413568c0",
+        "0x141357610",
+        "0x1413586e0",
+        "0x141358b70",
+        "0x141358e60"
+      ]
+    },
+    {
+      "function_va": "0x14130ea20",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "textureSize"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412f9ec0",
+        "0x141304fc0",
+        "0x14133c340",
+        "0x14133c470"
+      ]
+    },
+    {
+      "function_va": "0x14130eca0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412fe660",
+        "0x1412fe860",
+        "0x14133c010",
+        "0x14133d130",
+        "0x14133e650"
+      ]
+    },
+    {
+      "function_va": "0x14130ee90",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412bbed0",
+        "0x1412fe860",
+        "0x1412fec10"
+      ]
+    },
+    {
+      "function_va": "0x14130fe40",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "blur"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1413568c0"
+      ]
+    },
+    {
+      "function_va": "0x14130ffe0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "blur"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412e6100"
+      ]
+    },
+    {
+      "function_va": "0x141310180",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "param"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412f9ec0",
+        "0x141357610"
+      ]
+    },
+    {
+      "function_va": "0x141310430",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x1413105d0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "blur"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x141355880"
+      ]
+    },
+    {
+      "function_va": "0x14133bc50",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerZPrePass@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133c010",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerOutline@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133c7e0",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerReduction2@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133cd50",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerOpaqueClearZ@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133d130",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerRefraction@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133dd80",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerAfterImage@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14133e650",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": ".?AVnuccLayerToneControl@@ slot 0x8",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x141350c00",
+      "begin_layer": 5,
+      "advance_layer": 5,
+      "target_helpers": {},
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14129d760"
+      ]
+    },
+    {
+      "function_va": "0x141351380",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412d6920"
+      ]
+    },
+    {
+      "function_va": "0x141355880",
+      "begin_layer": 3,
+      "advance_layer": 3,
+      "target_helpers": {
+        "target helper 0x141223e90": 3
+      },
+      "resolved_names": [
+        "size",
+        "glareArea",
+        "param",
+        "size1",
+        "size2",
+        "size3",
+        "tex1",
+        "tex2",
+        "tex3"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x141357610"
+      ]
+    },
+    {
+      "function_va": "0x1413568c0",
+      "begin_layer": 3,
+      "advance_layer": 3,
+      "target_helpers": {
+        "target helper 0x141223e90": 3
+      },
+      "resolved_names": [
+        "dofParam",
+        "clip_PS3MERGEABLE",
+        "zrange",
+        "size",
+        "sizeBlurred",
+        "texSizeBlurred",
+        "texColorBlurred",
+        "texZ",
+        "softFocusParam",
+        "sizeBlurCoeff",
+        "texSizeBlurCoeff",
+        "texBlurCoeff"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x141357610"
+      ]
+    },
+    {
+      "function_va": "0x141357610",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [
+        "size0",
+        "size1",
+        "tex1"
+      ],
+      "vtable_owner": ".?AVnuccPostEffectComposite@@ slot 0x10",
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x141358330",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x1413584c0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_ScreenToUV",
+        "param"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x1413586e0",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [
+        "texColor"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x141358b70",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "size",
+        "direction",
+        "texColor"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1413586e0"
+      ]
+    },
+    {
+      "function_va": "0x141358e60",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "size",
+        "center",
+        "param",
+        "texColor"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1413586e0"
+      ]
+    },
+    {
+      "function_va": "0x141359180",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "offset",
+        "texZ"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x141359320",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_ScreenToUV",
+        "param"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x141359590",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "hparamR",
+        "hparamG",
+        "hparamB",
+        "mparamR",
+        "mparamG",
+        "mparamB",
+        "lparamR",
+        "lparamG",
+        "lparamB"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x141359a20",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "paramR",
+        "paramG",
+        "paramB",
+        "hparam",
+        "lparam"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x141359c90",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_ScreenToUV",
+        "param2",
+        "param"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x141359ed0",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "size",
+        "viewport",
+        "clip_PS3MERGEABLE",
+        "invViewProjMatrix",
+        "viewProjMatrixPrev"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412ca250"
+      ]
+    },
+    {
+      "function_va": "0x14135a380",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x1412ca250"
+      ]
+    },
+    {
+      "function_va": "0x14135a3f0",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [
+        "textureSize",
+        "fishEyeParam"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135a710",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [
+        "texColor",
+        "fringeColorParams_r",
+        "fringeColorParams_g",
+        "fringeColorParams_b",
+        "fringeUVParams"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135acc0",
+      "begin_layer": 8,
+      "advance_layer": 7,
+      "target_helpers": {
+        "target helper 0x141223e90": 7
+      },
+      "resolved_names": [
+        "size1",
+        "texVelocity",
+        "g_HdrRaram",
+        "g_ScreenToUV",
+        "param2",
+        "param",
+        "texTone"
+      ],
+      "vtable_owner": ".?AVnuccPostEffectCompositeMotionBlur@@ slot 0x10",
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14135b980",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_HdrRaram"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14135bb60",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_ScreenToUV",
+        "param",
+        "color1",
+        "color2"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135bde0",
+      "begin_layer": 5,
+      "advance_layer": 5,
+      "target_helpers": {
+        "target helper 0x141223e90": 5
+      },
+      "resolved_names": [
+        "clip_PS3MERGEABLE",
+        "zrange",
+        "sunshaftsParam",
+        "sunProjPos",
+        "sunColor",
+        "size",
+        "center",
+        "param",
+        "texColor",
+        "offset",
+        "texBlend"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135caf0",
+      "begin_layer": 4,
+      "advance_layer": 4,
+      "target_helpers": {
+        "target helper 0x141223e90": 4
+      },
+      "resolved_names": [
+        "size",
+        "clip_PS3MERGEABLE",
+        "zrange",
+        "sunshaftsParam",
+        "sunProjPos",
+        "sunColor",
+        "center",
+        "param",
+        "texColor"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135d5a0",
+      "begin_layer": 2,
+      "advance_layer": 2,
+      "target_helpers": {
+        "target helper 0x141223e90": 2
+      },
+      "resolved_names": [
+        "texMask",
+        "texGrd",
+        "paramDeform1",
+        "paramDeform2",
+        "power",
+        "param1",
+        "param2",
+        "alpha"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "function_va": "0x14135db40",
+      "begin_layer": 1,
+      "advance_layer": 1,
+      "target_helpers": {
+        "target helper 0x141223e90": 1
+      },
+      "resolved_names": [
+        "g_ScreenToUV",
+        "texTone"
+      ],
+      "vtable_owner": null,
+      "direct_callers": []
+    },
+    {
+      "function_va": "0x14135e090",
+      "begin_layer": 5,
+      "advance_layer": 5,
+      "target_helpers": {
+        "target helper 0x141223e90": 5
+      },
+      "resolved_names": [
+        "color",
+        "textureSize",
+        "ps_texMask",
+        "ps_texZ",
+        "ColorPalette",
+        "outlineColor"
+      ],
+      "vtable_owner": null,
+      "direct_callers": [
+        "0x14135e040"
+      ]
+    }
+  ],
+  "layer_classes": [
+    {
+      "class_name": "nuccPostEffectDecal",
+      "vtable_va": "0x141b95228",
+      "slots": [
+        "0x1412bb830"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerPostEffect",
+      "vtable_va": "0x141b98d50",
+      "slots": [
+        "0x1412f9dc0",
+        "0x1412f9ec0",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerSet",
+      "vtable_va": "0x141b98ee0",
+      "slots": [
+        "0x1412fd0b0",
+        "0x1412737c0",
+        "0x141273790",
+        "0x140228190"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerSubThread",
+      "vtable_va": "0x141b99208",
+      "slots": [
+        "0x1412fe360",
+        "0x1412fec60"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayer",
+      "vtable_va": "0x141b99220",
+      "slots": [
+        "0x1412fe440",
+        "0x1412fe860",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x1412fe860"
+      ]
+    },
+    {
+      "class_name": "nuccLayerManager",
+      "vtable_va": "0x141b995d0",
+      "slots": [
+        "0x141301450",
+        "0x141301570",
+        "0x14136b940",
+        "0x1412fd330",
+        "0x1412fd7d0"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerPostEffectPreDraw",
+      "vtable_va": "0x141b9e5e0",
+      "slots": [
+        "0x14133b8e0",
+        "0x14133b940",
+        "0x14133b960"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerShadow",
+      "vtable_va": "0x141b9e608",
+      "slots": [
+        "0x14133b9b0",
+        "0x14133b9f0",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerZPrePass",
+      "vtable_va": "0x141b9e630",
+      "slots": [
+        "0x14133bbf0",
+        "0x14133bc50",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133bc50"
+      ]
+    },
+    {
+      "class_name": "nuccLayerOpaque",
+      "vtable_va": "0x141b9e658",
+      "slots": [
+        "0x14133bd10",
+        "0x14133bd50",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerOutline",
+      "vtable_va": "0x141b9e680",
+      "slots": [
+        "0x14133bf60",
+        "0x14133c010",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133c010"
+      ]
+    },
+    {
+      "class_name": "nuccLayerPostOutline",
+      "vtable_va": "0x141b9e6c8",
+      "slots": [
+        "0x14133c300",
+        "0x14133c340",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerPostDecal",
+      "vtable_va": "0x141b9e6f0",
+      "slots": [
+        "0x14133c430",
+        "0x14133c470",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerTransparent",
+      "vtable_va": "0x141b9e718",
+      "slots": [
+        "0x14133c580",
+        "0x14133c5c0",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerReduction",
+      "vtable_va": "0x141b9e740",
+      "slots": [
+        "0x14133c6a0",
+        "0x14133c6e0",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerReduction2",
+      "vtable_va": "0x141b9e768",
+      "slots": [
+        "0x14133c7a0",
+        "0x14133c7e0",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133c7e0"
+      ]
+    },
+    {
+      "class_name": "nuccLayerOpaqueClearZ",
+      "vtable_va": "0x141b9e790",
+      "slots": [
+        "0x14133ccf0",
+        "0x14133cd50",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133cd50"
+      ]
+    },
+    {
+      "class_name": "nuccLayerRefraction",
+      "vtable_va": "0x141b9e7b8",
+      "slots": [
+        "0x14133d080",
+        "0x14133d130",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133d130"
+      ]
+    },
+    {
+      "class_name": "nuccLayerSelectorBase",
+      "vtable_va": "0x141b9e7e0",
+      "slots": [
+        "0x14133d6f0",
+        "0x14133d9e0",
+        "0x14136ba20",
+        "0x14136ba30",
+        "0x14136ba40"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerSelOpacity",
+      "vtable_va": "0x141b9e810",
+      "slots": [
+        "0x14133d680",
+        "0x14133d8e0",
+        "0x14133d880",
+        "0x14133d720",
+        "0x14133d860"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerStencil",
+      "vtable_va": "0x141b9e8a0",
+      "slots": [
+        "0x14133db30",
+        "0x14133db70",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerAfterImage",
+      "vtable_va": "0x141b9e8e8",
+      "slots": [
+        "0x14133dd40",
+        "0x14133dd80",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133dd80"
+      ]
+    },
+    {
+      "class_name": "nuccLayerMotionBlur",
+      "vtable_va": "0x141b9e910",
+      "slots": [
+        "0x14133e2c0",
+        "0x14133e370",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerToneControl",
+      "vtable_va": "0x141b9e938",
+      "slots": [
+        "0x14133e5a0",
+        "0x14133e650",
+        "0x1412ffa50"
+      ],
+      "slots_that_open_layers": [
+        "0x14133e650"
+      ]
+    },
+    {
+      "class_name": "nuccPostEffectGlare",
+      "vtable_va": "0x141ba0360",
+      "slots": [
+        "0x141355810"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccPostEffectDOF",
+      "vtable_va": "0x141ba03c0",
+      "slots": [
+        "0x141356710"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccPostEffectInterface",
+      "vtable_va": "0x141ba0490",
+      "slots": [
+        "0x1413575e0",
+        "0x141357c70",
+        "0x141442fb2",
+        "0x141442fb2",
+        "0x141442fb2",
+        "0x141442fb2"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccPostEffectComposite",
+      "vtable_va": "0x141ba04d0",
+      "slots": [
+        "0x141357580",
+        "0x141357c60",
+        "0x141357610",
+        "0x141357cd0",
+        "0x141357d50",
+        "0x141357c90"
+      ],
+      "slots_that_open_layers": [
+        "0x141357610"
+      ]
+    },
+    {
+      "class_name": "nuccPostEffectCompositeMotionBlur",
+      "vtable_va": "0x141ba0518",
+      "slots": [
+        "0x141358240",
+        "0x141357c60",
+        "0x14135acc0",
+        "0x141357cd0",
+        "0x141357d50",
+        "0x141357c90"
+      ],
+      "slots_that_open_layers": [
+        "0x14135acc0"
+      ]
+    },
+    {
+      "class_name": "nuccPostEffectOutline",
+      "vtable_va": "0x141ba0780",
+      "slots": [
+        "0x14135de30"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerBase",
+      "vtable_va": "0x141ba14a8",
+      "slots": [
+        "0x14136b070",
+        "0x14136b0a0",
+        "0x14133b960"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccLayerList",
+      "vtable_va": "0x141ba14f0",
+      "slots": [
+        "0x14136b340",
+        "0x14136b470",
+        "0x14136b940",
+        "0x1412fd330",
+        "0x1412fd7d0"
+      ],
+      "slots_that_open_layers": []
+    },
+    {
+      "class_name": "nuccPostEffectCompositeReduction",
+      "vtable_va": "0x141ba4900",
+      "slots": [
+        "0x14138bc50"
+      ],
+      "slots_that_open_layers": []
+    }
+  ]
+}

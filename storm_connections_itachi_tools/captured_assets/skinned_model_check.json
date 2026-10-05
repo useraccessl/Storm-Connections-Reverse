@@ -1,0 +1,237 @@
+[
+ {
+  "package": "3mdr_2_x",
+  "animations": {
+   "1efc_stn_ptc00": {
+    "frames": 40,
+    "draws": 40,
+    "vertices": 82800,
+    "worst_position": 1.0968581733419421e-07,
+    "worst_normal": 5.668010971682236e-08,
+    "largest_displacement": 27.07708309968151,
+    "models": [
+     "1efc_stn06_body"
+    ]
+   },
+   "3mdreff1_2_awaaura00_ptc00": {
+    "frames": 40,
+    "draws": 40,
+    "vertices": 7680,
+    "worst_position": 4.470347259300278e-08,
+    "worst_normal": 5.960464477539063e-08,
+    "largest_displacement": 3.5390255135325788e-06,
+    "models": [
+     "3mdreff1_2_awaaura00"
+    ]
+   }
+  },
+  "not_played": {}
+ },
+ {
+  "package": "4mnr_x",
+  "animations": {
+   "4mnreff1_awa_tail00": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 245760,
+    "worst_position": 1.5159699096523988e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 162.92307799404227,
+    "models": [
+     "4mnreff1_tail00_001",
+     "4mnreff1_tail00_002",
+     "4mnreff1_tail00_003",
+     "4mnreff1_tail00_004"
+    ]
+   },
+   "4mnreff1_awa_tail01": {
+    "frames": 15,
+    "draws": 15,
+    "vertices": 7920,
+    "worst_position": 1.4088002900892625e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 104.00140341915045,
+    "models": [
+     "4mnreff1_tail01_001"
+    ]
+   },
+   "4mnreff1_cma02_blt00": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 624000,
+    "worst_position": 1.9399879801349324e-06,
+    "worst_normal": 1.128829003604892e-06,
+    "largest_displacement": 106.35124275379997,
+    "models": [
+     "4mnr00t0 l rkt hand",
+     "4mnr00t0 r rkt hand"
+    ]
+   },
+   "4mnreff1_cma02_end00": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 624000,
+    "worst_position": 1.2377929761194956e-06,
+    "worst_normal": 1.0084370121177244e-06,
+    "largest_displacement": 106.35124275374608,
+    "models": [
+     "4mnr00t0 l rkt hand",
+     "4mnr00t0 r rkt hand"
+    ]
+   },
+   "4mnreff1_cmr_dcy00": {
+    "frames": 40,
+    "draws": 80,
+    "vertices": 358080,
+    "worst_position": 3.1945376349102093e-07,
+    "worst_normal": 2.4005386956016395e-07,
+    "largest_displacement": 185.19238006481783,
+    "models": [
+     "4mnr00t0 dcy body"
+    ]
+   },
+   "4mnreff1_hola1_blt00": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 624000,
+    "worst_position": 3.714791294494978e-07,
+    "worst_normal": 5.800633502972552e-07,
+    "largest_displacement": 341.4879400815457,
+    "models": [
+     "4mnr00t0 l rkt hand",
+     "4mnr00t0 r rkt hand"
+    ]
+   },
+   "4mnreff1_hola1_end00": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 624000,
+    "worst_position": 9.391845710320358e-07,
+    "worst_normal": 6.912664369806976e-07,
+    "largest_displacement": 96.79310527597977,
+    "models": [
+     "4mnr00t0 l rkt hand",
+     "4mnr00t0 r rkt hand"
+    ]
+   }
+  },
+  "not_played": {}
+ },
+ {
+  "package": "3efbtf_srd1_x",
+  "animations": {
+   "3efbtf_srd1_blt00": {
+    "frames": 40,
+    "draws": 240,
+    "vertices": 144000,
+    "worst_position": 2.3110522596695386e-07,
+    "worst_normal": 1.4643417922677315e-07,
+    "largest_displacement": 2304.2874705826857,
+    "models": [
+     "2efb_srd00_beard",
+     "2efb_srd00_body01",
+     "2efb_srd00_body02",
+     "2efb_srd00_body03",
+     "2efb_srd00_body04"
+    ]
+   },
+   "3efbtf_srd1_blt03": {
+    "frames": 40,
+    "draws": 240,
+    "vertices": 144000,
+    "worst_position": 6.111821741532785e-06,
+    "worst_normal": 1.4643185575202722e-07,
+    "largest_displacement": 2304.2874705826857,
+    "models": [
+     "2efb_srd00_beard",
+     "2efb_srd00_body01",
+     "2efb_srd00_body02",
+     "2efb_srd00_body03",
+     "2efb_srd00_body04"
+    ]
+   }
+  },
+  "not_played": {}
+ },
+ {
+  "package": "5obt_x",
+  "animations": {
+   "5obteff1_5obtcmrb01_eff": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 271680,
+    "worst_position": 2.6646805922335023e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 335.8579779437529,
+    "models": [
+     "5obteff1_kball_trl02",
+     "5obteff1_kball_trl02b"
+    ],
+    "other_skinned_draws": 72
+   },
+   "5obteff1_cmb01_arm03": {
+    "frames": 39,
+    "draws": 78,
+    "vertices": 485784,
+    "worst_position": 4.3348860734987223e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 1788236100.6134503,
+    "models": [
+     "5obteff1_00t0 arm02",
+     "5obteff1_00t0 arm1"
+    ]
+   },
+   "5obteff1_kball_trans01_anm01": {
+    "frames": 40,
+    "draws": 80,
+    "vertices": 33600,
+    "worst_position": 5.429270181258891e-08,
+    "worst_normal": 0.0,
+    "largest_displacement": 174.39442610368133,
+    "models": [
+     "5obteff1_kball_trans03",
+     "5obteff1_kball_trans03b"
+    ]
+   },
+   "5obteff1_kball_trans01_anm02": {
+    "frames": 40,
+    "draws": 160,
+    "vertices": 224520,
+    "worst_position": 1.8593052980909618e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 362.1310160205926,
+    "models": [
+     "5obteff1_kball_trans02",
+     "5obteff1_kball_trans02b",
+     "5obteff1_kball_trl01",
+     "5obteff1_kball_trl01b"
+    ]
+   },
+   "5obteff1_kball_trans01_anm04": {
+    "frames": 29,
+    "draws": 58,
+    "vertices": 138417,
+    "worst_position": 1.5810384964051973e-07,
+    "worst_normal": 0.0,
+    "largest_displacement": 4604.707751258035,
+    "models": [
+     "5obteff1_kball_trl01",
+     "5obteff1_kball_trl01b"
+    ]
+   },
+   "5obteff1_kball_trans01_anm06": {
+    "frames": 40,
+    "draws": 80,
+    "vertices": 161280,
+    "worst_position": 3.479946352954876e-07,
+    "worst_normal": 3.1021987956236785e-07,
+    "largest_displacement": 796.4037298144998,
+    "models": [
+     "5obteff1_cmb21_part00_a002",
+     "5obteff1_cmb21_part00_b002"
+    ]
+   }
+  },
+  "not_played": {}
+ }
+]

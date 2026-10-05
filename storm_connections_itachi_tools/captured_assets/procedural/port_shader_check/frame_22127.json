@@ -1,0 +1,108 @@
+{
+  "frame": 22127,
+  "signature": "888da036868a0e9277cdd7e4c0a13c4489b551e45815b1cf7e96a31ff8aad086",
+  "families": {
+    "19f007_p": {
+      "draws": 2,
+      "pixels": 8004,
+      "exact": 8003,
+      "within_1": 8004,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "c4ee9b55": {
+      "draws": 24,
+      "pixels": 54221,
+      "exact": 54220,
+      "within_1": 54221,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "915c5e6e": {
+      "draws": 44,
+      "pixels": 6730403,
+      "exact": 6728609,
+      "within_1": 6730400,
+      "max_error_255": 127.5,
+      "coverage_mismatch": 3,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f008_p": {
+      "draws": 1,
+      "pixels": 8076598,
+      "exact": 8075075,
+      "within_1": 8076598,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f002_p": {
+      "draws": 3,
+      "pixels": 3896177,
+      "exact": 3896158,
+      "within_1": 3896176,
+      "max_error_255": 127.5,
+      "coverage_mismatch": 1,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "4bf6e191": {
+      "draws": 1,
+      "pixels": 8229434,
+      "exact": 5418853,
+      "within_1": 5630255,
+      "max_error_255": 249.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    }
+  },
+  "draws_over_1": [
+    {
+      "frame": 22127,
+      "event": 5732,
+      "family": "915c5e6e",
+      "max_error_255": 126.5,
+      "pixels_over_1": 1,
+      "pixels": 235256
+    },
+    {
+      "frame": 22127,
+      "event": 5822,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 226364
+    },
+    {
+      "frame": 22127,
+      "event": 5837,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 226821
+    },
+    {
+      "frame": 22127,
+      "event": 6483,
+      "family": "01f002_p",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 1030767
+    },
+    {
+      "frame": 22127,
+      "event": 6763,
+      "family": "4bf6e191",
+      "max_error_255": 249.0,
+      "pixels_over_1": 2599179,
+      "pixels": 8229434
+    }
+  ]
+}

@@ -1,0 +1,1371 @@
+{
+ "0x00f007": {
+  "key": 61447,
+  "vertex": "storm_fxa_00f007_vs30",
+  "pixel": "storm_fxa_00f007_ps30",
+  "attributes": {
+   "normal": false,
+   "color": false,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 2,
+    "register": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 3,
+    "register": 2,
+    "slot": 2
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ },
+ "0x01f002": {
+  "key": 126978,
+  "vertex": "storm_fxa_01f002_vs30",
+  "pixel": "storm_fxa_01f002_ps30",
+  "attributes": {
+   "normal": false,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ },
+ "0x01f007": {
+  "key": 126983,
+  "vertex": "storm_fxa_01f007_vs30",
+  "pixel": "storm_fxa_01f007_ps30",
+  "attributes": {
+   "normal": false,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 2,
+    "register": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 3,
+    "register": 2,
+    "slot": 2
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ },
+ "0x01f008": {
+  "key": 126984,
+  "vertex": "storm_fxa_01f008_vs30",
+  "pixel": "storm_fxa_01f008_ps30",
+  "attributes": {
+   "normal": true,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0",
+   "g_textureFalloff"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   },
+   {
+    "name": "g_textureFalloff",
+    "material": 1,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 2,
+    "register": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 3,
+    "register": 2,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset2",
+    "row": 0,
+    "component": 0,
+    "register": 2,
+    "slot": 3
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewInvTrans",
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ },
+ "0x01f00f": {
+  "key": 126991,
+  "vertex": "storm_fxa_01f00f_vs30",
+  "pixel": "storm_fxa_01f00f_ps30",
+  "attributes": {
+   "normal": true,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0",
+   "g_textureFalloff"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   },
+   {
+    "name": "g_textureFalloff",
+    "material": 1,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 2,
+    "register": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 3,
+    "register": 2,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset2",
+    "row": 0,
+    "component": 0,
+    "register": 2,
+    "slot": 3
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewInvTrans",
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ },
+ "0x01f012": {
+  "key": 126994,
+  "vertex": "storm_fxa_01f012_vs30",
+  "pixel": "storm_fxa_01f012_ps30",
+  "attributes": {
+   "normal": false,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0",
+   "g_texture1"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   },
+   {
+    "name": "g_texture1",
+    "material": 1,
+    "system": null
+   },
+   {
+    "name": "g_textureRefScene",
+    "material": null,
+    "system": "_rt_FullFrameFB"
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ScreenToUV",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ScreenToUV",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 2,
+    "slot": 1
+   }
+  ],
+  "matrices": [],
+  "notes": []
+ },
+ "0x01f013": {
+  "key": 126995,
+  "vertex": "storm_fxa_01f013_vs30",
+  "pixel": "storm_fxa_01f013_ps30",
+  "attributes": {
+   "normal": false,
+   "color": true,
+   "uv0": true,
+   "uv1": false
+  },
+  "materialTextures": [
+   "g_texture0",
+   "g_texture1"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   },
+   {
+    "name": "g_texture1",
+    "material": 1,
+    "system": null
+   },
+   {
+    "name": "g_textureRefScene",
+    "material": null,
+    "system": "_rt_FullFrameFB"
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ScreenToUV",
+    "row": 0,
+    "component": 0,
+    "channel": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_ScreenToUV",
+    "row": 0,
+    "component": 1,
+    "channel": 1,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 2,
+    "slot": 1
+   }
+  ],
+  "matrices": [],
+  "notes": []
+ },
+ "0x03f002": {
+  "key": 258050,
+  "vertex": "storm_fxa_03f002_vs30",
+  "pixel": "storm_fxa_03f002_ps30",
+  "attributes": {
+   "normal": false,
+   "color": true,
+   "uv0": true,
+   "uv1": true
+  },
+  "materialTextures": [
+   "g_texture0",
+   "g_texture1"
+  ],
+  "samplers": [
+   {
+    "name": "g_texture0",
+    "material": 0,
+    "system": null
+   },
+   {
+    "name": "g_texture1",
+    "material": 1,
+    "system": null
+   }
+  ],
+  "dynamic": [
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 0,
+    "register": 0,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 1,
+    "register": 0,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 2,
+    "register": 0,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset0",
+    "row": 0,
+    "component": 3,
+    "register": 0,
+    "slot": 3
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 0
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 1,
+    "register": 1,
+    "slot": 1
+   },
+   {
+    "name": "g_multColor",
+    "row": 0,
+    "component": 2,
+    "register": 1,
+    "slot": 2
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 0,
+    "register": 1,
+    "slot": 3
+   },
+   {
+    "name": "g_commonParam",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_uvOffset1",
+    "row": 0,
+    "component": 0,
+    "register": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_uvOffset1",
+    "row": 0,
+    "component": 1,
+    "register": 2,
+    "slot": 2
+   },
+   {
+    "name": "g_uvOffset1",
+    "row": 0,
+    "component": 2,
+    "register": 2,
+    "slot": 3
+   },
+   {
+    "name": "g_uvOffset1",
+    "row": 0,
+    "component": 3,
+    "register": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_blendRate",
+    "row": 0,
+    "component": 0,
+    "register": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_blendRate",
+    "row": 0,
+    "component": 1,
+    "register": 3,
+    "slot": 2
+   }
+  ],
+  "static": [
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 0,
+    "channel": 2,
+    "slot": 0
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 1,
+    "channel": 2,
+    "slot": 1
+   },
+   {
+    "name": "g_ambientColor",
+    "row": 0,
+    "component": 2,
+    "channel": 3,
+    "slot": 0
+   },
+   {
+    "name": "g_blendType",
+    "row": 0,
+    "component": 0,
+    "channel": 3,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 0,
+    "channel": 4,
+    "slot": 0
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 1,
+    "channel": 4,
+    "slot": 1
+   },
+   {
+    "name": "g_fogColor",
+    "row": 0,
+    "component": 2,
+    "channel": 5,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 0,
+    "channel": 5,
+    "slot": 1
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 1,
+    "channel": 6,
+    "slot": 0
+   },
+   {
+    "name": "g_fogParam",
+    "row": 0,
+    "component": 2,
+    "channel": 6,
+    "slot": 1
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 0,
+    "channel": 7,
+    "slot": 0
+   },
+   {
+    "name": "port_address0",
+    "row": 0,
+    "component": 1,
+    "channel": 7,
+    "slot": 1
+   }
+  ],
+  "matrices": [
+   "g_matWorldViewProj"
+  ],
+  "notes": []
+ }
+}

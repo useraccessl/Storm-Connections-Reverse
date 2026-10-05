@@ -1,0 +1,58 @@
+[
+  {
+    "model": "1efc_wtr03",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 4035,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_01_ne01",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 4006,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_01_ne02",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 3812,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_01_ne03",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 4870,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_01_ne04",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 3888,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_01_ne05",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 3836,
+    "max_error_255": 0.9999999403953552
+  },
+  {
+    "model": "1fireff1_07",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 5137,
+    "max_error_255": 0
+  },
+  {
+    "model": "1fireff1_08",
+    "mesh": 1,
+    "scenes": 12,
+    "pixels": 3608,
+    "max_error_255": 0.9999999403953552
+  }
+]

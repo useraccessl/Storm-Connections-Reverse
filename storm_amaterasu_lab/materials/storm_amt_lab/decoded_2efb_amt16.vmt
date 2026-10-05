@@ -1,0 +1,14 @@
+"screenspace_general"
+{
+    "$pixshader" "amt_projected_ps30"
+    "$basetexture" "storm_amt_lab/1efc_part03"
+    "$x360appchooser" "1"
+    "$vertexcolor" "1"
+    "$alpha_blend" "1"
+    "$copyalpha" "0"
+    "$depthtest" "1"
+    "$cull" "0"
+    "$softwareskin" "1"
+    "$translucent" "1"
+    "$c3_w" "1"
+}

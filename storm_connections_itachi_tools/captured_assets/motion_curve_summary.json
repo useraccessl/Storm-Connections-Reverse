@@ -1,0 +1,20 @@
+{
+  "4efb_amt1_blt00": {
+    "duration_ticks": 6000,
+    "transform_targets": 7,
+    "constant_translations": 7,
+    "animated_rotations": 1
+  },
+  "4efb_amt1_hit00": {
+    "duration_ticks": 5000,
+    "transform_targets": 4,
+    "constant_translations": 4,
+    "animated_rotations": 0
+  },
+  "4efb_amt1_ptc02": {
+    "duration_ticks": 800,
+    "transform_targets": 1,
+    "constant_translations": 1,
+    "animated_rotations": 1
+  }
+}

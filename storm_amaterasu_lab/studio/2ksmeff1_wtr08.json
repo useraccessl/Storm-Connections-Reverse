@@ -1,0 +1,111 @@
+{
+ "model": "2ksmeff1_wtr08",
+ "mdl": "models/storm_fx/2ksmeff1_wtr08.mdl",
+ "animation": "2ksmeff1_wtr_ptc15",
+ "duration": 3500,
+ "ticksPerFrame": 50,
+ "frames": 71,
+ "meshes": {
+  "1": {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "left": {
+  "2": "second UV set differs from the first"
+ },
+ "stage": {
+  "g_celShadeParam": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "g_ScreenToUV": [
+   0.015625,
+   0.015625,
+   0.0,
+   0.0
+  ],
+  "g_fogColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "g_ambientColor": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "g_fogParam": [
+   0.0,
+   1.0,
+   0.0,
+   0.0
+  ],
+  "g_lightDirectionWorld": [
+   -0.31365915966386554,
+   0.15683226890756302,
+   -0.40776067226890755,
+   0.0
+  ],
+  "g_lightColor": [
+   0.6274509803921569,
+   0.6274509803921569,
+   0.5490196078431373,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "g_zrange": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "g_cparaColor2": [
+   1.0,
+   1.0,
+   1.0,
+   0.015625
+  ],
+  "g_cparaColor1": [
+   1.0,
+   1.0,
+   1.0,
+   0.015625
+  ],
+  "g_stageColor": [
+   0.5607843137254902,
+   0.5568627450980392,
+   0.3843137254901961,
+   1.0
+  ],
+  "g_clip": [
+   210000.0,
+   29993.0,
+   30000.0,
+   0.0
+  ]
+ },
+ "files": [
+  "2ksmeff1_wtr08.dx80.vtx",
+  "2ksmeff1_wtr08.dx90.vtx",
+  "2ksmeff1_wtr08.mdl",
+  "2ksmeff1_wtr08.vvd"
+ ]
+}

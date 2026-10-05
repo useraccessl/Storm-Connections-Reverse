@@ -1,0 +1,7 @@
+{
+  "cases": 2180,
+  "originalPrefix": "0x14130b5d3..0x14130b601",
+  "codeSha256": "b436bb90d377be576abbf7e85992cec0ec70cbf79a6af719f2a41ef895949f37",
+  "verification": "Original speed prefix byte exact, all other target fields guarded",
+  "limitations": "Age factor producer and delta division statically transcribed; full motion/render update not executed."
+}

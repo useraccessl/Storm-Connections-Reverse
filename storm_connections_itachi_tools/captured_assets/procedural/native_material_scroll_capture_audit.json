@@ -1,0 +1,301 @@
+{
+  "scope": "captured pixel shader 915c5e6e draws, identified by first texture SHA256 and same-name material in 4efb_amt1.xfbin",
+  "draw_total": 213,
+  "captures": [
+    {
+      "capture": "itachi_amaterasu_frame22082.effect_coverage_reference.json",
+      "draw_count": 7,
+      "captured_phase": 0.4699993133544922,
+      "counter_modulo_30000": 14100,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 1,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5393,
+          "first_captured_vector": [
+            0.0,
+            0.4699993133544922,
+            0.4699993133544922,
+            0.4699993133544922
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 6,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5421,
+          "first_captured_vector": [
+            0.0,
+            0.4699993133544922,
+            0.4699993133544922,
+            0.4699993133544922
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.effect_coverage_reference.json",
+      "draw_count": 16,
+      "captured_phase": 0.5566673278808594,
+      "counter_modulo_30000": 16700,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 3,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5144,
+          "first_captured_vector": [
+            0.0,
+            0.5566673278808594,
+            0.5566673278808594,
+            0.5566673278808594
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 13,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5213,
+          "first_captured_vector": [
+            0.0,
+            0.5566673278808594,
+            0.5566673278808594,
+            0.5566673278808594
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 2600,
+      "equivalent_50_tick_updates": 52
+    },
+    {
+      "capture": "itachi_amaterasu_frame22127.effect_coverage_reference.json",
+      "draw_count": 44,
+      "captured_phase": 0.6433334350585938,
+      "counter_modulo_30000": 19300,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 23,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5247,
+          "first_captured_vector": [
+            0.0,
+            0.6433334350585938,
+            0.6433334350585938,
+            0.6433334350585938
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 21,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5449,
+          "first_captured_vector": [
+            0.0,
+            0.6433334350585938,
+            0.6433334350585938,
+            0.6433334350585938
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 2600,
+      "equivalent_50_tick_updates": 52
+    },
+    {
+      "capture": "itachi_amaterasu_frame22136.effect_coverage_reference.json",
+      "draw_count": 47,
+      "captured_phase": 0.7016658782958984,
+      "counter_modulo_30000": 21050,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 25,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5302,
+          "first_captured_vector": [
+            0.0,
+            0.7016658782958984,
+            0.7016658782958984,
+            0.7016658782958984
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 22,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5502,
+          "first_captured_vector": [
+            0.0,
+            0.7016658782958984,
+            0.7016658782958984,
+            0.7016658782958984
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 1750,
+      "equivalent_50_tick_updates": 35
+    },
+    {
+      "capture": "itachi_amaterasu_frame22149.effect_coverage_reference.json",
+      "draw_count": 47,
+      "captured_phase": 0.7683334350585938,
+      "counter_modulo_30000": 23050,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 25,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5269,
+          "first_captured_vector": [
+            0.0,
+            0.7683334350585938,
+            0.7683334350585938,
+            0.7683334350585938
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 22,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5398,
+          "first_captured_vector": [
+            0.0,
+            0.7683334350585938,
+            0.7683334350585938,
+            0.7683334350585938
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 2000,
+      "equivalent_50_tick_updates": 40
+    },
+    {
+      "capture": "itachi_amaterasu_frame22171.effect_coverage_reference.json",
+      "draw_count": 40,
+      "captured_phase": 0.8416671752929688,
+      "counter_modulo_30000": 25250,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 23,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5249,
+          "first_captured_vector": [
+            0.0,
+            0.8416671752929688,
+            0.8416671752929688,
+            0.8416671752929688
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 17,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5384,
+          "first_captured_vector": [
+            0.0,
+            0.8416671752929688,
+            0.8416671752929688,
+            0.8416671752929688
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 2200,
+      "equivalent_50_tick_updates": 44
+    },
+    {
+      "capture": "itachi_amaterasu_frame22200.effect_coverage_reference.json",
+      "draw_count": 12,
+      "captured_phase": 0.9233341217041016,
+      "counter_modulo_30000": 27700,
+      "assets": {
+        "4efb_amt00": {
+          "draw_count": 11,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 5721,
+          "first_captured_vector": [
+            0.0,
+            0.9233341217041016,
+            0.9233341217041016,
+            0.9233341217041016
+          ]
+        },
+        "4efb_amt01": {
+          "draw_count": 1,
+          "rates": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "first_event": 6151,
+          "first_captured_vector": [
+            0.0,
+            0.9233341217041016,
+            0.9233341217041016,
+            0.9233341217041016
+          ]
+        }
+      },
+      "phase_delta_ticks_mod_30000": 2450,
+      "equivalent_50_tick_updates": 49
+    }
+  ],
+  "material_animation_scope": "4efb_amt1 ANM targets type-4 material 4efb_amt15 only; the principal amt00/amt01 billboard materials are not material-ANM targets in this file.",
+  "finding": "All 213 draws use base assets 4efb_amt00/4efb_amt01. Both corresponding XFBIN materials decode to binder rates (0,1,1,1), matching every captured g_uvOffsetScreen vector shape (0,t,t,t). Since the rate-one channels expose the signed-fraction clock directly, each capture recovers counter modulo 30000; all seven phases align to 50-tick scheduler increments.",
+  "open": "The NUD source of g_uvScaleScreen is confirmed; the exact native copy site and unwrapped counter origin remain open."
+}

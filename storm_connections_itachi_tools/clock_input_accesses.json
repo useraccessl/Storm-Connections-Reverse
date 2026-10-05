@@ -1,0 +1,92 @@
+[
+  {
+    "address": "0x1412770e3",
+    "function": "0x141276de0",
+    "asm": "movaps xmmword ptr [rbp + 0x4e0], xmm1"
+  },
+  {
+    "address": "0x14129ad66",
+    "function": "0x14129a900",
+    "asm": "mov qword ptr [rsi + 0x948], rbp"
+  },
+  {
+    "address": "0x14129d92c",
+    "function": "0x14129d760",
+    "asm": "mov ecx, dword ptr [rdi + 0x94c]"
+  },
+  {
+    "address": "0x14129d975",
+    "function": "0x14129d760",
+    "asm": "mov dword ptr [rdi + 0x948], ecx"
+  },
+  {
+    "address": "0x14129d97b",
+    "function": "0x14129d760",
+    "asm": "mov dword ptr [rdi + 0x94c], eax"
+  },
+  {
+    "address": "0x1412a0536",
+    "function": "0x1412a0500",
+    "asm": "add dword ptr [rdi + 0x94c], edx"
+  },
+  {
+    "address": "0x1412bbfcd",
+    "function": "0x1412bbfa5",
+    "asm": "movaps xmmword ptr [rsp + 0x4e0], xmm13"
+  },
+  {
+    "address": "0x1412bccdc",
+    "function": "0x1412bcc24",
+    "asm": "movaps xmm13, xmmword ptr [rsp + 0x4e0]"
+  },
+  {
+    "address": "0x1412e76c9",
+    "function": "0x1412e75c0",
+    "asm": "movss dword ptr [rbp + 0x4e0], xmm8"
+  },
+  {
+    "address": "0x1412ee719",
+    "function": "0x1412ee5e0",
+    "asm": "mov qword ptr [rbx + 0x948], rsi"
+  },
+  {
+    "address": "0x1412ef3d6",
+    "function": "0x1412ef360",
+    "asm": "mov qword ptr [rbx + 0x948], rcx"
+  },
+  {
+    "address": "0x1412ef8fe",
+    "function": "0x1412ef860",
+    "asm": "mov qword ptr [rbx + 0x948], r14"
+  },
+  {
+    "address": "0x1412efa15",
+    "function": "0x1412ef860",
+    "asm": "mov qword ptr [rbx + 0x948], r14"
+  },
+  {
+    "address": "0x1413086e1",
+    "function": "0x141308180",
+    "asm": "movaps xmmword ptr [rbp + 0x4e0], xmm1"
+  },
+  {
+    "address": "0x1413087b4",
+    "function": "0x141308180",
+    "asm": "movaps xmmword ptr [rbp + 0x4e0], xmm1"
+  },
+  {
+    "address": "0x141326892",
+    "function": "0x141326490",
+    "asm": "movss xmm0, dword ptr [rsi + 0x4e0]"
+  },
+  {
+    "address": "0x14132695a",
+    "function": "0x141326490",
+    "asm": "mov dword ptr [rbp + 0x4e0], eax"
+  },
+  {
+    "address": "0x1413381ba",
+    "function": "0x141337c60",
+    "asm": "lea rcx, [rsi + 0x4e0]"
+  }
+]

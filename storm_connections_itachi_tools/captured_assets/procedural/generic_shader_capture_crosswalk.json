@@ -1,0 +1,205 @@
+{
+  "source_executable_sha256": "cecf0405b5ac00b9b9c95e8ff594bde5f8543413b6308f74991c701218b20d1e",
+  "capture": "gpu_captures/itachi_amaterasu_frame22136.all_draws.json",
+  "event": 5815,
+  "shader_stages": {
+    "vertex": "612d54c9ae030fc79ac2f61298d025da83449ef5176ff6e62b3396067fb63f23",
+    "pixel": "915c5e6e56ff52ae6c9ecab0084f5e3e2f76a7a03d28fb96320c3f7ba1106abd"
+  },
+  "crosswalk_scope": "This one captured draw; source offsets are native render-context offsets, gpu offsets are reflected byte offsets in the captured VS per-material buffer.",
+  "matched_parameters": [
+    {
+      "semantic": "g_commonParam",
+      "accessor_index": 37,
+      "source_context_offset": "0x3b0",
+      "gpu_buffer_offset": 0
+    },
+    {
+      "semantic": "g_fogColor",
+      "accessor_index": 24,
+      "source_context_offset": "0x2c0",
+      "gpu_buffer_offset": 16
+    },
+    {
+      "semantic": "g_fogParam",
+      "accessor_index": 25,
+      "source_context_offset": "0x2d0",
+      "gpu_buffer_offset": 32
+    },
+    {
+      "semantic": "g_ambientColor",
+      "accessor_index": 23,
+      "source_context_offset": "0x2b0",
+      "gpu_buffer_offset": 48
+    },
+    {
+      "semantic": "g_uvOffset0",
+      "accessor_index": 33,
+      "source_context_offset": "0x510",
+      "gpu_buffer_offset": 128
+    },
+    {
+      "semantic": "g_multColor",
+      "accessor_index": 47,
+      "source_context_offset": "0x4c0",
+      "gpu_buffer_offset": 144
+    },
+    {
+      "semantic": "g_uvOffset1",
+      "accessor_index": 34,
+      "source_context_offset": "0x520",
+      "gpu_buffer_offset": 160
+    },
+    {
+      "semantic": "g_blendRate",
+      "accessor_index": 36,
+      "source_context_offset": "0x550",
+      "gpu_buffer_offset": 176
+    },
+    {
+      "semantic": "g_ScreenToUV",
+      "accessor_index": 32,
+      "source_context_offset": "0x500",
+      "gpu_buffer_offset": 208
+    },
+    {
+      "semantic": "g_uvOffset3",
+      "accessor_index": 51,
+      "source_context_offset": "0x540",
+      "gpu_buffer_offset": 224
+    },
+    {
+      "semantic": "g_uvOffsetScreen",
+      "accessor_index": 50,
+      "source_context_offset": "0x4f0",
+      "gpu_buffer_offset": 240
+    }
+  ],
+  "captured_but_source_path_unresolved": [],
+  "non_accessor_sources_r47": [
+    {
+      "semantic": "g_matWorldViewProj",
+      "gpu_buffer_offset": 64,
+      "source": "program standard ID at program+0x2f8; 0x141271ea0 copies 64 bytes from TLS[+0x20]+0x70 through 0x14123ac20"
+    },
+    {
+      "semantic": "g_blendType",
+      "gpu_buffer_offset": 192,
+      "source": "no native writer for this material; staging is zero-filled after each model draw (0x141237b80), captured value is (0,0,0,0) on 213 draws"
+    },
+    {
+      "semantic": "g_uvScaleScreen",
+      "gpu_buffer_offset": 256,
+      "source": "NUD property NU_uvScaleScreen; 0x141270830 renames it with \"g_%s\" on name+3 and 0x141271ea0 stages it"
+    }
+  ],
+  "gpu_offset_rule_r44": "offsets equal the D3DReflect StartOffset of the merged VS+PS buffer (dxbc_rdef.py); checked on 6292 captured fields",
+  "native_parameter_formulas": {
+    "g_ScreenToUV": {
+      "accessor_index": 32,
+      "context_field_offset": "0x500",
+      "setup_function_va": "0x141337c60",
+      "vector_writer_va": "0x1412a96c0",
+      "formula": "(1/width, 1/height, 0, 0)",
+      "capture_verification": "213 principal-fire draws across 7 captures; all match 3840x2160 reciprocal within float32 precision"
+    },
+    "g_uvOffsetScreen": {
+      "accessor_index": 50,
+      "material_binder_va": "0x1412f5ff0",
+      "material_rate_offsets": [
+        "0x60",
+        "0x64",
+        "0x68",
+        "0x6c"
+      ],
+      "material_animation_channels": {
+        "UV2_scale": [
+          "20",
+          "21"
+        ],
+        "UV3_scale": [
+          "18",
+          "19"
+        ]
+      },
+      "clock_getter_va": "0x1412a4eb0",
+      "clock_counter_offset": "0x958",
+      "clock_formula": "float32(float32(counter)*0.1f/3000.0f)",
+      "per_component_formula": "signed_fraction(clockSeconds*rate)",
+      "zero_rate_predicate_va": "0x141299bc0",
+      "zero_rate_threshold_float32": 1.1920928955078125e-07,
+      "context_field_offset": "0x4f0",
+      "captured_vertex_buffer_offset": 240,
+      "verification": "verify_material_context.py passes 213 matching main-fire draws across seven captures; runtime epoch/denominator source remains open",
+      "clock_denominator": {
+        "va": "0x141b948e8",
+        "initial_value": 3000,
+        "pe_section": ".rdata",
+        "writable": false
+      },
+      "host_update_accumulator": {
+        "function_va": "0x1412a0500",
+        "frame_calls_cap": 600,
+        "delta_per_call": "floor(3000/60)=50",
+        "consumer_update_va": "0x14129d760",
+        "counter_field_offset": "0x958",
+        "pause_flag_offset": "0x95c"
+      }
+    }
+  },
+  "shader_projection_equation": {
+    "vertex_shader_hash_prefix": "612d54c9",
+    "pixel_shader_hash_prefix": "915c5e6e",
+    "captured_draw_event": 5815,
+    "vs_outputs": {
+      "screen_scale": "(g_uvScaleScreen.x*g_ScreenToUV.x, -g_ScreenToUV.y*g_uvScaleScreen.y)",
+      "screen_bias": "(g_uvOffsetScreen.x*g_uvScaleScreen.x, g_uvOffsetScreen.y*g_uvScaleScreen.y)"
+    },
+    "ps_screen_texture_uv": "(SV_Position.x*scale.x+bias.x, 1-(SV_Position.y*scale.y+bias.y))",
+    "capture_values": {
+      "screen_extent": [
+        3840,
+        2160
+      ],
+      "g_uvScaleScreen": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    "basis": "DXBC disassembly main_fire_612d54c9_vs.asm and main_fire_915c5e6e_ps.asm",
+    "open": "NU_uvScaleScreen in each NUD material is verified as the source of captured g_uvScaleScreen on 213 main-fire draws; the native property-to-binding copy site and shader key are still open."
+  },
+  "captured_material_source_audit": {
+    "capture": "gpu_captures/itachi_amaterasu_frame22136.all_draws.json",
+    "event": 5815,
+    "base_asset": "4efb_amt01",
+    "identity_method": "first bound texture top-mip SHA256 match to extracted 4efb texture; same-name material exists in 4efb_amt1.xfbin",
+    "source_xfbin": "captured_assets/data/effect/4efb_amt1.xfbin",
+    "material_format": "0x4d",
+    "native_binder_rates": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "captured_g_uvOffsetScreen": [
+      0.0,
+      0.7016658782958984,
+      0.7016658782958984,
+      0.7016658782958984
+    ],
+    "counter_modulo_30000": 21050,
+    "audit": "captured_assets/procedural/native_material_scroll_capture_audit.json"
+  },
+  "nud_property_source_audit": {
+    "property": "NU_uvScaleScreen",
+    "gpu_field": "g_uvScaleScreen",
+    "report": "captured_assets/procedural/nud_shader_property_crosswalk.json",
+    "verified_draws": 213,
+    "capture_count": 7,
+    "mismatches": 0,
+    "note": "amt00/01=(3,1,1,1); amt08/15=(1,1,3,3); preserve per-material values."
+  }
+}

@@ -1,0 +1,68 @@
+{
+ "addon": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab",
+ "totals": {
+  "packages": 2,
+  "animations": 7,
+  "skipped": 0,
+  "coordinates": 114,
+  "withRestParents": 0,
+  "missing": 0,
+  "differ": 0,
+  "controlDiffer": 7
+ },
+ "packages": {
+  "3efb_3ssk1_x": {
+   "3efb_3ssk1_blt01": {
+    "coordinates": 39,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 3
+   },
+   "3efb_3ssk1_blt02": {
+    "coordinates": 33,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "3efb_3ssk1_hit00": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "3efb_3ssk1_hit01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  },
+  "4efb_amt1_x": {
+   "4efb_amt1_blt00": {
+    "coordinates": 21,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 4
+   },
+   "4efb_amt1_hit00": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "4efb_amt1_ptc02": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  }
+ }
+}

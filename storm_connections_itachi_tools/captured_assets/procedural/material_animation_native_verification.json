@@ -1,0 +1,32 @@
+{
+  "function": "0x1412f6380",
+  "codeSha256": "14fb856d6ca0db86e273554423f3e1163325ccf4b3a4536af57d31307abc4af0",
+  "cases": 2026,
+  "verification": "Original executable leaf executed in isolated test process; full instance and guards compared to Lua.",
+  "offsets": [
+    48,
+    52,
+    56,
+    60,
+    64,
+    68,
+    72,
+    76,
+    80,
+    84,
+    88,
+    92,
+    112,
+    116,
+    120,
+    124,
+    128,
+    132,
+    104,
+    108,
+    96,
+    100,
+    136
+  ],
+  "limitations": "Validates packed writes only. Animation sampling, active caller, clocks and final GPU rendering remain unverified."
+}

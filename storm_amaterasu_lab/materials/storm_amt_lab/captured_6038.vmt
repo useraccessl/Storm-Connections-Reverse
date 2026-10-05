@@ -1,0 +1,14 @@
+"screenspace_general"
+{
+"$pixshader" "amt_projected_ps30"
+"$basetexture" "storm_amt_lab/capture_83527"
+"$texture1" "storm_amt_lab/capture_83535"
+"$texture2" "storm_amt_lab/capture_83535"
+"$x360appchooser" "1"
+"$vertexcolor" "1"
+"$copyalpha" "1"
+"$alpha_blend" "0"
+"$depthtest" "1"
+"$cull" "0"
+"$softwareskin" "1"
+}

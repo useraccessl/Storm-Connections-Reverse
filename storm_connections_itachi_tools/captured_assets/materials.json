@@ -1,0 +1,536 @@
+{
+  "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\data\\effect\\4efb_amt1.xfbin",
+  "material_count": 17,
+  "materials": [
+    {
+      "name": "4efb_amt00",
+      "field02": 100,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.375,
+        3.25,
+        0.125,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 93,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt00",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "4efb_maplus01",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt01",
+      "field02": 100,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.0,
+        0.0,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 93,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt01",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "4efb_maplus01",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt02",
+      "field02": 116,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt03",
+      "field02": 116,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt04",
+      "field02": 80,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt05",
+      "field02": 100,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.375,
+        3.25,
+        0.125,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 93,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt00",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "4efb_maplus01",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt06",
+      "field02": 80,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt07",
+      "field02": 100,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.0,
+        0.0,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 93,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt01",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "4efb_maplus01",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt08",
+      "field02": 60,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.05000000074505806,
+        0.05000000074505806,
+        -3.0,
+        0.30000001192092896,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 99,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "1efc_film_clash00",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 7,
+              "name": "1efc_film_clash00",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt09",
+      "field02": 80,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt10",
+      "field02": 80,
+      "field04": 1.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_fire04",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt11",
+      "field02": 70,
+      "field04": 0.10000000149011612,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt12",
+      "field02": 70,
+      "field04": 0.10000000149011612,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt13",
+      "field02": 80,
+      "field04": 0.10000000149011612,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt14",
+      "field02": 80,
+      "field04": 0.10000000149011612,
+      "format": 65,
+      "floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 39,
+          "textures": [
+            {
+              "index": 6,
+              "name": "4efb_amt02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_amt15",
+      "field02": 0,
+      "field04": 1.0,
+      "format": 77,
+      "floats": [
+        0.0,
+        0.0,
+        1.0,
+        0.125,
+        0.0,
+        0.0,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.05000000074505806,
+        0.05000000074505806,
+        -0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 81,
+          "textures": [
+            {
+              "index": 5,
+              "name": "4efb_amt03",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 6,
+              "name": "1efc_film_clash00",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 6,
+              "name": "1efc_film_clash00",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "4efb_light00",
+      "field02": 0,
+      "field04": 0.0,
+      "format": 65,
+      "floats": [
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 5,
+          "textures": [
+            {
+              "index": 5,
+              "name": "1efc_part01",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    }
+  ]
+}

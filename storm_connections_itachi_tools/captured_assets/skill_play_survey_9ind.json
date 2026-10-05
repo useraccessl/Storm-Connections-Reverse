@@ -1,0 +1,369 @@
+{
+ "files": 1,
+ "totals": {
+  "outcome": {
+   "imported and played": 1
+  },
+  "script": {
+   "ran with effects": 5,
+   "ran, launched no effect": 3
+  },
+  "note": {
+   "light set # was never captured: its ambient is the host default": 3,
+   "coordinate # is not a node of its effect, the actor itself is used": 1
+  },
+  "not rendered": {
+   "#": 1
+  },
+  "mesh without shader": {
+   "mesh #: shader samples material texture #, the material has #": 1
+  },
+  "importer gap": {
+   "model: skinned NUD vertices (bone type #)": 1,
+   "model: mesh # (shader key #): shader samples material texture #, the material has #": 1
+  }
+ },
+ "per_file": {
+  "5efb_9ind1_x": {
+   "package": "5efb_9ind1_x",
+   "scripts": {
+    "5efb_9ind1_amt00_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_amt00_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_amt00_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_amt00_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4efb_amt1_blt00",
+      "4efb_amt1_hit00"
+     ],
+     "frames": 341,
+     "peak_particles": 71,
+     "draws": 1786,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_awaskl1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_awaskl1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_fcv_radial_blur00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_awaskl1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "9indeff1_awsskl1_shock_bltc00",
+      "1efc_fcv_radial_blur00",
+      "1efc_hitl03"
+     ],
+     "frames": 171,
+     "peak_particles": 76,
+     "draws": 1015,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_awaskl1_e_ge01": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_awaskl1_e_ge01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_skl1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_skl1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5efb_9ind1_skl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "5efb_9ind1_thunder00_l",
+      "5efb_9ind1_tnd00_hit"
+     ],
+     "frames": 62,
+     "peak_particles": 166,
+     "draws": 1445,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_skl1_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_skl1_e_begin01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl1_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5efb_9ind1_skl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "5efb_9ind1_thunder01_l",
+      "5efb_9ind1_tnd00_hit"
+     ],
+     "frames": 197,
+     "peak_particles": 166,
+     "draws": 10792,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_skl1_e_begin02": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_skl1_e_begin02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl1_e_blt02",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [],
+     "frames": 160,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_skl2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_skl2_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5efb_9ind1_skl2_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "5efb_9ind1_skl2_begin00",
+      "5efb_9ind1_skl2_blt00"
+     ],
+     "frames": 391,
+     "peak_particles": 277,
+     "draws": 9074,
+     "notes": [
+      "5efb_9ind1_skl2_e_hit01: coordinate attach_fire00 is not a node of its effect, the actor itself is used"
+     ],
+     "skipped": {
+      "5efb_9ind1_bd_amt04": 37
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "5efb_9ind1_skl2_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "5efb_9ind1_skl2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 7 was never captured: its ambient is the host default",
+    "light set 0 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {
+    "5efb_9ind1_bd_amt04": "mesh 1: shader samples material texture 1, the material has 1"
+   },
+   "not_imported": [
+    [
+     "model 1efc_stn06_body",
+     "skinned NUD vertices (bone type 0x10)"
+    ],
+    [
+     "model 5efb_9ind1_bd_amt04",
+     "mesh 0 (shader key 0x9f007): shader samples material texture 1, the material has 1"
+    ]
+   ],
+   "meshes_drawn": 81,
+   "meshes_never_drawn": [
+    "storm_fx_r21_5efb_9ind1_x_1efc_bd_smk21_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_bd_smk22_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_bd_smk23_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_bd_smk24_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_bd_wtr02_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_nor_rpl01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_part11b_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_part18b_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_rpl01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_rpl01_b_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_00_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_02_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_03_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_04_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_05_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_06_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock11_07_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_00_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_02_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_03_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_04_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_05_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_06_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_shock12_07_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_smk09_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_smk10_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_stn01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_stn03_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_stn05_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr06_00_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr07_00_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr08_00_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr08_01_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr08_03_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr09_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr10_1",
+    "storm_fx_r21_5efb_9ind1_x_1efc_wtr11_1",
+    "storm_fx_r21_5efb_9ind1_x_4efb_amt08_1",
+    "storm_fx_r21_5efb_9ind1_x_4efb_amt09_1",
+    "storm_fx_r21_5efb_9ind1_x_4efb_amt10_1",
+    "storm_fx_r21_5efb_9ind1_x_4efb_amt13_1",
+    "storm_fx_r21_5efb_9ind1_x_4efb_amt15_1",
+    "storm_fx_r21_5efb_9ind1_x_5efb_8ssf1_bd_smk01_1",
+    "storm_fx_r21_5efb_9ind1_x_5efb_9ind1_amt14_1",
+    "storm_fx_r21_5efb_9ind1_x_9indeff1_spark04_1"
+   ]
+  }
+ }
+}

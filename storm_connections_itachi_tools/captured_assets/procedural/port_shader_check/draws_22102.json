@@ -1,0 +1,242 @@
+{
+ "2087": {
+  "digest": "e9425a2a1ee6e864adeb5a04b56ee0c486d447f23adf39088dd0c4c1ddd69fda",
+  "family": "19f007_p",
+  "pixels": 1396,
+  "exact": 1396,
+  "within_1": 1396,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5144": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 27572,
+  "exact": 27566,
+  "within_1": 27572,
+  "coverage_mismatch": 0,
+  "max_error_255": 1.0000001192092896,
+  "pixels_over_1": 0
+ },
+ "5157": {
+  "digest": "7713abb7164bc408e9ed0c6659ba708171199c7dcf1fb0b9ab94bdd05a23b171",
+  "family": "c4ee9b55",
+  "pixels": 22156,
+  "exact": 22155,
+  "within_1": 22156,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5170": {
+  "digest": "7713abb7164bc408e9ed0c6659ba708171199c7dcf1fb0b9ab94bdd05a23b171",
+  "family": "c4ee9b55",
+  "pixels": 7713,
+  "exact": 7713,
+  "within_1": 7713,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5185": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 19115,
+  "exact": 19102,
+  "within_1": 19115,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5198": {
+  "digest": "7713abb7164bc408e9ed0c6659ba708171199c7dcf1fb0b9ab94bdd05a23b171",
+  "family": "c4ee9b55",
+  "pixels": 0,
+  "exact": 0,
+  "within_1": 0,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5213": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 93073,
+  "exact": 93045,
+  "within_1": 93073,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5228": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 6115,
+  "exact": 6112,
+  "within_1": 6115,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5243": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 105336,
+  "exact": 105297,
+  "within_1": 105336,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5258": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 5192,
+  "exact": 5192,
+  "within_1": 5192,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5273": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 0,
+  "exact": 0,
+  "within_1": 0,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5288": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 2845,
+  "exact": 2845,
+  "within_1": 2845,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5303": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 16835,
+  "exact": 16835,
+  "within_1": 16835,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5318": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 0,
+  "exact": 0,
+  "within_1": 0,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5333": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 30203,
+  "exact": 30201,
+  "within_1": 30203,
+  "coverage_mismatch": 0,
+  "max_error_255": 1.0000001192092896,
+  "pixels_over_1": 0
+ },
+ "5348": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 41014,
+  "exact": 41008,
+  "within_1": 41014,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5363": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 42010,
+  "exact": 41999,
+  "within_1": 42010,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5378": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 17240,
+  "exact": 17240,
+  "within_1": 17240,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5393": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 28038,
+  "exact": 28028,
+  "within_1": 28038,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5408": {
+  "digest": "e4646a645711da285321cdc97d7bdc1d21e0c973ef64c72d60b8c8e247a75ef2",
+  "family": "915c5e6e",
+  "pixels": 104330,
+  "exact": 104297,
+  "within_1": 104330,
+  "coverage_mismatch": 0,
+  "max_error_255": 1.0000008344650269,
+  "pixels_over_1": 0
+ },
+ "5714": {
+  "digest": "a0926fce66157d055863db65604ef8ca24d8b24e75a2e55622a48ea1279821ab",
+  "family": "19f002_p",
+  "pixels": 6058,
+  "exact": 6058,
+  "within_1": 6058,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5732": {
+  "digest": "a0926fce66157d055863db65604ef8ca24d8b24e75a2e55622a48ea1279821ab",
+  "family": "19f002_p",
+  "pixels": 7634,
+  "exact": 7633,
+  "within_1": 7634,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.9999999403953552,
+  "pixels_over_1": 0
+ },
+ "5750": {
+  "digest": "a0926fce66157d055863db65604ef8ca24d8b24e75a2e55622a48ea1279821ab",
+  "family": "19f002_p",
+  "pixels": 5383,
+  "exact": 5383,
+  "within_1": 5383,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ },
+ "5768": {
+  "digest": "a0926fce66157d055863db65604ef8ca24d8b24e75a2e55622a48ea1279821ab",
+  "family": "19f002_p",
+  "pixels": 1203,
+  "exact": 1203,
+  "within_1": 1203,
+  "coverage_mismatch": 0,
+  "max_error_255": 0.0,
+  "pixels_over_1": 0
+ }
+}

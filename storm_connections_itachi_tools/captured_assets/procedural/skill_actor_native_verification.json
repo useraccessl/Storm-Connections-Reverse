@@ -1,0 +1,17 @@
+{
+ "cases": 400,
+ "checks": {
+  "spread 0x1410abed0": 3200,
+  "setup 0x140a6cb10": 400,
+  "elevatorStart 0x140a6e700": 400,
+  "sinCurveStart 0x140a6f030": 400,
+  "crawlerStart 0x140a6e430": 400,
+  "arrow update 0x140a6ce80": 2400,
+  "elevator update 0x140a6e670": 2400,
+  "sinCurve update 0x140a6eb60": 2400,
+  "crawler update 0x140a6e0d0": 2400,
+  "nWay launches": 1647,
+  "randomCreation launches": 1609
+ },
+ "scope": "Byte-exact against NSUNSC.exe code run in process (native_image.py). Stage collision, the BOUNDBALL class and the character-specific guidance branches are not covered."
+}

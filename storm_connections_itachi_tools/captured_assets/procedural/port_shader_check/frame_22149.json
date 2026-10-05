@@ -1,0 +1,66 @@
+{
+  "frame": 22149,
+  "signature": "888da036868a0e9277cdd7e4c0a13c4489b551e45815b1cf7e96a31ff8aad086",
+  "families": {
+    "c4ee9b55": {
+      "draws": 29,
+      "pixels": 275409,
+      "exact": 275397,
+      "within_1": 275409,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "19f007_p": {
+      "draws": 1,
+      "pixels": 1153,
+      "exact": 1153,
+      "within_1": 1153,
+      "max_error_255": 0.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "915c5e6e": {
+      "draws": 47,
+      "pixels": 6763025,
+      "exact": 6761276,
+      "within_1": 6763024,
+      "max_error_255": 127.5,
+      "coverage_mismatch": 1,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f002_p": {
+      "draws": 4,
+      "pixels": 6574829,
+      "exact": 6574807,
+      "within_1": 6574829,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f008_p": {
+      "draws": 0,
+      "pixels": 0,
+      "exact": 0,
+      "within_1": 0,
+      "max_error_255": 0.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 12
+    }
+  },
+  "draws_over_1": [
+    {
+      "frame": 22149,
+      "event": 5945,
+      "family": "915c5e6e",
+      "max_error_255": 127.5,
+      "pixels_over_1": 1,
+      "pixels": 82274
+    }
+  ]
+}

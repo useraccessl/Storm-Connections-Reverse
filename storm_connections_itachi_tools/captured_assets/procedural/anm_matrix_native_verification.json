@@ -1,0 +1,10 @@
+{
+  "casesPerFunction": 3000,
+  "matrixMultiply": "0x1411e7c00",
+  "columnScale": "0x141281e90",
+  "codeSha256": {
+    "multiply": "79a3bd94e49678823f5dec88171efeb01316571bd9899b4e86c97652194c8c96",
+    "scale": "aace25727fdf80f7d5bd2db7f15a1b61ee3846e7d2334fc31c5c1ea91e1e3e74"
+  },
+  "scope": "Byte-exact 16 float outputs; guards and input preservation. Model parent transform, controller composition and Source layout remain pending."
+}

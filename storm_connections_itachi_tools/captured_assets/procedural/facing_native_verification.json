@@ -1,0 +1,12 @@
+{
+  "cases": 2000,
+  "worstRelativeDifference": {
+    "model": 1.5234155275664555e-07,
+    "billboard": 6.106735367938931e-06
+  },
+  "functions": {
+    "model": "0x1412d4f40",
+    "billboard": "0x1412c84b0",
+    "caller": "0x1412d1870"
+  }
+}

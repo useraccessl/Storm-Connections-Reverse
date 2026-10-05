@@ -1,0 +1,7 @@
+{
+  "cases": 4121,
+  "function": "0x141395000",
+  "codeSha256": "a5e39b77fc3ced9a5f3c877755a08087e71c64604400631cea83473f9da02d99",
+  "verification": "All three floats byte exact; original tail setter and relocated literal constants; memory guards",
+  "limitations": "Point-light controller field mapping statically transcribed; rendering of light and deferred compositing not verified."
+}

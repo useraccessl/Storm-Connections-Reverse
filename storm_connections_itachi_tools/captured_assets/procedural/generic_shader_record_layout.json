@@ -1,0 +1,425 @@
+{
+  "executable_sha256": "cecf0405b5ac00b9b9c95e8ff594bde5f8543413b6308f74991c701218b20d1e",
+  "status": "Static reverse confirmed through semantic staging, deferred value updates, constant-buffer upload/bind, shader/texture/sampler commands, fixed state, concrete D3D11 calls and the full deferred-queue traversal; particle, trail and postprocess producers remain open.",
+  "superseded_by": {
+    "document": "shader_constant_pipeline.md",
+    "machine_readable": [
+      "mm_draw_command_inventory.json",
+      "constant_buffer_model_check.json"
+    ],
+    "corrections_r43_r48": {
+      "semantic_binding_registry.descriptor_table.row_fields": "+0x00 Program*, +0x08 CBufferDef*, +0x10 Variable* {u32 StartOffset, u32 Size | stageMask << 24}; rows built by 0x141236230",
+      "semantic_binding_registry.shader_specific_row_builder_va": "0x1412e30a0 and 0x1412e0ed0 are NUD material loading code, unrelated to staging",
+      "command_families.type_name": "classes are mmDrawCommand_*; +0x28 is a category shared by several classes",
+      "sampler_execute_callbacks[tag 13, 0x141b8e090]": "mmDrawCommand_nummDrawCommand_Function (closure); mmDrawCommand_BindSampler is vtable 0x141b91320, execute 0x1413f2e50",
+      "context_slot_0x238": "ID3D11DeviceContext::CSSetConstantBuffers",
+      "bind_constant_buffer_payload": "+0x30 stage selector (1 VS, 2 PS, 6 CS, 7 VS+PS), +0x34 register slot, +0x38 backend buffer object",
+      "update_constant_buffer_payload": "+0x30 snapshot pointer, +0x38 byte size, +0x40 backend buffer object (ID3D11Buffer* at +0x40)",
+      "command_traversal": "per-thread stable sort 0x1413f8cc0 at flush 0x14121b570; merge 0x1413f8990 and execution 0x1413f8510 on RenderThread 0x1413fc180",
+      "trail_draw_callbacks": "0x1412d2b90 / 0x1412d2630 were not re-verified; nuccDrawCmd_DrawTrail::Execute is 0x141389f40. 0x1412d28b0, 0x1412d1870, 0x1412d24c0, 0x1412d2fe0 are the DrawModelShadow / DrawModel / DrawModelOutline / DrawModelVelocity bodies"
+    }
+  },
+  "semantic_binding_registry": {
+    "manager_global": "0x149708cf0",
+    "name_lookup_va": "0x141239390",
+    "name_register_va": "0x141239450",
+    "runtime_id_lookup_or_create_va": "0x141239510",
+    "descriptor_by_id_va": "0x141239760",
+    "shader_specific_row_builder_va": "0x1412e30a0",
+    "shader_binding_matcher_va": "0x1412e0ed0",
+    "descriptor_table": {
+      "base_offset": "0x2008",
+      "end_offset": "0x2010",
+      "row_stride": 24,
+      "id_kind": "CPU descriptor index; not a GPU register",
+      "row_fields": {
+        "dispatch_pointer": "0x00",
+        "semantic_key": "0x08",
+        "copy_metadata_pointer": "0x10"
+      }
+    },
+    "verified_path": "semantic name -> descriptor ID -> 64-bit semantic key -> active shader-specific copy row -> CPU staging memcpy",
+    "open": [
+      "parsed shader inventory provenance",
+      "precise shader-stage and copy-row field semantics",
+      "GPU constant-buffer upload/register mapping",
+      "concrete renderer implementation behind texture/sampler command slots"
+    ]
+  },
+  "sampler_queue": {
+    "binder_va": "0x14123c0e0",
+    "append_unique_va": "0x14123c220",
+    "queue_entry": "sampler descriptor pointer",
+    "vector": {
+      "begin_offset": "0x00",
+      "end_offset": "0x08",
+      "capacity_offset": "0x10",
+      "element_stride": 8
+    },
+    "verified": "binder deduplicates descriptor pointers before appending",
+    "backend_consumer": "per-record execute callbacks are known; concrete renderer slot implementations remain unresolved"
+  },
+  "draw_command_packaging": {
+    "draw_entry_va": "0x1412f4c30",
+    "generic_parameter_dispatch_va": "0x141337b50",
+    "draw_prepare_va": "0x141248b70",
+    "shader_state_packager_va": "0x1412370a0",
+    "value_binding_packager_va": "0x141236b60",
+    "sampler_binding_packager_va": "0x141236d70",
+    "observed_command_tags": [
+      2,
+      4,
+      6,
+      10,
+      13
+    ],
+    "sampler_tags_observed": [
+      10,
+      13
+    ],
+    "command_families": [
+      {
+        "tag": 2,
+        "type_name": "Command_RenderPolygon",
+        "vtable_va": "0x141b8e338",
+        "execute_va": "0x1413f3570",
+        "renderer_virtual_slots": [
+          "0x80",
+          "0x88"
+        ],
+        "selector_offset": "0x78"
+      },
+      {
+        "tag": 4,
+        "type_name": "Command_UpdateRenderState",
+        "vtable_va": "0x141badcc8",
+        "execute_va": "0x1413f3ae0",
+        "snapshot_converter_va": "0x141400360",
+        "context_update_va": "0x141420cc0"
+      },
+      {
+        "tag": 6,
+        "type_name": "Command_SetShader",
+        "vtable_va": "0x141b8e030",
+        "execute_va": "0x1413f39d0",
+        "renderer_virtual_slot": "0xa0"
+      },
+      {
+        "tag": 9,
+        "type_name": "mmDrawCommand_BindConstantBuffer",
+        "vtable_va": "0x141b913c0",
+        "creation_va": "0x141401340",
+        "enqueue_va": "0x1413f3c30",
+        "execute_va": "0x1413f2df0",
+        "renderer_virtual_slot": "0xb0",
+        "payload_fields": {
+          "binding_id": "+0x30",
+          "stage_index": "+0x34",
+          "buffer_reference": "+0x38"
+        },
+        "notes": "The tag-9 producer receives each cloned active value-binding descriptor; enqueue resolves its buffer reference from descriptor+8 before execution. Verified helpers issue VS/PS constant-buffer binds; an additional context slot +0x238 remains unidentified."
+      },
+      {
+        "tag": 16,
+        "type_name": "mmDrawCommand_UpdateConstantBuffer",
+        "vtable_va": "0x141baddf0",
+        "creation_va": "0x1414032b0",
+        "initialize_va": "0x1413f4330",
+        "execute_va": "0x1413f3a80",
+        "renderer_virtual_slot": "0xa8",
+        "payload_fields": {
+          "source_data": "+0x30",
+          "buffer_reference": "+0x38",
+          "resource_reference": "+0x40"
+        },
+        "notes": "Created from the value-binding staging entry by 0x141236b60; executed before its tag-9 bind command."
+      }
+    ],
+    "sampler_execute_callbacks": [
+      {
+        "command_tag": 10,
+        "vtable_va": "0x141b8d5e0",
+        "type_name": "Command_BindTexture",
+        "execute_va": "0x1413f3050",
+        "renderer_virtual_slot": "0xb8",
+        "arguments": [
+          "binding_id@+0x30",
+          "stage_or_index@+0x34",
+          "resource@+0x38"
+        ]
+      },
+      {
+        "command_tag": 13,
+        "vtable_va": "0x141b8e090",
+        "execute_vas": [
+          "0x1412390e0",
+          "0x141239110"
+        ],
+        "payload_mapper_va": "0x141237410",
+        "renderer_virtual_slot": "0xc0"
+      }
+    ],
+    "renderer_backend_virtual_slots": {
+      "texture_command": "0xb8",
+      "sampler_or_resource_state_mapper": "0xc0",
+      "concrete_d3d11_methods": "unresolved",
+      "constant_buffer_update": "0xa8 -> 0x1414185d0 -> ID3D11DeviceContext::UpdateSubresource",
+      "constant_buffer_bind": "0xb0 -> 0x141414bc0 -> stage-aware constant-buffer binding; verified helper paths call VSSetConstantBuffers (+0x38) and PSSetConstantBuffers (+0x80); additional branch calls context slot +0x238, API identity unresolved"
+    },
+    "verified_path": "per-thread shader/sampler binding container -> draw-side linked command records and state snapshots",
+    "state_snapshot_record": {
+      "producer_va": "0x141400980",
+      "allocation_size": "0x110",
+      "command_tag": 4,
+      "state_copy_range": "0x30..0xf0",
+      "context_pointer_offsets": [
+        "0x100"
+      ],
+      "flag_offset": "0x108"
+    },
+    "thread_context_record": {
+      "producer_va": "0x1412370a0",
+      "command_tag": 6,
+      "context_pointer_sources": [
+        "+0xf8",
+        "+0x1e8"
+      ]
+    },
+    "cleanup_va": "0x141237b80",
+    "command_interpreter_and_d3d_submission": "Value flow now statically traced: generic semantic staging -> per-shader value descriptor -> tag-16 UpdateConstantBuffer -> D3D11 UpdateSubresource -> tag-9 BindConstantBuffer -> stage-specific SetConstantBuffers. Full queue traversal/order outside this per-binding pair and particle subsystem coverage remain open.",
+    "shader_command_binding_order": [
+      "active value-binding entries via 0x141239d10 -> 0x141236b60",
+      "active sampler entries via 0x141239d10 -> 0x141236d70"
+    ],
+    "constructed_command_tags": [
+      9,
+      16
+    ],
+    "value_command_order": "For each eligible staged value entry, 0x141236b60 constructs/queues tag 16 (upload) and then tag 9 (bind)."
+  },
+  "graphics_backend_initialization": {
+    "backend": "Direct3D 11",
+    "evidence": "static call chain reaches imported d3d11.dll!D3D11CreateDevice",
+    "callback_global_va": "0x149751dd0",
+    "global_initializer_va": "0x1413f03c0",
+    "setup_va": "0x1413f0610",
+    "context_vtable_va": "0x141bacd80",
+    "context_initialize_va": "0x1413f1070",
+    "device_setup_va": "0x1413f1290",
+    "device_create_va": "0x141415b10",
+    "import_thunk_va": "0x14162dd53",
+    "d3d11_create_device_iat_va": "0x141736410",
+    "scope": "Device/context creation, draw/shader/texture/sampler/fixed-state calls, and generic constant-buffer update/bind are identified; full queue traversal and all particle-specific command routes remain open."
+  },
+  "d3d11_command_submission": {
+    "renderer_backend_vtable_va": "0x141bae0c0",
+    "device_context_field_offset_in_backend": "0x50",
+    "context_is_d3d11_create_device_output": true,
+    "backend_command_methods": {
+      "renderer_slot_0x80_draw_indexed": "0x141417a40",
+      "renderer_slot_0x88_draw": "0x1414178d0",
+      "renderer_slot_0xa0_set_shader": "0x141418360",
+      "renderer_slot_0xb8_bind_texture": "0x141414fc0",
+      "renderer_slot_0xc0_bind_sampler": "0x141414e10",
+      "renderer_slot_0xd8_set_depth_stencil": "0x141417d70",
+      "renderer_slot_0xe0_set_blend_state": "0x141417d00",
+      "renderer_slot_0xe8_set_rasterizer_state": "0x141417e50",
+      "renderer_slot_0x158_dispatch_compute": "0x141416250",
+      "renderer_slot_0xa8_update_constant_buffer": "0x1414185d0 -> ID3D11DeviceContext::UpdateSubresource (subresource 0; null destination box; source pointer from update-command payload; zero pitches)",
+      "renderer_slot_0xb0_bind_constant_buffer": "0x141414bc0 -> stage-aware constant-buffer binding; verified context slots: +0x38 VSSetConstantBuffers, +0x80 PSSetConstantBuffers; an additional branch calls context slot +0x238, whose interface/method identity remains unresolved"
+    },
+    "id3d11devicecontext_methods_by_byte_offset": {
+      "0x40": "PSSetShaderResources",
+      "0x48": "PSSetShader",
+      "0x50": "PSSetSamplers",
+      "0x58": "VSSetShader",
+      "0x60": "DrawIndexed",
+      "0x68": "Draw",
+      "0x88": "IASetInputLayout",
+      "0x90": "IASetVertexBuffers",
+      "0x98": "IASetIndexBuffer",
+      "0xc8": "VSSetShaderResources",
+      "0xd0": "VSSetSamplers",
+      "0x118": "OMSetBlendState",
+      "0x120": "OMSetDepthStencilState",
+      "0x148": "Dispatch",
+      "0x158": "RSSetState",
+      "0x38": "VSSetConstantBuffers",
+      "0x80": "PSSetConstantBuffers",
+      "0x180": "UpdateSubresource"
+    },
+    "evidence_scope": "Fixed-state creation and apply calls plus compute dispatch are mapped; blend-factor provenance, packed-state source semantics, cache-to-draw timing, and constant-buffer upload remain open",
+    "fixed_state_and_compute_argument_evidence": {
+      "0x141417d70_context_0x120": "state pointer plus stencil reference",
+      "0x141417d00_context_0x118": "state pointer plus blend-factor array plus sample mask 0xffffffff",
+      "0x141417e50_context_0x158": "rasterizer state pointer",
+      "0x141416250_context_0x148": "three incoming UINT dimensions x,y,z"
+    },
+    "command_execution_open": "Full linked-list traversal/order and coverage of all particle/render command families remain open; generic value constant-buffer upload and VS/PS binding are statically traced, with one additional +0x238 context branch unresolved."
+  },
+  "particle_render_subsystems": {
+    "rtti_confirmed_types": [
+      {
+        "type_name": "nuccParticleManagerRenderer",
+        "primary_vtable_va": "0x141b914f0"
+      },
+      {
+        "type_name": "nuccParticleNodeListRenderer",
+        "primary_vtable_va": "0x141b9a7a0"
+      },
+      {
+        "type_name": "nuccTrailRenderer",
+        "primary_vtable_va": "0x141b9c010"
+      },
+      {
+        "type_name": "nuccParticleRenderThread",
+        "primary_vtable_va": "0x141b9a830"
+      },
+      {
+        "type_name": "nuccTrailRenderThread",
+        "primary_vtable_va": "0x141b9c170"
+      }
+    ],
+    "primitive_draw_callbacks": [
+      "0x1412fdaf0",
+      "0x1412fdb90"
+    ],
+    "common_draw_prepare_va": "0x141249850",
+    "trail_draw_callbacks": [
+      "0x1412d2b90",
+      "0x1412d2630"
+    ],
+    "trail_matrix_compose_va": "0x1412d3c40",
+    "trail_request_queue_append_va": "0x1412fe4c0",
+    "trail_request_queue": {
+      "owner": "per-trail object",
+      "linked_list_field_offset": "0x58",
+      "request_count_offset": "0x38",
+      "global_lock_va": "0x14974b530",
+      "global_lock_offset": "0x58",
+      "thread_work_ring_fields": "0x248..0x260",
+      "handoff_to_thread_ring": "unresolved"
+    },
+    "trail_material_update_va": "0x1412c7dd0",
+    "evidence_scope": "RTTI confirms distinct renderer/thread types; callback behavior is statically traced, but effect-to-subsystem usage and native D3D mapping remain open"
+  },
+  "registry": {
+    "global_pointer_va": "0x14974d558",
+    "initializer_va": "0x1413352c0",
+    "header": {
+      "record_count_offset": "0x00",
+      "record_array_pointer_offset": "0x08",
+      "key_tree_offset": "0x28",
+      "record_stride": "0x130"
+    },
+    "key_lookup_va": "0x1413356d0",
+    "record_lookup_va": "0x141335710",
+    "key_tree_node": {
+      "key_offset": "0x1c",
+      "record_index_offset": "0x20"
+    }
+  },
+  "record": {
+    "shader_key_offset": "0x00",
+    "runtime_binding_id_array": {
+      "start_offset": "0x04",
+      "element_stride": "0x04",
+      "element_count": 72,
+      "field_offset_formula": "0x04 + 4*accessor_index",
+      "missing_binding_value": "0xffffffff"
+    },
+    "active_accessor_mask": {
+      "start_offset": "0x124",
+      "byte_count": 10,
+      "bit_index": "accessor_index",
+      "byte_offset_formula": "0x124 + floor(accessor_index/8)",
+      "bit_mask_formula": "1 << (accessor_index mod 8)"
+    }
+  },
+  "population": {
+    "accessor_name_table_count": 72,
+    "shader_key_inventory_count_helper_va": "0x14123bb10",
+    "shader_key_at_inventory_index_helper_va": "0x14123bab0",
+    "per_shader_name_to_binding_lookup_va": "0x14123bb70",
+    "initializer_behavior": [
+      "allocate and zero record_count * 0x130 bytes",
+      "write one shader key at record + 0",
+      "for each accessor name, query that shader's binding ID",
+      "write non-missing IDs to record + 4 + 4*accessor_index",
+      "set the mask bit for each non-missing ID"
+    ],
+    "per_shader_binding_lookup": "0x14123bb70 resolves shader ID to shader metadata, looks up the semantic name, creates/registers missing name descriptors when required, and returns the binding ID; the final GPU register mapping is not established here"
+  },
+  "dispatch": {
+    "active_accessor_loop_va": "0x141337b50",
+    "function_table_va": "0x141b9d2d8",
+    "function_count": 72,
+    "runtime_binding_dispatch": "selected accessor reads record + 4 + 4*accessor_index, then value accessors use 0x14123bf10 and resource accessors use 0x14123c0e0"
+  },
+  "renderer_backend_virtual_slots": {
+    "draw_indexed": {
+      "slot": "0x80",
+      "method": "0x141417a40",
+      "calls": [
+        "IASetInputLayout",
+        "IASetVertexBuffers",
+        "IASetIndexBuffer",
+        "DrawIndexed"
+      ]
+    },
+    "draw": {
+      "slot": "0x88",
+      "method": "0x1414178d0",
+      "calls": [
+        "IASetInputLayout",
+        "IASetVertexBuffers",
+        "IASetIndexBuffer",
+        "Draw"
+      ]
+    },
+    "set_shader": {
+      "slot": "0xa0",
+      "method": "0x141418360",
+      "calls": [
+        "VSSetShader",
+        "PSSetShader"
+      ]
+    },
+    "bind_texture": {
+      "slot": "0xb8",
+      "method": "0x141414fc0",
+      "calls": [
+        "VSSetShaderResources",
+        "PSSetShaderResources"
+      ]
+    },
+    "bind_sampler": {
+      "slot": "0xc0",
+      "method": "0x141414e10",
+      "calls": [
+        "VSSetSamplers",
+        "PSSetSamplers"
+      ]
+    },
+    "set_depth_stencil": {
+      "slot": "0xd8",
+      "method": "0x141417d70",
+      "call": "OMSetDepthStencilState"
+    },
+    "set_blend": {
+      "slot": "0xe0",
+      "method": "0x141417d00",
+      "call": "OMSetBlendState"
+    },
+    "set_rasterizer": {
+      "slot": "0xe8",
+      "method": "0x141417e50",
+      "call": "RSSetState"
+    },
+    "dispatch_compute": {
+      "slot": "0x158",
+      "method": "0x141416250",
+      "call": "Dispatch"
+    }
+  }
+}

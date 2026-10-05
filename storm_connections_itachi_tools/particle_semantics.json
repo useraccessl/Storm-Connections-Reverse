@@ -1,0 +1,1187 @@
+[
+  {
+    "name": "2efb_amt_blt00",
+    "emitters": [
+      {
+        "id": 1,
+        "resources": [
+          "2efb_amt00"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 1,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 10.0,
+        "spawn_radius_0x24": 40.0,
+        "spawn_radial_random_fraction_0x28": 0.6000000238418579,
+        "base_lifetime_counter_0x2c": 15,
+        "lifetime_random_multiplier_0x30": 0.5,
+        "speed_base_0x34": 1.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.0,
+          0.0,
+          0.30000001192092896
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          2.0,
+          2.0,
+          1.0
+        ],
+        "size_end_0x80": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 1,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 2,
+        "resources": [
+          "2efb_amt00"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 1,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 10.0,
+        "spawn_radius_0x24": 10.0,
+        "spawn_radial_random_fraction_0x28": 1.0,
+        "base_lifetime_counter_0x2c": 10,
+        "lifetime_random_multiplier_0x30": 0.5,
+        "speed_base_0x34": 0.30000001192092896,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          2.0,
+          2.0,
+          1.5
+        ],
+        "size_end_0x80": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 2,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 3,
+        "resources": [
+          "2efb_amt01"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 0,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 5.0,
+        "spawn_radius_0x24": 20.0,
+        "spawn_radial_random_fraction_0x28": 1.0,
+        "base_lifetime_counter_0x2c": 50,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 0.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.5,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.5,
+          0.30000001192092896,
+          0.5
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          1.0,
+          0.6000000238418579,
+          1.0
+        ],
+        "size_end_0x80": [
+          1.5,
+          1.2000000476837158,
+          1.5
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 3,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 4,
+        "resources": [
+          "2efb_amt_ptc02"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 2,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 3,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 15.0,
+        "spawn_radius_0x24": 0.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 8,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 0.10000000149011612,
+        "speed_random_multiplier_0x38": 0.5,
+        "direction_angles_0x3c_0x40": [
+          0.0,
+          0.0
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          0.0,
+          0.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.20000000298023224,
+          0.30000001192092896,
+          0.20000000298023224
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          3.0,
+          1.0,
+          1.0
+        ],
+        "size_end_0x80": [
+          5.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.0,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.6745098233222961,
+        "event_entry": {
+          "emitter_id": 4,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 5,
+        "resources": [
+          "2efb_amt04"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 3.0,
+        "spawn_radius_0x24": 30.000001907348633,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 30,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 2.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.20000000298023224,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.6000000238418579
+        ],
+        "size_end_0x80": [
+          0.8999999761581421,
+          0.8999999761581421,
+          0.8999999761581421
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 5,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 6,
+        "resources": [
+          "2efb_amt06",
+          "2efb_amt07"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 5.0,
+        "spawn_radius_0x24": 30.000001907348633,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 30,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 2.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.20000000298023224,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.6000000238418579
+        ],
+        "size_end_0x80": [
+          0.8999999761581421,
+          0.8999999761581421,
+          0.8999999761581421
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 6,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 7,
+        "resources": [
+          "2efb_amt10",
+          "2efb_amt11"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 3.0,
+        "spawn_radius_0x24": 10.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 40,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 0.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.20000000298023224,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_end_0x80": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "size_middle_life_fraction_0x8c": 0.44980719685554504,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 7,
+          "events": [
+            {
+              "raw": "0x00000021",
+              "clock_threshold_ms": 33,
+              "action": "stop_emission",
+              "start_flag": false,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 8,
+        "resources": [
+          "2efb_amt00"
+        ],
+        "emission_mode_byte_0x10": 1,
+        "emission_kind": "direct_count",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 1,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 1.0,
+        "spawn_radius_0x24": 0.0,
+        "spawn_radial_random_fraction_0x28": 1.0,
+        "base_lifetime_counter_0x2c": 10,
+        "lifetime_random_multiplier_0x30": 0.5,
+        "speed_base_0x34": 0.30000001192092896,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0872664675116539,
+          0.0872664675116539
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          2.0,
+          2.0,
+          1.5
+        ],
+        "size_end_0x80": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 8,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "2efb_amt_hit00",
+    "emitters": [
+      {
+        "id": 1,
+        "resources": [
+          "1efc_ring09",
+          "1efc_ring13"
+        ],
+        "emission_mode_byte_0x10": 1,
+        "emission_kind": "direct_count",
+        "shape_selector_0x11": 2,
+        "direction_selector_0x12": 0,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 5.0,
+        "spawn_radius_0x24": 0.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 3,
+        "lifetime_random_multiplier_0x30": 1.0,
+        "speed_base_0x34": 0.0,
+        "speed_random_multiplier_0x38": 0.5,
+        "direction_angles_0x3c_0x40": [
+          0.39269909262657166,
+          0.39269909262657166
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          0.25,
+          0.5
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.0,
+        "fade_out_lifetime_fraction_0x50": 0.800000011920929,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          4.0,
+          4.0,
+          1.0
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "size_middle_0x74": [
+          8.0,
+          8.0,
+          1.0
+        ],
+        "size_end_0x80": [
+          12.0,
+          12.0,
+          1.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.5123099088668823,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 1,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 2,
+        "resources": [
+          "2efb_amt02"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 2,
+        "direction_selector_0x12": 0,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 0,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 7.0,
+        "spawn_radius_0x24": 0.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 30,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 0.0,
+        "speed_random_multiplier_0x38": 0.5,
+        "direction_angles_0x3c_0x40": [
+          0.39269909262657166,
+          0.39269909262657166
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          0.25,
+          0.5
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "size_random_multipliers_0x68": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size_middle_0x74": [
+          0.6000000238418579,
+          0.699999988079071,
+          0.6000000238418579
+        ],
+        "size_end_0x80": [
+          0.8999999761581421,
+          1.100000023841858,
+          0.8999999761581421
+        ],
+        "size_middle_life_fraction_0x8c": 0.4123992919921875,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 2,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": ""
+        }
+      },
+      {
+        "id": 3,
+        "resources": [
+          "2efb_amt00"
+        ],
+        "emission_mode_byte_0x10": 1,
+        "emission_kind": "direct_count",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 0,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 10.0,
+        "spawn_radius_0x24": 130.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 15,
+        "lifetime_random_multiplier_0x30": 1.0,
+        "speed_base_0x34": 10.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.0,
+          0.0
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          0.0,
+          0.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.10000000149011612,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          6.0,
+          4.0,
+          2.0
+        ],
+        "size_random_multipliers_0x68": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "size_middle_0x74": [
+          3.0,
+          8.0,
+          1.0
+        ],
+        "size_end_0x80": [
+          0.0,
+          12.0,
+          0.0
+        ],
+        "size_middle_life_fraction_0x8c": 0.062745101749897,
+        "color_start_0x90": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.46405673027038574,
+        "event_entry": {
+          "emitter_id": 3,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            },
+            {
+              "raw": "0x0000010a",
+              "clock_threshold_ms": 266,
+              "action": "stop_emission",
+              "start_flag": false,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": "00000000"
+        }
+      },
+      {
+        "id": 4,
+        "resources": [
+          "2efb_amt06",
+          "2efb_amt07"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 1,
+        "config_flags_0x16": 2,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 15.0,
+        "spawn_radius_0x24": 200.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 30,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 5.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.1745329350233078,
+          0.1745329350233078
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.10000000149011612,
+        "fade_out_lifetime_fraction_0x50": 0.20000000298023224,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645
+        ],
+        "size_random_multipliers_0x68": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "size_middle_0x74": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ],
+        "size_end_0x80": [
+          1.2000000476837158,
+          1.2000000476837158,
+          1.2000000476837158
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 4,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            },
+            {
+              "raw": "0x0000010a",
+              "clock_threshold_ms": 266,
+              "action": "stop_emission",
+              "start_flag": false,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": "00000000"
+        }
+      },
+      {
+        "id": 5,
+        "resources": [
+          "2efb_amt08",
+          "2efb_amt09",
+          "2efb_amt10",
+          "2efb_amt11"
+        ],
+        "emission_mode_byte_0x10": 0,
+        "emission_kind": "rate_accumulator",
+        "shape_selector_0x11": 1,
+        "direction_selector_0x12": 3,
+        "orientation_selector_0x13": 0,
+        "rotation_selector_0x14": 0,
+        "config_flags_0x16": 3,
+        "simulation_step_override_0x15": 30,
+        "emission_duration_counter_0x1c": -1,
+        "emission_quantity_0x20": 30.0,
+        "spawn_radius_0x24": 200.0,
+        "spawn_radial_random_fraction_0x28": 0.12999999523162842,
+        "base_lifetime_counter_0x2c": 40,
+        "lifetime_random_multiplier_0x30": 0.0,
+        "speed_base_0x34": 1.0,
+        "speed_random_multiplier_0x38": 1.0,
+        "direction_angles_0x3c_0x40": [
+          0.1745329350233078,
+          0.1745329350233078
+        ],
+        "direction_angle_ranges_0x44_0x48": [
+          1.0,
+          1.0
+        ],
+        "fade_in_lifetime_fraction_0x4c": 0.0,
+        "fade_out_lifetime_fraction_0x50": 0.0,
+        "spawn_scalar_base_0x54": 0.5,
+        "spawn_scalar_random_range_0x58": 0.5,
+        "size_start_0x5c": [
+          1.2000000476837158,
+          1.2000000476837158,
+          1.2000000476837158
+        ],
+        "size_random_multipliers_0x68": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "size_middle_0x74": [
+          1.399999976158142,
+          1.399999976158142,
+          1.399999976158142
+        ],
+        "size_end_0x80": [
+          1.600000023841858,
+          1.600000023841858,
+          1.600000023841858
+        ],
+        "size_middle_life_fraction_0x8c": 0.501960813999176,
+        "color_start_0x90": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "color_middle_0xa0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_end_0xb0": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color_middle_life_fraction_0xc0": 0.0,
+        "event_entry": {
+          "emitter_id": 5,
+          "events": [
+            {
+              "raw": "0x80000021",
+              "clock_threshold_ms": 33,
+              "action": "start_emission",
+              "start_flag": true,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            },
+            {
+              "raw": "0x0000010a",
+              "clock_threshold_ms": 266,
+              "action": "stop_emission",
+              "start_flag": false,
+              "stop_flag": false,
+              "other_flags": "0x00000000"
+            }
+          ],
+          "padding_hex": "00000000"
+        }
+      }
+    ]
+  }
+]

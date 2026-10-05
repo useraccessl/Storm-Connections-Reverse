@@ -1,0 +1,317 @@
+{
+	"noRenderer": [],
+	"notImported": 2,
+	"script": "(first root)",
+	"cast": {
+		"scale": 0.5378151260504201,
+		"script": "4efb_amt1_e_begin00",
+		"origin": [
+			682.4874267578125,
+			132,
+			-143.96875
+		]
+	},
+	"duration": 3.50376358628273,
+	"materials": {
+		"shaders": {
+			"screenspace_general_dx9": 25
+		},
+		"errors": [],
+		"count": 25
+	},
+	"screen": [
+		1280,
+		720
+	],
+	"package": "4efb_amt1_x",
+	"samples": [
+		{
+			"uploads": 0,
+			"draws": 0,
+			"failed": [],
+			"effects": [],
+			"skipped": [],
+			"label": "before",
+			"lights": 0,
+			"time": 0.002148538827896118,
+			"renderMs": 0,
+			"updateMs": 0
+		},
+		{
+			"uploads": 23,
+			"draws": 4,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 2,
+					"trails": [
+						{
+							"trail": 0,
+							"samples": 8,
+							"points": 6
+						},
+						{
+							"trail": 1,
+							"samples": 8,
+							"points": 6
+						}
+					],
+					"effect": "4efb_amt1_blt00",
+					"frame": 8
+				}
+			],
+			"skipped": [],
+			"label": "t01_0.15s",
+			"lights": 1,
+			"time": 0.15476742386817932,
+			"renderMs": 0.15169999999997685,
+			"updateMs": 0.2998999999981322
+		},
+		{
+			"uploads": 23,
+			"draws": 14,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 12,
+					"trails": [
+						{
+							"trail": 0,
+							"samples": 10,
+							"points": 9
+						},
+						{
+							"trail": 1,
+							"samples": 10,
+							"points": 9
+						}
+					],
+					"effect": "4efb_amt1_blt00",
+					"frame": 20
+				}
+			],
+			"skipped": [],
+			"label": "t02_0.35s",
+			"lights": 1,
+			"time": 0.35489311814308167,
+			"renderMs": 0.2512000000010062,
+			"updateMs": 0.5275000000004582
+		},
+		{
+			"uploads": 23,
+			"draws": 23,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 21,
+					"trails": [
+						{
+							"trail": 0,
+							"samples": 10,
+							"points": 9
+						},
+						{
+							"trail": 1,
+							"samples": 10,
+							"points": 9
+						}
+					],
+					"effect": "4efb_amt1_blt00",
+					"frame": 35
+				}
+			],
+			"skipped": [],
+			"label": "t03_0.60s",
+			"lights": 1,
+			"time": 0.6051954329013824,
+			"renderMs": 0.29110000000187597,
+			"updateMs": 0.18400000000085015
+		},
+		{
+			"uploads": 23,
+			"draws": 68,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 22,
+					"trails": [
+						{
+							"trail": 0,
+							"samples": 3,
+							"points": 2
+						},
+						{
+							"trail": 1,
+							"samples": 3,
+							"points": 2
+						}
+					],
+					"effect": "4efb_amt1_blt00",
+					"frame": 53
+				},
+				{
+					"particles": 46,
+					"trails": [],
+					"effect": "4efb_amt1_hit00",
+					"frame": 7
+				}
+			],
+			"skipped": [],
+			"label": "t04_0.90s",
+			"lights": 0,
+			"time": 0.9045113623142242,
+			"renderMs": 0.5352000000016233,
+			"updateMs": 0.8505999999997016
+		},
+		{
+			"uploads": 23,
+			"draws": 80,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 12,
+					"trails": [],
+					"effect": "4efb_amt1_blt00",
+					"frame": 77
+				},
+				{
+					"particles": 68,
+					"trails": [],
+					"effect": "4efb_amt1_hit00",
+					"frame": 31
+				}
+			],
+			"skipped": [],
+			"label": "t05_1.30s",
+			"lights": 0,
+			"time": 1.3047384321689606,
+			"renderMs": 0.4215999999992448,
+			"updateMs": 0.2593999999973562
+		},
+		{
+			"uploads": 23,
+			"draws": 69,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 1,
+					"trails": [],
+					"effect": "4efb_amt1_blt00",
+					"frame": 107
+				},
+				{
+					"particles": 68,
+					"trails": [],
+					"effect": "4efb_amt1_hit00",
+					"frame": 61
+				}
+			],
+			"skipped": [],
+			"label": "t06_1.80s",
+			"lights": 0,
+			"time": 1.8063811361789703,
+			"renderMs": 0.3568999999963296,
+			"updateMs": 0.23499999999998522
+		},
+		{
+			"uploads": 23,
+			"draws": 21,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 21,
+					"trails": [],
+					"effect": "4efb_amt1_hit00",
+					"frame": 103
+				}
+			],
+			"skipped": [],
+			"label": "t07_2.50s",
+			"lights": 0,
+			"time": 2.504500299692154,
+			"renderMs": 0.2079000000030362,
+			"updateMs": 0.08610000000075502
+		},
+		{
+			"uploads": 23,
+			"draws": 11,
+			"failed": [],
+			"effects": [
+				{
+					"particles": 11,
+					"trails": [],
+					"effect": "4efb_amt1_hit00",
+					"frame": 163
+				}
+			],
+			"skipped": [],
+			"label": "t08_3.50s",
+			"lights": 0,
+			"time": 3.50376358628273,
+			"renderMs": 0.08430000000103632,
+			"updateMs": 0.1144000000010692
+		}
+	],
+	"errors": [],
+	"captures": [
+		{
+			"file": "before.png",
+			"written": true,
+			"label": "before",
+			"bytes": 1612178
+		},
+		{
+			"file": "t01_0.15s.png",
+			"written": true,
+			"label": "t01_0.15s",
+			"bytes": 1603581
+		},
+		{
+			"file": "t02_0.35s.png",
+			"written": true,
+			"label": "t02_0.35s",
+			"bytes": 1576448
+		},
+		{
+			"file": "t03_0.60s.png",
+			"written": true,
+			"label": "t03_0.60s",
+			"bytes": 1607054
+		},
+		{
+			"file": "t04_0.90s.png",
+			"written": true,
+			"label": "t04_0.90s",
+			"bytes": 1601939
+		},
+		{
+			"file": "t05_1.30s.png",
+			"written": true,
+			"label": "t05_1.30s",
+			"bytes": 1648080
+		},
+		{
+			"file": "t06_1.80s.png",
+			"written": true,
+			"label": "t06_1.80s",
+			"bytes": 1663476
+		},
+		{
+			"file": "t07_2.50s.png",
+			"written": true,
+			"label": "t07_2.50s",
+			"bytes": 1623355
+		},
+		{
+			"file": "t08_3.50s.png",
+			"written": true,
+			"label": "t08_3.50s",
+			"bytes": 1613806
+		}
+	],
+	"version": "r26",
+	"date": "2026-10-03 12:19:42",
+	"gmod": "2026.09.22",
+	"branch": "x86-64",
+	"map": "gm_construct"
+}

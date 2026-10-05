@@ -1,0 +1,294 @@
+{
+ "1efc_fire02#1": {
+  "scenes": 3,
+  "pixels": 866,
+  "exact": 866,
+  "within_1": 866,
+  "within_2": 866,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_fire05#1": {
+  "scenes": 3,
+  "pixels": 859,
+  "exact": 859,
+  "within_1": 859,
+  "within_2": 859,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_ring17#1": {
+  "scenes": 3,
+  "pixels": 881,
+  "exact": 881,
+  "within_1": 881,
+  "within_2": 881,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_efedc79449_ps30",
+  "notes": []
+ },
+ "2efb_kyj01#1": {
+  "scenes": 3,
+  "pixels": 1161,
+  "exact": 1160,
+  "within_1": 1161,
+  "within_2": 1161,
+  "max_error_255": 0.9999999403953552,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_0af55b7092_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1152,
+    "exact": 109,
+    "within_1": 336,
+    "within_2": 520,
+    "max_error_255": 56.000003814697266,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1151,
+    "exact": 1092,
+    "within_1": 1125,
+    "within_2": 1131,
+    "max_error_255": 68.0,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1151,
+    "exact": 1147,
+    "within_1": 1151,
+    "within_2": 1151,
+    "max_error_255": 0.9999999403953552,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "2efb_kyj02_body#1": {
+  "scenes": 3,
+  "pixels": 1149,
+  "exact": 1149,
+  "within_1": 1149,
+  "within_2": 1149,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_116d9963be_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1165,
+    "exact": 152,
+    "within_1": 492,
+    "within_2": 719,
+    "max_error_255": 48.000003814697266,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1165,
+    "exact": 1104,
+    "within_1": 1133,
+    "within_2": 1139,
+    "max_error_255": 49.000003814697266,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1133,
+    "exact": 1124,
+    "within_1": 1132,
+    "within_2": 1132,
+    "max_error_255": 4.999999523162842,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "2efb_kyj05#1": {
+  "scenes": 3,
+  "pixels": 714,
+  "exact": 714,
+  "within_1": 714,
+  "within_2": 714,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_fb8d718c76_ps30",
+  "notes": []
+ },
+ "2efb_kyj09_body#1": {
+  "scenes": 3,
+  "pixels": 853,
+  "exact": 853,
+  "within_1": 853,
+  "within_2": 853,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "2efb_kyj11#1": {
+  "scenes": 3,
+  "pixels": 1145,
+  "exact": 1144,
+  "within_1": 1145,
+  "within_2": 1145,
+  "max_error_255": 0.9999999403953552,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_8541dbee24_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1155,
+    "exact": 146,
+    "within_1": 423,
+    "within_2": 631,
+    "max_error_255": 48.000003814697266,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1155,
+    "exact": 1102,
+    "within_1": 1125,
+    "within_2": 1132,
+    "max_error_255": 34.999996185302734,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1158,
+    "exact": 1152,
+    "within_1": 1157,
+    "within_2": 1158,
+    "max_error_255": 1.9999998807907104,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "2efb_kyj12#1": {
+  "scenes": 3,
+  "pixels": 1163,
+  "exact": 1162,
+  "within_1": 1163,
+  "within_2": 1163,
+  "max_error_255": 0.9999999403953552,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_de6b80ed78_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1168,
+    "exact": 101,
+    "within_1": 340,
+    "within_2": 513,
+    "max_error_255": 51.999996185302734,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1168,
+    "exact": 1091,
+    "within_1": 1122,
+    "within_2": 1134,
+    "max_error_255": 43.999996185302734,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1151,
+    "exact": 1147,
+    "within_1": 1151,
+    "within_2": 1151,
+    "max_error_255": 0.9999999403953552,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "2sikeff03#1": {
+  "scenes": 3,
+  "pixels": 881,
+  "exact": 881,
+  "within_1": 881,
+  "within_2": 881,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "2sikeff05_body#1": {
+  "scenes": 3,
+  "pixels": 768,
+  "exact": 768,
+  "within_1": 768,
+  "within_2": 768,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "trail 2sikspl1_atk#1": {
+  "scenes": 3,
+  "pixels": 1191,
+  "exact": 1191,
+  "within_1": 1191,
+  "within_2": 1191,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_2bc25dfb91_ps30",
+  "notes": []
+ },
+ "trail 2sikspl1_atk#2": {
+  "scenes": 3,
+  "pixels": 1191,
+  "exact": 1191,
+  "within_1": 1191,
+  "within_2": 1191,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_2bc25dfb91_ps30",
+  "notes": []
+ },
+ "trail 2sikspl1_atk#3": {
+  "scenes": 3,
+  "pixels": 1191,
+  "exact": 1191,
+  "within_1": 1191,
+  "within_2": 1191,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_c659b78c73_ps30",
+  "notes": []
+ }
+}

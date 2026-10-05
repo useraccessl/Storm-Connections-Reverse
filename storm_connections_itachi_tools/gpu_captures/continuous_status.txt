@@ -1,0 +1,1 @@
+SELF TEST OK: RenderDoc API, capture options and Windows F8/foreground APIs available; no game launched

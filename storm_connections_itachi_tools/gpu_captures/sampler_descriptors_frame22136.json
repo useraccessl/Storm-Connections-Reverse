@@ -1,0 +1,1144 @@
+[
+  {
+    "event": 2072,
+    "pixel": "19f007_p",
+    "base_asset": "4efb_fire04",
+    "samplers": [
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::39718",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::83533": 9,
+      "ResourceId::5753": 9
+    },
+    "textures": [
+      "ResourceId::83533",
+      "ResourceId::5753",
+      "ResourceId::5753"
+    ]
+  },
+  {
+    "event": 2102,
+    "pixel": "c4ee9b55",
+    "base_asset": "4efb_amt02",
+    "samplers": [
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::39718",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::83529": 1
+    },
+    "textures": [
+      "ResourceId::83529"
+    ]
+  },
+  {
+    "event": 5302,
+    "pixel": "915c5e6e",
+    "base_asset": "4efb_amt00",
+    "samplers": [
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::83525": 12,
+      "ResourceId::83535": 10
+    },
+    "textures": [
+      "ResourceId::83525",
+      "ResourceId::83535"
+    ]
+  },
+  {
+    "event": 5315,
+    "pixel": "c4ee9b55",
+    "base_asset": "4efb_fire04",
+    "samplers": [
+      {
+        "addressU": 4,
+        "addressV": 4,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::40049",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::83533": 9
+    },
+    "textures": [
+      "ResourceId::83533"
+    ]
+  },
+  {
+    "event": 5502,
+    "pixel": "915c5e6e",
+    "base_asset": "4efb_amt01",
+    "samplers": [
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::83527": 1,
+      "ResourceId::83535": 10
+    },
+    "textures": [
+      "ResourceId::83527",
+      "ResourceId::83535"
+    ]
+  },
+  {
+    "event": 6241,
+    "pixel": "c4ee9b55",
+    "base_asset": "1efc_part12",
+    "samplers": [
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::38804",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::5867": 9
+    },
+    "textures": [
+      "ResourceId::5867"
+    ]
+  },
+  {
+    "event": 6631,
+    "pixel": "01f002_p",
+    "base_asset": "1efc_part01",
+    "samplers": [
+      {
+        "addressU": 1,
+        "addressV": 1,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": -15.99609375,
+        "object": "ResourceId::39694",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::5843": 7
+    },
+    "textures": [
+      "ResourceId::5843"
+    ]
+  },
+  {
+    "event": 6812,
+    "pixel": "01f008_p",
+    "base_asset": "1efc_board01",
+    "samplers": [
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::38693",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 4,
+        "addressV": 4,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::38715",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::5707": 5,
+      "ResourceId::5743": 3
+    },
+    "textures": [
+      "ResourceId::5707",
+      "ResourceId::5743"
+    ]
+  },
+  {
+    "event": 7746,
+    "pixel": "f826fc2c",
+    "base_asset": "1efc_nor_water01",
+    "samplers": [
+      {
+        "addressU": 0,
+        "addressV": 0,
+        "addressW": 4,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 2
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::38693",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 3,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 1
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::57950",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 3,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 1
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::57950",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 3,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 2,
+          "minify": 2,
+          "mip": 1
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::57950",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      },
+      {
+        "addressU": 3,
+        "addressV": 3,
+        "addressW": 3,
+        "borderColorType": 1,
+        "borderColorValue": {
+          "floatValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "intValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uintValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chromaFilter": 0,
+        "compareFunction": 0,
+        "creationTimeConstant": false,
+        "filter": {
+          "filter": 0,
+          "magnify": 1,
+          "minify": 1,
+          "mip": 1
+        },
+        "forceExplicitReconstruction": false,
+        "maxAnisotropy": 0.0,
+        "maxLOD": 16.0,
+        "minLOD": 0.0,
+        "mipBias": 0.0,
+        "object": "ResourceId::41112",
+        "seamlessCubemaps": true,
+        "srgbBorder": false,
+        "swizzle": {
+          "alpha": 3,
+          "blue": 2,
+          "green": 1,
+          "red": 0
+        },
+        "type": 2,
+        "unnormalized": false,
+        "xChromaOffset": 0,
+        "yChromaOffset": 0,
+        "ycbcrModel": 0,
+        "ycbcrRange": 0,
+        "ycbcrSampler": "ResourceId::0"
+      }
+    ],
+    "texture_mips": {
+      "ResourceId::5839": 3,
+      "ResourceId::45619": 1,
+      "ResourceId::45670": 1,
+      "ResourceId::45676": 1,
+      "ResourceId::45640": 1
+    },
+    "textures": [
+      "ResourceId::5839",
+      "ResourceId::45619",
+      "ResourceId::45670",
+      "ResourceId::45676",
+      "ResourceId::45640"
+    ]
+  }
+]

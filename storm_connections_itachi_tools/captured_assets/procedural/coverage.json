@@ -1,0 +1,127 @@
+{
+  "billboards": [
+    "1efc_part09b",
+    "1efc_part11b",
+    "4efb_amt00",
+    "4efb_amt01",
+    "4efb_amt02",
+    "4efb_amt03",
+    "4efb_amt04",
+    "4efb_amt05",
+    "4efb_amt06",
+    "4efb_amt07",
+    "4efb_amt08",
+    "4efb_amt09",
+    "4efb_amt10",
+    "4efb_amt11",
+    "4efb_amt12",
+    "4efb_amt13",
+    "4efb_amt14"
+  ],
+  "textures": {
+    "4efb_amt00": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\4efb_amt00.nut",
+      "sha256": "d45459c2a96cb96f88a96793af0d9ca17847fc118cfaf9a5213a94056d344c4c",
+      "bytes": 2796384,
+      "sourceTexture": "storm_amt_lab/procedural_4efb_amt00",
+      "nativeVTF": {
+        "width": 1024,
+        "height": 2048,
+        "format": 1,
+        "payloadBytes": 2097152
+      }
+    },
+    "4efb_maplus01": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\4efb_maplus01.nut",
+      "sha256": "351cd731083b8be6f92b584d67289093df9d0cb0ce0771486bd512a98bc20b92",
+      "bytes": 349696,
+      "sourceTexture": "storm_amt_lab/procedural_4efb_maplus01",
+      "nativeVTF": {
+        "width": 512,
+        "height": 512,
+        "format": 1,
+        "payloadBytes": 262144
+      }
+    },
+    "4efb_amt01": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\4efb_amt01.nut",
+      "sha256": "7104b38550703388f1e50555f823caee6837859f884f13fd3f712c257f30848f",
+      "bytes": 262240,
+      "sourceTexture": "storm_amt_lab/procedural_4efb_amt01",
+      "nativeVTF": {
+        "width": 512,
+        "height": 512,
+        "format": 2,
+        "payloadBytes": 262144
+      }
+    },
+    "4efb_fire04": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\4efb_fire04.nut",
+      "sha256": "8a0bf3c43c87c56979400f88269ae09d200582b5046881741bebc06be81b5f26",
+      "bytes": 43872,
+      "sourceTexture": "storm_amt_lab/procedural_4efb_fire04",
+      "nativeVTF": {
+        "width": 128,
+        "height": 256,
+        "format": 2,
+        "payloadBytes": 32768
+      }
+    },
+    "1efc_film_clash00": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\1efc_film_clash00.nut",
+      "sha256": "a475931a8f2557095d74bb9430979a1f6380001ffd154d527cac40ab190f7399",
+      "bytes": 43872,
+      "sourceTexture": "storm_amt_lab/procedural_1efc_film_clash00",
+      "nativeVTF": {
+        "width": 256,
+        "height": 256,
+        "format": 0,
+        "payloadBytes": 32768
+      }
+    },
+    "4efb_amt02": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\4efb_amt02.nut",
+      "sha256": "06d2993186ee5b486d46acfa73aa769165a50e0c5663330f89d4ad0d8b89124e",
+      "bytes": 8288,
+      "sourceTexture": "storm_amt_lab/procedural_4efb_amt02",
+      "nativeVTF": {
+        "width": 64,
+        "height": 128,
+        "format": 2,
+        "payloadBytes": 8192
+      }
+    },
+    "1efc_part12": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\1efc_part12.nut",
+      "sha256": "220c4598eb42731a641abf2da7d3218451eeb7ae85961b72c9780d803e1e10f2",
+      "bytes": 87552,
+      "sourceTexture": "storm_amt_lab/procedural_1efc_part12",
+      "nativeVTF": {
+        "width": 256,
+        "height": 256,
+        "format": 2,
+        "payloadBytes": 65536
+      }
+    },
+    "1efc_part11": {
+      "path": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\procedural\\textures\\1efc_part11.nut",
+      "sha256": "00133cb9ba6a1150bec4568dc309e3ffc66493abfba7a8eacb9c1493c2503811",
+      "bytes": 5616,
+      "sourceTexture": "storm_amt_lab/procedural_1efc_part11",
+      "nativeVTF": {
+        "width": 64,
+        "height": 64,
+        "format": 2,
+        "payloadBytes": 4096
+      }
+    }
+  },
+  "unsupportedResources": {
+    "4efb_amt1_ptc02": "nuccChunkAnm",
+    "4efb_light00": "nuccChunkClump",
+    "1efc_fire03a": "nuccChunkClump",
+    "1efc_shock09": "nuccChunkClump",
+    "1efc_nor_dst03": "nuccChunkClump"
+  },
+  "source": "original files; no captured particle positions"
+}

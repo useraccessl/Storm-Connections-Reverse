@@ -1,0 +1,514 @@
+{
+ "addon": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab",
+ "totals": {
+  "packages": 8,
+  "animations": 69,
+  "skipped": 0,
+  "coordinates": 1278,
+  "withRestParents": 2,
+  "missing": 0,
+  "differ": 0,
+  "controlDiffer": 550
+ },
+ "packages": {
+  "1fir_x": {
+   "1efc_ge_d07": {
+    "coordinates": 81,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 60
+   },
+   "1efc_ge_sn07": {
+    "coordinates": 81,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 60
+   },
+   "1efc_rpl_ptc03": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_shock_ptc03": {
+    "coordinates": 27,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 24
+   },
+   "1efc_shock_ptc04": {
+    "coordinates": 27,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 24
+   },
+   "1efc_smk_ptc04": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 3
+   },
+   "1efc_smk_ptc05": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 3
+   },
+   "1efc_wind_ptc01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc01": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc03": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc04": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc05": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 9
+   },
+   "1fireff1_01_anim": {
+    "coordinates": 36,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 15
+   },
+   "1fireff1_01_ptc": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_07_anim": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_08_anim": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_13_anim": {
+    "coordinates": 36,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 15
+   },
+   "1fireff1_17_ptc": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_22_ptc": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_gr_hit00": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 9
+   },
+   "1fireff1_ptc01": {
+    "coordinates": 9,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_ptc05": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_ptc06": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_ptc07": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1fireff1_wood_ptc01": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 9
+   }
+  },
+  "2efb_rsn_x": {
+   "1efc_ring_ptc06": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2efb_rsn_chg01": {
+    "coordinates": 42,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2efb_rsn_chg02": {
+    "coordinates": 39,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2efb_rsn_hit00": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2nrteff1_ptc01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2nrteff1_ptc02": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2nrteff1_ptc03": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  },
+  "2ksm_x": {
+   "1efc_wtr_ptc03": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc04": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_wtr_ptc05": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 9
+   },
+   "2ksmeff1_miz_hit04g": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2ksmeff1_ptc10": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2ksmeff1_skl3_blt00": {
+    "coordinates": 63,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2ksmeff1_wtr_ptc03": {
+    "coordinates": 9,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2ksmeff1_wtr_ptc04": {
+    "coordinates": 9,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2ksmeff1_wtr_ptc05b": {
+    "coordinates": 9,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 6
+   },
+   "2ksmeff1_wtr_ptc15": {
+    "coordinates": 36,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 33
+   }
+  },
+  "2sikspl1_x": {
+   "2efb_kyj_ptc01": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2efb_kyj_ptc04": {
+    "coordinates": 42,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 29
+   },
+   "2efb_kyj_ptc05": {
+    "coordinates": 39,
+    "restParents": 10,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 21
+   },
+   "2efb_kyj_ptc06": {
+    "coordinates": 12,
+    "restParents": 1,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 9
+   },
+   "2efb_kyj_ptc07": {
+    "coordinates": 51,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 30
+   },
+   "2sikspl1_atk": {
+    "coordinates": 93,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 40
+   }
+  },
+  "3efb_3ssk1_x": {
+   "3efb_3ssk1_blt01": {
+    "coordinates": 39,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 3
+   },
+   "3efb_3ssk1_blt02": {
+    "coordinates": 33,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "3efb_3ssk1_hit00": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "3efb_3ssk1_hit01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  },
+  "3efbtf_rsn1_x": {
+   "3efbtf_rsn1_hit00": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "3efbtf_rsn1_part04_ptc00": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  },
+  "4efb_amt1_x": {
+   "4efb_amt1_blt00": {
+    "coordinates": 21,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 4
+   },
+   "4efb_amt1_hit00": {
+    "coordinates": 12,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "4efb_amt1_ptc02": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  },
+  "4efb_gkk1_x": {
+   "1efc_exp_ge_g01": {
+    "coordinates": 9,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_exp_hit01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_exp_hitworld01": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_exp_trl00": {
+    "coordinates": 15,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_fcv_exp00": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "1efc_ring_ptc08": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "4efb_gkk1_blt00": {
+    "coordinates": 72,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 45
+   },
+   "4efb_gkk1_blt00b": {
+    "coordinates": 72,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 45
+   },
+   "4efb_gkk1_blt00s": {
+    "coordinates": 72,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 45
+   },
+   "4efb_gkk1_ge00": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "4efb_gkk1_ge00b": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "4efb_gkk1_ptc05": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   }
+  }
+ }
+}

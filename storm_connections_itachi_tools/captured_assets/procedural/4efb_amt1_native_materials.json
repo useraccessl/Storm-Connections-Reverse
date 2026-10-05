@@ -1,0 +1,1437 @@
+{
+  "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\captured_assets\\data\\effect\\4efb_amt1.xfbin",
+  "native_source_executable_sha256": "cecf0405b5ac00b9b9c95e8ff594bde5f8543413b6308f74991c701218b20d1e",
+  "evidence": {
+    "format_reader_va": "0x14134cde0",
+    "runtime_material_constructor_va": "0x1412f5920",
+    "screen_scroll_binder_va": "0x1412f5ff0",
+    "float_group_order": [
+      "0x01",
+      "0x02",
+      "0x04",
+      "0x08",
+      "0x10",
+      "0x20",
+      "0x40",
+      "0x80"
+    ],
+    "verified_material_count": 17
+  },
+  "materials": [
+    {
+      "name": "4efb_amt00",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.375,
+        3.25,
+        0.125,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.375
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 3.25
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 0.125
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 0.125
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.0,
+          1.0
+        ],
+        "uv3_scale": [
+          1.0,
+          1.0
+        ],
+        "binder_rates_in_native_order": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "textures": [
+        "4efb_amt00",
+        "4efb_maplus01"
+      ]
+    },
+    {
+      "name": "4efb_amt01",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.0,
+        0.0,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 0.20000000298023224
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 0.20000000298023224
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.0,
+          1.0
+        ],
+        "uv3_scale": [
+          1.0,
+          1.0
+        ],
+        "binder_rates_in_native_order": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "textures": [
+        "4efb_amt01",
+        "4efb_maplus01"
+      ]
+    },
+    {
+      "name": "4efb_amt02",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt03",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt04",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt05",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.375,
+        3.25,
+        0.125,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.375
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 3.25
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 0.125
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 0.125
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.0,
+          1.0
+        ],
+        "uv3_scale": [
+          1.0,
+          1.0
+        ],
+        "binder_rates_in_native_order": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "textures": [
+        "4efb_amt00",
+        "4efb_maplus01"
+      ]
+    },
+    {
+      "name": "4efb_amt06",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt07",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.0,
+        0.0,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 0.20000000298023224
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 0.20000000298023224
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.0,
+          1.0
+        ],
+        "uv3_scale": [
+          1.0,
+          1.0
+        ],
+        "binder_rates_in_native_order": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "textures": [
+        "4efb_amt01",
+        "4efb_maplus01"
+      ]
+    },
+    {
+      "name": "4efb_amt08",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.05000000074505806,
+        0.05000000074505806,
+        -3.0,
+        0.30000001192092896,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 0.05000000074505806
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.05000000074505806
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": -3.0
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "uv3_scale": [
+          -3.0,
+          0.30000001192092896
+        ],
+        "binder_rates_in_native_order": [
+          0.30000001192092896,
+          0.30000001192092896,
+          -3.0,
+          0.30000001192092896
+        ]
+      },
+      "textures": [
+        "4efb_fire04",
+        "1efc_film_clash00",
+        "1efc_film_clash00"
+      ]
+    },
+    {
+      "name": "4efb_amt09",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt10",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_fire04"
+      ]
+    },
+    {
+      "name": "4efb_amt11",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 2.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_amt02"
+      ]
+    },
+    {
+      "name": "4efb_amt12",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 2.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_amt02"
+      ]
+    },
+    {
+      "name": "4efb_amt13",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_amt02"
+      ]
+    },
+    {
+      "name": "4efb_amt14",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "4efb_amt02"
+      ]
+    },
+    {
+      "name": "4efb_amt15",
+      "format": 77,
+      "format_hex": "0x4d",
+      "serialized_floats": [
+        0.0,
+        0.0,
+        1.0,
+        0.125,
+        0.0,
+        0.0,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.05000000074505806,
+        0.05000000074505806,
+        -0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x38",
+          "runtime_material_offset": "0x40",
+          "semantic": "UV2_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x3c",
+          "runtime_material_offset": "0x44",
+          "semantic": "UV2_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x40",
+          "runtime_material_offset": "0x48",
+          "semantic": "UV3_offset.x",
+          "value": 0.05000000074505806
+        },
+        {
+          "source_object_offset": "0x44",
+          "runtime_material_offset": "0x4c",
+          "semantic": "UV3_offset.y",
+          "value": 0.05000000074505806
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 1.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 0.125
+        },
+        {
+          "source_object_offset": "0x58",
+          "runtime_material_offset": "0x60",
+          "semantic": "UV2_scale.x",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x5c",
+          "runtime_material_offset": "0x64",
+          "semantic": "UV2_scale.y",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x60",
+          "runtime_material_offset": "0x68",
+          "semantic": "UV3_scale.x",
+          "value": -0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x64",
+          "runtime_material_offset": "0x6c",
+          "semantic": "UV3_scale.y",
+          "value": 0.30000001192092896
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "uv3_scale": [
+          -0.30000001192092896,
+          0.30000001192092896
+        ],
+        "binder_rates_in_native_order": [
+          0.30000001192092896,
+          0.30000001192092896,
+          -0.30000001192092896,
+          0.30000001192092896
+        ]
+      },
+      "textures": [
+        "4efb_amt03",
+        "1efc_film_clash00",
+        "1efc_film_clash00"
+      ]
+    },
+    {
+      "name": "4efb_light00",
+      "format": 65,
+      "format_hex": "0x41",
+      "serialized_floats": [
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "native_fields": [
+        {
+          "source_object_offset": "0x28",
+          "runtime_material_offset": "0x30",
+          "semantic": "UV0_offset.x",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x2c",
+          "runtime_material_offset": "0x34",
+          "semantic": "UV0_offset.y",
+          "value": 0.0
+        },
+        {
+          "source_object_offset": "0x48",
+          "runtime_material_offset": "0x50",
+          "semantic": "UV0_scale.x",
+          "value": 2.0
+        },
+        {
+          "source_object_offset": "0x4c",
+          "runtime_material_offset": "0x54",
+          "semantic": "UV0_scale.y",
+          "value": 2.0
+        },
+        {
+          "source_object_offset": "0x78",
+          "runtime_material_offset": "0x84",
+          "semantic": "material_parameter_divided_by_255",
+          "value": 1.0
+        }
+      ],
+      "screen_scroll": {
+        "uv2_scale": [
+          null,
+          null
+        ],
+        "uv3_scale": [
+          null,
+          null
+        ],
+        "binder_rates_in_native_order": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "textures": [
+        "1efc_part01"
+      ]
+    }
+  ]
+}

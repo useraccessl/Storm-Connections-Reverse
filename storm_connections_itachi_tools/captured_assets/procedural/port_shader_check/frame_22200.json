@@ -1,0 +1,47 @@
+{
+  "frame": 22200,
+  "signature": "888da036868a0e9277cdd7e4c0a13c4489b551e45815b1cf7e96a31ff8aad086",
+  "families": {
+    "c4ee9b55": {
+      "draws": 35,
+      "pixels": 124641,
+      "exact": 124634,
+      "within_1": 124641,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "915c5e6e": {
+      "draws": 12,
+      "pixels": 1571,
+      "exact": 1571,
+      "within_1": 1571,
+      "max_error_255": 0.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f002_p": {
+      "draws": 20,
+      "pixels": 4788331,
+      "exact": 4788326,
+      "within_1": 4788331,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "01f008_p": {
+      "draws": 1,
+      "pixels": 3597737,
+      "exact": 3597507,
+      "within_1": 3597737,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 12
+    }
+  },
+  "draws_over_1": []
+}

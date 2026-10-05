@@ -1,0 +1,382 @@
+{
+ "1efc_bd_smk15#1": {
+  "scenes": 3,
+  "pixels": 0,
+  "exact": 0,
+  "within_1": 0,
+  "within_2": 0,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x21f007",
+  "pixel": "storm_fx_21f007_303de8b076_ps30",
+  "notes": [
+   "reads SV_Position.z: Source depth, not the game projection",
+   "no scene depth in the port: depth samples read the far plane"
+  ]
+ },
+ "1efc_bd_smk16#1": {
+  "scenes": 3,
+  "pixels": 0,
+  "exact": 0,
+  "within_1": 0,
+  "within_2": 0,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x21f007",
+  "pixel": "storm_fx_21f007_303de8b076_ps30",
+  "notes": [
+   "reads SV_Position.z: Source depth, not the game projection",
+   "no scene depth in the port: depth samples read the far plane"
+  ]
+ },
+ "1efc_fire03#1": {
+  "scenes": 3,
+  "pixels": 890,
+  "exact": 890,
+  "within_1": 890,
+  "within_2": 890,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_f6cd9662c7_ps30",
+  "notes": []
+ },
+ "1efc_fire06#1": {
+  "scenes": 3,
+  "pixels": 867,
+  "exact": 867,
+  "within_1": 867,
+  "within_2": 867,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_fire07#1": {
+  "scenes": 3,
+  "pixels": 867,
+  "exact": 867,
+  "within_1": 867,
+  "within_2": 867,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_fire08#1": {
+  "scenes": 3,
+  "pixels": 867,
+  "exact": 867,
+  "within_1": 867,
+  "within_2": 867,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_fire09#1": {
+  "scenes": 3,
+  "pixels": 866,
+  "exact": 866,
+  "within_1": 866,
+  "within_2": 866,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_line11#1": {
+  "scenes": 3,
+  "pixels": 832,
+  "exact": 832,
+  "within_1": 832,
+  "within_2": 832,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_2fee3b7711_ps30",
+  "notes": []
+ },
+ "1efc_part09b#1": {
+  "scenes": 3,
+  "pixels": 869,
+  "exact": 869,
+  "within_1": 869,
+  "within_2": 869,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_0fb68e64d0_ps30",
+  "notes": []
+ },
+ "1efc_part10b#1": {
+  "scenes": 3,
+  "pixels": 832,
+  "exact": 832,
+  "within_1": 832,
+  "within_2": 832,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_0fb68e64d0_ps30",
+  "notes": []
+ },
+ "1efc_part10c#1": {
+  "scenes": 3,
+  "pixels": 832,
+  "exact": 832,
+  "within_1": 832,
+  "within_2": 832,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_0fb68e64d0_ps30",
+  "notes": []
+ },
+ "1efc_part15#1": {
+  "scenes": 3,
+  "pixels": 814,
+  "exact": 814,
+  "within_1": 814,
+  "within_2": 814,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_a2358b1546_ps30",
+  "notes": []
+ },
+ "1efc_ring29#1": {
+  "scenes": 3,
+  "pixels": 449,
+  "exact": 449,
+  "within_1": 449,
+  "within_2": 449,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x03f002",
+  "pixel": "storm_fx_03f002_d2145c0ca5_ps30",
+  "notes": []
+ },
+ "1efc_shock09#1": {
+  "scenes": 3,
+  "pixels": 359,
+  "exact": 359,
+  "within_1": 359,
+  "within_2": 359,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f008",
+  "pixel": "storm_fx_01f008_dc5dd1ebcd_ps30",
+  "notes": []
+ },
+ "1efc_stn01#1": {
+  "scenes": 3,
+  "pixels": 1176,
+  "exact": 1176,
+  "within_1": 1176,
+  "within_2": 1176,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_776f4588e9_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1181,
+    "exact": 316,
+    "within_1": 777,
+    "within_2": 996,
+    "max_error_255": 19.0000057220459,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1181,
+    "exact": 1125,
+    "within_1": 1159,
+    "within_2": 1167,
+    "max_error_255": 31.0000057220459,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1161,
+    "exact": 1157,
+    "within_1": 1161,
+    "within_2": 1161,
+    "max_error_255": 0.9999999403953552,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "1efc_stn03#1": {
+  "scenes": 3,
+  "pixels": 1176,
+  "exact": 1176,
+  "within_1": 1176,
+  "within_2": 1176,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x00f000",
+  "pixel": "storm_fx_00f000_776f4588e9_ps30",
+  "notes": [],
+  "point_light": {
+   "coarse": {
+    "scenes": 3,
+    "pixels": 1181,
+    "exact": 316,
+    "within_1": 777,
+    "within_2": 996,
+    "max_error_255": 19.0000057220459,
+    "coverage_mismatch": 0
+   },
+   "fine": {
+    "scenes": 3,
+    "pixels": 1181,
+    "exact": 1125,
+    "within_1": 1159,
+    "within_2": 1167,
+    "max_error_255": 31.0000057220459,
+    "coverage_mismatch": 0
+   },
+   "dense": {
+    "scenes": 3,
+    "pixels": 1161,
+    "exact": 1157,
+    "within_1": 1161,
+    "within_2": 1161,
+    "max_error_255": 0.9999999403953552,
+    "coverage_mismatch": 0
+   },
+   "subdivision": 12,
+   "dense_subdivision": 48
+  }
+ },
+ "1efc_trl05g#1": {
+  "scenes": 3,
+  "pixels": 883,
+  "exact": 883,
+  "within_1": 883,
+  "within_2": 883,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_3ccd661b24_ps30",
+  "notes": []
+ },
+ "5skneff1_mark00_00#1": {
+  "scenes": 3,
+  "pixels": 491,
+  "exact": 491,
+  "within_1": 491,
+  "within_2": 491,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x03f002",
+  "pixel": "storm_fx_03f002_e908b35e9c_ps30",
+  "notes": []
+ },
+ "5skneff1_mark00_01#1": {
+  "scenes": 3,
+  "pixels": 546,
+  "exact": 546,
+  "within_1": 546,
+  "within_2": 546,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x03f002",
+  "pixel": "storm_fx_03f002_e908b35e9c_ps30",
+  "notes": []
+ },
+ "5skneff1_mark01_00#1": {
+  "scenes": 3,
+  "pixels": 862,
+  "exact": 862,
+  "within_1": 862,
+  "within_2": 862,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "5skneff1_mark01_01#1": {
+  "scenes": 3,
+  "pixels": 871,
+  "exact": 871,
+  "within_1": 871,
+  "within_2": 871,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "5skneff1_mark02#1": {
+  "scenes": 3,
+  "pixels": 886,
+  "exact": 886,
+  "within_1": 886,
+  "within_2": 886,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "5skneff1_trap00_00#1": {
+  "scenes": 3,
+  "pixels": 869,
+  "exact": 869,
+  "within_1": 869,
+  "within_2": 869,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_d8b6667f03_ps30",
+  "notes": []
+ },
+ "5skneff1_trap00_01#1": {
+  "scenes": 3,
+  "pixels": 465,
+  "exact": 464,
+  "within_1": 465,
+  "within_2": 465,
+  "max_error_255": 1.0000003576278687,
+  "coverage_mismatch": 0,
+  "key": "0x03f008",
+  "pixel": "storm_fx_03f008_59458ab8d4_ps30",
+  "notes": []
+ },
+ "trail 1efc_exp_trl00#1": {
+  "scenes": 3,
+  "pixels": 1191,
+  "exact": 1191,
+  "within_1": 1191,
+  "within_2": 1191,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_69d6ffc15b_ps30",
+  "notes": []
+ },
+ "trail 1efc_exp_trl00#2": {
+  "scenes": 3,
+  "pixels": 1191,
+  "exact": 1191,
+  "within_1": 1191,
+  "within_2": 1191,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_69d6ffc15b_ps30",
+  "notes": []
+ }
+}

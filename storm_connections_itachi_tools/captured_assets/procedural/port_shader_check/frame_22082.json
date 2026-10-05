@@ -1,0 +1,37 @@
+{
+  "frame": 22082,
+  "signature": "82924bc4b94b059dca7896b561f7705401b48d3829f98a819e2f18a808414d88",
+  "families": {
+    "915c5e6e": {
+      "draws": 7,
+      "pixels": 570111,
+      "exact": 569949,
+      "within_1": 570111,
+      "max_error_255": 1.000003695487976,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "c4ee9b55": {
+      "draws": 1,
+      "pixels": 1435,
+      "exact": 1435,
+      "within_1": 1435,
+      "max_error_255": 0.0,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    },
+    "19f002_p": {
+      "draws": 4,
+      "pixels": 45422,
+      "exact": 45418,
+      "within_1": 45422,
+      "max_error_255": 0.9999999403953552,
+      "coverage_mismatch": 0,
+      "skipped_missing_texture": 0,
+      "skipped_other_model_addressing": 0
+    }
+  },
+  "draws_over_1": []
+}

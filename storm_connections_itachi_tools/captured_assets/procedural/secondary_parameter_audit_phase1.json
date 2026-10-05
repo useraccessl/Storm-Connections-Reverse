@@ -1,0 +1,3663 @@
+[
+  {
+    "capture": "itachi_amaterasu_frame22082.secondary_reference",
+    "event": 5406,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 3.5,
+      "key": 3,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5157,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 13.0,
+      "key": 13,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5170,
+    "originalColor": [
+      0.8039215803146362,
+      0.35294121503829956,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 7.0,
+      "key": 7,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5198,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 0.3333333432674408,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 1.4901161138336505e-08,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 0.33333332836627966
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2119,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 5.0,
+      "key": 5,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2206,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt11",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 2.0,
+      "key": 2,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2219,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 4.0,
+      "key": 4,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2232,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 3.0,
+      "key": 3,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2245,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2258,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 6.0,
+      "key": 6,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5260,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 0.8333333730697632,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 3.725290298461914e-08,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 25.0,
+      "key": 25,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 0.8333333358168602
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5273,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 19.0,
+      "key": 19,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5301,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 13.0,
+      "key": 13,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5359,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5403,
+    "originalColor": [
+      0.7019914388656616,
+      0.4370949864387512,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.609874150654278e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.7019914334697451,
+        0.4370949703400097,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5463,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5583,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5642,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5880,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 7.0,
+      "key": 7,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5954,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6028,
+    "originalColor": [
+      0.6958165168762207,
+      0.42543116211891174,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 3.5073457027579025e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.5,
+      "key": 6,
+      "predictedColor": [
+        0.6958164818027637,
+        0.42543117668638164,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6128,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6141,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6154,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6167,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6180,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6193,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6206,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2102,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 9.0,
+      "key": 9,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2189,
+    "originalColor": [
+      0.47058820724487305,
+      0.23529410362243652,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt11",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 6.0,
+      "key": 6,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2202,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 8.0,
+      "key": 8,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2215,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 4.0,
+      "key": 4,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2228,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 7.0,
+      "key": 7,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2241,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 5.0,
+      "key": 5,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2254,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 10.0,
+      "key": 10,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5315,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 0.08333341032266617,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 0.1426786166725149,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 59.0,
+      "key": 59,
+      "predictedColor": [
+        0.6612429636421213,
+        0.4107922533809514,
+        1.0
+      ],
+      "predictedOpacity": 0.16666667908430155
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5328,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 24.0,
+      "key": 24,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5356,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 18.0,
+      "key": 18,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5384,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5473,
+    "originalColor": [
+      0.69693922996521,
+      0.42755186557769775,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 2.9677540536177105e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 5.5,
+      "key": 5,
+      "predictedColor": [
+        0.6969392002876694,
+        0.42755186644158677,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5486,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5576,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5785,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5948,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 12.0,
+      "key": 12,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5992,
+    "originalColor": [
+      0.7003073692321777,
+      0.433913916349411,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 1.9357791092300403e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 2.5,
+      "key": 2,
+      "predictedColor": [
+        0.7003073557423866,
+        0.4339139357072021,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6082,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6141,
+    "originalColor": [
+      0.6907642483711243,
+      0.41588807106018066,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 1.7277780317570546e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.690764248620688,
+        0.4158880727879587,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6241,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6254,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6267,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6280,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6293,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6306,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6319,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6332,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2085,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 16.0,
+      "key": 16,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2172,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt11",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 13.0,
+      "key": 13,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2185,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 15.0,
+      "key": 15,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2198,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 11.0,
+      "key": 11,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2211,
+    "originalColor": [
+      0.47058820724487305,
+      0.23529410362243652,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 14.0,
+      "key": 14,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2224,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 12.0,
+      "key": 12,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2237,
+    "originalColor": [
+      0.47058820724487305,
+      0.23529410362243652,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 17.0,
+      "key": 17,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5282,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 7.450580596923828e-08,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 0.14285021932411146,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 59.5,
+      "key": 59,
+      "predictedColor": [
+        0.6610713609905248,
+        0.41127846736010765,
+        1.0
+      ],
+      "predictedOpacity": 0.08333334699273087
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5310,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt10",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 24.0,
+      "key": 24,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5323,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5352,
+    "originalColor": [
+      0.6997460126876831,
+      0.4328536093235016,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.8493902076421875e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 3.0,
+      "key": 3,
+      "predictedColor": [
+        0.6997459964999337,
+        0.4328535908295995,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5442,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5455,
+    "originalColor": [
+      0.689641535282135,
+      0.41376739740371704,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.4370963474785725e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 12.0,
+      "key": 12,
+      "predictedColor": [
+        0.6896415301357822,
+        0.41376738303275357,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5560,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5649,
+    "originalColor": [
+      0.6963778138160706,
+      0.42649149894714355,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.722914593800141e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 6.0,
+      "key": 6,
+      "predictedColor": [
+        0.6963778410452165,
+        0.4264915215639842,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5827,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5915,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 0.0,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 18.0,
+      "key": 18,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6004,
+    "originalColor": [
+      0.6930096745491028,
+      0.4201294481754303,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 1.1041396574817952e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 9.0,
+      "key": 9,
+      "predictedColor": [
+        0.6930096855904994,
+        0.4201294522983689,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6109,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6138,
+    "originalColor": [
+      0.6834665536880493,
+      0.40210360288619995,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 2.4780751450848015e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.5,
+      "key": 17,
+      "predictedColor": [
+        0.6834665784688008,
+        0.4021035893791255,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6223,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6236,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6249,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6262,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6275,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6288,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6301,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6314,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6327,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2083,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 27.0,
+      "key": 27,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2153,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt11",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 24.0,
+      "key": 24,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2166,
+    "originalColor": [
+      0.47058820724487305,
+      0.23529410362243652,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 26.0,
+      "key": 26,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2179,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 22.0,
+      "key": 22,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2192,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 25.0,
+      "key": 25,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2205,
+    "originalColor": [
+      0.47058820724487305,
+      0.23529410362243652,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 23.0,
+      "key": 23,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2218,
+    "originalColor": [
+      0.4705882668495178,
+      0.2352941334247589,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 2.9802322387695312e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 28.0,
+      "key": 28,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5234,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5263,
+    "originalColor": [
+      0.6873961091041565,
+      0.409525990486145,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.5938185771169344e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 14.0,
+      "key": 14,
+      "predictedColor": [
+        0.6873960931659707,
+        0.40952600352234336,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5323,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5353,
+    "originalColor": [
+      0.6772916316986084,
+      0.39043980836868286,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 1.2643185498539822e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 23.0,
+      "key": 23,
+      "predictedColor": [
+        0.6772916268018193,
+        0.39043979572549736,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5428,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5562,
+    "originalColor": [
+      0.684027910232544,
+      0.40316393971443176,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.7478709641037824e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 17.0,
+      "key": 17,
+      "predictedColor": [
+        0.6840279377112536,
+        0.40316393425672803,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5755,
+    "originalColor": [
+      0.8039215803146362,
+      0.3529411852359772,
+      1.0
+    ],
+    "originalOpacity": 0.16666674613952637,
+    "closest": {
+      "resource": "4efb_amt09",
+      "error": 6.705522537231445e-08,
+      "effect": "4efb_amt1_blt00",
+      "emitter": 6,
+      "life": 30,
+      "ageTicks": 29.0,
+      "key": 29,
+      "predictedColor": [
+        0.8039215803146362,
+        0.3529411852359772,
+        1.0
+      ],
+      "predictedOpacity": 0.166666679084301
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5798,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5917,
+    "originalColor": [
+      0.6806597709655762,
+      0.3968018889427185,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 2.395160580981326e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 20.0,
+      "key": 20,
+      "predictedColor": [
+        0.6806597822565364,
+        0.3968018649911127,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5962,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5976,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6061,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6074,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6087,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6100,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6113,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6126,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6139,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6152,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6165,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6178,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2274,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt11",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 38.0,
+      "key": 38,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2287,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt12",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 36.0,
+      "key": 36,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2300,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": null
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2313,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 39.0,
+      "key": 39,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2326,
+    "originalColor": [
+      0.47058823704719543,
+      0.23529411852359772,
+      0.5882353186607361
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt13",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 15,
+      "life": 40,
+      "ageTicks": 37.0,
+      "key": 37,
+      "predictedColor": [
+        0.47058823704719543,
+        0.23529411852359772,
+        0.5882353186607361
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5325,
+    "originalColor": [
+      0.6667342185974121,
+      0.3952333927154541,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.989579939161047e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 43.0,
+      "key": 43,
+      "predictedColor": [
+        0.6667342484932115,
+        0.39523340604795065,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5526,
+    "originalColor": [
+      0.671710729598999,
+      0.38113319873809814,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 4.209486981210375e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 28.5,
+      "key": 28,
+      "predictedColor": [
+        0.671710725389512,
+        0.3811332006524188,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5641,
+    "originalColor": [
+      0.6686218976974487,
+      0.3898850679397583,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 2.0036674985846048e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 37.5,
+      "key": 37,
+      "predictedColor": [
+        0.6686218776607737,
+        0.3898850522772317,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5705,
+    "originalColor": [
+      0.6667342185974121,
+      0.3952333927154541,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt03",
+      "error": 2.989579939161047e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 43.0,
+      "key": 43,
+      "predictedColor": [
+        0.6667342484932115,
+        0.39523340604795065,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5819,
+    "originalColor": [
+      0.6706811189651489,
+      0.38405048847198486,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 9.485216279081499e-09,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 31.5,
+      "key": 31,
+      "predictedColor": [
+        0.6706811094799326,
+        0.3840504845273564,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5998,
+    "originalColor": [
+      0.6667342185974121,
+      0.3952333927154541,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt06",
+      "error": 2.989579939161047e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 43.0,
+      "key": 43,
+      "predictedColor": [
+        0.6667342484932115,
+        0.39523340604795065,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6199,
+    "originalColor": [
+      0.6696515083312988,
+      0.3869677484035492,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 1.9998744826832393e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 34.5,
+      "key": 34,
+      "predictedColor": [
+        0.6696514935703533,
+        0.386967768402294,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6212,
+    "originalColor": [
+      0.6667342185974121,
+      0.3952333927154541,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt02",
+      "error": 2.989579939161047e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 43.0,
+      "key": 43,
+      "predictedColor": [
+        0.6667342484932115,
+        0.39523340604795065,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6226,
+    "originalColor": [
+      0.6667342185974121,
+      0.3952333927154541,
+      1.0
+    ],
+    "originalOpacity": 1.0,
+    "closest": {
+      "resource": "4efb_amt04",
+      "error": 2.989579939161047e-08,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 2,
+      "life": 60,
+      "ageTicks": 43.0,
+      "key": 43,
+      "predictedColor": [
+        0.6667342484932115,
+        0.39523340604795065,
+        1.0
+      ],
+      "predictedOpacity": 1.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6311,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6324,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6337,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6350,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6363,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6376,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6389,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6402,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6415,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6428,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6441,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6454,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6467,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6480,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6493,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6506,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6519,
+    "originalColor": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 1.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.0
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6532,
+    "originalColor": [
+      0.14901961386203766,
+      0.14901961386203766,
+      0.14901961386203766
+    ],
+    "originalOpacity": 0.6749999523162842,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.14901961386203766,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 0.5,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.5999999975164731
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6545,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6558,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6571,
+    "originalColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "originalOpacity": 0.8999999761581421,
+    "closest": {
+      "resource": "1efc_part09b",
+      "error": 0.0,
+      "effect": "4efb_amt1_hit00",
+      "emitter": 16,
+      "life": 75,
+      "ageTicks": 1.0,
+      "key": 1,
+      "predictedColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predictedOpacity": 0.8999999761581421
+    }
+  }
+]

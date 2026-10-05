@@ -1,0 +1,77 @@
+[
+  {
+    "animation": "1efc_rpl_ptc03",
+    "exit": 1,
+    "output": "draw1_1efc_rpl01 frame 0: scale [1.0, 0.2007, 1.0] (a Source bone has none)"
+  },
+  {
+    "animation": "1efc_shock_ptc03",
+    "exit": 1,
+    "output": "draw1_1efc_shock11_00 frame 0: scale [0.4752, 0.4752, 0.4803] (a Source bone has none)"
+  },
+  {
+    "animation": "1efc_shock_ptc04",
+    "exit": 1,
+    "output": "draw1_1efc_shock12_00 frame 0: scale [0.4752, 0.4752, 0.4803] (a Source bone has none)"
+  },
+  {
+    "animation": "1efc_smk_ptc04",
+    "exit": 1,
+    "output": "1efc_bd_smk09 mesh 1: second UV set differs from the first"
+  },
+  {
+    "animation": "1efc_smk_ptc05",
+    "exit": 1,
+    "output": "1efc_bd_smk12 mesh 1: second UV set differs from the first"
+  },
+  {
+    "animation": "1efc_wind_ptc01",
+    "exit": 1,
+    "output": "1efc_wind01 mesh 1: vertex colours vary"
+  },
+  {
+    "animation": "1efc_wtr_ptc01",
+    "exit": 0,
+    "output": "storm_fx/1efc_wtr_ptc01.mdl: 1 draws, 1 meshes, 79 frames (3900 ticks) -> C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx; description C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\studio\\1efc_wtr_ptc01.json; bone rotations within 0.0e+00 of the animation's"
+  },
+  {
+    "animation": "1efc_wtr_ptc03",
+    "exit": 1,
+    "output": "draw 1 (1efc_wtr06_00): camera-facing"
+  },
+  {
+    "animation": "1efc_wtr_ptc04",
+    "exit": 1,
+    "output": "draw 1 (1efc_wtr07_00): camera-facing"
+  },
+  {
+    "animation": "1efc_wtr_ptc05",
+    "exit": 1,
+    "output": "draw1_1efc_wtr08_00 frame 0: scale [1.5, 0.5, 1.5] (a Source bone has none)"
+  },
+  {
+    "animation": "1fireff1_01_anim",
+    "exit": 0,
+    "output": "storm_fx/1fireff1_01_anim.mdl: 5 draws, 5 meshes, 41 frames (2000 ticks) -> C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx; description C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\studio\\1fireff1_01_anim.json; bone rotations within 3.0e-04 of the animation's"
+  },
+  {
+    "animation": "1fireff1_07_anim",
+    "exit": 0,
+    "output": "storm_fx/1fireff1_07_anim.mdl: 1 draws, 1 meshes, 201 frames (10000 ticks) -> C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx; description C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\studio\\1fireff1_07_anim.json; bone rotations within 2.7e-04 of the animation's"
+  },
+  {
+    "animation": "1fireff1_08_anim",
+    "exit": 0,
+    "output": "storm_fx/1fireff1_08_anim.mdl: 1 draws, 1 meshes, 101 frames (5000 ticks) -> C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx; description C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\studio\\1fireff1_08_anim.json; bone rotations within 2.5e-04 of the animation's"
+  },
+  {
+    "animation": "1fireff1_13_anim",
+    "exit": 1,
+    "output": "draw4_1fireff1_13_ne04 frame 0: scale [1.2006, 1.2006, 1.0] (a Source bone has none)"
+  },
+  {
+    "animation": "1fireff1_wood_ptc01",
+    "exit": 1,
+    "output": "draw1_1fireff1_wood01_01 frame 0: scale [0.1977, 0.1977, 0.1978] (a Source bone has none)"
+  }
+]

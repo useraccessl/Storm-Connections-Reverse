@@ -1,0 +1,736 @@
+{
+  "record_header": {
+    "vtable": "+0x00 (slot0 dtor, slot1 class name, slot2 short name, slot3 arena alloc, slot4 execute)",
+    "sort_key": "+0x08 (u64, ascending)",
+    "next_in_group": "+0x10",
+    "group_tail": "+0x18 (valid on group head)",
+    "frame_arena": "+0x20",
+    "tag": "+0x28 (category, not a unique type id)",
+    "payload": "+0x30..."
+  },
+  "low_level_commands": [
+    {
+      "tag": 1,
+      "class_name": "mmDrawCommand_Clear",
+      "name": "Clear",
+      "vtable_va": "0x141b8d050",
+      "execute_va": "0x1413f32c0",
+      "producer_vas": [
+        "0x14121b1c0",
+        "0x141223160"
+      ],
+      "backend": [
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x38",
+          "method_va": "0x1414170d0",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x30",
+          "method_va": "0x141417100",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x128",
+          "method_va": "0x141417eb0",
+          "d3d11_context_calls": [
+            "OMSetRenderTargets"
+          ]
+        },
+        {
+          "slot": "0x68",
+          "method_va": "0x141415700",
+          "d3d11_context_calls": [
+            "ClearRenderTargetView",
+            "ClearDepthStencilView"
+          ]
+        },
+        {
+          "slot": "0x70",
+          "method_va": "0x1414157f0",
+          "d3d11_context_calls": [
+            "ClearRenderTargetView"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 2,
+      "class_name": "mmDrawCommand_RenderPolygon",
+      "name": "RenderPolygon",
+      "vtable_va": "0x141b8e338",
+      "execute_va": "0x1413f3570",
+      "producer_vas": [
+        "0x1412499b0"
+      ],
+      "backend": [
+        {
+          "slot": "0x80",
+          "method_va": "0x141417a40",
+          "d3d11_context_calls": [
+            "IASetInputLayout",
+            "IASetVertexBuffers",
+            "IASetIndexBuffer",
+            "DrawIndexed"
+          ]
+        },
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x88",
+          "method_va": "0x1414178d0",
+          "d3d11_context_calls": [
+            "IASetInputLayout",
+            "IASetVertexBuffers",
+            "Draw"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 4,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d210",
+      "execute_va": "0x141219900",
+      "producer_vas": [
+        "0x141219480"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 4,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d238",
+      "execute_va": "0x141219890",
+      "producer_vas": [
+        "0x141219480"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 4,
+      "class_name": "mmDrawCommand_UpdateRenderState",
+      "name": "UpdateRenderState",
+      "vtable_va": "0x141badcc8",
+      "execute_va": "0x1413f3ae0",
+      "producer_vas": [
+        "0x141400980"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 5,
+      "class_name": "mmDrawCommand_SetRenderState",
+      "name": "SetRenderState",
+      "vtable_va": "0x141b912c8",
+      "execute_va": "0x1413f3690",
+      "producer_vas": [
+        "0x14126c0d0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 6,
+      "class_name": "mmDrawCommand_SetShader",
+      "name": "SetShader",
+      "vtable_va": "0x141b8e030",
+      "execute_va": "0x1413f39d0",
+      "producer_vas": [
+        "0x1412370a0",
+        "0x14123b0e0",
+        "0x141246ed0",
+        "0x141271a50",
+        "0x14140e3d0"
+      ],
+      "backend": [
+        {
+          "slot": "0xa0",
+          "method_va": "0x141418360",
+          "d3d11_context_calls": [
+            "VSSetShader",
+            "PSSetShader"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 8,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d6e8",
+      "execute_va": "0x141222db0",
+      "producer_vas": [
+        "0x1412238f0",
+        "0x141223f70"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 8,
+      "class_name": "mmDrawCommand_UpdateBuffer",
+      "name": "UpdateBuffer",
+      "vtable_va": "0x141badee8",
+      "execute_va": "0x1413f3a20",
+      "producer_vas": [
+        "0x14140d740"
+      ],
+      "backend": [
+        {
+          "slot": "0x90",
+          "method_va": "0x1414184c0",
+          "d3d11_context_calls": [
+            "Map",
+            "Unmap",
+            "UpdateSubresource"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 9,
+      "class_name": "mmDrawCommand_BindConstantBuffer",
+      "name": "BindConstantBuffer",
+      "vtable_va": "0x141b913c0",
+      "execute_va": "0x1413f2df0",
+      "producer_vas": [
+        "0x141271a50",
+        "0x141401340"
+      ],
+      "backend": [
+        {
+          "slot": "0xb0",
+          "method_va": "0x141414bc0",
+          "d3d11_context_calls": [
+            "VSSetConstantBuffers",
+            "PSSetConstantBuffers",
+            "CSSetConstantBuffers"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 10,
+      "class_name": "mmDrawCommand_BindTexture",
+      "name": "BindTexture",
+      "vtable_va": "0x141b8d5e0",
+      "execute_va": "0x1413f3050",
+      "producer_vas": [
+        "0x141233980",
+        "0x141271a50",
+        "0x1413ff980"
+      ],
+      "backend": [
+        {
+          "slot": "0xb8",
+          "method_va": "0x141414fc0",
+          "d3d11_context_calls": [
+            "VSSetShaderResources",
+            "PSSetShaderResources",
+            "CSSetShaderResources"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 12,
+      "class_name": "mmDrawCommand_UpdateSampler",
+      "name": "UpdateSampler",
+      "vtable_va": "0x141badd48",
+      "execute_va": "0x1413f3b30",
+      "producer_vas": [
+        "0x141400d00"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 13,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8e0b8",
+      "execute_va": "0x141239110",
+      "producer_vas": [
+        "0x141237280"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 13,
+      "class_name": "mmDrawCommand_BindSampler",
+      "name": "BindSampler",
+      "vtable_va": "0x141b91320",
+      "execute_va": "0x1413f2e50",
+      "producer_vas": [
+        "0x14126c1f0",
+        "0x141271a50",
+        "0x141400b10"
+      ],
+      "backend": [
+        {
+          "slot": "0xc0",
+          "method_va": "0x141414e10",
+          "d3d11_context_calls": [
+            "VSSetSamplers",
+            "PSSetSamplers",
+            "CSSetSamplers"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 14,
+      "class_name": "mmDrawCommand_BindComputeBuffer",
+      "name": "BindComputeBuffer",
+      "vtable_va": "0x141badd90",
+      "execute_va": "0x1413f2d80",
+      "producer_vas": [
+        "0x141400dc0"
+      ],
+      "backend": [
+        {
+          "slot": "0xd0",
+          "method_va": "0x141414b30",
+          "d3d11_context_calls": [
+            "CSSetUnorderedAccessViews"
+          ]
+        },
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0xc8",
+          "method_va": "0x141414aa0",
+          "d3d11_context_calls": [
+            "CSSetShaderResources"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 15,
+      "class_name": "mmDrawCommand_BindShaderBuffer",
+      "name": "BindShaderBuffer",
+      "vtable_va": "0x141b8e238",
+      "execute_va": "0x1413f2ea0",
+      "producer_vas": [
+        "0x141246ed0",
+        "0x14124c950",
+        "0x14124f700",
+        "0x141401620"
+      ],
+      "backend": [
+        {
+          "slot": "0xb0",
+          "method_va": "0x141414bc0",
+          "d3d11_context_calls": [
+            "VSSetConstantBuffers",
+            "PSSetConstantBuffers",
+            "CSSetConstantBuffers"
+          ]
+        },
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0xb8",
+          "method_va": "0x141414fc0",
+          "d3d11_context_calls": [
+            "VSSetShaderResources",
+            "PSSetShaderResources",
+            "CSSetShaderResources"
+          ]
+        },
+        {
+          "slot": "0xc0",
+          "method_va": "0x141414e10",
+          "d3d11_context_calls": [
+            "VSSetSamplers",
+            "PSSetSamplers",
+            "CSSetSamplers"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 16,
+      "class_name": "mmDrawCommand_UpdateConstantBuffer",
+      "name": "UpdateConstantBuffer",
+      "vtable_va": "0x141baddf0",
+      "execute_va": "0x1413f3a80",
+      "producer_vas": [
+        "0x1414031a0",
+        "0x1414032b0"
+      ],
+      "backend": [
+        {
+          "slot": "0xa8",
+          "method_va": "0x1414185d0",
+          "d3d11_context_calls": [
+            "UpdateSubresource"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 18,
+      "class_name": "mmDrawCommand_LockTexture",
+      "name": "LockTexture",
+      "vtable_va": "0x141badc80",
+      "execute_va": "0x1413f34a0",
+      "producer_vas": [
+        "0x1413fff50"
+      ],
+      "backend": [
+        {
+          "slot": "0x160",
+          "method_va": "0x141418750",
+          "d3d11_context_calls": [
+            "Map",
+            "Unmap"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 19,
+      "class_name": "mmDrawCommand_SetScreenViewport",
+      "name": "SetScreenViewport",
+      "vtable_va": "0x141b8d090",
+      "execute_va": "0x1413f3870",
+      "producer_vas": [
+        "0x1412186f0"
+      ],
+      "backend": [
+        {
+          "slot": "0x108",
+          "method_va": "0x141418240",
+          "d3d11_context_calls": [
+            "RSSetViewports"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 20,
+      "class_name": "mmDrawCommand_SetScreenScissor",
+      "name": "SetScreenScissor",
+      "vtable_va": "0x141b8d0f0",
+      "execute_va": "0x1413f3760",
+      "producer_vas": [
+        "0x141218600"
+      ],
+      "backend": [
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x38",
+          "method_va": "0x1414170d0",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x30",
+          "method_va": "0x141417100",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x118",
+          "method_va": "0x141418060",
+          "d3d11_context_calls": [
+            "RSSetScissorRects"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 22,
+      "class_name": "mmDrawCommand_SetRenderTarget",
+      "name": "SetRenderTarget",
+      "vtable_va": "0x141b8d638",
+      "execute_va": "0x1413f36d0",
+      "producer_vas": [
+        "0x141220a40"
+      ],
+      "backend": [
+        {
+          "slot": "0x128",
+          "method_va": "0x141417eb0",
+          "d3d11_context_calls": [
+            "OMSetRenderTargets"
+          ]
+        },
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        },
+        {
+          "slot": "0x120",
+          "method_va": "0x141417c90",
+          "d3d11_context_calls": [
+            "OMSetRenderTargets"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 23,
+      "class_name": "mmDrawCommand_CaptureRenderBuffer",
+      "name": "CaptureRenderBuffer",
+      "vtable_va": "0x141b8d718",
+      "execute_va": "0x1413f3240",
+      "producer_vas": [
+        "0x141224ca0"
+      ],
+      "backend": [
+        {
+          "slot": "0x10",
+          "method_va": "0x1414152c0",
+          "d3d11_context_calls": [
+            "CopyResource",
+            "Map",
+            "Unmap"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 24,
+      "class_name": "mmDrawCommand_CaptureImageBuffer",
+      "name": "CaptureImageBuffer",
+      "vtable_va": "0x141b8e108",
+      "execute_va": "0x1413f31f0",
+      "producer_vas": [
+        "0x14123f4f0"
+      ],
+      "backend": [
+        {
+          "slot": "0x18",
+          "method_va": "0x141415170",
+          "d3d11_context_calls": [
+            "CopyResource",
+            "Map",
+            "Unmap"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": 30,
+      "class_name": "mmDrawCommand_Submit",
+      "name": "Submit",
+      "vtable_va": "0x141bad120",
+      "execute_va": "0x1413f3a10",
+      "producer_vas": [
+        "0x1413f7e50"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 32,
+      "class_name": "mmDrawCommand_ApplyShaderPass",
+      "name": "ApplyShaderPass",
+      "vtable_va": "0x141badf58",
+      "execute_va": "0x14140e900",
+      "producer_vas": [
+        "0x14140e3d0"
+      ],
+      "backend": [
+        {
+          "slot": "0x20",
+          "method_va": "0x141416f70",
+          "d3d11_context_calls": []
+        }
+      ]
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d198",
+      "execute_va": "0x1412199d0",
+      "producer_vas": [
+        "0x14121a420"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d1c0",
+      "execute_va": "0x141219b80",
+      "producer_vas": [
+        "0x14121b7e0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d1e8",
+      "execute_va": "0x141219b70",
+      "producer_vas": [
+        "0x141219bd0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d260",
+      "execute_va": "0x1412199f0",
+      "producer_vas": [
+        "0x14121bba0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d288",
+      "execute_va": "0x141219a50",
+      "producer_vas": [
+        "0x14121bcb0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d2b0",
+      "execute_va": "0x141219970",
+      "producer_vas": [
+        "0x14121c000"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d2d8",
+      "execute_va": "0x141219ab0",
+      "producer_vas": [
+        "0x14121bdc0"
+      ],
+      "backend": []
+    },
+    {
+      "tag": 34,
+      "class_name": "mmDrawCommand_nummDrawCommand_Function",
+      "name": "nummDrawCommand_Function",
+      "vtable_va": "0x141b8d300",
+      "execute_va": "0x141219b10",
+      "producer_vas": [
+        "0x14121bee0"
+      ],
+      "backend": []
+    }
+  ],
+  "high_level_commands": [
+    {
+      "class_name": "nuccDrawCommand",
+      "vtable_va": "0x141b96630",
+      "destructor_va": "0x1412d5410",
+      "execute_va": "0x1412d54a0"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawSprite2D",
+      "vtable_va": "0x141b96648",
+      "destructor_va": "0x1412d53e0",
+      "execute_va": "0x1412d5480"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawSpritePoly2D",
+      "vtable_va": "0x141b97438",
+      "destructor_va": "0x1412dc910",
+      "execute_va": "0x1412dc990"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawPrimitive",
+      "vtable_va": "0x141b991d0",
+      "destructor_va": "0x1412fd950",
+      "execute_va": "0x1412fdaf0"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawPrimitiveRef",
+      "vtable_va": "0x141b991e8",
+      "destructor_va": "0x1412fd9a0",
+      "execute_va": "0x1412fdb90"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawSpritePoly3D",
+      "vtable_va": "0x141b9b430",
+      "destructor_va": "0x141315c30",
+      "execute_va": "0x141315cb0"
+    },
+    {
+      "class_name": "nuccDrawCommand_DrawColorFilter",
+      "vtable_va": "0x141ba0848",
+      "destructor_va": "0x14135eef0",
+      "execute_va": "0x14135ef60"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawModel",
+      "vtable_va": "0x141ba08f8",
+      "destructor_va": "0x141364f80",
+      "execute_va": "0x141365030"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawModelShadow",
+      "vtable_va": "0x141ba0918",
+      "destructor_va": "0x141365050",
+      "execute_va": "0x1413650c0"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawModelVelocity",
+      "vtable_va": "0x141ba0938",
+      "destructor_va": "0x1413650d0",
+      "execute_va": "0x141365150"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawModelOutline",
+      "vtable_va": "0x141ba0958",
+      "destructor_va": "0x141365160",
+      "execute_va": "0x1413651d0"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawModelPrimitive",
+      "vtable_va": "0x141ba0f40",
+      "destructor_va": "0x141368630",
+      "execute_va": "0x1413686e0"
+    },
+    {
+      "class_name": "nuccDrawCommand_DrawModelPrimitiveBatch",
+      "vtable_va": "0x141ba1660",
+      "destructor_va": "0x14136bea0",
+      "execute_va": "0x14136bf40"
+    },
+    {
+      "class_name": "nuccDrawCmd_DrawTrail",
+      "vtable_va": "0x141ba4688",
+      "destructor_va": "0x141389e60",
+      "execute_va": "0x141389f40"
+    }
+  ]
+}

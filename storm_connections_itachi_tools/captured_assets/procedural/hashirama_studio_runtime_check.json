@@ -1,0 +1,11 @@
+{
+  "draws": {
+    "models/storm_fx/1efc_wtr_ptc01.mdl": 1,
+    "models/storm_fx/1fireff1_07_anim.mdl": 543,
+    "models/storm_fx/1fireff1_08_anim.mdl": 735,
+    "models/storm_fx/1fireff1_01_anim.mdl": 38
+  },
+  "failed": {},
+  "scope": "Source entity API stub; no live GMod validation",
+  "water_model": "DrawStudio called explicitly; water-ring emitters did not spawn in these scenarios"
+}

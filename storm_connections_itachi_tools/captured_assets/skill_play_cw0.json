@@ -1,0 +1,2737 @@
+{
+ "files": 1,
+ "totals": {
+  "outcome": {
+   "imported and played": 1
+  },
+  "script": {
+   "ran with effects": 77,
+   "ran, launched no effect": 1
+  },
+  "note": {
+   "attached to #, a node outside the effect, placed at the effect root": 4,
+   "script # is not in this package": 4,
+   "light set # was never captured: its ambient is the host default": 3,
+   "BOUNDBALL bounces on what the host traces; its rolling and floating on water are not reproduced": 2
+  },
+  "not rendered": {
+   "wkni_body": 10,
+   "wknz_body": 2,
+   "wkbd_body": 2
+  },
+  "mesh without shader": {
+   "mesh #: # per-draw and # stage constants (# pixel constant floats, # baked into the mesh)": 3
+  },
+  "importer gap": {
+   "script: spawned by an event; no skill file defines it": 6,
+   "effect: attachment stride": 4,
+   "model: mesh # (shader key #): # per-draw and # stage constants (# pixel constant floats, # baked into the m": 3,
+   "animation: clump member # is a nuccChunkBillboard": 1,
+   "resource: nuccChunkBillboard: chunk not found in the loaded files nor in the chunk index (path e\\#\\max\\#.max)": 1
+  }
+ },
+ "per_file": {
+  "cw0_x": {
+   "package": "cw0_x",
+   "scripts": {
+    "wcfms_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wcfms_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wfms_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wfms_nut01",
+      "wfms_hit01"
+     ],
+     "frames": 600,
+     "peak_particles": 3,
+     "draws": 917,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "wfms_nut01"
+     ],
+     "dropped": {}
+    },
+    "wckni_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wckni_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_chakra03",
+      "wknz_nut01",
+      "wknz_hit01"
+     ],
+     "frames": 68,
+     "peak_particles": 9,
+     "draws": 150,
+     "notes": [],
+     "skipped": {
+      "wknz_body": 6
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wcsbn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wcsbn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_chakra03",
+      "wsbz_nut01",
+      "wsbz_hit03",
+      "wsbz_hit01"
+     ],
+     "frames": 70,
+     "peak_particles": 10,
+     "draws": 285,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wcskn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wcskn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_thousand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_chakra03",
+      "wskz_nut01",
+      "wskz_hit03",
+      "wskz_hit01"
+     ],
+     "frames": 74,
+     "peak_particles": 9,
+     "draws": 228,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wddw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wddw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wddw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wddw_nut01",
+      "wddw_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 11,
+     "draws": 84,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wfms_e_guard00": {
+     "error": null,
+     "actors": [
+      [
+       "wfms_e_guard00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wfms_hit02",
+      "wfms_nut01"
+     ],
+     "frames": 600,
+     "peak_particles": 3,
+     "draws": 927,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "wfms_nut01"
+     ],
+     "dropped": {}
+    },
+    "wfms_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "wfms_e_hit00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wfms_hit01",
+      "wfms_nut01"
+     ],
+     "frames": 600,
+     "peak_particles": 3,
+     "draws": 924,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "wfms_nut01"
+     ],
+     "dropped": {}
+    },
+    "wkbd_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wkbd_e_begin00",
+       "SKILL_ACTION_TYPE_BOUNDBALL"
+      ],
+      [
+       "wkbd_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbd_nut01",
+      "wkbd_hit01"
+     ],
+     "frames": 520,
+     "peak_particles": 42,
+     "draws": 1328,
+     "notes": [
+      "wkbd_e_begin00: BOUNDBALL bounces on what the host traces; its rolling and floating on water are not reproduced"
+     ],
+     "skipped": {
+      "wkbd_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wkbd_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "wkbd_e_begin01",
+       "SKILL_ACTION_TYPE_BOUNDBALL"
+      ]
+     ],
+     "effects": [
+      "wkbd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "wkbd_e_begin01: BOUNDBALL bounces on what the host traces; its rolling and floating on water are not reproduced"
+     ],
+     "skipped": {
+      "wkbd_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wkbh_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wkbh_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkbh_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkbh_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkbh_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbh_nut01",
+      "wkbh_hit03",
+      "wkbh_hit01"
+     ],
+     "frames": 404,
+     "peak_particles": 42,
+     "draws": 1283,
+     "notes": [
+      "wkbh_hit03: attached to wkbk01_01, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wkbk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wkbk_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkbk_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbk_nut01",
+      "wkbk_hit01"
+     ],
+     "frames": 180,
+     "peak_particles": 10,
+     "draws": 228,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wkni_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wkni_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkni_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkni_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkni_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkni_nut01",
+      "wkni_hit03",
+      "wkni_hit01"
+     ],
+     "frames": 69,
+     "peak_particles": 10,
+     "draws": 33,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 3
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wknw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wknw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "wknw_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "wknw_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknw_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknw_nut01",
+      "wknw_set01",
+      "wknw_nut02",
+      "wknw_sht01",
+      "wkni_nut01",
+      "wkni_hit01"
+     ],
+     "frames": 306,
+     "peak_particles": 10,
+     "draws": 1056,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 6
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wknx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wknx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknx_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknx_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknx_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wkni_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wkni_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknx_nut01",
+      "wknx_set01",
+      "wknx_sht01",
+      "wknx_nut02",
+      "wkni_nut01",
+      "wkni_hit01",
+      "wkni_hit03"
+     ],
+     "frames": 379,
+     "peak_particles": 10,
+     "draws": 909,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 4
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wknz_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wknz_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknz_nut01",
+      "wknz_hit01"
+     ],
+     "frames": 69,
+     "peak_particles": 3,
+     "draws": 13,
+     "notes": [],
+     "skipped": {
+      "wknz_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "wpdw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wpdw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wpdw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpdw_nut01",
+      "wpdw_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 11,
+     "draws": 84,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wpos_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wpos_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wpos_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpos_nut01",
+      "wpos_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 11,
+     "draws": 84,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsbn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wsbn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsbn_nut01",
+      "wsbn_hit01"
+     ],
+     "frames": 73,
+     "peak_particles": 10,
+     "draws": 96,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsbz_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wsbz_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsbz_nut01",
+      "wsbz_hit01"
+     ],
+     "frames": 73,
+     "peak_particles": 10,
+     "draws": 42,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wscu_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "wscu_e_begin01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsuc_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsuc_nut01",
+      "wsuc_hit01"
+     ],
+     "frames": 70,
+     "peak_particles": 18,
+     "draws": 174,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsdw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wsdw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsdw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsdw_nut01",
+      "wsdw_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 11,
+     "draws": 84,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsel_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wsel_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsel_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsel_nut01",
+      "wsel_hit01"
+     ],
+     "frames": 63,
+     "peak_particles": 14,
+     "draws": 115,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wskn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wskn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wskn_nut01",
+      "wskn_hit01"
+     ],
+     "frames": 73,
+     "peak_particles": 10,
+     "draws": 110,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wskn_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "wskn_e_begin01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wskn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wskn_nut01",
+      "wskn_hit01"
+     ],
+     "frames": 73,
+     "peak_particles": 10,
+     "draws": 110,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wskz_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wskz_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wskz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wskz_nut01",
+      "wskz_hit01"
+     ],
+     "frames": 71,
+     "peak_particles": 3,
+     "draws": 16,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wslp_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wslp_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wslp_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wslp_nut01",
+      "wslp_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 11,
+     "draws": 84,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsuc_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wsuc_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsuc_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsuc_nut01",
+      "wsuc_hit01"
+     ],
+     "frames": 70,
+     "peak_particles": 17,
+     "draws": 174,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wsuc_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "wsuc_e_begin01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsuc_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsuc_nut01",
+      "wsuc_hit01"
+     ],
+     "frames": 71,
+     "peak_particles": 18,
+     "draws": 174,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "wthn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "wthn_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wthn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wthn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wthn_nut01",
+      "wthn_hit03",
+      "wthn_hit01"
+     ],
+     "frames": 122,
+     "peak_particles": 8,
+     "draws": 58,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wddw2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wddw2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wddw2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wddw_nut01",
+      "wddw_hitworld00",
+      "wtil_lv2",
+      "wddw_hit01"
+     ],
+     "frames": 453,
+     "peak_particles": 11,
+     "draws": 149,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wddw3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wddw3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wddw3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wddw_nut01",
+      "wddw_hitworld00",
+      "wtil_lv3",
+      "wddw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 156,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wddw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wddw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wddw_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wddw_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wddw_nut01",
+      "wddw_hitworld00",
+      "wtil_lv1",
+      "wddw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 154,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wdkx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wdkx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkdd_nut01",
+      "wkdd_set01",
+      "wkdd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 132,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wdkx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wdkx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkdd_nut01",
+      "wkdd_set01",
+      "wkdd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 198,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wdkx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wdkx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wdkx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkdd_nut01",
+      "wkdd_set01",
+      "wkdd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wkbh2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wkbh2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wkbh2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wkbh2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbh_nut01",
+      "wkbh_hit03",
+      "wtil_lv2"
+     ],
+     "frames": 404,
+     "peak_particles": 3,
+     "draws": 176,
+     "notes": [
+      "wkbh_hit03: attached to wkbk01_01, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wkbh3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wkbh3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wkbh3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wkbh3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wkbh3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wkbh3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbh_nut01",
+      "wkbh_hit03",
+      "wtil_lv3",
+      "wkbh_hit01"
+     ],
+     "frames": 404,
+     "peak_particles": 42,
+     "draws": 1276,
+     "notes": [
+      "wkbh_hit03: attached to wkbk01_01, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wkbh_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wkbh_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wkbh_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wkbh_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbh_nut01",
+      "wkbh_hit03",
+      "wtil_lv1"
+     ],
+     "frames": 404,
+     "peak_particles": 3,
+     "draws": 176,
+     "notes": [
+      "wkbh_hit03: attached to wkbk01_01, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wknx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wknx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wknx2_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wknx2_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknx_nut01",
+      "wknx_set01",
+      "wknx_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 132,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wknx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wknx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wknx3_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wknx3_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wknx3_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknx_nut01",
+      "wknx_set01",
+      "wknx_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 198,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wknx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wknx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wknx_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknx_nut01",
+      "wknx_set01",
+      "wknx_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 66,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wknx_e_blt01": {
+     "error": null,
+     "actors": [
+      [
+       "y_wknx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkni_nut01"
+     ],
+     "frames": 9,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "script y_wkni_e_hit00 is not in this package"
+     ],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdw2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdw2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdw2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpdw_nut01",
+      "wpdw_hitworld00",
+      "wtil_lv2",
+      "wpdw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 156,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdw3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdw3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdw3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpdw_nut01",
+      "wpdw_hitworld00",
+      "wtil_lv3",
+      "wpdw_hit01"
+     ],
+     "frames": 453,
+     "peak_particles": 11,
+     "draws": 152,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdw_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpdw_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpdw_nut01",
+      "wpdw_hitworld00",
+      "wtil_lv1",
+      "wpdw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 158,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpd_nut01",
+      "wkpd_set01",
+      "wkpd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 136,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpd_nut01",
+      "wkpd_set01",
+      "wkpd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 204,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpdx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpd_nut01",
+      "wkpd_set01",
+      "wkpd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpdx_e_blt01": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpdx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkni_nut01"
+     ],
+     "frames": 10,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "script y_wkni_e_hit00 is not in this package"
+     ],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpkx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpkx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpo_nut01",
+      "wkpo_set01",
+      "wkpo_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 132,
+     "notes": [],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpkx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpkx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpo_nut01",
+      "wkpo_set01",
+      "wkpo_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 204,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpkx3_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpkx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpo_nut01",
+      "wkpo_set01",
+      "wkpo_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpkx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpkx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpkx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkpo_nut01",
+      "wkpo_set01",
+      "wkpo_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpkx_e_blt01": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpkx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkni_nut01"
+     ],
+     "frames": 10,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "script y_wkni_e_hit00 is not in this package"
+     ],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpos2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpos2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpos2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpos_nut01",
+      "wpos_hitworld00",
+      "wtil_lv2",
+      "wpos_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpos3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpos3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpos3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpos_nut01",
+      "wpos_hitworld00",
+      "wtil_lv3",
+      "wpos_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wpos_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wpos_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wpos_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wpos_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wpos_nut01",
+      "wpos_hitworld00",
+      "wtil_lv1",
+      "wpos_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdw2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdw2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdw2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsdw_nut01",
+      "wsdw_hitworld00",
+      "wtil_lv2",
+      "wsdw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdw3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdw3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdw3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsdw_nut01",
+      "wsdw_hitworld00",
+      "wtil_lv3",
+      "wsdw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdw_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdw_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdw_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsdw_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsdw_nut01",
+      "wsdw_hitworld00",
+      "wtil_lv1",
+      "wsdw_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksd_nut01",
+      "wksd_set01",
+      "wksd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 136,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksd_nut01",
+      "wksd_set01",
+      "wksd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 204,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsdx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsdx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsdx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksd_nut01",
+      "wksd_set01",
+      "wksd_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsel2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsel2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsel2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsel_nut01",
+      "wsel_hitworld00",
+      "wtil_lv2",
+      "wsel_hit01"
+     ],
+     "frames": 458,
+     "peak_particles": 14,
+     "draws": 196,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsel3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsel3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsel3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsel_nut01",
+      "wsel_hitworld00",
+      "wtil_lv3",
+      "wsel_hit01"
+     ],
+     "frames": 458,
+     "peak_particles": 14,
+     "draws": 195,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wsel_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wsel_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wsel_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wsel_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsel_nut01",
+      "wsel_hitworld00",
+      "wtil_lv1",
+      "wsel_hit01"
+     ],
+     "frames": 458,
+     "peak_particles": 14,
+     "draws": 193,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wskx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wskx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkse_nut01",
+      "wkse_set01",
+      "wkse_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 136,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wskx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wskx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkse_nut01",
+      "wkse_set01",
+      "wkse_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 204,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wskx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wskx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wskx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkse_nut01",
+      "wkse_set01",
+      "wkse_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslp2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslp2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslp2_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp2_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wslp_nut01",
+      "wslp_hitworld00",
+      "wtil_lv2",
+      "wslp_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 154,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslp3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslp3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslp3_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp3_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp3_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp3_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wslp_nut01",
+      "wslp_hitworld00",
+      "wtil_lv3",
+      "wslp_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslp_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslp_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslp_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp_e_hitWorld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "y_wslp_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wslp_nut01",
+      "wslp_hitworld00",
+      "wtil_lv1",
+      "wslp_hit01"
+     ],
+     "frames": 454,
+     "peak_particles": 11,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslx2_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslx2_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksl_nut01",
+      "wksl_set01",
+      "wksl_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 136,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslx3_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslx3_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx3_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksl_nut01",
+      "wksl_set01",
+      "wksl_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 204,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslx_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslx_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wslx_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wksl_nut01",
+      "wksl_set01",
+      "wksl_nut02"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 68,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wslx_e_blt01": {
+     "error": null,
+     "actors": [
+      [
+       "y_wslx_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wkni_nut01"
+     ],
+     "frames": 10,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "script y_wkni_e_hit00 is not in this package"
+     ],
+     "skipped": {
+      "wkni_body": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wukh_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "y_wukh_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "y_wukh_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wtch_nut01",
+      "wtch_hit01"
+     ],
+     "frames": 43,
+     "peak_particles": 38,
+     "draws": 340,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "y_wukh_e_hit01": {
+     "error": null,
+     "actors": [
+      [
+       "y_wukh_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 5,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 8 was never captured: its ambient is the host default",
+    "light set 0 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {
+    "wkbd_body": "mesh 1: 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)",
+    "wknz_body": "mesh 1: 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)",
+    "wkni_body": "mesh 1: 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)"
+   },
+   "not_imported": [
+    [
+     "script y_wkni_e_hitWorld00",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "script y_wkni_e_hit00",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "script y_wsel3_e_guard00",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "script y_wsel2_e_guard00",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "script y_wsel_e_guard00",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "script wsuc_hit03",
+     "spawned by an event; no skill file defines it"
+    ],
+    [
+     "effect wfms_hit01",
+     "attachment stride"
+    ],
+    [
+     "effect wfms_hit02",
+     "attachment stride"
+    ],
+    [
+     "effect wkni_hit02",
+     "attachment stride"
+    ],
+    [
+     "effect wskn_hit02",
+     "attachment stride"
+    ],
+    [
+     "animation wtch_hit01",
+     "clump member wtch_03 is a nuccChunkBillboard"
+    ],
+    [
+     "resource 1efc_ring21",
+     "nuccChunkBillboard: chunk not found in the loaded files nor in the chunk index (path e\\1efcmn\\max\\1efc_ring21.max)"
+    ],
+    [
+     "model wkbd_body",
+     "mesh 0 (shader key 0x2f00a): 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)"
+    ],
+    [
+     "model wkni_body",
+     "mesh 0 (shader key 0x2f000): 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)"
+    ],
+    [
+     "model wknz_body",
+     "mesh 0 (shader key 0x2f000): 13 per-draw and 21 stage constants (16 pixel constant floats, 12 baked into the mesh)"
+    ]
+   ],
+   "meshes_drawn": 76,
+   "meshes_never_drawn": [
+    "storm_fx_r21_cw0_x_1efc_bd_smk01_1",
+    "storm_fx_r21_cw0_x_1efc_fire08_1",
+    "storm_fx_r21_cw0_x_1efc_line03_1",
+    "storm_fx_r21_cw0_x_1efc_ring02_1",
+    "storm_fx_r21_cw0_x_1efc_ring06_1",
+    "storm_fx_r21_cw0_x_1efc_rpl01_1",
+    "storm_fx_r21_cw0_x_1efc_smk01_1",
+    "storm_fx_r21_cw0_x_1efc_spk01_1",
+    "storm_fx_r21_cw0_x_1efc_strk01_1",
+    "storm_fx_r21_cw0_x_1efc_strk02_1",
+    "storm_fx_r21_cw0_x_1efc_strk03_1",
+    "storm_fx_r21_cw0_x_1efc_wtr01_1",
+    "storm_fx_r21_cw0_x_wfms_body_1",
+    "storm_fx_r21_cw0_x_wfms_fan01_1",
+    "storm_fx_r21_cw0_x_wfms_fan02_1",
+    "storm_fx_r21_cw0_x_wfms_fan03_1",
+    "storm_fx_r21_cw0_x_wfms_fan04_1"
+   ]
+  }
+ }
+}

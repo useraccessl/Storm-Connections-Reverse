@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skill id="4efb_amt1_e_begin00" type="SKILL_TYPE_EFFECT">
+	<Files num="1">
+		<File path="data/effect/1efcmn.xfbin"/>
+	</Files>
+	<Actions num="1">
+		<!--射出エフェクト-->
+		<Action id="0" type="SKILL_ACTION_TYPE_ARROW">
+			<Hit/>
+			<CharacterHitDisable value="true"/>
+			<WorldHitDisable value="true"/>
+			<Inductivity value="0.1"/>
+			<ViewingAngle value="90"/>
+			<Velocity value="1"/>
+			<Event type="SKILL_EVENT_TYPE_ANIMATION_END" command="SKILL_EVENT_COMMAND_KILL" commandParameter="0" loopCount="1"/>
+			<Event type="SKILL_EVENT_TYPE_FRAME_ELAPSED" command="SKILL_EVENT_COMMAND_KILL" commandParameter="0" arg="1">
+				<Effect name="4efb_amt1_e_blt00" shotType="SKILL_SHOT_TYPE_DEFAULT"/>
+			</Event>
+		</Action>
+	</Actions>
+</Skill>

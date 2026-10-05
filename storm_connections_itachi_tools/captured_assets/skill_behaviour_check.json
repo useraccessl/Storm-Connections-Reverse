@@ -1,0 +1,42 @@
+{
+ "SINCURVE": {
+  "file": "data/skill/gkin_x.xfbin",
+  "script": "gkineff1_e_fire_blt00",
+  "result": "60 ticks, largest offset 499.938 of amplitude 500.000"
+ },
+ "ELEVATOR": {
+  "file": "data/skill/2efb_kmi_x.xfbin",
+  "script": "2efb_kmi_e_blt01",
+  "result": "10 ticks, 25 units per tick along +Z"
+ },
+ "BOUNDBALL": {
+  "file": "data/skill/1knk_x.xfbin",
+  "script": "1krseff1_csk_e_blt00",
+  "result": "120 ticks, 59 rebound(s), lowest height 0.000"
+ },
+ "Gravity": {
+  "file": "data/skill/2jrv_x.xfbin",
+  "script": "2jrveff1_awaspt02_e_ge01",
+  "result": "8 ticks, vertical speed changes by 1.36203 per tick (Gravity -5)"
+ },
+ "Inductivity": {
+  "file": "data/skill/1hkg_x.xfbin",
+  "script": "1efb_skb_e_blt02",
+  "result": "passes 26.6 units from the target; its launch line passes 36.6 units away (Inductivity 0.1)"
+ },
+ "N_WAY_HORIZONTAL": {
+  "file": "data/skill/1efb_bss_x.xfbin",
+  "script": "1efb_bss_e_begin00",
+  "result": "5 actors launched, 10 degrees apart"
+ },
+ "RANDOM_CREATION": {
+  "file": "data/skill/1gar_x.xfbin",
+  "script": "1gareff1_csk_e_begin00",
+  "result": "6 actors launched, farthest 39.0 units from the parent (range 42)"
+ },
+ "Ground contact": {
+  "file": "data/skill/1efcmn_x.xfbin",
+  "script": "1efc_e_fire_ge00",
+  "result": "took action 1 (HIT_WORLD_DIRT) at tick 1"
+ }
+}

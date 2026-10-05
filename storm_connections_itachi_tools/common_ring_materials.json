@@ -1,0 +1,76 @@
+{
+  "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\extracted\\data\\effect\\1efcmn.xfbin",
+  "material_count": 2,
+  "materials": [
+    {
+      "name": "1efc_ring09",
+      "field02": 0,
+      "field04": 0.0,
+      "format": 35,
+      "floats": [
+        0.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 43,
+          "textures": [
+            {
+              "index": 5,
+              "name": "1efc_wav05",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 6,
+              "name": "1efc_falloff02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    },
+    {
+      "name": "1efc_ring13",
+      "field02": 0,
+      "field04": 0.0,
+      "format": 35,
+      "floats": [
+        0.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "texture_groups": [
+        {
+          "flag": 43,
+          "textures": [
+            {
+              "index": 5,
+              "name": "1efc_wav05",
+              "type": "nuccChunkTexture"
+            },
+            {
+              "index": 6,
+              "name": "1efc_falloff02",
+              "type": "nuccChunkTexture"
+            }
+          ]
+        }
+      ],
+      "unparsed_bytes": 0
+    }
+  ]
+}

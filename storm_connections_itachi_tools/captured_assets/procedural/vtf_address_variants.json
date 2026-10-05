@@ -1,0 +1,47 @@
+[
+  {
+    "texture": "storm_amt_lab/procedural_1efc_falloff09_cs",
+    "from": "storm_amt_lab/procedural_1efc_falloff09",
+    "wrap": [
+      3,
+      1
+    ],
+    "flags": "0x2004"
+  },
+  {
+    "texture": "storm_amt_lab/procedural_1efc_part01_cst",
+    "from": "storm_amt_lab/procedural_1efc_part01",
+    "wrap": [
+      2,
+      2
+    ],
+    "flags": "0x200c"
+  },
+  {
+    "texture": "storm_amt_lab/procedural_4efb_amt02_cst",
+    "from": "storm_amt_lab/procedural_4efb_amt02",
+    "wrap": [
+      3,
+      3
+    ],
+    "flags": "0x200c"
+  },
+  {
+    "texture": "storm_amt_lab/procedural_4efb_fire04_cst",
+    "from": "storm_amt_lab/procedural_4efb_fire04",
+    "wrap": [
+      3,
+      3
+    ],
+    "flags": "0x200c"
+  },
+  {
+    "texture": "storm_amt_lab/procedural_4efb_fire04_cst",
+    "from": "storm_amt_lab/procedural_4efb_fire04",
+    "wrap": [
+      4,
+      4
+    ],
+    "flags": "0x200c"
+  }
+]

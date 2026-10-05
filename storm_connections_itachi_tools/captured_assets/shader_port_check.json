@@ -1,0 +1,593 @@
+{
+ "fog_clamp": true,
+ "smooth_normals": true,
+ "keys": {
+  "0x01f002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1732,
+   "exact": 1732,
+   "within_1": 1732,
+   "within_2": 1732,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1732,
+   "exact": 1732,
+   "within_1": 1732,
+   "within_2": 1732,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x00f00a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2248,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.9999999403953552
+  },
+  "0x01f008": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1097,
+   "exact": 1097,
+   "within_1": 1097,
+   "within_2": 1097,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x00f000": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2249,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1809,
+   "exact": 1809,
+   "within_1": 1809,
+   "within_2": 1809,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x02f000": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2273,
+   "exact": 2273,
+   "within_1": 2273,
+   "within_2": 2273,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x19f002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1734,
+   "exact": 1734,
+   "within_1": 1734,
+   "within_2": 1734,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f009": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 2299,
+   "exact": 2299,
+   "within_1": 2299,
+   "within_2": 2299,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f00f": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1737,
+   "exact": 1737,
+   "within_1": 1737,
+   "within_2": 1737,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f008": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1258,
+   "exact": 1258,
+   "within_1": 1258,
+   "within_2": 1258,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x02f00a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2273,
+   "exact": 2273,
+   "within_1": 2273,
+   "within_2": 2273,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x19f007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1734,
+   "exact": 1734,
+   "within_1": 1734,
+   "within_2": 1734,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x19f00f": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1746,
+   "exact": 1746,
+   "within_1": 1746,
+   "within_2": 1746,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f00f": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1808,
+   "exact": 1808,
+   "within_1": 1808,
+   "within_2": 1808,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x1bf002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1795,
+   "exact": 1795,
+   "within_1": 1795,
+   "within_2": 1795,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x19f008": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1125,
+   "exact": 1124,
+   "within_1": 1125,
+   "within_2": 1125,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.9999999403953552
+  },
+  "0x03f007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1821,
+   "exact": 1821,
+   "within_1": 1821,
+   "within_2": 1821,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x09f002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1734,
+   "exact": 1734,
+   "within_1": 1734,
+   "within_2": 1734,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x00f10a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2299,
+   "exact": 2298,
+   "within_1": 2299,
+   "within_2": 2299,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.9999999403953552
+  },
+  "0x21f007": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 1734,
+   "exact": 1734,
+   "within_1": 1734,
+   "within_2": 1734,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x09f007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1734,
+   "exact": 1734,
+   "within_1": 1734,
+   "within_2": 1734,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x0bf00f": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1839,
+   "exact": 1839,
+   "within_1": 1839,
+   "within_2": 1839,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x18f000": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2249,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x21f008": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 687,
+   "exact": 687,
+   "within_1": 687,
+   "within_2": 687,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x1bf007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1795,
+   "exact": 1795,
+   "within_1": 1795,
+   "within_2": 1795,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f006": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 1433,
+   "exact": 1433,
+   "within_1": 1433,
+   "within_2": 1433,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x0bf002": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1795,
+   "exact": 1795,
+   "within_1": 1795,
+   "within_2": 1795,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x23f007": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 1306,
+   "exact": 1306,
+   "within_1": 1306,
+   "within_2": 1306,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x09f008": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1125,
+   "exact": 1125,
+   "within_1": 1125,
+   "within_2": 1125,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f006": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 1787,
+   "exact": 1787,
+   "within_1": 1787,
+   "within_2": 1787,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f013": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1675,
+   "exact": 1675,
+   "within_1": 1675,
+   "within_2": 1675,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x23f008": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 949,
+   "exact": 949,
+   "within_1": 949,
+   "within_2": 949,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f003": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1581,
+   "exact": 1437,
+   "within_1": 1581,
+   "within_2": 1581,
+   "coverage_mismatch": 0,
+   "max_error_255": 1.0000017881393433
+  },
+  "0x01f00a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2249,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x18f00a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2249,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f012": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1675,
+   "exact": 1675,
+   "within_1": 1675,
+   "within_2": 1675,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x0bf008": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1219,
+   "exact": 1219,
+   "within_1": 1219,
+   "within_2": 1219,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x00f007": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2239,
+   "exact": 2239,
+   "within_1": 2239,
+   "within_2": 2239,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x39f007": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 0,
+   "exact": 0,
+   "within_1": 0,
+   "within_2": 0,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x03f003": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1754,
+   "exact": 1687,
+   "within_1": 1754,
+   "within_2": 1754,
+   "coverage_mismatch": 0,
+   "max_error_255": 1.000003695487976
+  },
+  "0x39f00f": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 302,
+   "exact": 302,
+   "within_1": 302,
+   "within_2": 302,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x09f00f": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1746,
+   "exact": 1746,
+   "within_1": 1746,
+   "within_2": 1746,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x29f008": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 91,
+   "exact": 91,
+   "within_1": 91,
+   "within_2": 91,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x00effe": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2299,
+   "exact": 2299,
+   "within_1": 2299,
+   "within_2": 2299,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x06f00a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2254,
+   "exact": 2254,
+   "within_1": 2254,
+   "within_2": 2254,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x02f10a": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2299,
+   "exact": 2299,
+   "within_1": 2299,
+   "within_2": 2299,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f004": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1706,
+   "exact": 771,
+   "within_1": 1116,
+   "within_2": 1307,
+   "coverage_mismatch": 0,
+   "max_error_255": 10.999999046325684
+  },
+  "0x08f000": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2249,
+   "exact": 2249,
+   "within_1": 2249,
+   "within_2": 2249,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x01f00d": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 1581,
+   "exact": 1533,
+   "within_1": 1581,
+   "within_2": 1581,
+   "coverage_mismatch": 0,
+   "max_error_255": 1.0000008344650269
+  },
+  "0x03f000": {
+   "notes": [],
+   "scenes": 9,
+   "pixels": 2283,
+   "exact": 2283,
+   "within_1": 2283,
+   "within_2": 2283,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x2bf007": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 1781,
+   "exact": 1781,
+   "within_1": 1781,
+   "within_2": 1781,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  },
+  "0x29f007": {
+   "notes": [
+    "reads SV_Position.z: Source depth, not the game projection",
+    "no scene depth in the port: depth samples read the far plane"
+   ],
+   "scenes": 9,
+   "pixels": 0,
+   "exact": 0,
+   "within_1": 0,
+   "within_2": 0,
+   "coverage_mismatch": 0,
+   "max_error_255": 0.0
+  }
+ },
+ "untranslated": {
+  "0x03f015": "samples the tone-control target (g_textureRefTcDeff)",
+  "0x03f014": "samples the tone-control target (g_textureRefTcDeff)",
+  "0x00e001": "no colour output (depth-only pass: shadow caster)",
+  "0x00e000": "instruction itof",
+  "0x20f001": "6 textures (screenspace_general binds four)",
+  "0x1af000": "5 textures (screenspace_general binds four)",
+  "0x05f002": "control flow",
+  "0x1bf00f": "5 textures (screenspace_general binds four)",
+  "0x1bf008": "5 textures (screenspace_general binds four)",
+  "0x20f000": "5 textures (screenspace_general binds four)",
+  "0x1af00a": "5 textures (screenspace_general binds four)",
+  "0x00e002": "no colour output (depth-only pass: shadow caster)",
+  "0x07f002": "control flow",
+  "0x19f004": "5 textures (screenspace_general binds four)",
+  "0x05f00d": "control flow",
+  "0x07f006": "vertex attributes ['BINORMAL0', 'TANGENT0']",
+  "0x1df002": "control flow",
+  "0x03f013": "samples the velocity target (g_textureBlurVelocity)",
+  "0x05f003": "control flow"
+ }
+}

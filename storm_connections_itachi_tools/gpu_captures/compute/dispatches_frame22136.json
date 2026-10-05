@@ -1,0 +1,2071 @@
+{
+ "dispatches": [
+  {
+   "event": 4361,
+   "groups": [
+    5,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78048",
+     "byteOffset": 0,
+     "byteSize": 1960,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 1960,
+     "file": "e4361_ro0.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78050",
+     "byteOffset": 0,
+     "byteSize": 2240,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 2240,
+     "file": "e4361_ro1.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78052",
+     "byteOffset": 0,
+     "byteSize": 2240,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 2240,
+     "file": "e4361_ro2.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78054",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8,
+     "file": "e4361_ro3.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78058",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4361_ro4.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78060",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4361_ro5.bin"
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640,
+     "file": "e4361_rw0.bin"
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78044",
+     "byteOffset": 0,
+     "byteSize": 65536,
+     "file": "e4361_cb0.bin"
+    }
+   ],
+   "reflection": {
+    "entry": "main",
+    "readOnly": [
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 0,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inVertex",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 0,
+       "baseType": 10,
+       "columns": 1,
+       "elements": 1,
+       "flags": 0,
+       "matrixByteStride": 0,
+       "members": "[]",
+       "name": "byte",
+       "pointerTypeID": 4294967295,
+       "rows": 1
+      }
+     },
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 1,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inMatrix",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 64,
+       "baseType": 0,
+       "columns": 4,
+       "elements": 1,
+       "flags": 0,
+       "matrixByteStride": 16,
+       "members": "[]",
+       "name": "float4x4",
+       "pointerTypeID": 4294967295,
+       "rows": 4
+      }
+     },
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 2,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inBlend",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 32,
+       "baseType": 13,
+       "columns": 0,
+       "elements": 1,
+       "flags": 0,
+       "matrixByteStride": 4,
+       "members": "[<Swig Object of type 'ShaderConstant *' at 0x0000019FC0C21A30>, <Swig Object of type 'ShaderConstant *' at 0x0000019FC0C21A70>]",
+       "name": "unnamed_struct_0x000002e4",
+       "pointerTypeID": 4294967295,
+       "rows": 0
+      }
+     },
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 3,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inVertexInfo",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 8,
+       "baseType": 13,
+       "columns": 0,
+       "elements": 1,
+       "flags": 0,
+       "matrixByteStride": 4,
+       "members": "[<Swig Object of type 'ShaderConstant *' at 0x0000019FC0C21A70>, <Swig Object of type 'ShaderConstant *' at 0x0000019FC0C21AB0>]",
+       "name": "unnamed_struct_0x00000348",
+       "pointerTypeID": 4294967295,
+       "rows": 0
+      }
+     },
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 4,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inSemanticInfoVec3",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 4,
+       "baseType": 4,
+       "columns": 1,
+       "elements": 1,
+       "flags": 1,
+       "matrixByteStride": 4,
+       "members": "[]",
+       "name": "uint",
+       "pointerTypeID": 4294967295,
+       "rows": 1
+      }
+     },
+     {
+      "bindArraySize": 1,
+      "descriptorType": 5,
+      "fixedBindNumber": 5,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": true,
+      "isTexture": false,
+      "name": "g_inSemanticInfoVec4",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 4,
+       "baseType": 4,
+       "columns": 1,
+       "elements": 1,
+       "flags": 1,
+       "matrixByteStride": 4,
+       "members": "[]",
+       "name": "uint",
+       "pointerTypeID": 4294967295,
+       "rows": 1
+      }
+     }
+    ],
+    "readWrite": [
+     {
+      "bindArraySize": 1,
+      "descriptorType": 9,
+      "fixedBindNumber": 0,
+      "fixedBindSetOrSpace": 0,
+      "hasSampler": false,
+      "isInputAttachment": false,
+      "isReadOnly": false,
+      "isTexture": false,
+      "name": "g_outVertex",
+      "textureType": 1,
+      "variableType": {
+       "arrayByteStride": 0,
+       "baseType": 10,
+       "columns": 1,
+       "elements": 1,
+       "flags": 0,
+       "matrixByteStride": 0,
+       "members": "[]",
+       "name": "byte",
+       "pointerTypeID": 4294967295,
+       "rows": 1
+      }
+     }
+    ],
+    "constantBlocks": [
+     {
+      "name": "perVertexBuffer",
+      "byteSize": 16,
+      "slot": 0,
+      "variables": [
+       {
+        "name": "outOffset",
+        "offset": 0,
+        "type": "uint",
+        "rows": 1,
+        "columns": 1,
+        "elements": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "event": 4375,
+   "groups": [
+    27,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78125",
+     "byteOffset": 0,
+     "byteSize": 11704,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 11704,
+     "file": "e4375_ro0.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78127",
+     "byteOffset": 0,
+     "byteSize": 1600,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 1600,
+     "file": "e4375_ro1.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78129",
+     "byteOffset": 0,
+     "byteSize": 13376,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 13376,
+     "file": "e4375_ro2.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78131",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8,
+     "file": "e4375_ro3.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78135",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4375_ro4.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78137",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4375_ro5.bin"
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640,
+     "file": "e4375_rw0.bin"
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78121",
+     "byteOffset": 0,
+     "byteSize": 65536,
+     "file": "e4375_cb0.bin"
+    }
+   ]
+  },
+  {
+   "event": 4389,
+   "groups": [
+    60,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78144",
+     "byteOffset": 0,
+     "byteSize": 26768,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 26768,
+     "file": "e4389_ro0.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78146",
+     "byteOffset": 0,
+     "byteSize": 1600,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 1600,
+     "file": "e4389_ro1.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78148",
+     "byteOffset": 0,
+     "byteSize": 30592,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 30592,
+     "file": "e4389_ro2.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78150",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8,
+     "file": "e4389_ro3.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78154",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4389_ro4.bin"
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78156",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4,
+     "file": "e4389_ro5.bin"
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640,
+     "file": "e4389_rw0.bin"
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78140",
+     "byteOffset": 0,
+     "byteSize": 65536,
+     "file": "e4389_cb0.bin"
+    }
+   ]
+  },
+  {
+   "event": 7222,
+   "groups": [
+    29,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78163",
+     "byteOffset": 0,
+     "byteSize": 12992,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 12992
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78165",
+     "byteOffset": 0,
+     "byteSize": 1600,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 1600
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78167",
+     "byteOffset": 0,
+     "byteSize": 14848,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 14848
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78169",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78173",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78175",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78159",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 7236,
+   "groups": [
+    5,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83799",
+     "byteOffset": 0,
+     "byteSize": 1960,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 1960
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83801",
+     "byteOffset": 0,
+     "byteSize": 4288,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 4288
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83803",
+     "byteOffset": 0,
+     "byteSize": 2240,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 2240
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83805",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83809",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83811",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83795",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 8422,
+   "groups": [
+    44,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78087",
+     "byteOffset": 0,
+     "byteSize": 19600,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 19600
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78089",
+     "byteOffset": 0,
+     "byteSize": 6080,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 6080
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78091",
+     "byteOffset": 0,
+     "byteSize": 22400,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 22400
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78093",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78097",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78099",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78083",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 8436,
+   "groups": [
+    72,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78106",
+     "byteOffset": 0,
+     "byteSize": 32200,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 32200
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78108",
+     "byteOffset": 0,
+     "byteSize": 6080,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 6080
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78110",
+     "byteOffset": 0,
+     "byteSize": 36800,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 36800
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78112",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78116",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78118",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78102",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 8450,
+   "groups": [
+    86,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83828",
+     "byteOffset": 0,
+     "byteSize": 38360,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 38360
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83830",
+     "byteOffset": 0,
+     "byteSize": 7872,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 7872
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83832",
+     "byteOffset": 0,
+     "byteSize": 43840,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 43840
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83834",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83838",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83840",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83824",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10673,
+   "groups": [
+    42,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83847",
+     "byteOffset": 0,
+     "byteSize": 18732,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 18732
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83849",
+     "byteOffset": 0,
+     "byteSize": 7872,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 7872
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83851",
+     "byteOffset": 0,
+     "byteSize": 21408,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 21408
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83853",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83860",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83862",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83843",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10689,
+   "groups": [
+    372,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78258",
+     "byteOffset": 0,
+     "byteSize": 166600,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 166600
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78260",
+     "byteOffset": 0,
+     "byteSize": 13760,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 13760
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78262",
+     "byteOffset": 0,
+     "byteSize": 190400,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 190400
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78264",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78268",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78270",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78254",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10703,
+   "groups": [
+    1,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78277",
+     "byteOffset": 0,
+     "byteSize": 448,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 448
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78279",
+     "byteOffset": 0,
+     "byteSize": 13760,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 13760
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78281",
+     "byteOffset": 0,
+     "byteSize": 512,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 512
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78283",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78287",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78289",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78273",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10717,
+   "groups": [
+    23,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78296",
+     "byteOffset": 0,
+     "byteSize": 10248,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 10248
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78298",
+     "byteOffset": 0,
+     "byteSize": 13760,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 13760
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78300",
+     "byteOffset": 0,
+     "byteSize": 11712,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 11712
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78302",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78306",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78308",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78292",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10731,
+   "groups": [
+    119,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::78315",
+     "byteOffset": 0,
+     "byteSize": 52920,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 52920
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::78317",
+     "byteOffset": 0,
+     "byteSize": 13760,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 13760
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::78319",
+     "byteOffset": 0,
+     "byteSize": 60480,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 60480
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::78321",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::78325",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::78327",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::78311",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10745,
+   "groups": [
+    7,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83997",
+     "byteOffset": 0,
+     "byteSize": 3024,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 3024
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83999",
+     "byteOffset": 0,
+     "byteSize": 8064,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 8064
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::84001",
+     "byteOffset": 0,
+     "byteSize": 3456,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 3456
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::84003",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::84007",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::84009",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83993",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10759,
+   "groups": [
+    64,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::84016",
+     "byteOffset": 0,
+     "byteSize": 28672,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 28672
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::84018",
+     "byteOffset": 0,
+     "byteSize": 8064,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 8064
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::84020",
+     "byteOffset": 0,
+     "byteSize": 32768,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 32768
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::84022",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::84026",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::84028",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::84012",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10773,
+   "groups": [
+    2,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::84035",
+     "byteOffset": 0,
+     "byteSize": 672,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 672
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::84037",
+     "byteOffset": 0,
+     "byteSize": 8064,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 8064
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::84039",
+     "byteOffset": 0,
+     "byteSize": 768,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 768
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::84041",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::84045",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::84047",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::84031",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10787,
+   "groups": [
+    474,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::84130",
+     "byteOffset": 0,
+     "byteSize": 212296,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 212296
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::84132",
+     "byteOffset": 0,
+     "byteSize": 15360,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 15360
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::84134",
+     "byteOffset": 0,
+     "byteSize": 242624,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 242624
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::84136",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::84140",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::84142",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::84126",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10801,
+   "groups": [
+    15,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::84149",
+     "byteOffset": 0,
+     "byteSize": 6300,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 6300
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::84151",
+     "byteOffset": 0,
+     "byteSize": 15360,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 15360
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::84153",
+     "byteOffset": 0,
+     "byteSize": 7200,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 7200
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::84155",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::84159",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::84161",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::84145",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10815,
+   "groups": [
+    70,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83869",
+     "byteOffset": 0,
+     "byteSize": 31080,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 31080
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83871",
+     "byteOffset": 0,
+     "byteSize": 7552,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 7552
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83873",
+     "byteOffset": 0,
+     "byteSize": 35520,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 35520
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83875",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83879",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83881",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83865",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10829,
+   "groups": [
+    29,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83888",
+     "byteOffset": 0,
+     "byteSize": 12600,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 12600
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83890",
+     "byteOffset": 0,
+     "byteSize": 7552,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 7552
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83892",
+     "byteOffset": 0,
+     "byteSize": 14400,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 14400
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83894",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83898",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83900",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83884",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  },
+  {
+   "event": 10843,
+   "groups": [
+    4,
+    1,
+    1
+   ],
+   "shader": "ResourceId::119",
+   "bound": [
+    {
+     "kind": "ro",
+     "slot": 0,
+     "resource": "ResourceId::83907",
+     "byteOffset": 0,
+     "byteSize": 1624,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 1624
+    },
+    {
+     "kind": "ro",
+     "slot": 1,
+     "resource": "ResourceId::83909",
+     "byteOffset": 0,
+     "byteSize": 7552,
+     "elementByteSize": 64,
+     "format": "Undefined",
+     "bufferLength": 7552
+    },
+    {
+     "kind": "ro",
+     "slot": 2,
+     "resource": "ResourceId::83911",
+     "byteOffset": 0,
+     "byteSize": 1856,
+     "elementByteSize": 32,
+     "format": "Undefined",
+     "bufferLength": 1856
+    },
+    {
+     "kind": "ro",
+     "slot": 3,
+     "resource": "ResourceId::83913",
+     "byteOffset": 0,
+     "byteSize": 8,
+     "elementByteSize": 8,
+     "format": "Undefined",
+     "bufferLength": 8
+    },
+    {
+     "kind": "ro",
+     "slot": 4,
+     "resource": "ResourceId::83917",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "ro",
+     "slot": 5,
+     "resource": "ResourceId::83919",
+     "byteOffset": 0,
+     "byteSize": 4,
+     "elementByteSize": 4,
+     "format": "Undefined",
+     "bufferLength": 4
+    },
+    {
+     "kind": "rw",
+     "slot": 0,
+     "resource": "ResourceId::65",
+     "byteOffset": 0,
+     "byteSize": 15728640,
+     "elementByteSize": 4,
+     "format": "R32_TYPELESS",
+     "bufferLength": 15728640
+    },
+    {
+     "kind": "cb",
+     "slot": 0,
+     "resource": "ResourceId::83903",
+     "byteOffset": 0,
+     "byteSize": 65536
+    }
+   ]
+  }
+ ],
+ "shaders": {
+  "ResourceId::119": 21
+ }
+}

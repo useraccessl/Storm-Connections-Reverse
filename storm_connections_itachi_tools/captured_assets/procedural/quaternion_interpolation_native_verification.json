@@ -1,0 +1,7 @@
+{
+  "function": "0x1411f4e90",
+  "cases": 3051,
+  "originalCodeSha256": "856843845ea08a70427d8a8b2bc1dce88c7872a4d5b5f661c12c344a7d86d7da",
+  "verification": "Byte exact four float32 values against original instructions. Constants relocated; original math-only call targets mapped to UCRT acosf/sinf.",
+  "limitations": "Native quaternion input conversion, caller time and compressed curve scheduler not verified. GMod math library parity is not established."
+}

@@ -1,0 +1,22 @@
+{
+  "ends at frame": 321,
+  "engine path (largest per frame)": {
+    "skinned": 41,
+    "plain": 72
+  },
+  "studio path (largest per frame)": {
+    "studio": 25,
+    "skinned": 1,
+    "plain": 72
+  },
+  "offline update and list time, ms": {
+    "engine path": 3589,
+    "studio path": 1923
+  },
+  "studio resources": [
+    "2efb_kyj_ptc05",
+    "2efb_kyj_ptc06"
+  ],
+  "failures": [],
+  "scope": "Source entity API stub; no live GMod validation"
+}

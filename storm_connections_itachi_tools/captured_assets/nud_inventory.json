@@ -1,0 +1,1500 @@
+{
+  "source": "storm_connections_itachi_tools\\captured_assets\\data\\effect\\4efb_amt1.xfbin",
+  "models": [
+    {
+      "file_size": 401,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 272,
+      "extra_base": 368,
+      "name_base": 368,
+      "groups": [
+        {
+          "name": "4efb_amt00",
+          "sphere": [
+            -4.76837158203125e-07,
+            30.167299270629883,
+            0.0,
+            35.94063186645508,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 4,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 4,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 272,
+              "extra_offset": 368,
+              "materials": [
+                {
+                  "flags": 651271,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        3.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt00",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 401,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 272,
+      "extra_base": 368,
+      "name_base": 368,
+      "groups": [
+        {
+          "name": "4efb_amt01",
+          "sphere": [
+            0.0,
+            0.0,
+            0.0,
+            35.35533905029297,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 4,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 4,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 272,
+              "extra_offset": 368,
+              "materials": [
+                {
+                  "flags": 651271,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        3.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt01",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 10427,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 1552,
+      "extra_base": 10416,
+      "name_base": 10416,
+      "groups": [
+        {
+          "name": "4efb_amt02",
+          "sphere": [
+            -1.3478176593780518,
+            6.462472915649414,
+            0.0,
+            16.215532302856445,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 369,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 663,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 1552,
+              "extra_offset": 10416,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 1029,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt02",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 10619,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 1744,
+      "extra_base": 10608,
+      "name_base": 10608,
+      "groups": [
+        {
+          "name": "4efb_amt03",
+          "sphere": [
+            1.3478176593780518,
+            6.462472915649414,
+            0.0,
+            16.215532302856445,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 369,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 759,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 1744,
+              "extra_offset": 10608,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 1029,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt03",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 6139,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 960,
+      "extra_base": 6128,
+      "name_base": 6128,
+      "groups": [
+        {
+          "name": "4efb_amt04",
+          "sphere": [
+            0.9113130569458008,
+            4.374046325683594,
+            0.0,
+            13.773826599121094,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 215,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 365,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 960,
+              "extra_offset": 6128,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt04",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 1041,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 352,
+      "extra_base": 1008,
+      "name_base": 1008,
+      "groups": [
+        {
+          "name": "4efb_amt05",
+          "sphere": [
+            14.785188674926758,
+            32.307106018066406,
+            0.0,
+            50.4774284362793,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 27,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 43,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 352,
+              "extra_offset": 1008,
+              "materials": [
+                {
+                  "flags": 651271,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        3.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt05",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 6139,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 960,
+      "extra_base": 6128,
+      "name_base": 6128,
+      "groups": [
+        {
+          "name": "4efb_amt06",
+          "sphere": [
+            -0.911313533782959,
+            4.374044895172119,
+            0.0,
+            13.773825645446777,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 215,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 365,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 960,
+              "extra_offset": 6128,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt06",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 401,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 272,
+      "extra_base": 368,
+      "name_base": 368,
+      "groups": [
+        {
+          "name": "4efb_amt07",
+          "sphere": [
+            0.0,
+            0.0,
+            0.0,
+            35.35533905029297,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 4,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 4,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 272,
+              "extra_offset": 368,
+              "materials": [
+                {
+                  "flags": 651271,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        3.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt07",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 2977,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 288,
+      "vert_base": 640,
+      "extra_base": 2944,
+      "name_base": 2944,
+      "groups": [
+        {
+          "name": "4efb_amt08",
+          "sphere": [
+            1.9073486328125e-06,
+            0.0,
+            0.0,
+            18.815401077270508,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 96,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 171,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 288,
+              "vertex_offset": 640,
+              "extra_offset": 2944,
+              "materials": [
+                {
+                  "flags": 1699847,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 3,
+                      "wrap_t": 3,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        1.0,
+                        1.0,
+                        3.0,
+                        3.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt08",
+      "model_flags": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "file_size": 6139,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 960,
+      "extra_base": 6128,
+      "name_base": 6128,
+      "groups": [
+        {
+          "name": "4efb_amt09",
+          "sphere": [
+            0.9113130569458008,
+            4.374046325683594,
+            0.0,
+            13.773826599121094,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 215,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 365,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 960,
+              "extra_offset": 6128,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt09",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 6139,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 960,
+      "extra_base": 6128,
+      "name_base": 6128,
+      "groups": [
+        {
+          "name": "4efb_amt10",
+          "sphere": [
+            -0.911313533782959,
+            4.374044895172119,
+            0.0,
+            13.773825645446777,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 215,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 365,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 960,
+              "extra_offset": 6128,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 4,
+                      "wrap_t": 4,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt10",
+      "model_flags": [
+        0,
+        3,
+        18,
+        1
+      ]
+    },
+    {
+      "file_size": 2011,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 480,
+      "extra_base": 2000,
+      "name_base": 2000,
+      "groups": [
+        {
+          "name": "4efb_amt11",
+          "sphere": [
+            10.293338775634766,
+            80.92747497558594,
+            0.0,
+            92.04862213134766,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 63,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 127,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 480,
+              "extra_offset": 2000,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 3,
+                      "wrap_t": 3,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt11",
+      "model_flags": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "file_size": 2011,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 480,
+      "extra_base": 2000,
+      "name_base": 2000,
+      "groups": [
+        {
+          "name": "4efb_amt12",
+          "sphere": [
+            -8.615583419799805,
+            80.92747497558594,
+            0.0,
+            92.04862976074219,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 63,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 127,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 480,
+              "extra_offset": 2000,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 3,
+                      "wrap_t": 3,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt12",
+      "model_flags": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "file_size": 1931,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 400,
+      "extra_base": 1920,
+      "name_base": 1920,
+      "groups": [
+        {
+          "name": "4efb_amt13",
+          "sphere": [
+            -10.70002269744873,
+            18.063640594482422,
+            0.0,
+            35.29892349243164,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 63,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 85,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 400,
+              "extra_offset": 1920,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 3,
+                      "wrap_t": 3,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt13",
+      "model_flags": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "file_size": 1931,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 400,
+      "extra_base": 1920,
+      "name_base": 1920,
+      "groups": [
+        {
+          "name": "4efb_amt14",
+          "sphere": [
+            13.561468124389648,
+            18.063640594482422,
+            0.0,
+            35.29892349243164,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 63,
+              "vertex_size": 0,
+              "uv_size": 18,
+              "face_count": 85,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 400,
+              "extra_offset": 1920,
+              "materials": [
+                {
+                  "flags": 126983,
+                  "source_factor": 2,
+                  "dest_factor": 0,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 3,
+                      "wrap_t": 3,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt14",
+      "model_flags": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "file_size": 2497,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 288,
+      "vert_base": 560,
+      "extra_base": 2464,
+      "name_base": 2464,
+      "groups": [
+        {
+          "name": "4efb_amt15",
+          "sphere": [
+            64.1693344116211,
+            -125.98309326171875,
+            1.9073486328125e-06,
+            228.56687927246094,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 68,
+              "vertex_size": 6,
+              "uv_size": 18,
+              "face_count": 134,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 288,
+              "vertex_offset": 560,
+              "extra_offset": 2464,
+              "materials": [
+                {
+                  "flags": 1699842,
+                  "source_factor": 5,
+                  "dest_factor": 177,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "NU_uvScaleScreen",
+                      "values": [
+                        1.0,
+                        1.0,
+                        3.0,
+                        3.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_amt15",
+      "model_flags": [
+        0,
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "file_size": 365,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 224,
+      "vert_base": 240,
+      "extra_base": 352,
+      "name_base": 352,
+      "groups": [
+        {
+          "name": "4efb_light00",
+          "sphere": [
+            1.52587890625e-05,
+            0.0,
+            0.0,
+            70.7106704711914,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 4,
+              "vertex_size": 6,
+              "uv_size": 18,
+              "face_count": 4,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 224,
+              "vertex_offset": 240,
+              "extra_offset": 352,
+              "materials": [
+                {
+                  "flags": 126978,
+                  "source_factor": 5,
+                  "dest_factor": 3,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 2,
+                      "wrap_t": 2,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 4097
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "4efb_light00",
+      "model_flags": [
+        0,
+        6,
+        1,
+        1
+      ]
+    }
+  ]
+}

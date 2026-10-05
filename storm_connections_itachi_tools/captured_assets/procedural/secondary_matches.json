@@ -1,0 +1,1800 @@
+[
+  {
+    "capture": "itachi_amaterasu_frame22082.secondary_reference",
+    "event": 5406,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 3
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 5
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5157,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 13
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 25
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5170,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 13
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 7
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22102.secondary_reference",
+    "event": 5198,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 1
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 1
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2119,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 5
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2206,
+    "candidates": [
+      {
+        "resource": "4efb_amt11",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2219,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 4
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2232,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 3
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2245,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 1
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 2258,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5260,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 25
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 49
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5273,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 37
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 19
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5301,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 25
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 13
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5359,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5403,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 1
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5463,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5583,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5642,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5880,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 7
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 13
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 5954,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6028,
+    "candidates": [
+      {
+        "resource": "4efb_amt04",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6128,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6141,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6154,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6167,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6180,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6193,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22127.secondary_reference",
+    "event": 6206,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2102,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 9
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2189,
+    "candidates": [
+      {
+        "resource": "4efb_amt11",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2202,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 8
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2215,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 4
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2228,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 7
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2241,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 5
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 2254,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 10
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5315,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 30
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 59
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5328,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 47
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 24
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5356,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 35
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 18
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5384,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 11
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5473,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 5
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5486,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5576,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5785,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 11
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5948,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 12
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 23
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 5992,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6082,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6141,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 6
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6241,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6254,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6267,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6280,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6293,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6306,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6319,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22136.secondary_reference",
+    "event": 6332,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2085,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 16
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2172,
+    "candidates": [
+      {
+        "resource": "4efb_amt11",
+        "key": 13
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2185,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 15
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2198,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2211,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 14
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2224,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 12
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 2237,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 17
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5282,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 59
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 30
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5310,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 47
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 24
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5323,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 17
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 9
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5352,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 3
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5442,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 17
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5455,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 12
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5560,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 17
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5649,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 6
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5827,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 17
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 9
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 5915,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 18
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 35
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6004,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 9
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6109,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 17
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6138,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 9
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 17
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6223,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6236,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6249,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6262,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6275,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6288,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6301,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6314,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22149.secondary_reference",
+    "event": 6327,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2083,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 27
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2153,
+    "candidates": [
+      {
+        "resource": "4efb_amt11",
+        "key": 24
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2166,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 26
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2179,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 22
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2192,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 25
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2205,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 23
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 2218,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5234,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5263,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 14
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5323,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5353,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 23
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5428,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5562,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 17
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 9
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5755,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 29
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 57
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5798,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5917,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 20
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5962,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 5976,
+    "candidates": [
+      {
+        "resource": "4efb_amt04",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6061,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6074,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6087,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6100,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6113,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6126,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6139,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6152,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6165,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22171.secondary_reference",
+    "event": 6178,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2274,
+    "candidates": [
+      {
+        "resource": "4efb_amt11",
+        "key": 38
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2287,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 36
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2300,
+    "candidates": [
+      {
+        "resource": "4efb_amt12",
+        "key": 40
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2313,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 39
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 2326,
+    "candidates": [
+      {
+        "resource": "4efb_amt13",
+        "key": 37
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5325,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 43
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 22
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5526,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 28
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5641,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 37
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5705,
+    "candidates": [
+      {
+        "resource": "4efb_amt03",
+        "key": 43
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5819,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 31
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 16
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 5998,
+    "candidates": [
+      {
+        "resource": "4efb_amt06",
+        "key": 43
+      },
+      {
+        "resource": "4efb_amt10",
+        "key": 22
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6199,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 34
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6212,
+    "candidates": [
+      {
+        "resource": "4efb_amt02",
+        "key": 43
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6226,
+    "candidates": [
+      {
+        "resource": "4efb_amt09",
+        "key": 22
+      },
+      {
+        "resource": "4efb_amt04",
+        "key": 43
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6311,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6324,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6337,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6350,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6363,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6376,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6389,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6402,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6415,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6428,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6441,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6454,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6467,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6480,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6493,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6506,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6519,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6532,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6545,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6558,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  },
+  {
+    "capture": "itachi_amaterasu_frame22200.secondary_reference",
+    "event": 6571,
+    "candidates": [
+      {
+        "resource": "1efc_part09b",
+        "key": 1
+      },
+      {
+        "resource": "1efc_part09b",
+        "key": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "address": "0x1412c73fd",
+    "function": "0x1412c73d0",
+    "asm": "lea rcx, [rsi + 0x2b0]"
+  },
+  {
+    "address": "0x1412c7412",
+    "function": "0x1412c73d0",
+    "asm": "lea rcx, [rsi + 0x2c0]"
+  },
+  {
+    "address": "0x1412c748d",
+    "function": "0x1412c7470",
+    "asm": "lea rcx, [rbx + 0x2b0]"
+  },
+  {
+    "address": "0x1412c74a2",
+    "function": "0x1412c7470",
+    "asm": "lea rcx, [rbx + 0x2c0]"
+  },
+  {
+    "address": "0x1412c7b50",
+    "function": "0x1412c7b00",
+    "asm": "lea rcx, [rdi + 0x2b0]"
+  },
+  {
+    "address": "0x1412c7b84",
+    "function": "0x1412c7b00",
+    "asm": "mov dword ptr [rdi + 0x2bc], ecx"
+  },
+  {
+    "address": "0x1412c7b9b",
+    "function": "0x1412c7b00",
+    "asm": "lea rcx, [rdi + 0x2c0]"
+  },
+  {
+    "address": "0x1412c7f07",
+    "function": "0x1412c7dea",
+    "asm": "mulss xmm0, dword ptr [rbx + 0x2f4]"
+  },
+  {
+    "address": "0x1412c8186",
+    "function": "0x1412c8110",
+    "asm": "mov dword ptr [rbx + 0x2bc], ecx"
+  },
+  {
+    "address": "0x1412c8195",
+    "function": "0x1412c8110",
+    "asm": "movsd qword ptr [rbx + 0x2c0], xmm0"
+  },
+  {
+    "address": "0x1412c81cc",
+    "function": "0x1412c8110",
+    "asm": "movsd qword ptr [rbx + 0x2b0], xmm0"
+  },
+  {
+    "address": "0x1412c8242",
+    "function": "0x1412c8110",
+    "asm": "lea rcx, [rbx + 0x2b0]"
+  },
+  {
+    "address": "0x1412c8260",
+    "function": "0x1412c8110",
+    "asm": "mov dword ptr [rbx + 0x2bc], eax"
+  },
+  {
+    "address": "0x1412c8278",
+    "function": "0x1412c8110",
+    "asm": "lea rcx, [rbx + 0x2c0]"
+  },
+  {
+    "address": "0x1412c83c4",
+    "function": "0x1412c8110",
+    "asm": "mov dword ptr [rbx + 0x2f4], 0x3f800000"
+  },
+  {
+    "address": "0x1412c854c",
+    "function": "0x1412c84b0",
+    "asm": "movd xmm1, dword ptr [rdi + 0x2bc]"
+  },
+  {
+    "address": "0x1412c859b",
+    "function": "0x1412c84b0",
+    "asm": "mulss xmm8, dword ptr [rdi + 0x2c0]"
+  },
+  {
+    "address": "0x1412c85f4",
+    "function": "0x1412c84b0",
+    "asm": "addss xmm0, dword ptr [rdi + 0x2b0]"
+  },
+  {
+    "address": "0x1412cb651",
+    "function": "0x1412cad30",
+    "asm": "mov eax, dword ptr [rdi + 0x2b0]"
+  },
+  {
+    "address": "0x1412cb672",
+    "function": "0x1412cad30",
+    "asm": "mov eax, dword ptr [rdi + 0x2bc]"
+  },
+  {
+    "address": "0x1412cb67d",
+    "function": "0x1412cad30",
+    "asm": "mov eax, dword ptr [rdi + 0x2c0]"
+  },
+  {
+    "address": "0x1412cb70c",
+    "function": "0x1412cad30",
+    "asm": "mov eax, dword ptr [rdi + 0x2f4]"
+  },
+  {
+    "address": "0x1412cc887",
+    "function": "0x1412cbee0",
+    "asm": "movss dword ptr [rbx + 0x2b0], xmm6"
+  },
+  {
+    "address": "0x1412cc8ae",
+    "function": "0x1412cbee0",
+    "asm": "movss dword ptr [rbx + 0x2bc], xmm6"
+  },
+  {
+    "address": "0x1412cc8bb",
+    "function": "0x1412cbee0",
+    "asm": "movss dword ptr [rbx + 0x2c0], xmm6"
+  },
+  {
+    "address": "0x1412cc95e",
+    "function": "0x1412cbee0",
+    "asm": "movss dword ptr [rbx + 0x2f4], xmm6"
+  }
+]

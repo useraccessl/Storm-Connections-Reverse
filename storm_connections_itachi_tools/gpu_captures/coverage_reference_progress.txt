@@ -1,0 +1,1 @@
+Complete: seven captures; original effect textures matched by native block SHA256, independent of shader selection

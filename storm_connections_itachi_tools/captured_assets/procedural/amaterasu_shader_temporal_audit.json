@@ -1,0 +1,368 @@
+{
+  "shader_pixel_hash_prefix": "915c5e6e",
+  "scope": "captured principal Amaterasu shader draws only; values rounded to 1e-6 for grouping",
+  "frames": [
+    {
+      "capture": "itachi_amaterasu_frame22082.all_draws.json",
+      "draw_count": 7,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 7,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.803922,
+            0.352941,
+            1.0,
+            1.0
+          ]
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 6,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.469999,
+            0.469999,
+            0.469999
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22102.all_draws.json",
+      "draw_count": 16,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 16,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.803922,
+            0.352941,
+            1.0,
+            1.0
+          ]
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 12,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.556667,
+            0.556667,
+            0.556667
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22127.all_draws.json",
+      "draw_count": 44,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 44,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 3,
+          "shared_value": null
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 15,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.643333,
+            0.643333,
+            0.643333
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22136.all_draws.json",
+      "draw_count": 47,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 47,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 4,
+          "shared_value": null
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 18,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.701666,
+            0.701666,
+            0.701666
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22149.all_draws.json",
+      "draw_count": 47,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 47,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 4,
+          "shared_value": null
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 22,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.768333,
+            0.768333,
+            0.768333
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22171.all_draws.json",
+      "draw_count": 40,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 40,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 4,
+          "shared_value": null
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 22,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.841667,
+            0.841667,
+            0.841667
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "capture": "itachi_amaterasu_frame22200.all_draws.json",
+      "draw_count": 12,
+      "per_frame_fields": {
+        "g_blendType": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "g_matWorldViewProj": {
+          "unique_value_count": 12,
+          "shared_value": null
+        },
+        "g_multColor": {
+          "unique_value_count": 3,
+          "shared_value": null
+        },
+        "g_uvOffset0": {
+          "unique_value_count": 3,
+          "shared_value": null
+        },
+        "g_uvOffsetScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            0.0,
+            0.923334,
+            0.923334,
+            0.923334
+          ]
+        },
+        "g_uvScaleScreen": {
+          "unique_value_count": 1,
+          "shared_value": [
+            3.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "draw_total": 213,
+  "aggregate_fields": {
+    "g_matWorldViewProj": {
+      "unique_value_count": 213,
+      "single_shared_value": null
+    },
+    "g_blendType": {
+      "unique_value_count": 1,
+      "single_shared_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "g_uvScaleScreen": {
+      "unique_value_count": 1,
+      "single_shared_value": [
+        3.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "g_uvOffsetScreen": {
+      "unique_value_count": 7,
+      "single_shared_value": null
+    },
+    "g_uvOffset0": {
+      "unique_value_count": 45,
+      "single_shared_value": null
+    },
+    "g_multColor": {
+      "unique_value_count": 4,
+      "single_shared_value": null
+    }
+  }
+}

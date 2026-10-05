@@ -1,0 +1,454 @@
+{
+ "package": "4efb_amt1_x",
+ "effect": "4efb_amt1_blt00",
+ "draws": [
+  {
+   "frame": "22082",
+   "event": 5581,
+   "game": {
+    "blend": true,
+    "rgb": [
+     "SrcAlpha",
+     "InvSrcAlpha",
+     "Add"
+    ],
+    "alpha": [
+     "One",
+     "Zero",
+     "Add"
+    ],
+    "depthWrites": false,
+    "cull": false,
+    "depthEnable": true,
+    "depthFunction": "CompareFunction.LessEqual"
+   },
+   "engine": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "controlNudState": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "age": 19,
+   "trail": 1,
+   "positionError": 0.16957473754882812,
+   "drawnAttributeMismatches": 0,
+   "drawnUvMaxError": 1.564621925354004e-05,
+   "routineColourError": 0.0,
+   "routineUvError": 0.0,
+   "controlPreviousFrameUvError": 0.1250000149011612
+  },
+  {
+   "frame": "22082",
+   "event": 5593,
+   "game": {
+    "blend": true,
+    "rgb": [
+     "SrcAlpha",
+     "InvSrcAlpha",
+     "Add"
+    ],
+    "alpha": [
+     "One",
+     "Zero",
+     "Add"
+    ],
+    "depthWrites": false,
+    "cull": false,
+    "depthEnable": true,
+    "depthFunction": "CompareFunction.LessEqual"
+   },
+   "engine": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "controlNudState": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "age": 19,
+   "trail": 0,
+   "positionError": 0.10437130928039551,
+   "drawnAttributeMismatches": 0,
+   "drawnUvMaxError": 1.3366341590881348e-05,
+   "routineColourError": 0.0,
+   "routineUvError": 0.0,
+   "controlPreviousFrameUvError": 0.1250000149011612
+  },
+  {
+   "frame": "22102",
+   "event": 5493,
+   "game": {
+    "blend": true,
+    "rgb": [
+     "SrcAlpha",
+     "InvSrcAlpha",
+     "Add"
+    ],
+    "alpha": [
+     "One",
+     "Zero",
+     "Add"
+    ],
+    "depthWrites": false,
+    "cull": false,
+    "depthEnable": true,
+    "depthFunction": "CompareFunction.LessEqual"
+   },
+   "engine": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "controlNudState": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "age": 39,
+   "trail": 0,
+   "positionError": 0.4420792734465522,
+   "drawnAttributeMismatches": 0,
+   "drawnUvMaxError": 1.2695789337158203e-05,
+   "routineColourError": 0.0,
+   "routineUvError": 0.0,
+   "controlPreviousFrameUvError": 0.125
+  },
+  {
+   "frame": "22102",
+   "event": 5505,
+   "game": {
+    "blend": true,
+    "rgb": [
+     "SrcAlpha",
+     "InvSrcAlpha",
+     "Add"
+    ],
+    "alpha": [
+     "One",
+     "Zero",
+     "Add"
+    ],
+    "depthWrites": false,
+    "cull": false,
+    "depthEnable": true,
+    "depthFunction": "CompareFunction.LessEqual"
+   },
+   "engine": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": false,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "controlNudState": {
+    "0": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    },
+    "1": {
+     "blend": true,
+     "rgb": [
+      "SrcAlpha",
+      "InvSrcAlpha",
+      "Add"
+     ],
+     "alpha": [
+      "One",
+      "Zero",
+      "Add"
+     ],
+     "depthWrites": true,
+     "cull": false,
+     "bucket": 2
+    }
+   },
+   "age": 39,
+   "trail": 1,
+   "positionError": 0.3237904179012503,
+   "drawnAttributeMismatches": 0,
+   "drawnUvMaxError": 3.2186508178710938e-06,
+   "routineColourError": 0.0,
+   "routineUvError": 0.0,
+   "controlPreviousFrameUvError": 0.125
+  }
+ ],
+ "failures": [],
+ "capturedStep": 12.499959282955412,
+ "ageFit": {
+  "age": 19,
+  "error": 0.4420792734465522,
+  "nextBest": 2.025911191316709,
+  "nextBestAge": 18
+ },
+ "light": {
+  "22082": {
+   "game": [
+    3.516,
+    -1.5249,
+    114.314
+   ],
+   "engine": [
+    3.7813,
+    -1.5205,
+    114.3152
+   ],
+   "intensityGame": -1.0,
+   "intensityEngine": -1.0
+  },
+  "22102": {
+   "game": [
+    3.7412,
+    -1.522,
+    114.3151
+   ],
+   "engine": [
+    3.7812,
+    -1.5203,
+    114.3153
+   ],
+   "intensityGame": -0.9999999403953552,
+   "intensityEngine": -0.9999999403953552
+  }
+ },
+ "ages": {
+  "22082": [
+   [
+    19,
+    1
+   ],
+   [
+    19,
+    0
+   ]
+  ],
+  "22102": [
+   [
+    39,
+    0
+   ],
+   [
+    39,
+    1
+   ]
+  ]
+ }
+}

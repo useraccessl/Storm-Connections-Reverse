@@ -1,0 +1,168 @@
+[
+  {
+    "key": "0x02f00a",
+    "pair_index": 12,
+    "models": [
+      "2efb_amt12"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 97520,
+        "size": 3256
+      },
+      {
+        "stage": "ps",
+        "offset": 100780,
+        "size": 5416
+      }
+    ]
+  },
+  {
+    "key": "0x00e000",
+    "pair_index": 39,
+    "models": [
+      "2efb_amt12"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 320072,
+        "size": 2792
+      },
+      {
+        "stage": "ps",
+        "offset": 322868,
+        "size": 468
+      }
+    ]
+  },
+  {
+    "key": "0x00e001",
+    "pair_index": 40,
+    "models": [
+      "2efb_amt12"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 323344,
+        "size": 928
+      },
+      {
+        "stage": "ps",
+        "offset": 324276,
+        "size": 816
+      }
+    ]
+  },
+  {
+    "key": "0x01f002",
+    "pair_index": 45,
+    "models": [
+      "2efb_amt13_base",
+      "2efb_amt16"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 337072,
+        "size": 1608
+      },
+      {
+        "stage": "ps",
+        "offset": 338684,
+        "size": 1484
+      }
+    ]
+  },
+  {
+    "key": "0x19f002",
+    "pair_index": 56,
+    "models": [
+      "2efb_amt03"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 399116,
+        "size": 1760
+      },
+      {
+        "stage": "ps",
+        "offset": 400880,
+        "size": 2500
+      }
+    ]
+  },
+  {
+    "key": "0x01f008",
+    "pair_index": 123,
+    "models": [
+      "1efc_ring09",
+      "1efc_ring13"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 1021816,
+        "size": 2048
+      },
+      {
+        "stage": "ps",
+        "offset": 1023868,
+        "size": 1396
+      }
+    ]
+  },
+  {
+    "key": "0x19f007",
+    "pair_index": 136,
+    "models": [
+      "2efb_amt01",
+      "2efb_amt02",
+      "2efb_amt04",
+      "2efb_amt05",
+      "2efb_amt06",
+      "2efb_amt07",
+      "2efb_amt17",
+      "2efb_amt18"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 1079852,
+        "size": 2212
+      },
+      {
+        "stage": "ps",
+        "offset": 1082068,
+        "size": 1768
+      }
+    ]
+  },
+  {
+    "key": "0x1bf007",
+    "pair_index": 139,
+    "models": [
+      "2efb_amt00",
+      "2efb_amt08",
+      "2efb_amt09",
+      "2efb_amt10",
+      "2efb_amt11",
+      "2efb_amt20"
+    ],
+    "programs": [
+      {
+        "stage": "vs",
+        "offset": 1093180,
+        "size": 2376
+      },
+      {
+        "stage": "ps",
+        "offset": 1095560,
+        "size": 2708
+      }
+    ]
+  }
+]

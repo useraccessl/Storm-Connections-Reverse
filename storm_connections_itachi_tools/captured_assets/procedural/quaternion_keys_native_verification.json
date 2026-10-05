@@ -1,0 +1,14 @@
+{
+  "cases": 4013,
+  "normalization": "0x1411f4910",
+  "conversion": "0x1411f2000",
+  "maskInitializer": "0x1400a4cf0",
+  "basis": "0x1411bb590",
+  "originalCodeSha256": {
+    "normalization": "2875ba2cf6aba08a8244444b303377e2996f35231cb505213343557388c57ae7",
+    "conversion": "2f14ff285579807da0860b0047f11382c73d53b7272919e0b0387691ba6479cb",
+    "basis": "be33a628e304642b9d6e023c21b5fa1ed63cbfab33c1c89b7c605f4179c11648"
+  },
+  "verification": "Byte exact native helper outputs; prepared keys compared using native normalization output and float32 truncation.",
+  "limitations": "Complete sampler/controller not executed. Scheduling and recompression are static translations; host time and GMod math parity still require validation."
+}

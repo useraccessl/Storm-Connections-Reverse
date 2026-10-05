@@ -1,0 +1,147 @@
+[
+  {
+    "address": "0x14129ad74",
+    "function": "0x14129a900",
+    "asm": "mov byte ptr [rsi + 0x952], 0x1e"
+  },
+  {
+    "address": "0x14129cba7",
+    "function": "0x14129cae0",
+    "asm": "movzx ecx, byte ptr [rbx + 0x952]"
+  },
+  {
+    "address": "0x14129f12e",
+    "function": "0x14129f100",
+    "asm": "mov byte ptr [r9 + 0x952], cl"
+  },
+  {
+    "address": "0x1412ad77f",
+    "function": "0x1412ad750",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x1412ad802",
+    "function": "0x1412ad750",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x1412baaf4",
+    "function": "0x1412baad0",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141300442",
+    "function": "0x14130042f",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141300bc4",
+    "function": "0x141300ba0",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141301098",
+    "function": "0x141300f60",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130492b",
+    "function": "0x1413048e0",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141304a9b",
+    "function": "0x141304a50",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141304e6a",
+    "function": "0x141304e40",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x141305639",
+    "function": "0x141305600",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130ab7c",
+    "function": "0x14130aa70",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130b5dd",
+    "function": "0x14130b54a",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130b617",
+    "function": "0x14130b54a",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130cedf",
+    "function": "0x14130cec0",
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14130d097",
+    "function": "0x14130d070",
+    "asm": "movzx r9d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14131b2e5",
+    "function": "0x14131b270",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14131baf9",
+    "function": null,
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14131be2f",
+    "function": "0x14131bd9b",
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x1413847ed",
+    "function": "0x141384780",
+    "asm": "movzx eax, byte ptr [rcx + 0x952]"
+  },
+  {
+    "address": "0x141386bab",
+    "function": "0x141386ba1",
+    "asm": "movzx edx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14138a201",
+    "function": null,
+    "asm": "movzx edx, byte ptr [rcx + 0x952]"
+  },
+  {
+    "address": "0x14138a23c",
+    "function": null,
+    "asm": "movzx ecx, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14138fd09",
+    "function": null,
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14138fd39",
+    "function": null,
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x14139000c",
+    "function": null,
+    "asm": "movzx r8d, byte ptr [rax + 0x952]"
+  },
+  {
+    "address": "0x1413907c9",
+    "function": "0x1413904d0",
+    "asm": "cmp byte ptr [rax + 0x952], 0x3c"
+  }
+]

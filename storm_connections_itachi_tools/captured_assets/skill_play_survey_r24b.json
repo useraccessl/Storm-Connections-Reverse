@@ -1,0 +1,5850 @@
+{
+ "files": 30,
+ "totals": {
+  "outcome": {
+   "imported and played": 30
+  },
+  "script": {
+   "ran with effects": 108,
+   "ran, launched no effect": 14
+  },
+  "note": {
+   "light set # was never captured: its ambient is the host default": 25,
+   "effect animation not in the package: #": 16,
+   "attached to #, a node outside the effect, placed at the effect root": 10,
+   "coordinate # is not a node of its effect, the actor itself is used": 6,
+   "# animation entries of type # (camera, light, ...) are not played": 4,
+   "some lit meshes take no point light (pixel constant budget): their light slot is compiled as unused": 3,
+   "BOUNDBALL bounces on what the host traces; its rolling and floating on water are not reproduced": 1
+  },
+  "not rendered": {
+   "#": 25
+  },
+  "mesh without shader": {
+   "mesh #: no colour output (depth-only pass: shadow caster)": 3
+  },
+  "importer gap": {
+   "trail: trail #: render state taken from the billboard model's NUD material (the game uses words +#/+#/+# of": 48,
+   "model: chunk not found in the loaded files nor in the chunk index (path c\\#\\e\\max\\#.max)": 21,
+   "effect: animation chunk not found in the files of the script nor, under one path, in the chunk index": 20,
+   "file: not in the game archives": 4,
+   "texture: # colour variants in the NUT: image # converted, the others (model colour index +#D#, trail image in": 3,
+   "model: mesh # (shader key #): no colour output (depth-only pass: shadow caster)": 3,
+   "resource: nuccChunkClump: chunk not found in the loaded files nor in the chunk index (path c\\#\\e\\max\\#.max)": 2,
+   "resource: nuccChunkBillboard: chunk not found in the loaded files nor in the chunk index (path c\\#\\e\\max\\#.max": 2,
+   "script: spawned by an event; # skill files define it differently": 2,
+   "resource: nuccChunkAnm: chunk not found in the loaded files nor in the chunk index (path b\\#\\#\\e\\anm\\#.max)": 2,
+   "script: spawned by an event; no skill file defines it": 1
+  }
+ },
+ "per_file": {
+  "4efb_7yri1_x": {
+   "package": "4efb_7yri1_x",
+   "scripts": {
+    "4efb_7yri1_gum00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4efb_7yri1_gum00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum00_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum00_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum00_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "4efb_7yri1_gum00_e_blt00: effect animation not in the package: 7yrieff1_gum_blt00_s1",
+      "4efb_7yri1_gum00_e_hitworld00: effect animation not in the package: 7yrieff1_gum_hitworld00"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum01_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum01_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4efb_7yri1_gum01_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum01_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum01_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum01_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_gum_blt00_s1",
+      "4efb_7yri1_gum_blt00_l1",
+      "4efb_7yri1_hitworld01"
+     ],
+     "frames": 190,
+     "peak_particles": 3,
+     "draws": 9,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 2
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum01_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_hit01"
+     ],
+     "frames": 219,
+     "peak_particles": 32,
+     "draws": 625,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 5,
+      "7yrieff1_fire00": 5,
+      "7yrieff1_exp03": 1,
+      "7yrieff1_line00": 15
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum02_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum02_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4efb_7yri1_gum02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum02_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum02_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum02_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_gum_blt03_s1",
+      "4efb_7yri1_gum_blt03_l1",
+      "4efb_7yri1_hitworld02"
+     ],
+     "frames": 223,
+     "peak_particles": 3,
+     "draws": 17,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 2
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum02_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum02_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_hit02"
+     ],
+     "frames": 219,
+     "peak_particles": 32,
+     "draws": 622,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 5,
+      "7yrieff1_fire00": 5,
+      "7yrieff1_exp03": 1,
+      "7yrieff1_line00": 15
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum03_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum03_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4efb_7yri1_gum03_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum03_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum03_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum03_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_gum_blt01_s1",
+      "4efb_7yri1_gum_blt01_l1",
+      "4efb_7yri1_hitworld03"
+     ],
+     "frames": 188,
+     "peak_particles": 3,
+     "draws": 10,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 2
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum03_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum03_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_hit03"
+     ],
+     "frames": 220,
+     "peak_particles": 32,
+     "draws": 626,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 5,
+      "7yrieff1_fire00": 5,
+      "7yrieff1_exp03": 1,
+      "7yrieff1_line00": 15
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum04_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum04_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4efb_7yri1_gum04_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum04_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_7yri1_gum03_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4efb_7yri1_gum03_e_hitworld00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_gum_blt02_s1",
+      "4efb_7yri1_gum_blt02_l1",
+      "4efb_7yri1_hitworld03"
+     ],
+     "frames": 190,
+     "peak_particles": 3,
+     "draws": 10,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 2
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "4efb_7yri1_gum04_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_7yri1_gum04_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4efb_7yri1_hit04"
+     ],
+     "frames": 220,
+     "peak_particles": 32,
+     "draws": 626,
+     "notes": [],
+     "skipped": {
+      "7yrieff1_gum01": 5,
+      "7yrieff1_fire00": 5,
+      "7yrieff1_exp03": 1,
+      "7yrieff1_line00": 15
+     },
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "file data/spc/7yrieff1.xfbin",
+     "not in the game archives"
+    ],
+    [
+     "effect 7yrieff1_gum_blt00_s1",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 7yrieff1_gum_blt00_l1",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 7yrieff1_gum_hit00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 7yrieff1_gum_hitworld00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "model 7yrieff1_gum02_04",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum02.max)"
+    ],
+    [
+     "model 7yrieff1_gum02_03",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum02.max)"
+    ],
+    [
+     "model 7yrieff1_gum02_02",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum02.max)"
+    ],
+    [
+     "model 7yrieff1_gum02_01",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum02.max)"
+    ],
+    [
+     "model 7yrieff1_gum02_05",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum02.max)"
+    ],
+    [
+     "model 7yrieff1_shdw00",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_shdw00.max)"
+    ],
+    [
+     "resource 7yrieff1_fire00",
+     "nuccChunkClump: chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_fire00.max)"
+    ],
+    [
+     "resource 7yrieff1_exp03",
+     "nuccChunkBillboard: chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_exp03.max)"
+    ],
+    [
+     "resource 7yrieff1_line00",
+     "nuccChunkClump: chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_line00.max)"
+    ],
+    [
+     "resource 7yrieff1_gum01",
+     "nuccChunkBillboard: chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum01.max)"
+    ],
+    [
+     "model 7yrieff1_gum05_04",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum05.max)"
+    ],
+    [
+     "model 7yrieff1_gum05_03",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum05.max)"
+    ],
+    [
+     "model 7yrieff1_gum05_02",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum05.max)"
+    ],
+    [
+     "model 7yrieff1_gum05_01",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum05.max)"
+    ],
+    [
+     "model 7yrieff1_gum05_05",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum05.max)"
+    ],
+    [
+     "model 7yrieff1_gum04_04",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum04.max)"
+    ],
+    [
+     "model 7yrieff1_gum04_03",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum04.max)"
+    ],
+    [
+     "model 7yrieff1_gum04_02",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum04.max)"
+    ],
+    [
+     "model 7yrieff1_gum04_01",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum04.max)"
+    ],
+    [
+     "model 7yrieff1_gum04_05",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum04.max)"
+    ],
+    [
+     "model 7yrieff1_gum03_04",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum03.max)"
+    ],
+    [
+     "model 7yrieff1_gum03_03",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum03.max)"
+    ],
+    [
+     "model 7yrieff1_gum03_02",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum03.max)"
+    ],
+    [
+     "model 7yrieff1_gum03_01",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum03.max)"
+    ],
+    [
+     "model 7yrieff1_gum03_05",
+     "chunk not found in the loaded files nor in the chunk index (path c\\7yri\\e\\max\\7yrieff1_gum03.max)"
+    ]
+   ],
+   "meshes_drawn": 3,
+   "meshes_never_drawn": []
+  },
+  "2dnz_x": {
+   "package": "2dnz_x",
+   "scripts": {
+    "2dnz_e_hit01": {
+     "error": null,
+     "actors": [
+      [
+       "2dnz_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_hit01"
+     ],
+     "frames": 61,
+     "peak_particles": 16,
+     "draws": 77,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzawaskh_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzawaskh_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnz_e_hit04",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_awatk_anm",
+      "2dnzeff1_hit04",
+      "2dnzeff1_hit00"
+     ],
+     "frames": 201,
+     "peak_particles": 10,
+     "draws": 329,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzawaskl00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzawaskl00_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnz_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_awaskl1_begin01",
+      "2dnzeff1_hit00",
+      "2dnzeff1_hit02"
+     ],
+     "frames": 90,
+     "peak_particles": 11,
+     "draws": 129,
+     "notes": [],
+     "skipped": {
+      "2dnzeff1_shdw00_shadow": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzawatr_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzawatr_e_begin00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "2dnzghit_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnzghit_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnzghit_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnzghit_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2dnz_e_hit02",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnveff1_awatr00_1_anm",
+      "1efc_ge_g09",
+      "2dnzeff1_hit02"
+     ],
+     "frames": 78,
+     "peak_particles": 18,
+     "draws": 923,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzcmb17_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzcmb17_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_cmb17_01_anm",
+      "2dnzeff1_hit00"
+     ],
+     "frames": 77,
+     "peak_particles": 6,
+     "draws": 36,
+     "notes": [],
+     "skipped": {
+      "2dnzeff1_shdw00_shadow": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzcmr00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzcmr00_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnz_e_hit04",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_cmr01_01_anm",
+      "2dnzeff1_hit04"
+     ],
+     "frames": 81,
+     "peak_particles": 10,
+     "draws": 162,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzeff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzeff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_rand_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wknz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_chakra03",
+      "wknz_nut01",
+      "wknz_hit01"
+     ],
+     "frames": 68,
+     "peak_particles": 9,
+     "draws": 189,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzeff1_dod_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzeff1_dod_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnveff1_awa_dodge_anm"
+     ],
+     "frames": 29,
+     "peak_particles": 2,
+     "draws": 124,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzeff1_whtchi1_e_begin": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzeff1_whtchi1_e_begin",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_ge_d09"
+     ],
+     "frames": 43,
+     "peak_particles": 15,
+     "draws": 123,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzskl00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzskl00_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnzskl00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_skl1_01_anm",
+      "2dnzeff1_skl1_hit00"
+     ],
+     "frames": 116,
+     "peak_particles": 6,
+     "draws": 359,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzspl1_e_end00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzspl1_e_end00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_spl_end"
+     ],
+     "frames": 88,
+     "peak_particles": 60,
+     "draws": 1064,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2dnzspl1_s_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2dnzspl1_s_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2dnz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2dnzeff1_cmr01_01_anm",
+      "2dnzeff1_hit00"
+     ],
+     "frames": 80,
+     "peak_particles": 6,
+     "draws": 128,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "some lit meshes take no point light (pixel constant budget): their light slot is compiled as unused"
+   ],
+   "models_without_shader": {
+    "2dnzeff1_shdw00_shadow": "mesh 1: no colour output (depth-only pass: shadow caster)"
+   },
+   "not_imported": [
+    [
+     "texture 2dnzeff1_izn02",
+     "4 colour variants in the NUT: image 0 converted, the others (model colour index +0xD0, trail image index +0x1DC) are not"
+    ],
+    [
+     "model 2dnzeff1_shdw00_shadow",
+     "mesh 0 (shader key 0xe001): no colour output (depth-only pass: shadow caster)"
+    ],
+    [
+     "trail 2dnzeff1_awatk_anm",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_awatk_anm",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_cmr01_01_anm",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_cmr01_01_anm",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_skl1_01_anm",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_skl1_01_anm",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_skl1_01_anm",
+     "trail 2: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2dnzeff1_skl1_01_anm",
+     "trail 3: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 52,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2dnz_x_1efc_bd_smk05_1",
+    "storm_fx_r24_2dnz_x_1efc_bd_smk12_1",
+    "storm_fx_r24_2dnz_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_2dnz_x_1efc_ring02_1",
+    "storm_fx_r24_2dnz_x_1efc_ring06_1",
+    "storm_fx_r24_2dnz_x_1efc_rpl01_1",
+    "storm_fx_r24_2dnz_x_1efc_strk01_1",
+    "storm_fx_r24_2dnz_x_1efc_strk02_1",
+    "storm_fx_r24_2dnz_x_1efc_strk03_1",
+    "storm_fx_r24_2dnz_x_1efc_trl02_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr01_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr06_00_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr07_00_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr08_00_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr08_01_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr08_03_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr09_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr10_1",
+    "storm_fx_r24_2dnz_x_1efc_wtr11_1"
+   ]
+  },
+  "1efcdodge44_x": {
+   "package": "1efcdodge44_x",
+   "scripts": {
+    "1efcdodge44_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1efcdodge44_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efcdodge44"
+     ],
+     "frames": 61,
+     "peak_particles": 23,
+     "draws": 182,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 5,
+   "meshes_never_drawn": []
+  },
+  "b1001_x": {
+   "package": "b1001_x",
+   "scripts": {
+    "b1001eff1_bmdtitrh_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b1001eff1_bmdtitrh_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_ge13",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b1001eff1_bmdtitrh_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5tyyeff1_skl02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5tyyeff1_skl02_e_hit00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "bmdteff1_itrh_blt00",
+      "1efc_ge_d13",
+      "bmdteff1_itrh_hit00",
+      "5tyyeff1_skl02_blt00",
+      "5tyyeff1_skl02_hit00"
+     ],
+     "frames": 600,
+     "peak_particles": 46,
+     "draws": 10941,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "bmdteff1_itrh_blt00",
+      "1efc_ge_d13"
+     ],
+     "dropped": {}
+    },
+    "b1001eff1_escgkk1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b1001eff1_escgkk1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1001eff1_escgkk1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "1efc_e_exp_hitworld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_fcv_exp00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_exp_eff01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_exp_ge_g01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_gkk1_blt00",
+      "1efc_fcv_exp00",
+      "1efc_exp_hitworld01",
+      "1efc_exp_ge_g01"
+     ],
+     "frames": 600,
+     "peak_particles": 76,
+     "draws": 6829,
+     "notes": [
+      "1efc_e_exp_hitworld01: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+     ],
+     "skipped": {},
+     "still_running": [
+      "1efc_exp_ge_g01"
+     ],
+     "dropped": {}
+    },
+    "b1001eff1_escriz1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b1001eff1_escriz1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1001eff1_escriz1_e_blt00",
+       "SKILL_ACTION_TYPE_SINCURVE"
+      ],
+      [
+       "2efb_riz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_riz_blt01",
+      "2efb_riz_hit01"
+     ],
+     "frames": 71,
+     "peak_particles": 13,
+     "draws": 63,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b1001eff1_uskl00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b1001eff1_uskl00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1001eff1_uskl00_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b1001eff1_uskl00_e_hit00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_fcv_exp00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efc_fcv_exp00"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "b1001eff1_uskl00_e_blt00: effect animation not in the package: b1001eff1_uskl00_blt00_s",
+      "b1001eff1_uskl00_e_hit00: effect animation not in the package: b1001eff1_uskl00_hit00",
+      "b1001eff1_uskl00_e_blt00: effect animation not in the package: b1001eff1_uskl00_blt00_e"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {
+    "5tyyeff1_shdw00_shadow": "mesh 1: no colour output (depth-only pass: shadow caster)"
+   },
+   "not_imported": [
+    [
+     "file data\\boss\\10\\b1001eff1.xfbin",
+     "not in the game archives"
+    ],
+    [
+     "effect b1001eff1_uskl00_blt00_s",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect b1001eff1_uskl00_blt00_l",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect b1001eff1_uskl00_blt00_e",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect b1001eff1_uskl00_hit00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "model 5tyyeff1_shdw00_shadow",
+     "mesh 0 (shader key 0xe001): no colour output (depth-only pass: shadow caster)"
+    ],
+    [
+     "trail 2efb_riz_blt01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 2efb_riz_blt01",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 56,
+   "meshes_never_drawn": [
+    "storm_fx_r24_b1001_x_1efc_bd_smk20_1",
+    "storm_fx_r24_b1001_x_1efc_bd_spk01_1",
+    "storm_fx_r24_b1001_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_b1001_x_1efc_fire06_1",
+    "storm_fx_r24_b1001_x_1efc_fire09_1",
+    "storm_fx_r24_b1001_x_1efc_nor_rpl01_1",
+    "storm_fx_r24_b1001_x_1efc_part16b_1",
+    "storm_fx_r24_b1001_x_1efc_rpl01_1",
+    "storm_fx_r24_b1001_x_1efc_rpl01_b_1",
+    "storm_fx_r24_b1001_x_1efc_smk10_1",
+    "storm_fx_r24_b1001_x_1efc_trl05g_1",
+    "storm_fx_r24_b1001_x_1efc_wtr06_00_1",
+    "storm_fx_r24_b1001_x_1efc_wtr07_00_1",
+    "storm_fx_r24_b1001_x_1efc_wtr08_00_1",
+    "storm_fx_r24_b1001_x_1efc_wtr08_01_1",
+    "storm_fx_r24_b1001_x_1efc_wtr08_03_1",
+    "storm_fx_r24_b1001_x_1efc_wtr09_1",
+    "storm_fx_r24_b1001_x_1efc_wtr10_1",
+    "storm_fx_r24_b1001_x_1efc_wtr11_1",
+    "storm_fx_r24_b1001_x_1efelm_rtn1_elc00_1",
+    "storm_fx_r24_b1001_x_1efelm_rtn1_elc01_1",
+    "storm_fx_r24_b1001_x_2efb_riz02_1"
+   ]
+  },
+  "2tob_x": {
+   "package": "2tob_x",
+   "scripts": {
+    "2tobcmr00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2tobcmr00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2tobeff1_kbd_e_blt01",
+       "SKILL_ACTION_TYPE_BOUNDBALL"
+      ],
+      [
+       "1efc_e_exp_hitworld00l",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_exp_eff00l",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_exp_ge_g00l",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "wkbd_nut01",
+      "1efc_exp_hitworld00l",
+      "1efc_exp_ge_g00l"
+     ],
+     "frames": 430,
+     "peak_particles": 20,
+     "draws": 1599,
+     "notes": [
+      "2tobeff1_kbd_e_blt01: BOUNDBALL bounces on what the host traces; its rolling and floating on water are not reproduced",
+      "1efc_e_exp_hitworld00l: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2tobeff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2tobeff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wfms_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "wfms_nut01",
+      "wfms_hit01"
+     ],
+     "frames": 600,
+     "peak_particles": 29,
+     "draws": 1018,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "wfms_nut01"
+     ],
+     "dropped": {}
+    },
+    "2tobeff1_dodge00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2tobeff1_dodge00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2tobeff1_dodge00"
+     ],
+     "frames": 30,
+     "peak_particles": 21,
+     "draws": 22,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2tobeff1_kbd_e_hit": {
+     "error": null,
+     "actors": [
+      [
+       "2tobeff1_kbd_e_hit",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wkbd_hit01"
+     ],
+     "frames": 233,
+     "peak_particles": 42,
+     "draws": 1431,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 8 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 1efc_exp_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 26,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2tob_x_1efc_bd_smk08_1",
+    "storm_fx_r24_2tob_x_1efc_bd_wtr01_1",
+    "storm_fx_r24_2tob_x_1efc_fire01_1",
+    "storm_fx_r24_2tob_x_1efc_fire08_1",
+    "storm_fx_r24_2tob_x_1efc_nor_rpl01_1",
+    "storm_fx_r24_2tob_x_1efc_part06_1",
+    "storm_fx_r24_2tob_x_1efc_ring02_1",
+    "storm_fx_r24_2tob_x_1efc_ring06_1",
+    "storm_fx_r24_2tob_x_1efc_rpl01_1",
+    "storm_fx_r24_2tob_x_1efc_rpl01_b_1",
+    "storm_fx_r24_2tob_x_1efc_shock05_1",
+    "storm_fx_r24_2tob_x_1efc_strk01_1",
+    "storm_fx_r24_2tob_x_1efc_strk02_1",
+    "storm_fx_r24_2tob_x_1efc_strk03_1",
+    "storm_fx_r24_2tob_x_1efc_trl05g_1",
+    "storm_fx_r24_2tob_x_1efc_wtr01_1",
+    "storm_fx_r24_2tob_x_1efc_wtr02_1",
+    "storm_fx_r24_2tob_x_wfms_body_1",
+    "storm_fx_r24_2tob_x_wfms_fan01_1",
+    "storm_fx_r24_2tob_x_wfms_fan02_1",
+    "storm_fx_r24_2tob_x_wfms_fan03_1",
+    "storm_fx_r24_2tob_x_wfms_fan04_1"
+   ]
+  },
+  "2cybspl1_x": {
+   "package": "2cybspl1_x",
+   "scripts": {
+    "2cybspl1_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2cybspl1_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 4,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2cybspl1_e_demo_g": {
+     "error": null,
+     "actors": [
+      [
+       "2cybspl1_e_demo_g",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_sbk_demo_g"
+     ],
+     "frames": 320,
+     "peak_particles": 60,
+     "draws": 1268,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2cybspl1_e_demo_w": {
+     "error": null,
+     "actors": [
+      [
+       "2cybspl1_e_demo_w",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_sbk_demo_w"
+     ],
+     "frames": 325,
+     "peak_particles": 51,
+     "draws": 1334,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 2efb_sbk_ptc07",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 6,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2cybspl1_x_1efc_bd_smk12_1",
+    "storm_fx_r24_2cybspl1_x_1efc_trl04_1"
+   ]
+  },
+  "2ino2sik2tyo_spl1_x": {
+   "package": "2ino2sik2tyo_spl1_x",
+   "scripts": {
+    "2ino2sik2tyo_spl1_atk_d_g": {
+     "error": null,
+     "actors": [
+      [
+       "2ino2sik2tyo_spl1_atk_d_g",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2ino2sik2tyo_spl1_atk_d_g"
+     ],
+     "frames": 600,
+     "peak_particles": 58,
+     "draws": 932,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "2ino2sik2tyo_spl1_atk_d_g"
+     ],
+     "dropped": {}
+    },
+    "2ino2sik2tyo_spl1_atk_d_s": {
+     "error": null,
+     "actors": [
+      [
+       "2ino2sik2tyo_spl1_atk_d_s",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2ino2sik2tyo_spl1_atk_d_s"
+     ],
+     "frames": 600,
+     "peak_particles": 47,
+     "draws": 732,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "2ino2sik2tyo_spl1_atk_d_s"
+     ],
+     "dropped": {}
+    },
+    "2ino2sik2tyo_spl1_atk_d_w": {
+     "error": null,
+     "actors": [
+      [
+       "2ino2sik2tyo_spl1_atk_d_w",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2ino2sik2tyo_spl1_atk_d_w"
+     ],
+     "frames": 600,
+     "peak_particles": 27,
+     "draws": 641,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "2ino2sik2tyo_spl1_atk_d_w"
+     ],
+     "dropped": {}
+    },
+    "2ino2sik2tyo_spl1_sst_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2ino2sik2tyo_spl1_sst_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2ino2sik2tyo_spl1_sst_e_blt00",
+       "SKILL_ACTION_TYPE_SINCURVE"
+      ],
+      [
+       "2ino2sik2tyo_spl1_sst_e_blt00",
+       "SKILL_ACTION_TYPE_SINCURVE"
+      ],
+      [
+       "2ino2sik2tyo_spl1_sst_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2ino2sik2tyo_spl1_sst_e_blt00",
+       "SKILL_ACTION_TYPE_SINCURVE"
+      ]
+     ],
+     "effects": [
+      "2ino2sik2tyo_spl1_sst_blt01",
+      "2ino2sik2tyo_spl1_sst_hit01"
+     ],
+     "frames": 78,
+     "peak_particles": 16,
+     "draws": 207,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 14,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2ino2sik2tyo_spl1_x_1efc_bd_smk05_1",
+    "storm_fx_r24_2ino2sik2tyo_spl1_x_1efc_bd_smk08_1",
+    "storm_fx_r24_2ino2sik2tyo_spl1_x_1efc_ring06_1",
+    "storm_fx_r24_2ino2sik2tyo_spl1_x_1efc_wtr01_1"
+   ]
+  },
+  "2efb_ctm_x": {
+   "package": "2efb_ctm_x",
+   "scripts": {
+    "2efb_ctm_atk01_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2efb_ctm_atk01_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2efb_ctm_atk01_e_all: effect animation not in the package: 2efb_ctm_demo02"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2efb_ctm_cut01_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2efb_ctm_cut01_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2efb_ctm_cut01_e_all: effect animation not in the package: 2efb_ctm_demo01"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "effect 2efb_ctm_demo02",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2efb_ctm_demo01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ]
+   ],
+   "meshes_drawn": 0,
+   "meshes_never_drawn": []
+  },
+  "2lar_x": {
+   "package": "2lar_x",
+   "scripts": {
+    "2lareff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2lareff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2lareff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2lareff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "2lareff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wknz_nut01",
+      "wsbn_hit01"
+     ],
+     "frames": 69,
+     "peak_particles": 10,
+     "draws": 82,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_e_awa_core00": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_e_awa_core00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2lareff1_e_awa_core00: effect animation not in the package: 2lareff1_awa_core00"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_e_awa_core01": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_e_awa_core01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2lareff1_e_awa_core01: effect animation not in the package: 2lareff1_awa_core01"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_e_awa_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_e_awa_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2lareff1_e_awa_hit00: effect animation not in the package: 2lareff1_awa_hit00"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2lareff1_e_hit00: effect animation not in the package: 2lareff1_hit00"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_e_hit01": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2lareff1_e_hit01: effect animation not in the package: 2lareff1_hit01"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2lareff1_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "2lareff1_skn_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "2lareff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsbn_nut01",
+      "wsbn_hit01"
+     ],
+     "frames": 70,
+     "peak_particles": 10,
+     "draws": 47,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "some lit meshes take no point light (pixel constant budget): their light slot is compiled as unused"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "file data/spc/2lareff1.xfbin",
+     "not in the game archives"
+    ],
+    [
+     "effect 2lareff1_awa_core00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2lareff1_awa_core01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2lareff1_awa_hit00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2lareff1_hit00",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2lareff1_hit01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "trail wsbn_nut01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 9,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2lar_x_1efc_ring02_1",
+    "storm_fx_r24_2lar_x_1efc_ring06_1",
+    "storm_fx_r24_2lar_x_1efc_rpl01_1",
+    "storm_fx_r24_2lar_x_1efc_strk01_1",
+    "storm_fx_r24_2lar_x_1efc_strk02_1",
+    "storm_fx_r24_2lar_x_1efc_strk03_1",
+    "storm_fx_r24_2lar_x_1efc_trl01_1",
+    "storm_fx_r24_2lar_x_1efc_wtr01_1"
+   ]
+  },
+  "7ssxspl1_x": {
+   "package": "7ssxspl1_x",
+   "scripts": {
+    "7ssxspl1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "7ssxspl1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "7ssxspl1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "7ssxspl1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "7ssxspl1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "7ssxspl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "7ssxspl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "7ssxspl1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "7ssxspl1_sst_blt00",
+      "7ssxspl1_sst_hit00"
+     ],
+     "frames": 63,
+     "peak_particles": 17,
+     "draws": 407,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 7ssxspl1_sst_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 7ssxspl1_sst_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 10,
+   "meshes_never_drawn": [
+    "storm_fx_r24_7ssxspl1_x_1efc_ring06_1",
+    "storm_fx_r24_7ssxspl1_x_1efc_rpl01_1",
+    "storm_fx_r24_7ssxspl1_x_1efc_trl05_1",
+    "storm_fx_r24_7ssxspl1_x_1efc_wtr01_1"
+   ]
+  },
+  "4efb_2kkx1_x": {
+   "package": "4efb_2kkx1_x",
+   "scripts": {
+    "4efb_2kkx1_e_ge00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_2kkx1_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 0,
+   "meshes_never_drawn": []
+  },
+  "2efb_ksh_x": {
+   "package": "2efb_ksh_x",
+   "scripts": {
+    "2efb_ksh_atk01_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2efb_ksh_atk01_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2efb_ksh_atk01_e_all: effect animation not in the package: 2efb_ksh_demo02"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2efb_ksh_cut01_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2efb_ksh_cut01_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [
+      "2efb_ksh_cut01_e_all: effect animation not in the package: 2efb_ksh_demo01"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "effect 2efb_ksh_demo02",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 2efb_ksh_demo01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ]
+   ],
+   "meshes_drawn": 0,
+   "meshes_never_drawn": []
+  },
+  "b0103_x": {
+   "package": "b0103_x",
+   "scripts": {
+    "b0103eff1_bjd00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0103eff1_bjd00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "b0103eff1_bjd00_blt00"
+     ],
+     "frames": 600,
+     "peak_particles": 13,
+     "draws": 2178,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "b0103eff1_bjd00_blt00"
+     ],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "file data/boss/01/03/b0103eff1.xfbin",
+     "not in the game archives"
+    ]
+   ],
+   "meshes_drawn": 6,
+   "meshes_never_drawn": []
+  },
+  "4efb_rsn1_x": {
+   "package": "4efb_rsn1_x",
+   "scripts": {
+    "4efb_rsn1_e_ge00": {
+     "error": null,
+     "actors": [
+      [
+       "4efb_rsn1_e_ge00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_ge13",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_rsn1_attach_dmy00",
+      "1efc_ge_d13"
+     ],
+     "frames": 600,
+     "peak_particles": 42,
+     "draws": 4905,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "1efc_ge_d13"
+     ],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 6,
+   "meshes_never_drawn": [
+    "storm_fx_r24_4efb_rsn1_x_1efc_bd_smk20_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_nor_rpl01_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_part16b_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_rpl01_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_rpl01_b_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_smk10_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr06_00_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr07_00_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr08_00_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr08_01_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr08_03_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr09_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr10_1",
+    "storm_fx_r24_4efb_rsn1_x_1efc_wtr11_1"
+   ]
+  },
+  "3efbtf_srd1_x": {
+   "package": "3efbtf_srd1_x",
+   "scripts": {
+    "3efbtf_srd1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_srd1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3efbtf_srd1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3efbtf_srd1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3efbtf_srd1_blt00",
+      "2efb_srd_hit_air01"
+     ],
+     "frames": 81,
+     "peak_particles": 42,
+     "draws": 371,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3efbtf_srd1_e_begin01": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_srd1_e_begin01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3efbtf_srd1_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3efbtf_srd1_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3efbtf_srd1_sht02",
+      "3efbtf_srd1_blt03",
+      "2efb_srd_hit_air01"
+     ],
+     "frames": 82,
+     "peak_particles": 42,
+     "draws": 397,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3efbtf_srd1_e_hitWorld00": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_srd1_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_srd_hit_nor01"
+     ],
+     "frames": 95,
+     "peak_particles": 34,
+     "draws": 436,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 17,
+   "meshes_never_drawn": []
+  },
+  "1szn_x": {
+   "package": "1szn_x",
+   "scripts": {
+    "1efb_dkr_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1efb_dkr_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "1efb_dkr_bgn01"
+     ],
+     "frames": 95,
+     "peak_particles": 30,
+     "draws": 323,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "1szneff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1szneff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_radiation_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbz_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsbz_nut01",
+      "wsbz_hit03",
+      "wsbz_hit01"
+     ],
+     "frames": 69,
+     "peak_particles": 10,
+     "draws": 255,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 8,
+   "meshes_never_drawn": [
+    "storm_fx_r24_1szn_x_1efc_part02_1",
+    "storm_fx_r24_1szn_x_1efc_ring02_1",
+    "storm_fx_r24_1szn_x_1efc_ring06_1",
+    "storm_fx_r24_1szn_x_1efc_ring15_1",
+    "storm_fx_r24_1szn_x_1efc_rpl01_1",
+    "storm_fx_r24_1szn_x_1efc_strk01_1",
+    "storm_fx_r24_1szn_x_1efc_strk02_1",
+    "storm_fx_r24_1szn_x_1efc_strk03_1",
+    "storm_fx_r24_1szn_x_1efc_wtr01_1"
+   ]
+  },
+  "3mfn_x": {
+   "package": "3mfn_x",
+   "scripts": {
+    "3mfneff1_awaspt00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "3mfneff1_awaspt00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_awaspt00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3mfneff1_awaspt_blt00",
+      "3mfneff1_awaspt_hit00"
+     ],
+     "frames": 37,
+     "peak_particles": 11,
+     "draws": 113,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3mfneff1_cmb11_e_ge00": {
+     "error": null,
+     "actors": [
+      [
+       "3mfneff1_cmb11_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3mfneff1_cmb11_ge_g00"
+     ],
+     "frames": 50,
+     "peak_particles": 32,
+     "draws": 245,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3mfneff1_cmb21_e_ge00": {
+     "error": null,
+     "actors": [
+      [
+       "3mfneff1_cmb21_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3mfneff1_cmb21_ge_g00"
+     ],
+     "frames": 168,
+     "peak_particles": 25,
+     "draws": 853,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3mfneff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "3mfneff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3mfneff1_skn_blt00",
+      "3mfneff1_skn_hit02",
+      "3mfneff1_skn_hit00"
+     ],
+     "frames": 70,
+     "peak_particles": 10,
+     "draws": 173,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3mfneff1_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "3mfneff1_skn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3mfneff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3mfneff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3mfneff1_skn_blt00",
+      "3mfneff1_skn_hit02",
+      "3mfneff1_skn_hit00"
+     ],
+     "frames": 70,
+     "peak_particles": 10,
+     "draws": 76,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "script wkni_e_hitWorld00",
+     "spawned by an event; 2 skill files define it differently"
+    ],
+    [
+     "effect wkni_nut01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "trail 3mfneff1_skn_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 28,
+   "meshes_never_drawn": [
+    "storm_fx_r24_3mfn_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_3mfn_x_1efc_ring02_1",
+    "storm_fx_r24_3mfn_x_1efc_ring06_1",
+    "storm_fx_r24_3mfn_x_1efc_ring11_1",
+    "storm_fx_r24_3mfn_x_1efc_rpl01_1",
+    "storm_fx_r24_3mfn_x_1efc_smk05_1",
+    "storm_fx_r24_3mfn_x_1efc_strk01_1",
+    "storm_fx_r24_3mfn_x_1efc_strk02_1",
+    "storm_fx_r24_3mfn_x_1efc_strk03_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr01_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr03_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr06_00_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr07_00_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr08_00_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr08_01_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr08_03_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr09_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr10_1",
+    "storm_fx_r24_3mfn_x_1efc_wtr11_1",
+    "storm_fx_r24_3mfn_x_3mfneff1_smk01_1",
+    "storm_fx_r24_3mfn_x_3mfneff1_trl00_1"
+   ]
+  },
+  "b0101_x": {
+   "package": "b0101_x",
+   "scripts": {
+    "b0101eff1_4hsmcmr_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_4hsmcmr_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_4hsmcmr_e_dmyhit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_4hsmcmr_e_wall00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_4hsmcmr_e_end00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b01cmneff1_4hsmcmr00",
+      "b01cmneff1_4hsmcmr00_hitanm",
+      "b01cmneff1_4hsmcmr00_end"
+     ],
+     "frames": 147,
+     "peak_particles": 38,
+     "draws": 1466,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_4hsmmmr00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_4hsmmmr00_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_4hsmmmr00_e_blt01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "bhsm_esc_skl1_mmr00",
+      "b0101eff1_skl1_ground00"
+     ],
+     "frames": 245,
+     "peak_particles": 232,
+     "draws": 10934,
+     "notes": [
+      "bhsm_esc_skl1_mmr00: 1 animation entries of type 2 (camera, light, ...) are not played"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_4hsmskl01_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_4hsmskl01_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_4hsmskl01_e_world00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b01cmneff1_4hsmskl01_blt02",
+      "b01cmneff1_4hsmskl01_world00"
+     ],
+     "frames": 71,
+     "peak_particles": 0,
+     "draws": 66,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_bmdrcmb02_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_bmdrcmb02_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0101eff1_bmdrcmb02_e_blt01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0101eff1_bmdrcmb02_e_end00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "b01cmneff1_bmdrcmb02_blt00",
+      "b01cmneff1_bmdrcmb02_blt01",
+      "b01cmneff1_bmdrcmb02_end00"
+     ],
+     "frames": 106,
+     "peak_particles": 17,
+     "draws": 331,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_bmdrcmb03_e_blt10": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_bmdrcmb03_e_blt10",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "b01cmneff1_bmdrcmb03_blt10"
+     ],
+     "frames": 146,
+     "peak_particles": 31,
+     "draws": 1023,
+     "notes": [
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone01, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone03, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone09, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone08, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone02, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone10, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone06, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone07, a node outside the effect, placed at the effect root",
+      "b01cmneff1_bmdrcmb03_blt10: attached to b01cmneff1_fire00_bone05, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_grk00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_grk00_e_blt00",
+       "SKILL_ACTION_TYPE_ELEVATOR"
+      ],
+      [
+       "b0101eff1_grk00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_grk00_blt00",
+      "b0101eff1_grk00_hit00"
+     ],
+     "frames": 217,
+     "peak_particles": 20,
+     "draws": 582,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_rock00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_rock00_e_blt00",
+       "SKILL_ACTION_TYPE_ELEVATOR"
+      ],
+      [
+       "b0101eff1_rock00_e_hitworld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_rock00_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_rock00_blt00",
+      "b0101eff1_rock00_hitworld00",
+      "b0101eff1_rock00_ge00"
+     ],
+     "frames": 461,
+     "peak_particles": 23,
+     "draws": 1308,
+     "notes": [
+      "b0101eff1_rock00_hitworld00: attached to 1efc_dmy01, a node outside the effect, placed at the effect root"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_slash00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_slash00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_slash00_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "b0101eff1_slash00_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "b0101eff1_slash00_e_blt01",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "b0101eff1_slash00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_slash00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_slash00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_slash00_blt00",
+      "b01cmneff1_hitw00",
+      "b0101eff1_slash00_end00"
+     ],
+     "frames": 165,
+     "peak_particles": 45,
+     "draws": 4391,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_slash00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_slash00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "b0101eff1_slash00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_slash00_blt01",
+      "b01cmneff1_hitw00"
+     ],
+     "frames": 167,
+     "peak_particles": 46,
+     "draws": 1362,
+     "notes": [],
+     "skipped": {
+      "b0101eff1_sdw00_shadow": 1
+     },
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_storm00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_storm00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_storm00_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0101eff1_storm00_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0101eff1_storm00_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0101eff1_storm00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_fcv_exp00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_storm00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_fcv_exp00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_storm00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_fcv_exp00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_storm00_begin00",
+      "b0101eff1_storm00_blt00_s",
+      "b0101eff1_storm00_blt00_l",
+      "b0101eff1_storm00_hit00",
+      "1efc_fcv_exp00"
+     ],
+     "frames": 138,
+     "peak_particles": 39,
+     "draws": 2334,
+     "notes": [
+      "b0101eff1_storm00_e_begin00: coordinate attach_fire00 is not a node of its effect, the actor itself is used",
+      "b0101eff1_storm00_e_begin00: coordinate attach_fire01 is not a node of its effect, the actor itself is used",
+      "b0101eff1_storm00_e_begin00: coordinate attach_fire02 is not a node of its effect, the actor itself is used"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "b0101eff1_storm00_e_blt00_esc": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_storm00_e_blt00_esc",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "b0101eff1_slash00_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "b0101eff1_esc00_blt00",
+      "b01cmneff1_hitw00"
+     ],
+     "frames": 600,
+     "peak_particles": 72,
+     "draws": 10263,
+     "notes": [
+      "b0101eff1_esc00_blt00: 1 animation entries of type 2 (camera, light, ...) are not played"
+     ],
+     "skipped": {},
+     "still_running": [
+      "b0101eff1_esc00_blt00"
+     ],
+     "dropped": {}
+    },
+    "b0101eff1_wfms_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "b0101eff1_wfms_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0101eff1_wfms_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "b01cmneff1_wfms_nut01",
+      "b01cmneff1_wfms_hit01"
+     ],
+     "frames": 600,
+     "peak_particles": 29,
+     "draws": 2206,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "b01cmneff1_wfms_nut01"
+     ],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 7 was never captured: its ambient is the host default",
+    "light set 8 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {
+    "b0101eff1_sdw00_shadow": "mesh 1: no colour output (depth-only pass: shadow caster)"
+   },
+   "not_imported": [
+    [
+     "script wskn_e_hitWorld00",
+     "spawned by an event; 2 skill files define it differently"
+    ],
+    [
+     "model b0101eff1_sdw00_shadow",
+     "mesh 0 (shader key 0xe001): no colour output (depth-only pass: shadow caster)"
+    ],
+    [
+     "trail 1efc_spark_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_spark_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail b01cmneff1_4hsmskl01_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail b0101eff1_rock00_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail b0101eff1_rock00_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail b0101eff1_slash00_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 167,
+   "meshes_never_drawn": [
+    "storm_fx_r24_b0101_x_1efc_bd_shock01_1",
+    "storm_fx_r24_b0101_x_1efc_bd_shock05_1",
+    "storm_fx_r24_b0101_x_1efc_bd_smk02_1",
+    "storm_fx_r24_b0101_x_1efc_bd_splash00_1",
+    "storm_fx_r24_b0101_x_1efc_part10b_1",
+    "storm_fx_r24_b0101_x_1efc_part10c_1",
+    "storm_fx_r24_b0101_x_1efc_part14_1",
+    "storm_fx_r24_b0101_x_1efc_ring02_1",
+    "storm_fx_r24_b0101_x_1efc_ring06_1",
+    "storm_fx_r24_b0101_x_1efc_ring18_1",
+    "storm_fx_r24_b0101_x_1efc_rpl01_1",
+    "storm_fx_r24_b0101_x_1efc_spark02_1",
+    "storm_fx_r24_b0101_x_1efc_strk01_1",
+    "storm_fx_r24_b0101_x_1efc_strk02_1",
+    "storm_fx_r24_b0101_x_1efc_strk03_1",
+    "storm_fx_r24_b0101_x_1efc_trl04_1",
+    "storm_fx_r24_b0101_x_1efc_trl05_1",
+    "storm_fx_r24_b0101_x_1efc_trl05g_1",
+    "storm_fx_r24_b0101_x_1efc_wtr01_1",
+    "storm_fx_r24_b0101_x_4efb_grk1_01_1",
+    "storm_fx_r24_b0101_x_4efb_grk1_02_1",
+    "storm_fx_r24_b0101_x_b0101eff1_grk01_1",
+    "storm_fx_r24_b0101_x_b0101eff1_grk02_1",
+    "storm_fx_r24_b0101_x_b0101eff1_grk03_1",
+    "storm_fx_r24_b0101_x_b0101eff1_grk04_1",
+    "storm_fx_r24_b0101_x_b0101eff1_parts01_1",
+    "storm_fx_r24_b0101_x_b0101eff1_storm002_1",
+    "storm_fx_r24_b0101_x_b01cmneff1_4hsmcmr00_hitdmy_1",
+    "storm_fx_r24_b0101_x_b01cmneff1_flg00_1",
+    "storm_fx_r24_b0101_x_b01cmneff1_ring01_1",
+    "storm_fx_r24_b0101_x_b01cmneff1_storm01_a00_1",
+    "storm_fx_r24_b0101_x_b01cmneff1_storm01_a01_1",
+    "storm_fx_r24_b0101_x_wfms_body_1",
+    "storm_fx_r24_b0101_x_wfms_fan01_1",
+    "storm_fx_r24_b0101_x_wfms_fan02_1",
+    "storm_fx_r24_b0101_x_wfms_fan03_1",
+    "storm_fx_r24_b0101_x_wfms_fan04_1"
+   ]
+  },
+  "2jryspl1_x": {
+   "package": "2jryspl1_x",
+   "scripts": {
+    "2jryspl1_e_all": {
+     "error": null,
+     "actors": [
+      [
+       "2jryspl1_e_all",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [],
+     "frames": 4,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2jryspl1_e_demo_g": {
+     "error": null,
+     "actors": [
+      [
+       "2jryspl1_e_demo_g",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_trs_demo_g"
+     ],
+     "frames": 380,
+     "peak_particles": 66,
+     "draws": 1017,
+     "notes": [
+      "2efb_trs_demo_g: 1 animation entries of type 2 (camera, light, ...) are not played"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "2jryspl1_e_demo_w": {
+     "error": null,
+     "actors": [
+      [
+       "2jryspl1_e_demo_w",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_trs_demo_w"
+     ],
+     "frames": 425,
+     "peak_particles": 44,
+     "draws": 1082,
+     "notes": [
+      "2efb_trs_demo_w: 1 animation entries of type 2 (camera, light, ...) are not played"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 4,
+   "meshes_never_drawn": [
+    "storm_fx_r24_2jryspl1_x_1efc_bd_smk05_1"
+   ]
+  },
+  "2knxspl1_x": {
+   "package": "2knxspl1_x",
+   "scripts": {
+    "1inospl1_e_all": {
+     "error": null,
+     "actors": [],
+     "effects": [],
+     "frames": 4,
+     "peak_particles": 0,
+     "draws": 0,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 0,
+   "meshes_never_drawn": []
+  },
+  "3efb_3mdr1_2_x": {
+   "package": "3efb_3mdr1_2_x",
+   "scripts": {
+    "3efb_3mdr1_2_rhk01_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "3efb_3mdr1_2_rhk01_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "3efb_3mdr1_2_rhk01_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "3efb_3mdr1_2_rhk01_e_hit00_a",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3efb_3mdr1_2_rhk_blt01",
+      "3efb_3mdr1_2_rhk_hit_air01"
+     ],
+     "frames": 91,
+     "peak_particles": 10,
+     "draws": 144,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "script 3efb_3md3efb_3mdr1_2_rhk01_e_hit00",
+     "spawned by an event; no skill file defines it"
+    ]
+   ],
+   "meshes_drawn": 11,
+   "meshes_never_drawn": [
+    "storm_fx_r24_3efb_3mdr1_2_x_3efb_3mdr1_2_rhk05_1",
+    "storm_fx_r24_3efb_3mdr1_2_x_3efb_3mdr1_2_rhk07_1",
+    "storm_fx_r24_3efb_3mdr1_2_x_3efb_3mdr1_2_rhk09_1",
+    "storm_fx_r24_3efb_3mdr1_2_x_3efb_3mdr1_2_rhk10_1"
+   ]
+  },
+  "b1102_x": {
+   "package": "b1102_x",
+   "scripts": {
+    "b1102eff1_bmdtesc_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b1102eff1_bmdtesc_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b0502eff1_bkrsers_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "bmdteff1_itrhesc_blt00",
+      "befcmn_ge_attach00"
+     ],
+     "frames": 600,
+     "peak_particles": 91,
+     "draws": 11387,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "bmdteff1_itrhesc_blt00",
+      "befcmn_ge_attach00",
+      "befcmn_ge_attach00"
+     ],
+     "dropped": {}
+    },
+    "b1102eff1_bmdtwav_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "b1102eff1_bmdtwav_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "bmdteff1_wav_blt00_l",
+      "befcmn_ge_attach00"
+     ],
+     "frames": 600,
+     "peak_particles": 20,
+     "draws": 0,
+     "notes": [],
+     "skipped": {
+      "b1102eff1_bmdtwav_ptc00": 20
+     },
+     "still_running": [
+      "bmdteff1_wav_blt00_l",
+      "befcmn_ge_attach00",
+      "befcmn_ge_attach00"
+     ],
+     "dropped": {}
+    },
+    "b1102eff1_bmdtwav_e_blt01": {
+     "error": null,
+     "actors": [
+      [
+       "b1102eff1_bmdtwav_e_blt01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "b1102eff1_bmdtwav_e_ge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "bmdteff1_wav_blt01_l",
+      "befcmn_ge_attach00"
+     ],
+     "frames": 600,
+     "peak_particles": 14,
+     "draws": 0,
+     "notes": [],
+     "skipped": {
+      "b1102eff1_bmdtwav_ptc01": 14
+     },
+     "still_running": [
+      "bmdteff1_wav_blt01_l",
+      "befcmn_ge_attach00",
+      "befcmn_ge_attach00"
+     ],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "resource b1102eff1_bmdtwav_ptc00",
+     "nuccChunkAnm: chunk not found in the loaded files nor in the chunk index (path b\\11\\02\\e\\anm\\b1102eff1_bmdtwav_ptc00.max)"
+    ],
+    [
+     "resource b1102eff1_bmdtwav_ptc01",
+     "nuccChunkAnm: chunk not found in the loaded files nor in the chunk index (path b\\11\\02\\e\\anm\\b1102eff1_bmdtwav_ptc01.max)"
+    ]
+   ],
+   "meshes_drawn": 11,
+   "meshes_never_drawn": [
+    "storm_fx_r24_b1102_x_1efc_bd_smk19_1",
+    "storm_fx_r24_b1102_x_1efc_bd_smk20_1",
+    "storm_fx_r24_b1102_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_b1102_x_1efc_nor_rpl01_1",
+    "storm_fx_r24_b1102_x_1efc_part09b_1",
+    "storm_fx_r24_b1102_x_1efc_part16b_1",
+    "storm_fx_r24_b1102_x_1efc_part18b_1",
+    "storm_fx_r24_b1102_x_1efc_rpl01_1",
+    "storm_fx_r24_b1102_x_1efc_rpl01_b_1",
+    "storm_fx_r24_b1102_x_1efc_smk09_1",
+    "storm_fx_r24_b1102_x_1efc_smk10_1",
+    "storm_fx_r24_b1102_x_1efc_stn01_1",
+    "storm_fx_r24_b1102_x_1efc_stn03_1",
+    "storm_fx_r24_b1102_x_1efc_stn06_body_1",
+    "storm_fx_r24_b1102_x_1efc_wtr06_00_1",
+    "storm_fx_r24_b1102_x_1efc_wtr07_00_1",
+    "storm_fx_r24_b1102_x_1efc_wtr08_00_1",
+    "storm_fx_r24_b1102_x_1efc_wtr08_01_1",
+    "storm_fx_r24_b1102_x_1efc_wtr08_03_1",
+    "storm_fx_r24_b1102_x_1efc_wtr09_1",
+    "storm_fx_r24_b1102_x_1efc_wtr10_1",
+    "storm_fx_r24_b1102_x_1efc_wtr11_1",
+    "storm_fx_r24_b1102_x_1efelm_rtn1_elc00_1",
+    "storm_fx_r24_b1102_x_1efelm_rtn1_elc01_1"
+   ]
+  },
+  "5mdr1_x": {
+   "package": "5mdr1_x",
+   "scripts": {
+    "5mdreff1_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "5mdreff1_skn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5mdreff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5mdreff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5mdreff1_skn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "5mdreff1_skn_e_hitWorld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5mdreff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "5mdreff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wskn_hit01"
+     ],
+     "frames": 69,
+     "peak_particles": 10,
+     "draws": 67,
+     "notes": [
+      "5mdreff1_skn_e_blt00: effect animation not in the package: 5mdreff1_skn_blt01",
+      "5mdreff1_skn_e_hitWorld00: effect animation not in the package: 5mdreff1_skn_blt02"
+     ],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "effect 5mdreff1_skn_blt01",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ],
+    [
+     "effect 5mdreff1_skn_blt02",
+     "animation chunk not found in the files of the script nor, under one path, in the chunk index"
+    ]
+   ],
+   "meshes_drawn": 4,
+   "meshes_never_drawn": [
+    "storm_fx_r24_5mdr1_x_1efc_ring02_1",
+    "storm_fx_r24_5mdr1_x_1efc_ring06_1",
+    "storm_fx_r24_5mdr1_x_1efc_rpl01_1",
+    "storm_fx_r24_5mdr1_x_1efc_strk01_1",
+    "storm_fx_r24_5mdr1_x_1efc_strk02_1",
+    "storm_fx_r24_5mdr1_x_1efc_strk03_1",
+    "storm_fx_r24_5mdr1_x_1efc_wtr01_1",
+    "storm_fx_r24_5mdr1_x_2pesword_low_1"
+   ]
+  },
+  "4mnr_x": {
+   "package": "4mnr_x",
+   "scripts": {
+    "4mkreff1_aws_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_aws_csk_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_aws_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mkreff1_aws_csk_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_skn_begin00",
+      "4mkreff1_csk_blt00",
+      "4mkreff1_csk_blt01",
+      "1efc_hitx02"
+     ],
+     "frames": 120,
+     "peak_particles": 67,
+     "draws": 923,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_aws_e_dodge00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_aws_e_dodge00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_dodge00"
+     ],
+     "frames": 32,
+     "peak_particles": 26,
+     "draws": 109,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_aws_e_dodge01": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_aws_e_dodge01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_dodge01"
+     ],
+     "frames": 21,
+     "peak_particles": 20,
+     "draws": 52,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_aws_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_aws_skn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_aws_skn_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_aws_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_skn_begin00",
+      "4mkreff1_skn_blt00",
+      "4mkreff1_skn_hit00",
+      "4mkreff1_skn_end01"
+     ],
+     "frames": 74,
+     "peak_particles": 22,
+     "draws": 202,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_awsgdi00_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_awsgdi00_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awsgdi00_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mkreff1_awsgdi00_e_end00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awsgdi00_e_ge00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_awsgdi_begin00",
+      "4mkreff1_awsgdi_blt00",
+      "4mkreff1_awsgdi_hit00",
+      "4mkreff1_awsgdi_ge00"
+     ],
+     "frames": 103,
+     "peak_particles": 51,
+     "draws": 750,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_awsskl1_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_awsskl1_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awsskl1_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awsskl1_e_blt01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awsskl1_e_hit00g",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4mkreff1_awsskl1_e_hit00g",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_skl1_blt00",
+      "4mkreff1_skl1_hit_world00"
+     ],
+     "frames": 65,
+     "peak_particles": 14,
+     "draws": 101,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_awstk01_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_awstk01_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awstk01_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4mkreff1_awstk01_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4mkreff1_awstk01_e_blt00",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "4mkreff1_awstk01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awstk01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mkreff1_awstk01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_cmb01_blt00",
+      "1efc_hitl01"
+     ],
+     "frames": 57,
+     "peak_particles": 26,
+     "draws": 342,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_awstk02_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_awstk02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mkreff1_awstk02_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_cmb02_blt00",
+      "1efc_hitw02"
+     ],
+     "frames": 65,
+     "peak_particles": 26,
+     "draws": 390,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mkreff1_awstr00_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mkreff1_awstr00_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mkreff1_awstr_blt00"
+     ],
+     "frames": 95,
+     "peak_particles": 18,
+     "draws": 312,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_awa_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_csk_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_awa_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_awa_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_awa_csk_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_awa_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_awa_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_awa_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_skn_blt00",
+      "4mnreff1_awa_skn_hit00"
+     ],
+     "frames": 48,
+     "peak_particles": 1,
+     "draws": 117,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_core00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_core00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_aura00"
+     ],
+     "frames": 600,
+     "peak_particles": 2,
+     "draws": 165,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "4mnreff1_awa_aura00"
+     ],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_core01": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_core01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_aura01"
+     ],
+     "frames": 600,
+     "peak_particles": 2,
+     "draws": 165,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "4mnreff1_awa_aura01"
+     ],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_core02": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_core02",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_aura02"
+     ],
+     "frames": 600,
+     "peak_particles": 1,
+     "draws": 157,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "4mnreff1_awa_aura02"
+     ],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_start00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_start00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_s01"
+     ],
+     "frames": 61,
+     "peak_particles": 16,
+     "draws": 119,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_tail00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_tail00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_tail00"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 128,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_awa_e_tail01": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_e_tail01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_tail01"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 4,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_awa_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_awa_skn_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_awa_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_awa_skn_blt00",
+      "4mnreff1_awa_skn_hit00"
+     ],
+     "frames": 48,
+     "peak_particles": 1,
+     "draws": 42,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cma01_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cma01_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_bom00_blt00",
+      "4mnreff1_cmn_exphit00"
+     ],
+     "frames": 56,
+     "peak_particles": 11,
+     "draws": 60,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cma02_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cma02_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma02_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cma02_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_cma02_blt00",
+      "1efc_hitl01"
+     ],
+     "frames": 113,
+     "peak_particles": 26,
+     "draws": 668,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cmb10_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cmb10_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_bom00_blt00",
+      "4mnreff1_cmn_exphit00"
+     ],
+     "frames": 56,
+     "peak_particles": 11,
+     "draws": 64,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cmb11_n_e_begine00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cmb11_n_e_begine00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmb11_n_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cma01_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_cmb11_n_msl00",
+      "4mnreff1_cmn_exphit00"
+     ],
+     "frames": 88,
+     "peak_particles": 11,
+     "draws": 988,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cmr_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cmr_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cmr_e_blt01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmr_e_smk00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmr_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_cmr_blt00",
+      "4mnreff1_cmr_dcy00",
+      "4mnreff1_cmr_smk00",
+      "4mnreff1_cmn_exphit10"
+     ],
+     "frames": 181,
+     "peak_particles": 27,
+     "draws": 331,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_cmr_e_blt02": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_cmr_e_blt02",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_cmr_e_blt01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmr_e_smk00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_cmr_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_cmr_blt00",
+      "4mnreff1_cmr_dcy00",
+      "4mnreff1_cmr_smk00",
+      "4mnreff1_cmn_exphit10"
+     ],
+     "frames": 181,
+     "peak_particles": 27,
+     "draws": 331,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_dodge_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_dodge_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_dodge_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_dodge_s",
+      "4mnreff1_dodge_l"
+     ],
+     "frames": 115,
+     "peak_particles": 14,
+     "draws": 98,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_ge_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_ge_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_hitworld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_d00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_hitworld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_d00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_hitworld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_d00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_hitworld00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "4mnreff1_ge_e_d00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_ge_d00"
+     ],
+     "frames": 40,
+     "peak_particles": 1,
+     "draws": 36,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_hola1_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_hola1_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4mnreff1_hola1_e_end00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "4mnreff1_hola1_blt00",
+      "4mnreff1_hola1_end00"
+     ],
+     "frames": 172,
+     "peak_particles": 22,
+     "draws": 425,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "4mnreff1_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "4mnreff1_skn_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "wsbn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "wsbn_nut01",
+      "wsbn_hit01"
+     ],
+     "frames": 72,
+     "peak_particles": 10,
+     "draws": 112,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 7 was never captured: its ambient is the host default",
+    "some lit meshes take no point light (pixel constant budget): their light slot is compiled as unused"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "texture 4mkrbody",
+     "2 colour variants in the NUT: image 0 converted, the others (model colour index +0xD0, trail image index +0x1DC) are not"
+    ],
+    [
+     "texture 4mnrbody",
+     "2 colour variants in the NUT: image 0 converted, the others (model colour index +0xD0, trail image index +0x1DC) are not"
+    ],
+    [
+     "trail 4mkreff1_csk_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mkreff1_csk_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mkreff1_skn_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mkreff1_skn_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_trl_ptc01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_trl_ptc01",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mkreff1_awstr_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mkreff1_awstr_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mnreff1_cma02_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mnreff1_cma02_blt00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mnreff1_cma02_blt00",
+     "trail 2: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 4mnreff1_cma02_blt00",
+     "trail 3: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail wsbn_nut01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 137,
+   "meshes_never_drawn": [
+    "storm_fx_r24_4mnr_x_1efc_bd_shock03g_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_shock04g_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_smk06_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_smk21_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_smk22_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_smk23_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_smk24_1",
+    "storm_fx_r24_4mnr_x_1efc_bd_wtr02_1",
+    "storm_fx_r24_4mnr_x_1efc_fire05_1",
+    "storm_fx_r24_4mnr_x_1efc_part09b_1",
+    "storm_fx_r24_4mnr_x_1efc_part16b_1",
+    "storm_fx_r24_4mnr_x_1efc_part18b_1",
+    "storm_fx_r24_4mnr_x_1efc_ring06_1",
+    "storm_fx_r24_4mnr_x_1efc_ring22_1",
+    "storm_fx_r24_4mnr_x_1efc_rpl01_1",
+    "storm_fx_r24_4mnr_x_1efc_shock09_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_00_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_01_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_02_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_03_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_04_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_05_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_06_1",
+    "storm_fx_r24_4mnr_x_1efc_shock11_07_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_00_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_01_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_02_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_03_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_04_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_05_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_06_1",
+    "storm_fx_r24_4mnr_x_1efc_shock12_07_1",
+    "storm_fx_r24_4mnr_x_1efc_slash01_1",
+    "storm_fx_r24_4mnr_x_1efc_slash03_1",
+    "storm_fx_r24_4mnr_x_1efc_spark03_1",
+    "storm_fx_r24_4mnr_x_1efc_stn01_1",
+    "storm_fx_r24_4mnr_x_1efc_stn03_1",
+    "storm_fx_r24_4mnr_x_1efc_stn05_1",
+    "storm_fx_r24_4mnr_x_1efc_strk03_1",
+    "storm_fx_r24_4mnr_x_1efc_trl01_1",
+    "storm_fx_r24_4mnr_x_1efc_trl05_1",
+    "storm_fx_r24_4mnr_x_1efc_trl05g_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr01_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr06_00_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr07_00_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr08_00_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr08_01_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr08_03_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr09_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr10_1",
+    "storm_fx_r24_4mnr_x_1efc_wtr11_1",
+    "storm_fx_r24_4mnr_x_4mkreff1_scrap01_1",
+    "storm_fx_r24_4mnr_x_4mkreff1_smk00_1",
+    "storm_fx_r24_4mnr_x_4mnr00t0 gear01_1",
+    "storm_fx_r24_4mnr_x_4mnreff1_aura01_1",
+    "storm_fx_r24_4mnr_x_4mnreff1_lightning00_1"
+   ]
+  },
+  "7nrt_x": {
+   "package": "7nrt_x",
+   "scripts": {
+    "7nrteff1_awsatr_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "7nrteff1_awsatr_e_blt00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3nrqeff1_mrs_blt00",
+      "6nrteff1_awsatr_hit00"
+     ],
+     "frames": 146,
+     "peak_particles": 68,
+     "draws": 1199,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "7nrteff1_frs_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "7nrteff1_frs_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "7nrteff1_frs_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "1efc_e_hits01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "6nrteff1_frs_blt00",
+      "1efc_hits01"
+     ],
+     "frames": 600,
+     "peak_particles": 26,
+     "draws": 4772,
+     "notes": [],
+     "skipped": {},
+     "still_running": [
+      "6nrteff1_frs_blt00"
+     ],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default",
+    "light set 7 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 3nrqeff1_mrs_blt00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_trl_ptc01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_trl_ptc01",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 42,
+   "meshes_never_drawn": [
+    "storm_fx_r24_7nrt_x_1efc_bd_shock11_1",
+    "storm_fx_r24_7nrt_x_1efc_part09b_1",
+    "storm_fx_r24_7nrt_x_1efc_ring06_1",
+    "storm_fx_r24_7nrt_x_1efc_ring07_1",
+    "storm_fx_r24_7nrt_x_1efc_rpl01_1",
+    "storm_fx_r24_7nrt_x_1efc_trl01_1",
+    "storm_fx_r24_7nrt_x_1efc_trl05g_1",
+    "storm_fx_r24_7nrt_x_1efc_wind01_1",
+    "storm_fx_r24_7nrt_x_1efc_wtr01_1",
+    "storm_fx_r24_7nrt_x_4efb_rsn1_06_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs03_00_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs03_01_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs03_02_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs04_00_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs04_01_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs04_02_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs04_03_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_frs04_04_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_light05_1",
+    "storm_fx_r24_7nrt_x_5nrteff1_light06_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_frs07_00_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_frs07_01_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_frs07_02_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_frs07_03_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_frs07_04_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_rsn04_1",
+    "storm_fx_r24_7nrt_x_6nrteff1_stn00_body_1"
+   ]
+  },
+  "1efcdodge76_x": {
+   "package": "1efcdodge76_x",
+   "scripts": {
+    "1efcdodge76_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1efcdodge76_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efcdodge76"
+     ],
+     "frames": 61,
+     "peak_particles": 23,
+     "draws": 197,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 6,
+   "meshes_never_drawn": []
+  },
+  "1ssv_x": {
+   "package": "1ssv_x",
+   "scripts": {
+    "1ssveff1_csk_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1ssveff1_csk_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "4efb_gkk1_e_hit00s",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_exp_hitworld01",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_exp_eff01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ],
+      [
+       "1efc_e_exp_ge_g01",
+       "SKILL_ACTION_TYPE_CRAWLER"
+      ]
+     ],
+     "effects": [
+      "4efb_gkk1_blt00s",
+      "1efc_exp_hitworld01",
+      "1efc_exp_ge_g01"
+     ],
+     "frames": 600,
+     "peak_particles": 75,
+     "draws": 6868,
+     "notes": [
+      "1efc_e_exp_hitworld01: coordinate 1efc_ge_dmy00 is not a node of its effect, the actor itself is used"
+     ],
+     "skipped": {},
+     "still_running": [
+      "1efc_exp_ge_g01"
+     ],
+     "dropped": {}
+    },
+    "1ssveff1_csk_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "1ssveff1_csk_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_gkk_hit_air01"
+     ],
+     "frames": 77,
+     "peak_particles": 16,
+     "draws": 247,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "1ssveff1_csk_e_sht00": {
+     "error": null,
+     "actors": [
+      [
+       "1ssveff1_csk_e_sht00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_gkk_sht01"
+     ],
+     "frames": 25,
+     "peak_particles": 3,
+     "draws": 12,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "1ssveff1_skn_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1ssveff1_skn_e_begin00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ],
+      [
+       "1ssveff1_skn_e_sht00",
+       "SKILL_ACTION_TYPE_NONE"
+      ],
+      [
+       "1efc_e_exp_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_hsk_blt01",
+      "2efb_hsk_sht01",
+      "1efc_exp_hit00"
+     ],
+     "frames": 230,
+     "peak_particles": 24,
+     "draws": 651,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "1ssveff1_skn_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "1ssveff1_skn_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "2efb_hsk_hit_nor01"
+     ],
+     "frames": 32,
+     "peak_particles": 18,
+     "draws": 69,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 2efb_hsk_blt01",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 35,
+   "meshes_never_drawn": [
+    "storm_fx_r24_1ssv_x_1efc_fire05_1",
+    "storm_fx_r24_1ssv_x_1efc_fire09_1",
+    "storm_fx_r24_1ssv_x_1efc_trl05g_1"
+   ]
+  },
+  "1efcdodge81_x": {
+   "package": "1efcdodge81_x",
+   "scripts": {
+    "1efcdodge81_e_begin00": {
+     "error": null,
+     "actors": [
+      [
+       "1efcdodge81_e_begin00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "1efcdodge81"
+     ],
+     "frames": 61,
+     "peak_particles": 24,
+     "draws": 207,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 6,
+   "meshes_never_drawn": []
+  },
+  "3efbtf_2ten2_x": {
+   "package": "3efbtf_2ten2_x",
+   "scripts": {
+    "3efbtf_2ten2_e_blt00": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_2ten2_e_blt00",
+       "SKILL_ACTION_TYPE_ARROW"
+      ]
+     ],
+     "effects": [
+      "3efbtf_2ten2_blt00"
+     ],
+     "frames": 600,
+     "peak_particles": 0,
+     "draws": 45,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3efbtf_2ten2_e_hit00": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_2ten2_e_hit00",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3efb_2tenawa1_hit01"
+     ],
+     "frames": 77,
+     "peak_particles": 9,
+     "draws": 111,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    },
+    "3efbtf_2ten2_e_hit01": {
+     "error": null,
+     "actors": [
+      [
+       "3efbtf_2ten2_e_hit01",
+       "SKILL_ACTION_TYPE_NONE"
+      ]
+     ],
+     "effects": [
+      "3efb_2tenawa1_hit01"
+     ],
+     "frames": 77,
+     "peak_particles": 9,
+     "draws": 114,
+     "notes": [],
+     "skipped": {},
+     "still_running": [],
+     "dropped": {}
+    }
+   },
+   "engine_notes": [
+    "light set 7 was never captured: its ambient is the host default",
+    "light set 3 was never captured: its ambient is the host default"
+   ],
+   "models_without_shader": {},
+   "not_imported": [
+    [
+     "trail 1efc_exp_trl00",
+     "trail 0: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ],
+    [
+     "trail 1efc_exp_trl00",
+     "trail 1: render state taken from the billboard model's NUD material (the game uses words +80/+82/+86 of its nuccChunkMaterial, source not found); render context colour assumed white"
+    ]
+   ],
+   "meshes_drawn": 5,
+   "meshes_never_drawn": [
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_fire06_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_fire07_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_fire08_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_fire09_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_line11_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_nor_dst03_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_part15_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_shock09_1",
+    "storm_fx_r24_3efbtf_2ten2_x_1efc_trl05g_1",
+    "storm_fx_r24_3efbtf_2ten2_x_wkbd_ring01_1"
+   ]
+  },
+  "5guveff1": {
+   "package": "5guveff1",
+   "scripts": {},
+   "engine_notes": [],
+   "models_without_shader": {},
+   "not_imported": [],
+   "meshes_drawn": 0,
+   "meshes_never_drawn": []
+  }
+ }
+}

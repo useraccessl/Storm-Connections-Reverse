@@ -1,0 +1,189 @@
+{
+  "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\extracted\\data\\effect\\1efcmn.xfbin",
+  "models": [
+    {
+      "file_size": 3372,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 608,
+      "extra_base": 3360,
+      "name_base": 3360,
+      "groups": [
+        {
+          "name": "1efc_ring09",
+          "sphere": [
+            -0.17680318653583527,
+            0.6598416566848755,
+            2.872483253479004,
+            50.33921432495117,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 98,
+              "vertex_size": 6,
+              "uv_size": 18,
+              "face_count": 173,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 608,
+              "extra_offset": 3360,
+              "materials": [
+                {
+                  "flags": 126984,
+                  "source_factor": 5,
+                  "dest_factor": 177,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "1efc_ring09",
+      "model_flags": [
+        0,
+        4,
+        200,
+        7
+      ]
+    },
+    {
+      "file_size": 3372,
+      "version": 512,
+      "bone_start": 0,
+      "bone_end": 0,
+      "poly_base": 256,
+      "vert_base": 608,
+      "extra_base": 3360,
+      "name_base": 3360,
+      "groups": [
+        {
+          "name": "1efc_ring13",
+          "sphere": [
+            -0.17680318653583527,
+            0.6598416566848755,
+            2.872483253479004,
+            50.33921432495117,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bone_flags": 0,
+          "single_bind": 65535,
+          "positionb": 96,
+          "meshes": [
+            {
+              "vertex_count": 98,
+              "vertex_size": 6,
+              "uv_size": 18,
+              "face_count": 173,
+              "face_size": 0,
+              "face_flag": 0,
+              "poly_offset": 256,
+              "vertex_offset": 608,
+              "extra_offset": 3360,
+              "materials": [
+                {
+                  "flags": 126984,
+                  "source_factor": 5,
+                  "dest_factor": 177,
+                  "alpha_test": 0,
+                  "alpha_function": 0,
+                  "ref_alpha": 0,
+                  "cull_mode": 0,
+                  "z_buffer_offset": 0,
+                  "unknown1": 0.0,
+                  "unknown2": 0.0,
+                  "textures": [
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    },
+                    {
+                      "unk0": 0,
+                      "map_mode": 0,
+                      "wrap_s": 1,
+                      "wrap_t": 1,
+                      "min_filter": 4,
+                      "mag_filter": 2,
+                      "mip_detail": 6,
+                      "unk1": 0,
+                      "unk2": 0
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "name": "",
+                      "values": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "1efc_ring13",
+      "model_flags": [
+        0,
+        4,
+        1,
+        1
+      ]
+    }
+  ]
+}

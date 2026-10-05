@@ -1,0 +1,248 @@
+{
+  "scenarios": [
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "4efb_gkk1_blt00",
+      "script": null,
+      "frames": 300,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "4efb_gkk1_blt00",
+      "script": null,
+      "frames": 150,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": true,
+      "changing_rotations": true,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "4efb_gkk1_blt00",
+      "script": null,
+      "frames": 150,
+      "studio": false,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": null,
+      "script": "4efb_gkk1_e_begin00",
+      "frames": 240,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "1efc_exp_hit01",
+      "script": null,
+      "frames": 900,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": true,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_amt1_x",
+      "effect": "4efb_amt1_hit00",
+      "script": null,
+      "frames": 900,
+      "studio": false,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": true,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "1fir_x",
+      "effect": null,
+      "script": "1fireff1_jrt_e_begin00",
+      "frames": 300,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "2efb_rsn_x",
+      "effect": "2efb_rsn_hit00",
+      "script": null,
+      "frames": 150,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "2ksm_x",
+      "effect": "2ksmeff1_skl3_blt00",
+      "script": null,
+      "frames": 150,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "3efb_3ssk1_x",
+      "effect": "3efb_3ssk1_blt01",
+      "script": null,
+      "frames": 150,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "3efbtf_rsn1_x",
+      "effect": "3efbtf_rsn1_hit00",
+      "script": null,
+      "frames": 150,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": false,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "4efb_gkk1_blt00",
+      "script": null,
+      "frames": 180,
+      "studio": true,
+      "runtime": "exact Lua",
+      "transformed": true,
+      "changing_rotations": false,
+      "replay": false,
+      "copies": 3,
+      "result": "PASS"
+    },
+    {
+      "package": "4efb_gkk1_x",
+      "effect": "4efb_gkk1_blt00",
+      "script": null,
+      "frames": 180,
+      "studio": true,
+      "runtime": "LuaJIT",
+      "transformed": true,
+      "changing_rotations": true,
+      "replay": false,
+      "copies": 1,
+      "result": "PASS"
+    }
+  ],
+  "benchmarks": [
+    {
+      "fireballs": 1,
+      "transformed": false,
+      "baseline": {
+        "mean_tick_ms": 0.14942041660409208,
+        "p95_tick_ms": 0.5232000003161374,
+        "peak_tick_ms": 1.487599998654332,
+        "allocated_MiB_per_second": 5.405078887939453
+      },
+      "optimized": {
+        "mean_tick_ms": 0.09806916667306116,
+        "p95_tick_ms": 0.130899999930989,
+        "peak_tick_ms": 0.234800001635449,
+        "allocated_MiB_per_second": 1.0378761291503906
+      },
+      "allocation_reduction_percent": 80.79813170782315,
+      "mean_tick_reduction_percent": 34.36695673730613
+    },
+    {
+      "fireballs": 8,
+      "transformed": false,
+      "baseline": {
+        "mean_tick_ms": 1.2856874998306012,
+        "p95_tick_ms": 2.022099997702753,
+        "peak_tick_ms": 12.320699999690987,
+        "allocated_MiB_per_second": 43.154354095458984
+      },
+      "optimized": {
+        "mean_tick_ms": 0.6674020834452676,
+        "p95_tick_ms": 0.7806000030541327,
+        "peak_tick_ms": 1.3008999994781334,
+        "allocated_MiB_per_second": 7.99066162109375
+      },
+      "allocation_reduction_percent": 81.4835332642956,
+      "mean_tick_reduction_percent": 48.08986759743695
+    },
+    {
+      "fireballs": 32,
+      "transformed": false,
+      "baseline": {
+        "mean_tick_ms": 6.407212500077246,
+        "p95_tick_ms": 18.41739999872516,
+        "peak_tick_ms": 50.04940000071656,
+        "allocated_MiB_per_second": 172.76720809936523
+      },
+      "optimized": {
+        "mean_tick_ms": 3.2001133333324105,
+        "p95_tick_ms": 4.562099999020575,
+        "peak_tick_ms": 18.8207000028342,
+        "allocated_MiB_per_second": 31.29696273803711
+      },
+      "allocation_reduction_percent": 81.88489408242506,
+      "mean_tick_reduction_percent": 50.05451538724789
+    },
+    {
+      "fireballs": 8,
+      "transformed": true,
+      "baseline": {
+        "mean_tick_ms": 1.6392141666832079,
+        "p95_tick_ms": 4.608700000972021,
+        "peak_tick_ms": 14.72019999710028,
+        "allocated_MiB_per_second": 58.61948776245117
+      },
+      "optimized": {
+        "mean_tick_ms": 0.9595083333806542,
+        "p95_tick_ms": 1.5155999972193968,
+        "peak_tick_ms": 3.281100001913728,
+        "allocated_MiB_per_second": 8.452987670898438
+      },
+      "allocation_reduction_percent": 85.57990184910314,
+      "mean_tick_reduction_percent": 41.46534645182288
+    }
+  ],
+  "limitations": "Offline LuaJIT, rendering absent in benchmarks, simulated clock disables budget throttling; not measured in live GMod."
+}

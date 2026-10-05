@@ -1,0 +1,15 @@
+{
+  "cases": 3004,
+  "prefix": [
+    "0x141386e7a",
+    "0x141386f55"
+  ],
+  "codeSha256": {
+    "0x141386e7a": "45941ed8ecf502ae31c4ca18658f292aa6c403e3177944f82ce684c70fccb758",
+    "0x1411ab440": "3d284c45f9ceed6fe8240794763c3c1e0c39471936d88d48758950446e9722fb",
+    "0x1411acbb0": "705781c68a5c5b8bd66d8d7e5f80bf96cebf21d6839bfc8e55e670e4801f84b1",
+    "0x1411ac0f0": "c2d2836257732c5599187d594f1fc7d903a8480d8c1e4989aa875771e885cba3"
+  },
+  "directionTolerance": 0.0010000000474974513,
+  "scope": "Native original prefix including perpendicular special case, normalize and cross; three output vectors byte exact with guards. Caller zero-direction skip, direction persistence, full parent and host state are statically translated, not full native executed."
+}

@@ -1,0 +1,384 @@
+{
+  "method": "Camera removed using independently captured world and WVP from a different draw. Compare normalized world row Gram to file rotation and emitter anisotropic size. No position fitting.",
+  "records": [
+    {
+      "capture": 22082,
+      "event": 5815,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.125,
+      "worldMatrixDiagnostic": [
+        [
+          0.529108344683217,
+          0.24719848709469003,
+          0.05654756885618769,
+          -8.274338812029692e-09
+        ],
+        [
+          0.21365798631041638,
+          -0.235464049037949,
+          -0.2540420305440798,
+          1.5631200503504895e-09
+        ],
+        [
+          -0.08328276160367154,
+          0.24657250651158177,
+          -0.29858291371441925,
+          -7.846924173732132e-10
+        ],
+        [
+          -238.26179558282246,
+          -632.0295776883171,
+          -1.6929365932341154,
+          0.9999108424108217
+        ]
+      ],
+      "singularValues": [
+        0.5941414502070831,
+        0.396089978023478,
+        0.39608737537379946
+      ],
+      "hold": {
+        "maxNormalizedGramError": 9.018729728249575e-06,
+        "compatibleTicks": 150,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.07043794964624833,
+        "compatibleTicks": 100,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22082,
+      "event": 5833,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.375,
+      "worldMatrixDiagnostic": [
+        [
+          0.2764611760552582,
+          0.14369353742540586,
+          -0.014227787255481962,
+          -4.30078672044042e-09
+        ],
+        [
+          0.1324250604550836,
+          -0.1606969764126588,
+          0.06497674965812489,
+          -1.7489576332516806e-10
+        ],
+        [
+          0.022262215813172496,
+          -0.06267327028572997,
+          -0.20037099657547552,
+          4.480801515090477e-10
+        ],
+        [
+          -286.24664798547605,
+          -647.6476200815849,
+          -1.4243045568139354,
+          0.9999103525325286
+        ]
+      ],
+      "singularValues": [
+        0.31668688602233885,
+        0.21112171510991756,
+        0.21112095186195695
+      ],
+      "hold": {
+        "maxNormalizedGramError": 9.49423253671089e-06,
+        "compatibleTicks": 350,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.025490786568823698,
+        "compatibleTicks": 300,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22082,
+      "event": 5903,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.625,
+      "worldMatrixDiagnostic": [
+        [
+          0.39469716530692434,
+          0.07564407667457784,
+          0.01035236541076291,
+          -1.3276618041328062e-09
+        ],
+        [
+          -0.003873119260795175,
+          0.2763950996148383,
+          -0.03669828610602134,
+          -1.3148796169776771e-09
+        ],
+        [
+          -0.013848117514029612,
+          0.03548281516044067,
+          0.26870274954049633,
+          1.7531680703359614e-11
+        ],
+        [
+          -332.2253303924128,
+          -664.3026626005604,
+          -0.18797811319975521,
+          0.99991107716002
+        ]
+      ],
+      "singularValues": [
+        0.40708555135635244,
+        0.2713897944959764,
+        0.27138896056257394
+      ],
+      "hold": {
+        "maxNormalizedGramError": 2.881676345149742e-06,
+        "compatibleTicks": 550,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.007430670506567358,
+        "compatibleTicks": 500,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22082,
+      "event": 5921,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.875,
+      "worldMatrixDiagnostic": [
+        [
+          0.38675046594408335,
+          0.21758633444551218,
+          0.05949304956739133,
+          -2.3135824336341027e-09
+        ],
+        [
+          0.21689024383087263,
+          -0.177508875600207,
+          -0.16606675822622985,
+          1.0766034492642241e-09
+        ],
+        [
+          -0.05550762150743132,
+          0.16741609732706655,
+          -0.25144537357410335,
+          -3.152229519924719e-10
+        ],
+        [
+          -379.00194850206424,
+          -680.3236178456052,
+          -0.7075992465758303,
+          0.9999115515888993
+        ]
+      ],
+      "singularValues": [
+        0.46070987118485823,
+        0.30713957043840406,
+        0.3071381223668998
+      ],
+      "hold": {
+        "maxNormalizedGramError": 3.5089011891642485e-06,
+        "compatibleTicks": 750,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 3.5089011891642485e-06,
+        "compatibleTicks": 750,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22102,
+      "event": 5714,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.125,
+      "worldMatrixDiagnostic": [
+        [
+          0.36802006614048294,
+          0.1789856206357126,
+          -0.03451536834040649,
+          6.3570104447249215e-09
+        ],
+        [
+          0.1550314845803344,
+          -0.17698777403132318,
+          0.1606103165361328,
+          1.2870541374891307e-09
+        ],
+        [
+          0.05443567269370111,
+          -0.15499643797093263,
+          -0.22334526063941934,
+          7.284523621775375e-10
+        ],
+        [
+          -2.17821844366838,
+          -550.3263139162907,
+          -0.6933357999850773,
+          0.9999115726533
+        ]
+      ],
+      "singularValues": [
+        0.41587368563959604,
+        0.27725498744028665,
+        0.27725445442960966
+      ],
+      "hold": {
+        "maxNormalizedGramError": 1.1050211449425973e-05,
+        "compatibleTicks": 150,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.07044174726815096,
+        "compatibleTicks": 100,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22102,
+      "event": 5732,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.375,
+      "worldMatrixDiagnostic": [
+        [
+          0.4027134430914245,
+          0.07167085937789562,
+          -0.0009510782071639529,
+          1.0663484153126513e-09
+        ],
+        [
+          0.0029038959830483546,
+          0.2860205889245927,
+          0.005082288581622783,
+          -2.013807252548821e-09
+        ],
+        [
+          0.001532156621456548,
+          -0.004934983610315493,
+          0.2768340552908923,
+          3.612654352136329e-11
+        ],
+        [
+          -50.07765553318265,
+          -567.9834586168296,
+          -0.5116121779625014,
+          0.9999023631638261
+        ]
+      ],
+      "singularValues": [
+        0.4153227961670276,
+        0.27688402170269033,
+        0.2768822541873054
+      ],
+      "hold": {
+        "maxNormalizedGramError": 3.8044185210472925e-06,
+        "compatibleTicks": 350,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.025486673005808896,
+        "compatibleTicks": 300,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22102,
+      "event": 5750,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.625,
+      "worldMatrixDiagnostic": [
+        [
+          0.30843395685154346,
+          0.14547594357847604,
+          -0.03135133212296278,
+          -1.8026988001005798e-09
+        ],
+        [
+          0.12508729511747535,
+          -0.13884608778483476,
+          0.14662376499321297,
+          7.456204053431574e-10
+        ],
+        [
+          0.0489566241831538,
+          -0.1417200344045395,
+          -0.17596775005184062,
+          -2.2639845099958437e-11
+        ],
+        [
+          -95.36820249545498,
+          -583.0870546085162,
+          -0.5454051214443911,
+          0.9999123594323638
+        ]
+      ],
+      "singularValues": [
+        0.34677789345701376,
+        0.23118472013556174,
+        0.23118378819778188
+      ],
+      "hold": {
+        "maxNormalizedGramError": 3.3934815791836215e-06,
+        "compatibleTicks": 550,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 0.007425312826467821,
+        "compatibleTicks": 500,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    },
+    {
+      "capture": 22102,
+      "event": 5768,
+      "cameraReferenceEvent": 1964,
+      "uv0y": 0.875,
+      "worldMatrixDiagnostic": [
+        [
+          0.3281001761908043,
+          0.09868390362556667,
+          -0.07455481622529873,
+          -3.029444123753401e-09
+        ],
+        [
+          0.09532622088483786,
+          0.07301744358390885,
+          0.22510549120632248,
+          -2.212297395983779e-11
+        ],
+        [
+          0.0766557156601343,
+          -0.22439769838003437,
+          0.04032661863704734,
+          -7.425464517859582e-10
+        ],
+        [
+          -142.69900636048794,
+          -600.3579298379234,
+          -0.8739055104907316,
+          0.9999115844150409
+        ]
+      ],
+      "singularValues": [
+        0.36080577000902136,
+        0.2405349122620752,
+        0.24053397049929143
+      ],
+      "hold": {
+        "maxNormalizedGramError": 5.981723375403369e-06,
+        "compatibleTicks": 750,
+        "basisConvention": "Rtranspose_D_R"
+      },
+      "linear": {
+        "maxNormalizedGramError": 5.981723375403369e-06,
+        "compatibleTicks": 750,
+        "basisConvention": "Rtranspose_D_R"
+      }
+    }
+  ],
+  "limitations": "Age selected by invariant search, not independently recovered activation. Parent identity/RNG/translation and final pixels remain unverified. Gram discards parent rotation and cannot prove all orientation axes.",
+  "holdCompatible": 8,
+  "linearCompatible": 2
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x1412770ff",
+    "function": "0x141276de0",
+    "asm": "movaps xmmword ptr [rbp + 0x500], xmm1"
+  },
+  {
+    "address": "0x14129f4cc",
+    "function": "0x14129f3a0",
+    "asm": "lea rcx, [rbx + 0x500]"
+  },
+  {
+    "address": "0x1412d337f",
+    "function": "0x1412d2fe0",
+    "asm": "lea rcx, [rbp + 0x500]"
+  },
+  {
+    "address": "0x1412e76fb",
+    "function": "0x1412e75c0",
+    "asm": "movss dword ptr [rbp + 0x500], xmm0"
+  },
+  {
+    "address": "0x1413086fd",
+    "function": "0x141308180",
+    "asm": "movaps xmmword ptr [rbp + 0x500], xmm1"
+  },
+  {
+    "address": "0x1413087d0",
+    "function": "0x141308180",
+    "asm": "movaps xmmword ptr [rbp + 0x500], xmm1"
+  },
+  {
+    "address": "0x1413268b0",
+    "function": "0x141326490",
+    "asm": "movups xmm0, xmmword ptr [rsi + 0x500]"
+  },
+  {
+    "address": "0x141338101",
+    "function": "0x141337c60",
+    "asm": "lea rcx, [rsi + 0x500]"
+  }
+]

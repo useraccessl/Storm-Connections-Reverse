@@ -1,0 +1,7 @@
+{
+  "originalRatioPrefix": "0x141391e0a",
+  "codeSha256": "f2522a50481a92e7b79857f635f2700a380e42c608b2cb3764df4b6649bd4adf",
+  "nativeRatioCases": 5000,
+  "extractedTimestampCurveSamples": 100,
+  "scope": "Ratio original instructions byte exact; traversal/XYZ conjugation statically translated. Slerp and basis separately verified. Full timestamp reader not executed."
+}

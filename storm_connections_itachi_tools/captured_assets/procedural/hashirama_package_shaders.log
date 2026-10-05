@@ -1,0 +1,71 @@
+1efc_bd_shock03#1 (0x1f007): 858 px, exact 99.88%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0
+1efc_bd_shock04#1 (0x1f007): 877 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_bd_smk05#1 (0x1f007): 927 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_bd_smk08#1 (0x1f007): 927 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_bd_smk09#1 (0x3f002): 909 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_bd_smk12#1 (0x3f002): 909 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_bd_smk21#1 (0x21f007): 0 px, exact 0.00%, within 1/255 0.00%, within 2/255 0.00%, max 0.0, coverage mismatch 0, notes ['reads SV_Position.z: Source depth, not the game projection', 'no scene depth in the port: depth samples read the far plane']
+1efc_bd_smk22#1 (0x21f007): 0 px, exact 0.00%, within 1/255 0.00%, within 2/255 0.00%, max 0.0, coverage mismatch 0, notes ['reads SV_Position.z: Source depth, not the game projection', 'no scene depth in the port: depth samples read the far plane']
+1efc_bd_smk23#1 (0x21f007): 0 px, exact 0.00%, within 1/255 0.00%, within 2/255 0.00%, max 0.0, coverage mismatch 0, notes ['reads SV_Position.z: Source depth, not the game projection', 'no scene depth in the port: depth samples read the far plane']
+1efc_bd_smk24#1 (0x21f007): 0 px, exact 0.00%, within 1/255 0.00%, within 2/255 0.00%, max 0.0, coverage mismatch 0, notes ['reads SV_Position.z: Source depth, not the game projection', 'no scene depth in the port: depth samples read the far plane']
+1efc_bd_wtr02#1 (0x3f007): 880 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_line02#1 (0x1f002): 956 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_part03#1 (0x1f007): 875 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_part09b#1 (0x1f007): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_part16b#1 (0x1f007): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_part18b#1 (0x1f007): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_ring03#1 (0x1f008): 482 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_ring11#1 (0x1f002): 768 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_rpl01#1 (0x1f002): 870 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock09#1 (0x1f008): 359 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_00#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_01#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_02#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_03#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_04#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_05#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_06#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock11_07#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_00#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_01#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_02#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_03#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_04#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_05#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_06#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_shock12_07#1 (0x1f002): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_stn01#1 (0xf000): 1176 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 74.2% on these triangles, 98.4% cut 12x finer, 100.00% cut 48x with continuous textures (max 1)
+1efc_stn03#1 (0xf000): 1176 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 74.2% on these triangles, 98.4% cut 12x finer, 100.00% cut 48x with continuous textures (max 1)
+1efc_stn05#1 (0xf000): 1176 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 84.3% on these triangles, 98.8% cut 12x finer, 100.00% cut 48x with continuous textures (max 1)
+1efc_wind01#1 (0x1f002): 283 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr03#1 (0x1f002): 720 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr06_00#1 (0x1f002): 844 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr07_00#1 (0x1f002): 844 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr08_00#1 (0x3f002): 437 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr08_01#1 (0x3f002): 446 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr08_03#1 (0x1f002): 703 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr09#1 (0x1f007): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr10#1 (0x1f007): 869 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1efc_wtr11#1 (0x1f007): 874 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1fireff1_01_ne01#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_01_ne02#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_01_ne03#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_01_ne04#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_01_ne05#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_07#1 (0xf000): 1143 px, exact 99.91%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 54.6% on these triangles, 96.1% cut 12x finer, 99.91% cut 48x with continuous textures (max 5)
+1fireff1_08#1 (0xf000): 1143 px, exact 99.91%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 54.6% on these triangles, 96.1% cut 12x finer, 99.91% cut 48x with continuous textures (max 5)
+1fireff1_13_ne01#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_13_ne02#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_13_ne03#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_13_ne04#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_13_ne05#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_leaf01#1 (0x1f002): 881 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
+1fireff1_wood01_01#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_wood01_01#2 (0x2f00a): 1165 px, exact 99.83%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 17.9% on these triangles, 91.4% cut 12x finer, 99.91% cut 48x with continuous textures (max 3)
+1fireff1_woodpt01#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_woodpt02#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+1fireff1_woodpt03#1 (0xf00a): 1151 px, exact 99.65%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 26.5% on these triangles, 96.1% cut 12x finer, 99.83% cut 48x with continuous textures (max 5)
+67 meshes, worst error 1.0/255, coverage mismatch 0
+WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_1fir_x.json
+20 meshes take a point light: on a dense mesh 99.83% to 100.00% of the pixels are within 2/255 of the game, largest difference 5/255
+PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)

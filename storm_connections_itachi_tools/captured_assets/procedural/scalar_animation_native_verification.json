@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "constant11": "0x1413677a0",
+    "linear22": "0x1413677b0",
+    "hold22": "0x141367820",
+    "timestamp12": "0x141353c80"
+  },
+  "cases": {
+    "11": 11886,
+    "linear": 11849,
+    "hold": 11917,
+    "timestamp12": 13382
+  },
+  "originalCodeSha256": {
+    "11": "d6a9b97e073b13d514dbc99e144b552c7192f92cb547533d076b04318ce2d21a",
+    "linear": "e4ae4dd5b6e680afa9805e9cbf7dfb2aa02e069bfc161534c785e19e0ad9744d",
+    "hold": "4a2965af5b8f18cdc98c723019763cd25eaee456dc68ae1e8046cfa9364eba60",
+    "timestamp12": "3f04f1fd9e465c0fcead931a7265bfca13c538f2df9fb2f85ab881ba3cf3a5bb"
+  },
+  "verification": "Byte exact float32 output against original bounded native leaves. Only RIP literal relocated; guarded output.",
+  "limitations": "Caller clock, choice of hold mode in active effect, coordinate/quaternion samplers and final rendering remain unverified."
+}

@@ -1,0 +1,10 @@
+{
+ "title": "Storm FX content",
+ "type": "servercontent",
+ "tags": [
+  "fun",
+  "cartoon"
+ ],
+ "ignore": [],
+ "description": "Textures, shaders and effect packages of the Storm FX engine (3efb_3ssk1_x, 4efb_amt1_x)."
+}

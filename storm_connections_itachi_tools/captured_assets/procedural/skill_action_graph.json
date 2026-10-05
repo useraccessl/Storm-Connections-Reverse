@@ -1,0 +1,496 @@
+{
+  "skills": {
+    "4efb_amt1_e_begin00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt1_e_begin00.xml",
+      "sha256": "9675fcf786f4010f95ab3bdc21587743bdc12b027987780cf87d33baa57ce6e4",
+      "attributes": {
+        "id": "4efb_amt1_e_begin00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/1efcmn.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_ARROW"
+          },
+          "parameters": {
+            "Hit": {},
+            "CharacterHitDisable": {
+              "value": "true"
+            },
+            "WorldHitDisable": {
+              "value": "true"
+            },
+            "Inductivity": {
+              "value": "0.1"
+            },
+            "ViewingAngle": {
+              "value": "90"
+            },
+            "Velocity": {
+              "value": "1"
+            }
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_FRAME_ELAPSED",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "arg": "1"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_blt00",
+                  "shotType": "SKILL_SHOT_TYPE_DEFAULT"
+                }
+              ]
+            }
+          ],
+          "sounds": []
+        }
+      ]
+    },
+    "4efb_amt1_e_blt00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt1_e_blt00.xml",
+      "sha256": "8a84893d0898470027ba138f82d1f51c1ea097aaa3aae5c796d57ef604b6b8a6",
+      "attributes": {
+        "id": "4efb_amt1_e_blt00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/4efb_amt1.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_CRAWLER"
+          },
+          "parameters": {
+            "Animation": {
+              "chunk": "4efb_amt1_blt00"
+            },
+            "Hit": {},
+            "Inductivity": {
+              "value": "0.20"
+            },
+            "ViewingAngle": {
+              "value": "360"
+            },
+            "Velocity": {
+              "value": "25"
+            }
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_DEFAULT",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "3"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_GUARD",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_KAWARIMI",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_WORLD_WALL",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_SKILL_DEFAULT",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "1"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_HIT_FOOT"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_FRAME_ELAPSED",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "arg": "120"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            }
+          ],
+          "sounds": [
+            {
+              "code": "S_fire",
+              "delay": "0",
+              "repeat": "30",
+              "interval": "20"
+            }
+          ]
+        }
+      ]
+    },
+    "4efb_amt1_e_hit00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt1_e_hit00.xml",
+      "sha256": "ba0dc7b1a824e079e3df16a3e8c0537f61c8938ced66cad12090ae37f85bfc48",
+      "attributes": {
+        "id": "4efb_amt1_e_hit00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/4efb_amt1.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_NONE"
+          },
+          "parameters": {
+            "Animation": {
+              "chunk": "4efb_amt1_hit00"
+            },
+            "Hit": {}
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            }
+          ],
+          "sounds": [
+            {
+              "code": "S_exp1",
+              "delay": "0",
+              "repeat": "1",
+              "interval": "0"
+            },
+            {
+              "code": "S_fire",
+              "delay": "0",
+              "repeat": "1",
+              "interval": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "4efb_amt2_e_begin00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt2_e_begin00.xml",
+      "sha256": "dd360509aa292553fdc463a377b87362f415b2d618bf0cc4a64b54ab75b4e246",
+      "attributes": {
+        "id": "4efb_amt2_e_begin00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/1efcmn.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_NONE"
+          },
+          "parameters": {
+            "Hit": {
+              "hitInterval": "9"
+            },
+            "CharacterHitDisable": {
+              "value": "true"
+            },
+            "WorldHitDisable": {
+              "value": "true"
+            }
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_FRAME_ELAPSED",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "arg": "1"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt2_e_blt00",
+                  "shotType": "SKILL_SHOT_TYPE_ENEMY_FOOT"
+                }
+              ]
+            }
+          ],
+          "sounds": []
+        }
+      ]
+    },
+    "4efb_amt2_e_blt00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt2_e_blt00.xml",
+      "sha256": "e4b1397e425f6c46e7b53c0615b66b9062e4443c74149b262f67335eaabb40fd",
+      "attributes": {
+        "id": "4efb_amt2_e_blt00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/4efb_amt1.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_NONE"
+          },
+          "parameters": {
+            "Animation": {
+              "chunk": "4efb_amt1_blt00"
+            },
+            "Hit": {
+              "hitRadius": "50"
+            }
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_DEFAULT",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_KAWARIMI",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_WORLD_WALL",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt2_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_FRAME_ELAPSED",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "arg": "15"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt2_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            }
+          ],
+          "sounds": [
+            {
+              "code": "S_fire",
+              "delay": "0",
+              "repeat": "30",
+              "interval": "20"
+            }
+          ]
+        }
+      ]
+    },
+    "4efb_amt2_e_hit00": {
+      "source": "captured_assets\\skill_xml\\4efb_amt2_e_hit00.xml",
+      "sha256": "aafd690b06967a282ce7fee9f8afb1234984eb80a91e396b468be42629c72180",
+      "attributes": {
+        "id": "4efb_amt2_e_hit00",
+        "type": "SKILL_TYPE_EFFECT"
+      },
+      "files": [
+        {
+          "path": "data/effect/4efb_amt1.xfbin"
+        }
+      ],
+      "actions": [
+        {
+          "attributes": {
+            "id": "0",
+            "type": "SKILL_ACTION_TYPE_NONE"
+          },
+          "parameters": {
+            "Hit": {}
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_HIT_CHARACTER_DEFAULT",
+                "command": "SKILL_EVENT_COMMAND_CHANGE_ACTION",
+                "commandParameter": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            },
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_FRAME_ELAPSED",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "arg": "10"
+              },
+              "effects": [
+                {
+                  "name": "4efb_amt1_e_hit00",
+                  "shotType": "SKILL_SHOT_TYPE_CONST_AXIS_UP"
+                }
+              ]
+            }
+          ],
+          "sounds": [
+            {
+              "code": "S_exp1",
+              "delay": "0",
+              "repeat": "1",
+              "interval": "0"
+            },
+            {
+              "code": "S_fire",
+              "delay": "0",
+              "repeat": "1",
+              "interval": "0"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "id": "1",
+            "type": "SKILL_ACTION_TYPE_NONE"
+          },
+          "parameters": {
+            "Animation": {
+              "chunk": "4efb_amt1_hit00"
+            },
+            "Hit": {},
+            "CharacterHitDisable": {
+              "value": "true"
+            },
+            "WorldHitDisable": {
+              "value": "true"
+            }
+          },
+          "events": [
+            {
+              "attributes": {
+                "type": "SKILL_EVENT_TYPE_ANIMATION_END",
+                "command": "SKILL_EVENT_COMMAND_KILL",
+                "commandParameter": "0",
+                "loopCount": "1"
+              },
+              "effects": []
+            }
+          ],
+          "sounds": []
+        }
+      ]
+    }
+  },
+  "scope": "Original XML values preserved. Frame cadence, movement scale and shot-type placement require native runtime semantics; no unit conversion assumed."
+}

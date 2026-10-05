@@ -1,0 +1,50 @@
+{
+ "cases": 4000,
+ "key": {
+  "failures": [],
+  "failed": 0,
+  "branches": {
+   "inside near": 290,
+   "between": 655,
+   "beyond far": 1596,
+   "no intensity": 1459
+  }
+ },
+ "select": {
+  "failures": [],
+  "failed": 0,
+  "lists_by_size": {
+   "7": 497,
+   "2": 513,
+   "1": 995,
+   "3": 490,
+   "5": 511,
+   "4": 994
+  }
+ },
+ "registration": {
+  "rows": [
+   [
+    0.0,
+    0.0,
+    false
+   ],
+   [
+    0.0,
+    300.0,
+    true
+   ],
+   [
+    100.0,
+    0.0,
+    true
+   ],
+   [
+    150.0,
+    300.0,
+    true
+   ]
+  ],
+  "ok": true
+ }
+}

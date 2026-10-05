@@ -1,0 +1,707 @@
+60 Lua files compile with Garry's Mod's LuaJIT
+7 packages, 53 Lua files (51 sent to the clients), 150 textures, 123 shaders (server) -> C:\SteamCMD\solve\garrysmod\addons\storm_fx
+   lua/autorun/sh_storm_fx.lua
+   lua/storm_fx/sh_config.lua
+   lua/storm_fx/core/cl_curves.lua
+   lua/storm_fx/core/cl_anm_clock.lua
+   lua/storm_fx/core/cl_anm_matrix.lua
+   lua/storm_fx/core/cl_anm_resource.lua
+   lua/storm_fx/core/cl_anm_scene.lua
+   lua/storm_fx/core/cl_billboard.lua
+   lua/storm_fx/core/cl_color_animation.lua
+   lua/storm_fx/core/cl_emission.lua
+   lua/storm_fx/core/cl_facing.lua
+   lua/storm_fx/core/cl_material_animation.lua
+   lua/storm_fx/core/cl_material_context.lua
+   lua/storm_fx/core/cl_model_instance.lua
+   lua/storm_fx/core/cl_model_particles.lua
+   lua/storm_fx/core/cl_particle_matrix.lua
+   lua/storm_fx/core/cl_particle_motion.lua
+   lua/storm_fx/core/cl_particle_spatial.lua
+   lua/storm_fx/core/cl_particle_spawn.lua
+   lua/storm_fx/core/cl_particle_runtime.lua
+   lua/storm_fx/core/cl_particle_scene.lua
+   lua/storm_fx/core/cl_point_light.lua
+   lua/storm_fx/core/cl_quaternion_animation.lua
+   lua/storm_fx/core/cl_scalar_animation.lua
+   lua/storm_fx/core/cl_scene_spatial.lua
+   lua/storm_fx/core/cl_skill_actor.lua
+   lua/storm_fx/core/cl_skill_shot.lua
+   lua/storm_fx/core/cl_skinning.lua
+   lua/storm_fx/core/cl_trail.lua
+   lua/storm_fx/engine/cl_shader_layout.lua
+   lua/storm_fx/engine/cl_render.lua
+   lua/storm_fx/engine/cl_stage_post.lua
+   lua/storm_fx/engine/cl_engine.lua
+   lua/storm_fx/engine/cl_sections.lua
+   lua/storm_fx/engine/cl_stage.lua
+   lua/storm_fx/engine/cl_packages.lua
+   lua/storm_fx/engine/cl_trails.lua
+   lua/storm_fx/engine/cl_effects.lua
+   lua/storm_fx/engine/cl_replay.lua
+   lua/storm_fx/engine/cl_scripts.lua
+   lua/storm_fx/engine/cl_lights.lua
+   lua/storm_fx/engine/cl_update.lua
+   lua/storm_fx/engine/cl_studio.lua
+   lua/storm_fx/engine/cl_draw.lua
+   lua/storm_fx/engine/cl_commands.lua
+   lua/storm_fx/api/cl_api.lua
+   lua/storm_fx/api/cl_network.lua
+   lua/storm_fx/api/sv_network.lua
+   lua/storm_fx/debug/cl_selftest.lua
+   lua/storm_fx/debug/cl_perftest.lua
+   lua/storm_fx/debug/cl_profile.lua
+   lua/storm_fx/debug/cl_studiotest.lua
+   lua/storm_fx/debug/sv_selftest.lua
+   data_static/storm_fx/1fir_x.txt
+   data_static/storm_fx/2efb_rsn_x.txt
+   data_static/storm_fx/2ksm_x.txt
+   data_static/storm_fx/3efb_3ssk1_x.txt
+   data_static/storm_fx/3efbtf_rsn1_x.txt
+   data_static/storm_fx/4efb_amt1_x.txt
+   data_static/storm_fx/4efb_gkk1_x.txt
+   materials/storm_fx/1efc_board01.vtf
+   materials/storm_fx/1efc_board01_cst.vtf
+   materials/storm_fx/1efc_board01_m.vtf
+   materials/storm_fx/1efc_board01_m_cst.vtf
+   materials/storm_fx/1efc_chakra00.vtf
+   materials/storm_fx/1efc_chakra00_m_ct.vtf
+   materials/storm_fx/1efc_chakra11.vtf
+   materials/storm_fx/1efc_chakra11_m.vtf
+   materials/storm_fx/1efc_falloff02.vtf
+   materials/storm_fx/1efc_falloff02_cst.vtf
+   materials/storm_fx/1efc_falloff03.vtf
+   materials/storm_fx/1efc_falloff03_m.vtf
+   materials/storm_fx/1efc_falloff03_m_cs.vtf
+   materials/storm_fx/1efc_falloff05.vtf
+   materials/storm_fx/1efc_falloff05_m_cs.vtf
+   materials/storm_fx/1efc_falloff05_m_cst.vtf
+   materials/storm_fx/1efc_falloff09.vtf
+   materials/storm_fx/1efc_falloff09_cs.vtf
+   materials/storm_fx/1efc_film_clash00.vtf
+   materials/storm_fx/1efc_film_clash00_m.vtf
+   materials/storm_fx/1efc_fire03.vtf
+   materials/storm_fx/1efc_fire03_m.vtf
+   materials/storm_fx/1efc_fire05.vtf
+   materials/storm_fx/1efc_fire05_m.vtf
+   materials/storm_fx/1efc_fire08.vtf
+   materials/storm_fx/1efc_fire09.vtf
+   materials/storm_fx/1efc_fire10.vtf
+   materials/storm_fx/1efc_fire11.vtf
+   materials/storm_fx/1efc_fire12.vtf
+   materials/storm_fx/1efc_nor_water01.vtf
+   materials/storm_fx/1efc_nor_water01_m.vtf
+   materials/storm_fx/1efc_part01.vtf
+   materials/storm_fx/1efc_part01_cst.vtf
+   materials/storm_fx/1efc_part01_m_cst.vtf
+   materials/storm_fx/1efc_part02.vtf
+   materials/storm_fx/1efc_part02_m.vtf
+   materials/storm_fx/1efc_part03.vtf
+   materials/storm_fx/1efc_part03_cst.vtf
+   materials/storm_fx/1efc_part03_m.vtf
+   materials/storm_fx/1efc_part03_m_cst.vtf
+   materials/storm_fx/1efc_part04.vtf
+   materials/storm_fx/1efc_part04_m.vtf
+   materials/storm_fx/1efc_part10.vtf
+   materials/storm_fx/1efc_part10_cst.vtf
+   materials/storm_fx/1efc_part11.vtf
+   materials/storm_fx/1efc_part12.vtf
+   materials/storm_fx/1efc_part12_m.vtf
+   materials/storm_fx/1efc_ring02.vtf
+   materials/storm_fx/1efc_rpl01.vtf
+   materials/storm_fx/1efc_rpl01_m.vtf
+   materials/storm_fx/1efc_shock01.vtf
+   materials/storm_fx/1efc_shock02.vtf
+   materials/storm_fx/1efc_shock02_m.vtf
+   materials/storm_fx/1efc_shock03.vtf
+   materials/storm_fx/1efc_shock03_m.vtf
+   materials/storm_fx/1efc_shock04.vtf
+   materials/storm_fx/1efc_shock04_m.vtf
+   materials/storm_fx/1efc_slash00.vtf
+   materials/storm_fx/1efc_slash00_cst.vtf
+   materials/storm_fx/1efc_smk09.vtf
+   materials/storm_fx/1efc_smk09_m.vtf
+   materials/storm_fx/1efc_smk10.vtf
+   materials/storm_fx/1efc_smk10_m.vtf
+   materials/storm_fx/1efc_smk16.vtf
+   materials/storm_fx/1efc_smk17.vtf
+   materials/storm_fx/1efc_smk18.vtf
+   materials/storm_fx/1efc_smk18_m.vtf
+   materials/storm_fx/1efc_smk19.vtf
+   materials/storm_fx/1efc_smk19_m.vtf
+   materials/storm_fx/1efc_stn03.vtf
+   materials/storm_fx/1efc_stn03_m.vtf
+   materials/storm_fx/1efc_trl04.vtf
+   materials/storm_fx/1efc_trl05.vtf
+   materials/storm_fx/1efc_trl05_m.vtf
+   materials/storm_fx/1efc_wav01.vtf
+   materials/storm_fx/1efc_wav01_m.vtf
+   materials/storm_fx/1efc_wav05.vtf
+   materials/storm_fx/1efc_wav05_m.vtf
+   materials/storm_fx/1efc_wav07.vtf
+   materials/storm_fx/1efc_wav07_ct.vtf
+   materials/storm_fx/1efc_wind01.vtf
+   materials/storm_fx/1efc_wind01_m_cst.vtf
+   materials/storm_fx/1efc_wind05.vtf
+   materials/storm_fx/1efc_wind05_m_ct.vtf
+   materials/storm_fx/1efc_wtr03.vtf
+   materials/storm_fx/1efc_wtr03_m_cst.vtf
+   materials/storm_fx/1efc_wtr04.vtf
+   materials/storm_fx/1efc_wtr05.vtf
+   materials/storm_fx/1efc_wtr06.vtf
+   materials/storm_fx/1efc_wtr07.vtf
+   materials/storm_fx/1efc_wtr07_m.vtf
+   materials/storm_fx/1efc_wtr07a.vtf
+   materials/storm_fx/1efc_wtr07a_m_ct.vtf
+   materials/storm_fx/1efc_wtr09.vtf
+   materials/storm_fx/1efc_wtr10.vtf
+   materials/storm_fx/1fireff1_01.vtf
+   materials/storm_fx/1fireff1_01_m_ct.vtf
+   materials/storm_fx/1fireff1_03.vtf
+   materials/storm_fx/1fireff1_reaf01.vtf
+   materials/storm_fx/1fireff1_wood.vtf
+   materials/storm_fx/2ksmeff1_04.vtf
+   materials/storm_fx/2ksmeff1_04_m.vtf
+   materials/storm_fx/2ksmeff1_05.vtf
+   materials/storm_fx/2ksmeff1_05_m_cst.vtf
+   materials/storm_fx/2ksmeff1_06.vtf
+   materials/storm_fx/2ksmeff1_06_ct.vtf
+   materials/storm_fx/2ksmeff1_08.vtf
+   materials/storm_fx/2ksmeff1_08_m.vtf
+   materials/storm_fx/2ksmeff1_wav00.vtf
+   materials/storm_fx/2ksmeff1_wav00_ct.vtf
+   materials/storm_fx/2ksmeff1_wtr02.vtf
+   materials/storm_fx/2nrteff1_01.vtf
+   materials/storm_fx/2nrteff1_02.vtf
+   materials/storm_fx/2nrteff1_02_m.vtf
+   materials/storm_fx/2nrteff1_04.vtf
+   materials/storm_fx/2nrteff1_04_m.vtf
+   materials/storm_fx/2nrteff1_05.vtf
+   materials/storm_fx/2nrteff1_05_m_cs.vtf
+   materials/storm_fx/3efb_3ssk1_amt00.vtf
+   materials/storm_fx/3efb_3ssk1_amt00_cst.vtf
+   materials/storm_fx/3efb_3ssk1_amt01.vtf
+   materials/storm_fx/3efb_3ssk1_fire01.vtf
+   materials/storm_fx/3efb_3ssk1_fire01_cst.vtf
+   materials/storm_fx/3efb_3ssk1_slash00.vtf
+   materials/storm_fx/3efb_3ssk1_slash00_ct.vtf
+   materials/storm_fx/3efbtf_rsn1_part05.vtf
+   materials/storm_fx/3efbtf_rsn1_part05_m_cs.vtf
+   materials/storm_fx/3sskeff1_amt04.vtf
+   materials/storm_fx/3sskeff1_amt04_cst.vtf
+   materials/storm_fx/3sskeff1_amt04_m_cst.vtf
+   materials/storm_fx/4efb_amt00.vtf
+   materials/storm_fx/4efb_amt01.vtf
+   materials/storm_fx/4efb_amt02.vtf
+   materials/storm_fx/4efb_amt02_cst.vtf
+   materials/storm_fx/4efb_amt03.vtf
+   materials/storm_fx/4efb_amt03_m.vtf
+   materials/storm_fx/4efb_fire04.vtf
+   materials/storm_fx/4efb_fire04_cst.vtf
+   materials/storm_fx/4efb_gkk1_fire03.vtf
+   materials/storm_fx/4efb_gkk1_fire03_m.vtf
+   materials/storm_fx/4efb_gkk1_fire06.vtf
+   materials/storm_fx/4efb_gkk1_fire07.vtf
+   materials/storm_fx/4efb_gkk1_maplus00.vtf
+   materials/storm_fx/4efb_gkk1_maplus00_m.vtf
+   materials/storm_fx/4efb_maplus01.vtf
+   materials/storm_fx/4efb_rsn1_07.vtf
+   materials/storm_fx/4efb_rsn1_07_m.vtf
+   materials/storm_fx/celshade.vtf
+   materials/storm_fx/celshade_m_ct_p.vtf
+   materials/storm_fx/celshade_m_p.vtf
+   shaders/fxc/storm_fx_00f000_0793d3d0b7_vs30.vcs
+   shaders/fxc/storm_fx_00f000_306692c16a_ps30.vcs
+   shaders/fxc/storm_fx_00f000_43225cde28_vs30.vcs
+   shaders/fxc/storm_fx_00f000_6a0bf4a69e_ps30.vcs
+   shaders/fxc/storm_fx_00f000_776f4588e9_ps30.vcs
+   shaders/fxc/storm_fx_00f000_85fac3c45e_vs30.vcs
+   shaders/fxc/storm_fx_00f000_9705c2e470_ps30.vcs
+   shaders/fxc/storm_fx_00f000_9cab07dfd6_vs30.vcs
+   shaders/fxc/storm_fx_00f000_a11ab7d703_vs30.vcs
+   shaders/fxc/storm_fx_00f00a_1bba527eee_ps30.vcs
+   shaders/fxc/storm_fx_00f00a_39585fe6d9_vs30.vcs
+   shaders/fxc/storm_fx_00f00a_4ea4b79575_vs30.vcs
+   shaders/fxc/storm_fx_00f00a_90a81160f7_vs30.vcs
+   shaders/fxc/storm_fx_00f00a_9a3bc2d70a_ps30.vcs
+   shaders/fxc/storm_fx_01f002_069969b432_ps30.vcs
+   shaders/fxc/storm_fx_01f002_137aa973f1_ps30.vcs
+   shaders/fxc/storm_fx_01f002_2201393598_ps30.vcs
+   shaders/fxc/storm_fx_01f002_22c8bfc997_vs30.vcs
+   shaders/fxc/storm_fx_01f002_2fee3b7711_ps30.vcs
+   shaders/fxc/storm_fx_01f002_3a780ad78d_ps30.vcs
+   shaders/fxc/storm_fx_01f002_4afadfe001_vs30.vcs
+   shaders/fxc/storm_fx_01f002_4b490feaac_ps30.vcs
+   shaders/fxc/storm_fx_01f002_4e2899190d_vs30.vcs
+   shaders/fxc/storm_fx_01f002_6031165173_ps30.vcs
+   shaders/fxc/storm_fx_01f002_682ac7e61b_ps30.vcs
+   shaders/fxc/storm_fx_01f002_70cdd65746_vs30.vcs
+   shaders/fxc/storm_fx_01f002_73fc1fe190_vs30.vcs
+   shaders/fxc/storm_fx_01f002_96af048aec_ps30.vcs
+   shaders/fxc/storm_fx_01f002_ae4f8c746a_vs30.vcs
+   shaders/fxc/storm_fx_01f002_b4cc12ad3f_ps30.vcs
+   shaders/fxc/storm_fx_01f002_b63712f5eb_ps30.vcs
+   shaders/fxc/storm_fx_01f002_b863f7d557_ps30.vcs
+   shaders/fxc/storm_fx_01f002_b9f157b661_ps30.vcs
+   shaders/fxc/storm_fx_01f002_c904503c7d_ps30.vcs
+   shaders/fxc/storm_fx_01f002_d0913fd8dc_ps30.vcs
+   shaders/fxc/storm_fx_01f002_d8b6667f03_ps30.vcs
+   shaders/fxc/storm_fx_01f002_f6cd9662c7_ps30.vcs
+   shaders/fxc/storm_fx_01f007_0fb68e64d0_ps30.vcs
+   shaders/fxc/storm_fx_01f007_33c89e470a_ps30.vcs
+   shaders/fxc/storm_fx_01f007_3ccd661b24_ps30.vcs
+   shaders/fxc/storm_fx_01f007_4662b28f33_vs30.vcs
+   shaders/fxc/storm_fx_01f007_4ca565f897_ps30.vcs
+   shaders/fxc/storm_fx_01f007_56c2da3ad5_ps30.vcs
+   shaders/fxc/storm_fx_01f007_69d6ffc15b_ps30.vcs
+   shaders/fxc/storm_fx_01f007_88b9d35b87_ps30.vcs
+   shaders/fxc/storm_fx_01f007_9be6b0a811_ps30.vcs
+   shaders/fxc/storm_fx_01f007_9c890bf114_ps30.vcs
+   shaders/fxc/storm_fx_01f007_a2358b1546_ps30.vcs
+   shaders/fxc/storm_fx_01f007_a34c11d289_ps30.vcs
+   shaders/fxc/storm_fx_01f007_a7cc784555_ps30.vcs
+   shaders/fxc/storm_fx_01f007_b8f8b2142a_ps30.vcs
+   shaders/fxc/storm_fx_01f007_c2fef7265e_ps30.vcs
+   shaders/fxc/storm_fx_01f007_c659b78c73_ps30.vcs
+   shaders/fxc/storm_fx_01f007_d04e82e216_ps30.vcs
+   shaders/fxc/storm_fx_01f007_d5bc6c8361_ps30.vcs
+   shaders/fxc/storm_fx_01f007_db1d10e14b_vs30.vcs
+   shaders/fxc/storm_fx_01f007_ddecf177b2_vs30.vcs
+   shaders/fxc/storm_fx_01f007_efedc79449_ps30.vcs
+   shaders/fxc/storm_fx_01f008_02b777393d_vs30.vcs
+   shaders/fxc/storm_fx_01f008_31719f750f_vs30.vcs
+   shaders/fxc/storm_fx_01f008_4ac0d5be53_ps30.vcs
+   shaders/fxc/storm_fx_01f008_70de23f64d_ps30.vcs
+   shaders/fxc/storm_fx_01f008_7865f5702d_ps30.vcs
+   shaders/fxc/storm_fx_01f008_9ee78babb6_ps30.vcs
+   shaders/fxc/storm_fx_01f008_a855155714_vs30.vcs
+   shaders/fxc/storm_fx_01f008_dabdea8dec_ps30.vcs
+   shaders/fxc/storm_fx_01f008_dc5dd1ebcd_ps30.vcs
+   shaders/fxc/storm_fx_01f008_e493ef3de2_vs30.vcs
+   shaders/fxc/storm_fx_01f00f_32d203ffe0_vs30.vcs
+   shaders/fxc/storm_fx_01f00f_6826720b07_ps30.vcs
+   shaders/fxc/storm_fx_02f00a_02637acaa3_ps30.vcs
+   shaders/fxc/storm_fx_02f00a_9712e5ca56_vs30.vcs
+   shaders/fxc/storm_fx_03f002_0e98adcfef_vs30.vcs
+   shaders/fxc/storm_fx_03f002_0fa3308f5a_vs30.vcs
+   shaders/fxc/storm_fx_03f002_2920312624_ps30.vcs
+   shaders/fxc/storm_fx_03f002_31272687a7_vs30.vcs
+   shaders/fxc/storm_fx_03f002_35e9383d39_ps30.vcs
+   shaders/fxc/storm_fx_03f002_520206d2a9_vs30.vcs
+   shaders/fxc/storm_fx_03f002_5725cd3ecf_ps30.vcs
+   shaders/fxc/storm_fx_03f002_79f60f1269_ps30.vcs
+   shaders/fxc/storm_fx_03f002_b3b66edb3c_vs30.vcs
+   shaders/fxc/storm_fx_03f002_bd540275b7_ps30.vcs
+   shaders/fxc/storm_fx_03f002_bdf4d6008a_ps30.vcs
+   shaders/fxc/storm_fx_03f002_c240ed4672_ps30.vcs
+   shaders/fxc/storm_fx_03f002_d2145c0ca5_ps30.vcs
+   shaders/fxc/storm_fx_03f002_e8c0c4e149_vs30.vcs
+   shaders/fxc/storm_fx_03f007_3a10bb43b7_vs30.vcs
+   shaders/fxc/storm_fx_03f007_4233d9153a_ps30.vcs
+   shaders/fxc/storm_fx_03f007_a11d8bf62c_vs30.vcs
+   shaders/fxc/storm_fx_03f007_b64c788d9a_ps30.vcs
+   shaders/fxc/storm_fx_03f007_b6ac69cd5c_ps30.vcs
+   shaders/fxc/storm_fx_03f007_f42aed5dab_vs30.vcs
+   shaders/fxc/storm_fx_03f009_10cef6e9f2_vs30.vcs
+   shaders/fxc/storm_fx_03f009_28edbde066_ps30.vcs
+   shaders/fxc/storm_fx_03f009_4a2be02760_ps30.vcs
+   shaders/fxc/storm_fx_03f009_a65d4c5d2f_vs30.vcs
+   shaders/fxc/storm_fx_03f009_b68ee903df_ps30.vcs
+   shaders/fxc/storm_fx_03f009_caffe9764d_vs30.vcs
+   shaders/fxc/storm_fx_03f009_e64de73545_vs30.vcs
+   shaders/fxc/storm_fx_03f00f_01f2fd45a2_ps30.vcs
+   shaders/fxc/storm_fx_03f00f_0492b3c100_vs30.vcs
+   shaders/fxc/storm_fx_03f00f_2979fbb875_ps30.vcs
+   shaders/fxc/storm_fx_03f00f_38995874c5_vs30.vcs
+   shaders/fxc/storm_fx_03f00f_bcc1aec328_vs30.vcs
+   shaders/fxc/storm_fx_03f00f_e0f871ca30_vs30.vcs
+   shaders/fxc/storm_fx_03f00f_e58c77c4c3_ps30.vcs
+   shaders/fxc/storm_fx_09f007_28bf4c0248_ps30.vcs
+   shaders/fxc/storm_fx_09f007_7e6fe99704_vs30.vcs
+   shaders/fxc/storm_fx_09f007_a8c3f5d4d5_ps30.vcs
+   shaders/fxc/storm_fx_09f007_b796bf7e56_vs30.vcs
+   shaders/fxc/storm_fx_19f002_3c070cddfd_ps30.vcs
+   shaders/fxc/storm_fx_19f002_809933b93f_ps30.vcs
+   shaders/fxc/storm_fx_19f002_e61534e976_vs30.vcs
+   shaders/fxc/storm_fx_19f002_e84f57e44b_ps30.vcs
+   shaders/fxc/storm_fx_19f007_407383c96f_ps30.vcs
+   shaders/fxc/storm_fx_19f007_4eb3601b29_vs30.vcs
+   shaders/fxc/storm_fx_19f007_9b8b8b4d74_ps30.vcs
+   shaders/fxc/storm_fx_1bf007_aec6c43bef_vs30.vcs
+   shaders/fxc/storm_fx_1bf007_b8d1f3a1c9_ps30.vcs
+   shaders/fxc/storm_fx_21f007_303de8b076_ps30.vcs
+   shaders/fxc/storm_fx_21f007_4db545f525_vs30.vcs
+   shaders/fxc/storm_fx_21f007_e04a8e8abc_ps30.vcs
+   shaders/fxc/storm_tone_ps30.vcs
+   materials/storm_fx/studio/1efc_ring29_mesh1.vmt
+   materials/storm_fx/studio/1efc_wtr03_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_01_ne01_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_01_ne02_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_01_ne03_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_01_ne04_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_01_ne05_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_07_mesh1.vmt
+   materials/storm_fx/studio/1fireff1_08_mesh1.vmt
+   materials/storm_fx/studio/2ksmeff1_wtr08_mesh1.vmt
+   materials/storm_fx/studio/4efb_gkk1_13_mesh1.vmt
+   materials/storm_fx/studio_a/2ksmeff1_wtr08_mesh1.vmt
+   models/storm_fx/1efc_ring_ptc08.dx80.vtx
+   models/storm_fx/1efc_ring_ptc08.dx90.vtx
+   models/storm_fx/1efc_ring_ptc08.mdl
+   models/storm_fx/1efc_ring_ptc08.vvd
+   models/storm_fx/1efc_wtr_ptc01.dx80.vtx
+   models/storm_fx/1efc_wtr_ptc01.dx90.vtx
+   models/storm_fx/1efc_wtr_ptc01.mdl
+   models/storm_fx/1efc_wtr_ptc01.vvd
+   models/storm_fx/1fireff1_01_anim.dx80.vtx
+   models/storm_fx/1fireff1_01_anim.dx90.vtx
+   models/storm_fx/1fireff1_01_anim.mdl
+   models/storm_fx/1fireff1_01_anim.vvd
+   models/storm_fx/1fireff1_07_anim.dx80.vtx
+   models/storm_fx/1fireff1_07_anim.dx90.vtx
+   models/storm_fx/1fireff1_07_anim.mdl
+   models/storm_fx/1fireff1_07_anim.vvd
+   models/storm_fx/1fireff1_08_anim.dx80.vtx
+   models/storm_fx/1fireff1_08_anim.dx90.vtx
+   models/storm_fx/1fireff1_08_anim.mdl
+   models/storm_fx/1fireff1_08_anim.vvd
+   models/storm_fx/2ksmeff1_wtr08.dx80.vtx
+   models/storm_fx/2ksmeff1_wtr08.dx90.vtx
+   models/storm_fx/2ksmeff1_wtr08.mdl
+   models/storm_fx/2ksmeff1_wtr08.vvd
+   models/storm_fx/2ksmeff1_wtr08_a.dx80.vtx
+   models/storm_fx/2ksmeff1_wtr08_a.dx90.vtx
+   models/storm_fx/2ksmeff1_wtr08_a.mdl
+   models/storm_fx/2ksmeff1_wtr08_a.vvd
+   models/storm_fx/4efb_gkk1_ptc05.dx80.vtx
+   models/storm_fx/4efb_gkk1_ptc05.dx90.vtx
+   models/storm_fx/4efb_gkk1_ptc05.mdl
+   models/storm_fx/4efb_gkk1_ptc05.vvd
+   shaders/fxc/storm_fx_skintest_a_vs30.vcs
+-- Generated by install_storm_fx.py: the content of Storm FX the clients download.
+resource.AddFile("data_static/storm_fx/1fir_x.txt")
+resource.AddFile("data_static/storm_fx/2efb_rsn_x.txt")
+resource.AddFile("data_static/storm_fx/2ksm_x.txt")
+resource.AddFile("data_static/storm_fx/3efb_3ssk1_x.txt")
+resource.AddFile("data_static/storm_fx/3efbtf_rsn1_x.txt")
+resource.AddFile("data_static/storm_fx/4efb_amt1_x.txt")
+resource.AddFile("data_static/storm_fx/4efb_gkk1_x.txt")
+resource.AddFile("materials/storm_fx/1efc_board01.vtf")
+resource.AddFile("materials/storm_fx/1efc_board01_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_board01_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_board01_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_chakra00.vtf")
+resource.AddFile("materials/storm_fx/1efc_chakra00_m_ct.vtf")
+resource.AddFile("materials/storm_fx/1efc_chakra11.vtf")
+resource.AddFile("materials/storm_fx/1efc_chakra11_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff02.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff02_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff03.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff03_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff03_m_cs.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff05.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff05_m_cs.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff05_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff09.vtf")
+resource.AddFile("materials/storm_fx/1efc_falloff09_cs.vtf")
+resource.AddFile("materials/storm_fx/1efc_film_clash00.vtf")
+resource.AddFile("materials/storm_fx/1efc_film_clash00_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire03.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire03_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire05.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire05_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire08.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire09.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire10.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire11.vtf")
+resource.AddFile("materials/storm_fx/1efc_fire12.vtf")
+resource.AddFile("materials/storm_fx/1efc_nor_water01.vtf")
+resource.AddFile("materials/storm_fx/1efc_nor_water01_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_part01.vtf")
+resource.AddFile("materials/storm_fx/1efc_part01_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_part01_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_part02.vtf")
+resource.AddFile("materials/storm_fx/1efc_part02_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_part03.vtf")
+resource.AddFile("materials/storm_fx/1efc_part03_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_part03_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_part03_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_part04.vtf")
+resource.AddFile("materials/storm_fx/1efc_part04_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_part10.vtf")
+resource.AddFile("materials/storm_fx/1efc_part10_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_part11.vtf")
+resource.AddFile("materials/storm_fx/1efc_part12.vtf")
+resource.AddFile("materials/storm_fx/1efc_part12_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_ring02.vtf")
+resource.AddFile("materials/storm_fx/1efc_rpl01.vtf")
+resource.AddFile("materials/storm_fx/1efc_rpl01_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock01.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock02.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock02_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock03.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock03_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock04.vtf")
+resource.AddFile("materials/storm_fx/1efc_shock04_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_slash00.vtf")
+resource.AddFile("materials/storm_fx/1efc_slash00_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk09.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk09_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk10.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk10_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk16.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk17.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk18.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk18_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk19.vtf")
+resource.AddFile("materials/storm_fx/1efc_smk19_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_stn03.vtf")
+resource.AddFile("materials/storm_fx/1efc_stn03_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_trl04.vtf")
+resource.AddFile("materials/storm_fx/1efc_trl05.vtf")
+resource.AddFile("materials/storm_fx/1efc_trl05_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav01.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav01_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav05.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav05_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav07.vtf")
+resource.AddFile("materials/storm_fx/1efc_wav07_ct.vtf")
+resource.AddFile("materials/storm_fx/1efc_wind01.vtf")
+resource.AddFile("materials/storm_fx/1efc_wind01_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_wind05.vtf")
+resource.AddFile("materials/storm_fx/1efc_wind05_m_ct.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr03.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr03_m_cst.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr04.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr05.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr06.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr07.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr07_m.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr07a.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr07a_m_ct.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr09.vtf")
+resource.AddFile("materials/storm_fx/1efc_wtr10.vtf")
+resource.AddFile("materials/storm_fx/1fireff1_01.vtf")
+resource.AddFile("materials/storm_fx/1fireff1_01_m_ct.vtf")
+resource.AddFile("materials/storm_fx/1fireff1_03.vtf")
+resource.AddFile("materials/storm_fx/1fireff1_reaf01.vtf")
+resource.AddFile("materials/storm_fx/1fireff1_wood.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_04.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_04_m.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_05.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_05_m_cst.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_06.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_06_ct.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_08.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_08_m.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_wav00.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_wav00_ct.vtf")
+resource.AddFile("materials/storm_fx/2ksmeff1_wtr02.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_01.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_02.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_02_m.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_04.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_04_m.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_05.vtf")
+resource.AddFile("materials/storm_fx/2nrteff1_05_m_cs.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_amt00.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_amt00_cst.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_amt01.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_fire01.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_fire01_cst.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_slash00.vtf")
+resource.AddFile("materials/storm_fx/3efb_3ssk1_slash00_ct.vtf")
+resource.AddFile("materials/storm_fx/3efbtf_rsn1_part05.vtf")
+resource.AddFile("materials/storm_fx/3efbtf_rsn1_part05_m_cs.vtf")
+resource.AddFile("materials/storm_fx/3sskeff1_amt04.vtf")
+resource.AddFile("materials/storm_fx/3sskeff1_amt04_cst.vtf")
+resource.AddFile("materials/storm_fx/3sskeff1_amt04_m_cst.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt00.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt01.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt02.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt02_cst.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt03.vtf")
+resource.AddFile("materials/storm_fx/4efb_amt03_m.vtf")
+resource.AddFile("materials/storm_fx/4efb_fire04.vtf")
+resource.AddFile("materials/storm_fx/4efb_fire04_cst.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_fire03.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_fire03_m.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_fire06.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_fire07.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_maplus00.vtf")
+resource.AddFile("materials/storm_fx/4efb_gkk1_maplus00_m.vtf")
+resource.AddFile("materials/storm_fx/4efb_maplus01.vtf")
+resource.AddFile("materials/storm_fx/4efb_rsn1_07.vtf")
+resource.AddFile("materials/storm_fx/4efb_rsn1_07_m.vtf")
+resource.AddFile("materials/storm_fx/celshade.vtf")
+resource.AddFile("materials/storm_fx/celshade_m_ct_p.vtf")
+resource.AddFile("materials/storm_fx/celshade_m_p.vtf")
+resource.AddFile("shaders/fxc/storm_fx_00f000_0793d3d0b7_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_306692c16a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_43225cde28_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_6a0bf4a69e_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_776f4588e9_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_85fac3c45e_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_9705c2e470_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_9cab07dfd6_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f000_a11ab7d703_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f00a_1bba527eee_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f00a_39585fe6d9_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f00a_4ea4b79575_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f00a_90a81160f7_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_00f00a_9a3bc2d70a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_069969b432_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_137aa973f1_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_2201393598_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_22c8bfc997_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_2fee3b7711_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_3a780ad78d_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_4afadfe001_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_4b490feaac_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_4e2899190d_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_6031165173_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_682ac7e61b_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_70cdd65746_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_73fc1fe190_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_96af048aec_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_ae4f8c746a_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_b4cc12ad3f_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_b63712f5eb_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_b863f7d557_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_b9f157b661_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_c904503c7d_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_d0913fd8dc_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_d8b6667f03_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f002_f6cd9662c7_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_0fb68e64d0_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_33c89e470a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_3ccd661b24_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_4662b28f33_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_4ca565f897_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_56c2da3ad5_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_69d6ffc15b_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_88b9d35b87_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_9be6b0a811_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_9c890bf114_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_a2358b1546_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_a34c11d289_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_a7cc784555_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_b8f8b2142a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_c2fef7265e_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_c659b78c73_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_d04e82e216_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_d5bc6c8361_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_db1d10e14b_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_ddecf177b2_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f007_efedc79449_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_02b777393d_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_31719f750f_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_4ac0d5be53_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_70de23f64d_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_7865f5702d_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_9ee78babb6_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_a855155714_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_dabdea8dec_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_dc5dd1ebcd_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f008_e493ef3de2_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f00f_32d203ffe0_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_01f00f_6826720b07_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_02f00a_02637acaa3_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_02f00a_9712e5ca56_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_0e98adcfef_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_0fa3308f5a_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_2920312624_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_31272687a7_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_35e9383d39_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_520206d2a9_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_5725cd3ecf_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_79f60f1269_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_b3b66edb3c_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_bd540275b7_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_bdf4d6008a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_c240ed4672_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_d2145c0ca5_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f002_e8c0c4e149_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_3a10bb43b7_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_4233d9153a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_a11d8bf62c_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_b64c788d9a_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_b6ac69cd5c_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f007_f42aed5dab_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_10cef6e9f2_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_28edbde066_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_4a2be02760_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_a65d4c5d2f_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_b68ee903df_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_caffe9764d_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f009_e64de73545_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_01f2fd45a2_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_0492b3c100_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_2979fbb875_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_38995874c5_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_bcc1aec328_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_e0f871ca30_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_03f00f_e58c77c4c3_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_09f007_28bf4c0248_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_09f007_7e6fe99704_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_09f007_a8c3f5d4d5_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_09f007_b796bf7e56_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f002_3c070cddfd_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f002_809933b93f_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f002_e61534e976_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f002_e84f57e44b_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f007_407383c96f_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f007_4eb3601b29_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_19f007_9b8b8b4d74_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_1bf007_aec6c43bef_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_1bf007_b8d1f3a1c9_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_21f007_303de8b076_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_21f007_4db545f525_vs30.vcs")
+resource.AddFile("shaders/fxc/storm_fx_21f007_e04a8e8abc_ps30.vcs")
+resource.AddFile("shaders/fxc/storm_tone_ps30.vcs")
+resource.AddFile("materials/storm_fx/studio/1efc_ring29_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1efc_wtr03_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_01_ne01_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_01_ne02_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_01_ne03_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_01_ne04_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_01_ne05_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_07_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/1fireff1_08_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/2ksmeff1_wtr08_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio/4efb_gkk1_13_mesh1.vmt")
+resource.AddFile("materials/storm_fx/studio_a/2ksmeff1_wtr08_mesh1.vmt")
+resource.AddFile("models/storm_fx/1efc_ring_ptc08.dx80.vtx")
+resource.AddFile("models/storm_fx/1efc_ring_ptc08.dx90.vtx")
+resource.AddFile("models/storm_fx/1efc_ring_ptc08.mdl")
+resource.AddFile("models/storm_fx/1efc_ring_ptc08.vvd")
+resource.AddFile("models/storm_fx/1efc_wtr_ptc01.dx80.vtx")
+resource.AddFile("models/storm_fx/1efc_wtr_ptc01.dx90.vtx")
+resource.AddFile("models/storm_fx/1efc_wtr_ptc01.mdl")
+resource.AddFile("models/storm_fx/1efc_wtr_ptc01.vvd")
+resource.AddFile("models/storm_fx/1fireff1_01_anim.dx80.vtx")
+resource.AddFile("models/storm_fx/1fireff1_01_anim.dx90.vtx")
+resource.AddFile("models/storm_fx/1fireff1_01_anim.mdl")
+resource.AddFile("models/storm_fx/1fireff1_01_anim.vvd")
+resource.AddFile("models/storm_fx/1fireff1_07_anim.dx80.vtx")
+resource.AddFile("models/storm_fx/1fireff1_07_anim.dx90.vtx")
+resource.AddFile("models/storm_fx/1fireff1_07_anim.mdl")
+resource.AddFile("models/storm_fx/1fireff1_07_anim.vvd")
+resource.AddFile("models/storm_fx/1fireff1_08_anim.dx80.vtx")
+resource.AddFile("models/storm_fx/1fireff1_08_anim.dx90.vtx")
+resource.AddFile("models/storm_fx/1fireff1_08_anim.mdl")
+resource.AddFile("models/storm_fx/1fireff1_08_anim.vvd")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08.dx80.vtx")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08.dx90.vtx")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08.mdl")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08.vvd")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08_a.dx80.vtx")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08_a.dx90.vtx")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08_a.mdl")
+resource.AddFile("models/storm_fx/2ksmeff1_wtr08_a.vvd")
+resource.AddFile("models/storm_fx/4efb_gkk1_ptc05.dx80.vtx")
+resource.AddFile("models/storm_fx/4efb_gkk1_ptc05.dx90.vtx")
+resource.AddFile("models/storm_fx/4efb_gkk1_ptc05.mdl")
+resource.AddFile("models/storm_fx/4efb_gkk1_ptc05.vvd")
+resource.AddFile("shaders/fxc/storm_fx_skintest_a_vs30.vcs")
+

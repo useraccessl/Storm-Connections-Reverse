@@ -1,0 +1,176 @@
+{
+  "installedAt": "2026-10-01T22:57:10.8499706+02:00",
+  "version": "procedural-impact-r9-diagnostic",
+  "files": [
+    {
+      "sha256": "429A54DD67CAC1214666F973285204CEF6BC9A854F3EE00129BB76819D908296",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\captured_runtime_data.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\captured_runtime_data.lua"
+    },
+    {
+      "sha256": "D0821DF1E7D0BD8F8131011BD2C89600AED2602CE569712BEA7FB0F61EE51C42",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_assets.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_assets.lua"
+    },
+    {
+      "sha256": "4043B1AB54B240F6EB9645B47D917D149DC6A0C5E8BA9FE8C846A32C79E35C09",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\runtime_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\runtime_core.lua"
+    },
+    {
+      "sha256": "8861C17174E0F140C6C9197F3432C868EF43920D060D4D76626C9E8B929E91C5",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_spawn_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_spawn_core.lua"
+    },
+    {
+      "sha256": "188791ED2A6B8CB1A5E98ED9EB3C020E4ADD858419B3F376179CACD58DECECE1",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_motion_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_motion_core.lua"
+    },
+    {
+      "sha256": "37386DA91E1A4DC96D07861BDA5E8D59921E0C682C798999CA1E1537D99B8965",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_spatial_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\particle_spatial_core.lua"
+    },
+    {
+      "sha256": "1B6AC87B6C1B2B73332A7C2018C951D8CF72FB4936E1046ADB2D86D924F1A181",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\scene_spatial_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\scene_spatial_core.lua"
+    },
+    {
+      "sha256": "5702BF9067018EB69DA7C671F906D9BE4ECAA916CFC3C854FB5EE1DD24BA7A63",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\emission_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\emission_core.lua"
+    },
+    {
+      "sha256": "18B71A94FDF05E7C45621C49CF67A105293B7ADEADCF717E34E29FD8C5F9EC5B",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_runtime.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_runtime.lua"
+    },
+    {
+      "sha256": "429883132C63129925680821537EB3B5F615FC540D6614B4349D5B2E5B4DA3E9",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_scene.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_scene.lua"
+    },
+    {
+      "sha256": "0CA3554CCC61371C3A9D174453B85BEF5394002B6AF99A926757A2085A04CC27",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\material_context_core.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\material_context_core.lua"
+    },
+    {
+      "sha256": "307B2DD10A5E05C7D71C8D385CACE07C23613C11450CC6A05A4AF08915BAD232",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_player.lua",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_amt_lab\\procedural_player.lua"
+    },
+    {
+      "sha256": "0B934E08D16D8F4BFE9D11680D4411100CD39992F020AD2A98F455526883ABA5",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_board01.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_board01.vtf"
+    },
+    {
+      "sha256": "CED8DAE0D70EBBBA5C4940176507BEDB21D7274E672F3ACED564AA42F74895AA",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_falloff09.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_falloff09.vtf"
+    },
+    {
+      "sha256": "7F9480237A50CDC5606B5D7956B7E2FF89A0915FFBF39C73B46C5EFA92AE6161",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_film_clash00.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_film_clash00.vtf"
+    },
+    {
+      "sha256": "7E84332080C59F9B3FFD63152D16FCA658E96B10198E2F0D428CA15C0E48C1B8",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_fire03.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_fire03.vtf"
+    },
+    {
+      "sha256": "C831D9ECC65F6111C5E460AD07B2AD030679496EB1C9D6C64052E9C42EC3D624",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_nor_water01.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_nor_water01.vtf"
+    },
+    {
+      "sha256": "BAD83179FEBADE310AF6C5E33824CD83E2FEEC525A6E76A823EFA3E5295DDB00",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part01.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part01.vtf"
+    },
+    {
+      "sha256": "31AB68CC3C18B0EDF5D30F93525131A97BE7DF1BE5A1FD928823FEE4124650C4",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part11.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part11.vtf"
+    },
+    {
+      "sha256": "4FCEFA3C9C38D302E5CFA68CC30418DE0CA9D85E8564FAE41DDB1CC1E159563B",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part12.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_1efc_part12.vtf"
+    },
+    {
+      "sha256": "88808762DF38691C578E9509FEB8C9C37246348B5C76EF500A404939A389A136",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt00.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt00.vtf"
+    },
+    {
+      "sha256": "CC54131DC0F922EC113BA470E86F972F933E486BF467959E8983042A46E7CFD8",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt01.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt01.vtf"
+    },
+    {
+      "sha256": "C0AE42C4F84F20B0FC9ABE04B93054AF1894069B85EEC89C2B8EC6042A53C14C",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt02.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt02.vtf"
+    },
+    {
+      "sha256": "70C4FA159960258CB6E028BA42BD531AC74E768C4A366B2CB3991DC18BF619BF",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt03.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_amt03.vtf"
+    },
+    {
+      "sha256": "E043B79538385F49D26F24626C065AD701114F12C5ACF04AFEE8C33F24746322",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_fire04.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_fire04.vtf"
+    },
+    {
+      "sha256": "9AB694834947FB1BF50FDFF3374314610C991786EDF49E8DDDEDA4D0A17E9D6F",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_maplus01.vtf",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_amt_lab\\procedural_4efb_maplus01.vtf"
+    },
+    {
+      "sha256": "93304F291B8223B8B846539C78970CBE59D927DCD40B07F3D7506FE0EB4F26D8",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\shaders\\fxc\\amt_capture_r3_vs30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_capture_r3_vs30.vcs"
+    },
+    {
+      "sha256": "93304F291B8223B8B846539C78970CBE59D927DCD40B07F3D7506FE0EB4F26D8",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\amt_capture_r3_vs30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_capture_r3_vs30.vcs"
+    },
+    {
+      "sha256": "6559A0E24EE253EF79C804A027B36FE9D4DAD7A3FB91B55EA09DE1F609D837A5",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\shaders\\fxc\\amt_motion_r6_ps30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_motion_r6_ps30.vcs"
+    },
+    {
+      "sha256": "6559A0E24EE253EF79C804A027B36FE9D4DAD7A3FB91B55EA09DE1F609D837A5",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\amt_motion_r6_ps30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_motion_r6_ps30.vcs"
+    },
+    {
+      "sha256": "173A8666FA2A0CE4C9C439ADF3E9ECD9B8E2CFB854C161426F4C8E8C86560E4D",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r9_ps30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r9_ps30.vcs"
+    },
+    {
+      "sha256": "173A8666FA2A0CE4C9C439ADF3E9ECD9B8E2CFB854C161426F4C8E8C86560E4D",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\amt_secondary_r9_ps30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r9_ps30.vcs"
+    },
+    {
+      "sha256": "20BB100B99355DFD1B2A0B0471410E624AD21A50C9ACC55FFBC7299D777C0E36",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r8_vs30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r8_vs30.vcs"
+    },
+    {
+      "sha256": "20BB100B99355DFD1B2A0B0471410E624AD21A50C9ACC55FFBC7299D777C0E36",
+      "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\amt_secondary_r8_vs30.vcs",
+      "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\amt_secondary_r8_vs30.vcs"
+    }
+  ]
+}
