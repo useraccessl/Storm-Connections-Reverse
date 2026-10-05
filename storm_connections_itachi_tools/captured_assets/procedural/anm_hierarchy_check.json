@@ -1,14 +1,14 @@
 {
  "addon": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab",
  "totals": {
-  "packages": 8,
-  "animations": 69,
+  "packages": 9,
+  "animations": 72,
   "skipped": 0,
-  "coordinates": 1278,
-  "withRestParents": 2,
+  "coordinates": 1752,
+  "withRestParents": 3,
   "missing": 0,
   "differ": 0,
-  "controlDiffer": 550
+  "controlDiffer": 967
  },
  "packages": {
   "1fir_x": {
@@ -309,6 +309,29 @@
     "missing": 0,
     "differ": 0,
     "controlDiffer": 33
+   }
+  },
+  "2sik_x": {
+   "1efc_ge_d02": {
+    "coordinates": 6,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2sikeff1_kgn_hit01": {
+    "coordinates": 3,
+    "restParents": 0,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 0
+   },
+   "2sikskl1_s": {
+    "coordinates": 465,
+    "restParents": 14,
+    "missing": 0,
+    "differ": 0,
+    "controlDiffer": 417
    }
   },
   "2sikspl1_x": {

@@ -34,7 +34,10 @@ RENDER.sceneTexture = "_rt_FullFrameFB"
 
 -- nuccChunkModel layer byte -> its place in the frame, from the order of the captures
 -- 22127 / 22136 (2, 18, 0, 1, 14). Layer 3 was never captured: placed with the translucent ones.
-RENDER.layerRank = {[2] = 1, [18] = 2, [0] = 3, [1] = 4, [3] = 5, [14] = 6}
+-- Layer 12 was never captured either (the shadows on the ground of 2sikskl1_s): placed first,
+-- a host choice. Drawn last, they were cut by the depth the shadow pool of layer 2 writes
+-- under its transparent edge (seen in game).
+RENDER.layerRank = {[12] = 0, [2] = 1, [18] = 2, [0] = 3, [1] = 4, [3] = 5, [14] = 6}
 
 -- Bit n of a number
 local function fnBit(iValue, n)

@@ -1,0 +1,110 @@
+{
+ "1efc_bd_smk29#1": {
+  "scenes": 3,
+  "pixels": 877,
+  "exact": 877,
+  "within_1": 877,
+  "within_2": 877,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_222bb68e19_ps30",
+  "notes": []
+ },
+ "1efc_part06#1": {
+  "scenes": 3,
+  "pixels": 881,
+  "exact": 881,
+  "within_1": 881,
+  "within_2": 881,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_9be6b0a811_ps30",
+  "notes": []
+ },
+ "1efc_ring17#1": {
+  "scenes": 3,
+  "pixels": 881,
+  "exact": 881,
+  "within_1": 881,
+  "within_2": 881,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f007",
+  "pixel": "storm_fx_01f007_efedc79449_ps30",
+  "notes": []
+ },
+ "1efc_ring21#1": {
+  "scenes": 3,
+  "pixels": 112,
+  "exact": 112,
+  "within_1": 112,
+  "within_2": 112,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x03f008",
+  "pixel": "storm_fx_03f008_0e30c1128f_ps30",
+  "notes": []
+ },
+ "1efc_slash01#1": {
+  "scenes": 3,
+  "pixels": 927,
+  "exact": 927,
+  "within_1": 927,
+  "within_2": 927,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x03f007",
+  "pixel": "storm_fx_03f007_b64c788d9a_ps30",
+  "notes": []
+ },
+ "2efb_kgn01_body#1": {
+  "scenes": 3,
+  "pixels": 772,
+  "exact": 772,
+  "within_1": 772,
+  "within_2": 772,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_83209969dc_ps30",
+  "notes": []
+ },
+ "2efb_kgn02#1": {
+  "scenes": 3,
+  "pixels": 292,
+  "exact": 292,
+  "within_1": 292,
+  "within_2": 292,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_4be5312590_ps30",
+  "notes": []
+ },
+ "2sikeff03#1": {
+  "scenes": 3,
+  "pixels": 881,
+  "exact": 881,
+  "within_1": 881,
+  "within_2": 881,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_b863f7d557_ps30",
+  "notes": []
+ },
+ "2sikeff12#1": {
+  "scenes": 3,
+  "pixels": 927,
+  "exact": 927,
+  "within_1": 927,
+  "within_2": 927,
+  "max_error_255": 0.0,
+  "coverage_mismatch": 0,
+  "key": "0x01f002",
+  "pixel": "storm_fx_01f002_7d8b1c4807_ps30",
+  "notes": []
+ }
+}

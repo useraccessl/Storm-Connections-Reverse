@@ -1,8 +1,8 @@
 {
   "draws": {
     "models/storm_fx/1efc_wtr_ptc01.mdl": 1,
-    "models/storm_fx/1fireff1_07_anim.mdl": 543,
     "models/storm_fx/1fireff1_08_anim.mdl": 735,
+    "models/storm_fx/1fireff1_07_anim.mdl": 543,
     "models/storm_fx/1fireff1_01_anim.mdl": 38
   },
   "failed": {},

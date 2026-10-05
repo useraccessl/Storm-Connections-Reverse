@@ -1,17 +1,18 @@
 {
- "installedAt": "20261005_172345",
+ "installedAt": "20261005_203751",
  "gmod": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod",
  "packages": [
   "1fir_x",
   "2efb_rsn_x",
   "2ksm_x",
+  "2sik_x",
   "2sikspl1_x",
   "3efb_3ssk1_x",
   "3efbtf_rsn1_x",
   "4efb_amt1_x",
   "4efb_gkk1_x"
  ],
- "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\storm_fx_backups\\20261005_172345\\content",
+ "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\storm_fx_backups\\20261005_203751\\content",
  "files": [
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\1fir_x.lua",
@@ -29,9 +30,14 @@
    "sha256": "1d06cbc819e68ad522b519e12e8ed52e828f4ac78f4639c2ef45406a71c223f2"
   },
   {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2sik_x.lua",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\data_static\\storm_fx\\2sik_x.txt",
+   "sha256": "1fbaec0794c26dcce89e296e252e5bbb9c690d7ae033b2219fd270e2a6cfb7f1"
+  },
+  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2sikspl1_x.lua",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\data_static\\storm_fx\\2sikspl1_x.txt",
-   "sha256": "b805c61d1f69f29250469654338ef4e50c5091853467cffd95b8d65557e57be9"
+   "sha256": "80d894dad209d962fc73b18068b0b77574098a9a7de861105e91e38a289e7eb3"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\3efb_3ssk1_x.lua",
@@ -274,6 +280,11 @@
    "sha256": "6c8ca2b3308d85b210ead7898b74ef768ae4a93d7db23d312a576de191f92e04"
   },
   {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_part07.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_part07.vtf",
+   "sha256": "7c1ac32fdce69a8875605f00ca1e18f7b31c8e38b29e3852ad6368d6ba7a1da9"
+  },
+  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_part10.vtf",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_part10.vtf",
    "sha256": "77325f54eee0c6803f44059626ad2d3a152677a6815b2ece93c720d55a5e37f8"
@@ -297,6 +308,16 @@
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_part12_m.vtf",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_part12_m.vtf",
    "sha256": "0fa6a9b1c1b09d51ad36c405ed7ff419e58d3659ed725ecc1007d1cd81e192aa"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_ptn00.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_ptn00.vtf",
+   "sha256": "fcbb1ab43ea1b1a12b8ca947e88b8159a6b0306c3d44566d47e6a4f1ef97950e"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_ptn00_m.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_ptn00_m.vtf",
+   "sha256": "f41e997323f3a83bf05ded22bf7966fc13bca8089ad6b58bb8d7488f115e4490"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_ring02.vtf",
@@ -407,6 +428,16 @@
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_smk19_m.vtf",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_smk19_m.vtf",
    "sha256": "4094c0494bb3a3385992842b10f15d411d4891affc03e53121741cc74c4c9bb9"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_smk20.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_smk20.vtf",
+   "sha256": "5f67730f2bb994417628e7e82984b3084bf47130822313808f59adfdd131ffe9"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_smk20_m.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\1efc_smk20_m.vtf",
+   "sha256": "4b9ac760d4149f997e867a9705e104de24b22ceb260ff0a4f6868744661aef24"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_stn03.vtf",
@@ -724,6 +755,16 @@
    "sha256": "5a8a34c12ff43b5ac34fe3dfc632d6b84edef531af6cc83c22ac6ab3bb6f15f9"
   },
   {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\2sikeff01_m_cs.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\2sikeff01_m_cs.vtf",
+   "sha256": "fc6a07225f363fefaff175d32b2844e5d808598aab8a6b66cd42ca4200d121e9"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\2sikeff01_m_cst.vtf",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\2sikeff01_m_cst.vtf",
+   "sha256": "fcac748e86bf5772b07bcb5a70d7bf1d5e14e5a166fad38107c2c696cf6d88d0"
+  },
+  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\3efb_3ssk1_amt00.vtf",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\3efb_3ssk1_amt00.vtf",
    "sha256": "551c7680bd88b6359a266bc41c67d0a525055d5ca76aa1800276423ac1525735"
@@ -1039,6 +1080,11 @@
    "sha256": "e12bd2627f12ee26216ef256f4de3df47c2c426e78daf456ea0bbc4096337d97"
   },
   {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_4be5312590_ps30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f002_4be5312590_ps30.vcs",
+   "sha256": "7839d1b03cec5065bf46c73884d9f767e2936ce02db598c026b2254cd3bc86ba"
+  },
+  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_4e2899190d_vs30.vcs",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f002_4e2899190d_vs30.vcs",
    "sha256": "d904de10db75c9991ff4b9c0026f9e4c0b7746084129c86523c62d31cf2a19d5"
@@ -1062,6 +1108,16 @@
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_73fc1fe190_vs30.vcs",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f002_73fc1fe190_vs30.vcs",
    "sha256": "8b6e2acc9756977c9867bf29da2372b6703c0ac572ee38ef7350f732c998e11a"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_7d8b1c4807_ps30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f002_7d8b1c4807_ps30.vcs",
+   "sha256": "0b2d0289e665dfb90e3f3f547b5a2dcb39680722e4edb0bbfccc1356168abeba"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_83209969dc_ps30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f002_83209969dc_ps30.vcs",
+   "sha256": "4c8e5e03601e7e8dfdde336cf4cf71e04768e250fd1ce81ceecfc1ee2fe16b3b"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f002_96af048aec_ps30.vcs",
@@ -1117,6 +1173,11 @@
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f007_0fb68e64d0_ps30.vcs",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f007_0fb68e64d0_ps30.vcs",
    "sha256": "b4633c0b642e8c2315ac0904252366925ba65e013154decfc02fcdf4e446f9a2"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f007_222bb68e19_ps30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_01f007_222bb68e19_ps30.vcs",
+   "sha256": "2ad806985ebbd0e97a06e9ad467425267897980cd1fbb11815370ebb4fe17e63"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_01f007_2bc25dfb91_ps30.vcs",
@@ -1399,6 +1460,16 @@
    "sha256": "408e10061a66a26980c114f88cf5d123a819a968392c8d28230265786b6fe23c"
   },
   {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_03f008_0a6aad3ca9_vs30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_03f008_0a6aad3ca9_vs30.vcs",
+   "sha256": "673c0a22c2cda266855d1f98a3cec8d941d089dcba60316947ed77f48f7a29de"
+  },
+  {
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_03f008_0e30c1128f_ps30.vcs",
+   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_03f008_0e30c1128f_ps30.vcs",
+   "sha256": "ef159b846d7b646fe4b005ed1e01fbace8e0705a30fa02e90c88418a7669c0c9"
+  },
+  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\shaders\\fxc\\storm_fx_03f009_10cef6e9f2_vs30.vcs",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\shaders\\fxc\\storm_fx_03f009_10cef6e9f2_vs30.vcs",
    "sha256": "da8a7b5914d38a7e3b58f5d47e6f0854d3fc2ff2b867adc120f0b547bdf58885"
@@ -1609,31 +1680,6 @@
    "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d2.vmt",
-   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d2.vmt",
-   "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
-  },
-  {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d3.vmt",
-   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d3.vmt",
-   "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
-  },
-  {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d4.vmt",
-   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d4.vmt",
-   "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
-  },
-  {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d5.vmt",
-   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d5.vmt",
-   "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
-  },
-  {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d6.vmt",
-   "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2efb_kyj02_body_mesh1_d6.vmt",
-   "sha256": "f98de44655ba68a38b226c107db51cbe98f8197543798a51974470fed7e38391"
-  },
-  {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\studio\\2ksmeff1_wtr08_mesh1.vmt",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\storm_fx\\studio\\2ksmeff1_wtr08_mesh1.vmt",
    "sha256": "064befcff8a7f94505c87545096015840e63eb38130fb83f42f4e363b5e75dc3"
@@ -1771,22 +1817,22 @@
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx\\2efb_kyj_ptc05_s2.dx80.vtx",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\models\\storm_fx\\2efb_kyj_ptc05_s2.dx80.vtx",
-   "sha256": "0951de2bd1a55768547e1cca45929f6f241b116396c6313f02a58ea132e7d4f0"
+   "sha256": "3d751176899e635dd2bcf95d3dfeb0a58afca0b39f6e425000fd3bcb1f3b4575"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx\\2efb_kyj_ptc05_s2.dx90.vtx",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\models\\storm_fx\\2efb_kyj_ptc05_s2.dx90.vtx",
-   "sha256": "55ede21605c88ada630c09fe7592ff88af089b12b9681cd8f6817ae91fb086a5"
+   "sha256": "c32e593638b7a2633d894264161a357623c1eca28f400811d3b13aff11dd9088"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx\\2efb_kyj_ptc05_s2.mdl",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\models\\storm_fx\\2efb_kyj_ptc05_s2.mdl",
-   "sha256": "442d06bc498802caeb91776c5f94d6de47774552892661ed0d04d33f5e6a40d4"
+   "sha256": "94a560ad277a66b61e048833c35eab33457fb28ecb812e91ad6719e06a5f4e27"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx\\2efb_kyj_ptc05_s2.vvd",
    "destination": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\models\\storm_fx\\2efb_kyj_ptc05_s2.vvd",
-   "sha256": "fbb37b6ea669f8a50aad7eada881eb2002893b40d462a4202dcd901484774f16"
+   "sha256": "aa6231000acb594311b99eaae296e735acd9e3a83f8844121c04434f1a6bbbf3"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\models\\storm_fx\\2efb_kyj_ptc06.dx80.vtx",

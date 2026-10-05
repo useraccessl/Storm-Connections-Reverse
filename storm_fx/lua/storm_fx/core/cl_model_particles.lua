@@ -167,6 +167,31 @@ function MODEL_PARTICLES.New(tPackage, tModules, tOptions)
 
                 end
 
+                -- An animation can list one clump chunk as several clumps and animate its
+                -- material in one of them only (the seven shadow ribbons of 2sikskl1_s: the
+                -- material entry is in the first). The copies draw the same model with the
+                -- same nuccChunkMaterial: a material this clump has no entry for takes the
+                -- entry of another copy. Inferred from the data (one material chunk for all),
+                -- not read in the binary.
+                for iKey, tEntry in ipairs(tAnimation.entries) do
+
+                    local tOther = tEntry.type == 4 and tEntry.clump_index >= 0 and tEntry.clump_index ~= iClump - 1
+                        and tAnimation.clumps[tEntry.clump_index + 1]
+
+                    if tOther and tOther.chunk == tClump.chunk then
+
+                        local sChunk = tEntry.chunk or tEntry.target
+
+                        for iIndex, tMaterial in ipairs(tModel.materials) do
+                            if tMaterial.name == sChunk and not tDraw.materials[iIndex] then
+                                tDraw.materials[iIndex] = iKey
+                            end
+                        end
+
+                    end
+
+                end
+
                 tCompiled.draws[#tCompiled.draws + 1] = tDraw
 
             end

@@ -14,11 +14,11 @@ PASS: the water reflection view is left out by default, the main view draws 37
 PASS: optional tone pass runs after the native state is released and clears the stencil
 LIMIT: API-stub verification only; a live GMod test remains the final check
 ==== verify_import_equivalence.py  (exit 0, 0 s)
-PASS: model 1efc_shock09: geometry, normals, UV sets and NUD state
-PASS: model 1efc_shock09: material
 PASS: model 1efc_fire03a: geometry, normals, UV sets and NUD state
 PASS: model 1efc_fire03a: material
-non-billboard resources: {'4efb_amt1_ptc02': 'anm', '4efb_light00': 'clump', '1efc_nor_dst03': 'clump', '1efc_shock09': 'clump', '1efc_fire03a': 'clump'}
+PASS: model 1efc_nor_dst03: geometry, normals, UV sets and NUD state
+PASS: model 1efc_nor_dst03: material
+non-billboard resources: {'1efc_shock09': 'clump', '4efb_light00': 'clump', '1efc_fire03a': 'clump', '1efc_nor_dst03': 'clump', '4efb_amt1_ptc02': 'anm'}
 PASS: the generic package equals the hand-assembled Amaterasu data
 ==== verify_port_winding.py  (exit 0, 0 s)
   ('c4ee9b55', '4efb_fire04'): 0, 3200
@@ -74,28 +74,28 @@ PASS: every shader of the package is within 1/255 of the game bytecode on these 
 15 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_3efb_3ssk1_x.json
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes
-==== verify_package_shaders.py cw0_x --addon game_cache\survey_addon  (exit 0, 88 s)
+==== verify_package_shaders.py cw0_x --addon game_cache\survey_addon  (exit 0, 92 s)
 wtil02#1 (0x1f008): 443 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 wtil_lv2_01#1 (0x1f008): 98 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 121 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_cw0_x.json
 37 meshes take a point light: on a dense mesh 99.65% to 100.00% of the pixels are within 2/255 of the game, largest difference 8/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_package_shaders.py 5efb_9ind1_x --addon game_cache\survey_addon  (exit 0, 18 s)
+==== verify_package_shaders.py 5efb_9ind1_x --addon game_cache\survey_addon  (exit 0, 19 s)
 trail 5efb_9ind1_thunder00_l#1 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 trail 5efb_9ind1_thunder00_l#2 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 136 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_5efb_9ind1_x.json
 4 meshes take a point light: on a dense mesh 100.00% to 100.00% of the pixels are within 2/255 of the game, largest difference 1/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_package_shaders.py 1efcmn_x --addon game_cache\survey_addon  (exit 0, 33 s)
+==== verify_package_shaders.py 1efcmn_x --addon game_cache\survey_addon  (exit 0, 36 s)
 trail 1efc_trl_ptc01#1 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 trail 1efc_trl_ptc01#2 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 97 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_1efcmn_x.json
 5 meshes take a point light: on a dense mesh 99.91% to 100.00% of the pixels are within 2/255 of the game, largest difference 4/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_port_shaders.py  (exit 0, 1 s)
+==== verify_port_shaders.py  (exit 0, 2 s)
 c4ee9b55: 147 draws, 1026639 px, exact 1026592, within 1/255 100.0000%, max 1.0, coverage mismatch 0, skipped: 0 missing texture
 19f002_p: 8 draws, 65700 px, exact 65695, within 1/255 100.0000%, max 1.0, coverage mismatch 0, skipped: 0 missing texture
 19f007_p: 6 draws, 15414 px, exact 15414, within 1/255 100.0000%, max 0.0, coverage mismatch 0, skipped: 0 missing texture
@@ -113,14 +113,14 @@ event 4361 ('2itc00t0 tongue', 70 vertices): input == NUD vertices True; palette
 event 4375 ('2itc00t0 kami', 418 vertices): input == NUD vertices True; palette 25 matrices, NUD bones 4..24, clump 215 coordinates; 14 bones the mesh uses, 12 rotated away from rest; largest bone-length / orthonormality difference 1.18e-04 ok; matrices of unused bones [23, 24] are not a pose
 event 4389 ('2itc00t0 kami', 956 vertices): input == NUD vertices True; palette 25 matrices, NUD bones 4..24, clump 215 coordinates; 18 bones the mesh uses, 15 rotated away from rest; largest bone-length / orthonormality difference 3.45e-03 ok
 PASS: the palette is pose * inverse(rest), one matrix per clump coordinate
-==== verify_skinned_models.py 3mdr_2_x 4mnr_x 3efbtf_srd1_x 5obt_x  (exit 0, 126 s)
+==== verify_skinned_models.py 3mdr_2_x 4mnr_x 3efbtf_srd1_x 5obt_x  (exit 0, 129 s)
 5obt_x / 5obteff1_kball_trans01_anm01 (5obteff1_kball_trans03, 5obteff1_kball_trans03b): 40 frames, 80 skinned draws, 33600 vertices; largest difference: position 5.4e-08 (relative), normal 0.0e+00; the pose moves vertices up to 174.39 units from the rest pose ok
 5obt_x / 5obteff1_kball_trans01_anm02 (5obteff1_kball_trans02, 5obteff1_kball_trans02b, 5obteff1_kball_trl01, 5obteff1_kball_trl01b): 40 frames, 160 skinned draws, 224520 vertices; largest difference: position 1.9e-07 (relative), normal 0.0e+00; the pose moves vertices up to 362.13 units from the rest pose ok
 5obt_x / 5obteff1_kball_trans01_anm04 (5obteff1_kball_trl01, 5obteff1_kball_trl01b): 29 frames, 58 skinned draws, 138417 vertices; largest difference: position 1.6e-07 (relative), normal 0.0e+00; the pose moves vertices up to 4604.71 units from the rest pose ok
 5obt_x / 5obteff1_kball_trans01_anm06 (5obteff1_cmb21_part00_a002, 5obteff1_cmb21_part00_b002): 40 frames, 80 skinned draws, 161280 vertices; largest difference: position 3.5e-07 (relative), normal 3.1e-07; the pose moves vertices up to 796.40 units from the rest pose ok
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\skinned_model_check.json
 PASS: the engine skins the models as their data says
-==== verify_trail_native.py  (exit 0, 7 s)
+==== verify_trail_native.py  (exit 0, 8 s)
 subdivision 0x1413248a0: 3000 cases, 18215 points (177 cases with none), 0 differ
 vertices 0x141325a50: 3000 ribbons, 123338 vertices, 0 differ
 force field 0x14132c830: 3000 cases, 20810 sample edges (9025 pushed inside the radius, 3194 drifting on their velocity), 0 differ
@@ -145,7 +145,7 @@ edges: 8 checked, 0 not in their animation (inert trails, as in the game), 0 amb
 ribbons: 532 drawn, 54516 vertices, 0 differ, 0 frames with a count mismatch
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\trail_wiring_verification.json
 PASS: the drawn ribbons equal the game's vertex routine on the trails the player keeps
-==== verify_trails.py --package 1hak_x --frames 150  (exit 0, 0 s)
+==== verify_trails.py --package 1hak_x --frames 150  (exit 0, 1 s)
 1hakeff1_blt01: 150 frames, 21 ribbons, 1590 vertices, 0 differ, max position error 3.30e-08
 edges: 4 checked, 0 not in their animation (inert trails, as in the game), 0 ambiguous
 force fields: 2, 2 on a coordinate of their animation, 0 at the origin; samples seen moved by a field: 0
@@ -159,7 +159,7 @@ force fields: 2, 2 on a coordinate of their animation, 0 at the origin; samples 
 ribbons: 30 drawn, 738 vertices, 0 differ, 0 frames with a count mismatch
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\trail_wiring_verification.json
 PASS: the drawn ribbons equal the game's vertex routine on the trails the player keeps
-==== verify_package_shaders.py 1hak_x --addon game_cache\survey_addon  (exit 0, 9 s)
+==== verify_package_shaders.py 1hak_x --addon game_cache\survey_addon  (exit 0, 10 s)
 wsbn_body#1 (0xf00a): 1143 px, exact 99.91%, within 1/255 100.00%, within 2/255 100.00%, max 1.0, coverage mismatch 0; with a point light (run per pixel): within 2/255 33.9% on these triangles, 95.5% cut 12x finer, 99.65% cut 48x with continuous textures (max 8)
 wsbz_body#1 (0x1f002): 918 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 58 meshes, worst error 1.0/255, coverage mismatch 0
@@ -167,10 +167,10 @@ WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connectio
 1 meshes take a point light: on a dense mesh 99.65% to 99.65% of the pixels are within 2/255 of the game, largest difference 8/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
 ==== verify_luajit.py  (exit 0, 0 s)
-123 files compile with GMod's LuaJIT, 0 do not
+124 files compile with GMod's LuaJIT, 0 do not
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\luajit_compile_check.json
 PASS: every Lua file compiles in Garry's Mod's LuaJIT
-==== verify_luajit_runtime.py  (exit 0, 50 s)
+==== verify_luajit_runtime.py  (exit 0, 52 s)
 837015 values under Lua 5.5, 837015 under GMod's LuaJIT, 0 differ
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\luajit_runtime_check.json
 PASS: the cores compute the same doubles under GMod's LuaJIT as under Lua 5.5
@@ -179,7 +179,7 @@ PASS: the cores compute the same doubles under GMod's LuaJIT as under Lua 5.5
 3efbtf_rsn1_x: 2 animations, 9 coordinate evaluations, ok
 4efb_amt1_x: 3 animations, 36 coordinate evaluations, ok
 4efb_gkk1_x: 12 animations, 270 coordinate evaluations, ok
-{"packages": 8, "animations": 69, "skipped": 0, "coordinates": 1278, "withRestParents": 2, "missing": 0, "differ": 0, "controlDiffer": 550}
+{"packages": 9, "animations": 72, "skipped": 0, "coordinates": 1752, "withRestParents": 3, "missing": 0, "differ": 0, "controlDiffer": 967}
 PASS - C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\anm_hierarchy_check.json
 ==== verify_trail_capture.py  (exit 0, 2 s)
 22082/5593: trail 0 age 19, position error 0.104, drawn colour/uv mismatches 0 (uv max 1.34e-05), routine colour/uv error 0.0/0.0, previous-frame control uv error 0.1250000149011612
@@ -195,14 +195,14 @@ force fields: 2, 2 on a coordinate of their animation, 0 at the origin; samples 
 ribbons: 42 drawn, 1992 vertices, 0 differ, 0 frames with a count mismatch
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\trail_wiring_verification.json
 PASS: the drawn ribbons equal the game's vertex routine on the trails the player keeps
-==== verify_selftest.py  (exit 0, 17 s)
+==== verify_selftest.py  (exit 0, 16 s)
      t05_1.30s: 1 effects, 15 draws, 35 particles, 2 trails, skipped []
      t06_1.80s: 1 effects, 16 draws, 33 particles, 2 trails, skipped []
      t07_2.50s: 1 effects, 15 draws, 33 particles, 2 trails, skipped []
      t08_3.50s: 2 effects, 35 draws, 75 particles, 0 trails, skipped []
 materials: 25 ({'screenspace_general': 25}), errors []
 PASS: storm_fx_selftest runs, captures and reports in the offline stubs
-==== verify_resource_billboards.py  (exit 0, 27 s)
+==== verify_resource_billboards.py  (exit 0, 29 s)
 2efb_sbr_x: members ['2gareff1_snd10'], drawn ['2gareff1_snd10'], 1483 draws, 1483 compared, 0 differ; control (frame 1) 0/0 differ
 3obt_x: members ['1efc_part03'], drawn ['1efc_part03'], 74 draws, 74 compared, 0 differ; control (frame 1) 0/0 differ
 8bra_x: members ['5efb_8bra1_glw01_sm'], drawn ['5efb_8bra1_glw01_sm'], 12 draws, 12 compared, 0 differ; control (frame 1) 0/0 differ
