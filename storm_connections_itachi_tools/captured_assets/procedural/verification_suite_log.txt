@@ -14,11 +14,11 @@ PASS: the water reflection view is left out by default, the main view draws 37
 PASS: optional tone pass runs after the native state is released and clears the stencil
 LIMIT: API-stub verification only; a live GMod test remains the final check
 ==== verify_import_equivalence.py  (exit 0, 0 s)
-PASS: model 1efc_fire03a: geometry, normals, UV sets and NUD state
-PASS: model 1efc_fire03a: material
+PASS: model 4efb_light00: geometry, normals, UV sets and NUD state
+PASS: model 4efb_light00: material
 PASS: model 1efc_nor_dst03: geometry, normals, UV sets and NUD state
 PASS: model 1efc_nor_dst03: material
-non-billboard resources: {'1efc_shock09': 'clump', '4efb_light00': 'clump', '1efc_fire03a': 'clump', '1efc_nor_dst03': 'clump', '4efb_amt1_ptc02': 'anm'}
+non-billboard resources: {'1efc_fire03a': 'clump', '4efb_amt1_ptc02': 'anm', '1efc_nor_dst03': 'clump', '4efb_light00': 'clump', '1efc_shock09': 'clump'}
 PASS: the generic package equals the hand-assembled Amaterasu data
 ==== verify_port_winding.py  (exit 0, 0 s)
   ('c4ee9b55', '4efb_fire04'): 0, 3200
@@ -74,28 +74,28 @@ PASS: every shader of the package is within 1/255 of the game bytecode on these 
 15 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_3efb_3ssk1_x.json
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes
-==== verify_package_shaders.py cw0_x --addon game_cache\survey_addon  (exit 0, 92 s)
+==== verify_package_shaders.py cw0_x --addon game_cache\survey_addon  (exit 0, 87 s)
 wtil02#1 (0x1f008): 443 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 wtil_lv2_01#1 (0x1f008): 98 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 121 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_cw0_x.json
 37 meshes take a point light: on a dense mesh 99.65% to 100.00% of the pixels are within 2/255 of the game, largest difference 8/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_package_shaders.py 5efb_9ind1_x --addon game_cache\survey_addon  (exit 0, 19 s)
+==== verify_package_shaders.py 5efb_9ind1_x --addon game_cache\survey_addon  (exit 0, 17 s)
 trail 5efb_9ind1_thunder00_l#1 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 trail 5efb_9ind1_thunder00_l#2 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 136 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_5efb_9ind1_x.json
 4 meshes take a point light: on a dense mesh 100.00% to 100.00% of the pixels are within 2/255 of the game, largest difference 1/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_package_shaders.py 1efcmn_x --addon game_cache\survey_addon  (exit 0, 36 s)
+==== verify_package_shaders.py 1efcmn_x --addon game_cache\survey_addon  (exit 0, 34 s)
 trail 1efc_trl_ptc01#1 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 trail 1efc_trl_ptc01#2 (0x1f007): 1191 px, exact 100.00%, within 1/255 100.00%, within 2/255 100.00%, max 0.0, coverage mismatch 0
 97 meshes, worst error 1.0/255, coverage mismatch 0
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\package_shader_check_1efcmn_x.json
 5 meshes take a point light: on a dense mesh 99.91% to 100.00% of the pixels are within 2/255 of the game, largest difference 4/255
 PASS: every shader of the package is within 1/255 of the game bytecode on these scenes (no light on the lit meshes; with a light, see the dense-mesh line)
-==== verify_port_shaders.py  (exit 0, 2 s)
+==== verify_port_shaders.py  (exit 0, 1 s)
 c4ee9b55: 147 draws, 1026639 px, exact 1026592, within 1/255 100.0000%, max 1.0, coverage mismatch 0, skipped: 0 missing texture
 19f002_p: 8 draws, 65700 px, exact 65695, within 1/255 100.0000%, max 1.0, coverage mismatch 0, skipped: 0 missing texture
 19f007_p: 6 draws, 15414 px, exact 15414, within 1/255 100.0000%, max 0.0, coverage mismatch 0, skipped: 0 missing texture
@@ -113,7 +113,7 @@ event 4361 ('2itc00t0 tongue', 70 vertices): input == NUD vertices True; palette
 event 4375 ('2itc00t0 kami', 418 vertices): input == NUD vertices True; palette 25 matrices, NUD bones 4..24, clump 215 coordinates; 14 bones the mesh uses, 12 rotated away from rest; largest bone-length / orthonormality difference 1.18e-04 ok; matrices of unused bones [23, 24] are not a pose
 event 4389 ('2itc00t0 kami', 956 vertices): input == NUD vertices True; palette 25 matrices, NUD bones 4..24, clump 215 coordinates; 18 bones the mesh uses, 15 rotated away from rest; largest bone-length / orthonormality difference 3.45e-03 ok
 PASS: the palette is pose * inverse(rest), one matrix per clump coordinate
-==== verify_skinned_models.py 3mdr_2_x 4mnr_x 3efbtf_srd1_x 5obt_x  (exit 0, 129 s)
+==== verify_skinned_models.py 3mdr_2_x 4mnr_x 3efbtf_srd1_x 5obt_x  (exit 0, 125 s)
 5obt_x / 5obteff1_kball_trans01_anm01 (5obteff1_kball_trans03, 5obteff1_kball_trans03b): 40 frames, 80 skinned draws, 33600 vertices; largest difference: position 5.4e-08 (relative), normal 0.0e+00; the pose moves vertices up to 174.39 units from the rest pose ok
 5obt_x / 5obteff1_kball_trans01_anm02 (5obteff1_kball_trans02, 5obteff1_kball_trans02b, 5obteff1_kball_trl01, 5obteff1_kball_trl01b): 40 frames, 160 skinned draws, 224520 vertices; largest difference: position 1.9e-07 (relative), normal 0.0e+00; the pose moves vertices up to 362.13 units from the rest pose ok
 5obt_x / 5obteff1_kball_trans01_anm04 (5obteff1_kball_trl01, 5obteff1_kball_trl01b): 29 frames, 58 skinned draws, 138417 vertices; largest difference: position 1.6e-07 (relative), normal 0.0e+00; the pose moves vertices up to 4604.71 units from the rest pose ok
@@ -145,7 +145,7 @@ edges: 8 checked, 0 not in their animation (inert trails, as in the game), 0 amb
 ribbons: 532 drawn, 54516 vertices, 0 differ, 0 frames with a count mismatch
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\trail_wiring_verification.json
 PASS: the drawn ribbons equal the game's vertex routine on the trails the player keeps
-==== verify_trails.py --package 1hak_x --frames 150  (exit 0, 1 s)
+==== verify_trails.py --package 1hak_x --frames 150  (exit 0, 0 s)
 1hakeff1_blt01: 150 frames, 21 ribbons, 1590 vertices, 0 differ, max position error 3.30e-08
 edges: 4 checked, 0 not in their animation (inert trails, as in the game), 0 ambiguous
 force fields: 2, 2 on a coordinate of their animation, 0 at the origin; samples seen moved by a field: 0
@@ -195,14 +195,14 @@ force fields: 2, 2 on a coordinate of their animation, 0 at the origin; samples 
 ribbons: 42 drawn, 1992 vertices, 0 differ, 0 frames with a count mismatch
 WROTE: C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\captured_assets\procedural\trail_wiring_verification.json
 PASS: the drawn ribbons equal the game's vertex routine on the trails the player keeps
-==== verify_selftest.py  (exit 0, 16 s)
+==== verify_selftest.py  (exit 0, 17 s)
      t05_1.30s: 1 effects, 15 draws, 35 particles, 2 trails, skipped []
      t06_1.80s: 1 effects, 16 draws, 33 particles, 2 trails, skipped []
      t07_2.50s: 1 effects, 15 draws, 33 particles, 2 trails, skipped []
      t08_3.50s: 2 effects, 35 draws, 75 particles, 0 trails, skipped []
 materials: 25 ({'screenspace_general': 25}), errors []
 PASS: storm_fx_selftest runs, captures and reports in the offline stubs
-==== verify_resource_billboards.py  (exit 0, 29 s)
+==== verify_resource_billboards.py  (exit 0, 27 s)
 2efb_sbr_x: members ['2gareff1_snd10'], drawn ['2gareff1_snd10'], 1483 draws, 1483 compared, 0 differ; control (frame 1) 0/0 differ
 3obt_x: members ['1efc_part03'], drawn ['1efc_part03'], 74 draws, 74 compared, 0 differ; control (frame 1) 0/0 differ
 8bra_x: members ['5efb_8bra1_glw01_sm'], drawn ['5efb_8bra1_glw01_sm'], 12 draws, 12 compared, 0 differ; control (frame 1) 0/0 differ
@@ -215,4 +215,27 @@ parent: followed to (300, -40) yaw 120; ended 1 frames after the parent went awa
 data_static package: loaded from data_static/storm_fx/4efb_amt1_x.txt (23 models, as from the Lua file)
 server -> client: 3 StormFX.Play messages from debug/sv_selftest.lua, 3 effects on the client; 50 files sent to the clients
 PASS: StormFX.Play / Stop / Remove / parent / Cast / StopAll behave in the offline stubs
+==== verify_hashirama_import.py  (exit 0, 2 s)
+PASS: eight scripts, four studio models drawn, valid cycles and matrices, all VMTs present {'models/storm_fx/1fireff1_01_anim.mdl': 38, 'models/storm_fx/1fireff1_08_anim.mdl': 735, 'models/storm_fx/1fireff1_07_anim.mdl': 543, 'models/storm_fx/1efc_wtr_ptc01.mdl': 1}
+==== verify_shikamaru_import.py  (exit 0, 6 s)
+  "2efb_kyj_ptc06"
+ ],
+ "failures": [],
+ "scope": "Source entity API stub; no live GMod validation"
+}
+PASS: the sequence plays on both paths, the tag resources of the cocoon are studio models, every file is present
+==== slim_package.py  (exit 0, 6 s)
+2sikspl1_x: 722 KB -> 681 KB, 2 meshes stripped ['2efb_kyj01#1', '2efb_kyj02_body#1']
+3efb_3ssk1_x: 518 KB -> 516 KB, 0 meshes stripped []
+3efbtf_rsn1_x: 103 KB -> 102 KB, 0 meshes stripped []
+4efb_amt1_x: 584 KB -> 582 KB, 0 meshes stripped []
+4efb_gkk1_x: 1825 KB -> 1764 KB, 2 meshes stripped ['1efc_ring29#1', '4efb_gkk1_13#1']
+all: 10192 KB -> 8874 KB; written to C:\Users\edenm\Desktop\Projects\Storm Connections Reverse\storm_connections_itachi_tools\game_cache\slim_addon\lua\storm_fx\packages
+==== verify_slim_packages.py  (exit 0, 68 s)
+  }
+ },
+ "failures": [],
+ "scope": "Source entity API stub; no live GMod validation"
+}
+PASS: the slim packages draw what the whole ones draw, their stripped meshes only as studio models
 SUITE DONE

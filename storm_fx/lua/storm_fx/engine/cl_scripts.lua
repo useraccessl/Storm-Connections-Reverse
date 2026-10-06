@@ -170,6 +170,74 @@ end
 
 local fnSpawnActor
 
+-- Whether a script never moves its object nor cuts its effect short: every action still (class
+-- none, or a crawler without a speed), no change of action, no KILL but at the end of the
+-- animation. Found once per script.
+local function fnIsStill(tScript)
+
+    if tScript.still ~= nil then return tScript.still end
+
+    local bStill = true
+
+    for _, tAction in ipairs(tScript.actions) do
+
+        local sClass = CLASSES[tAction.type]
+        local tValues = fnFloats(tAction)
+
+        -- A crawler without a speed only stands on the ground (the marks an explosion leaves)
+        if sClass ~= "none" and not (sClass == "crawler" and tValues.Velocity == 0 and tValues.VelocityRandomize == 0) then
+            bStill = false
+        end
+
+        for _, tEvent in ipairs(tAction.events) do
+
+            local sCommand = tEvent.command
+
+            if sCommand == "SKILL_EVENT_COMMAND_CHANGE_ACTION" then
+                bStill = false
+            elseif (sCommand == "SKILL_EVENT_COMMAND_KILL" or sCommand == "SKILL_EVENT_COMMAND_STICK")
+                and tEvent.type ~= "SKILL_EVENT_TYPE_ANIMATION_END" then
+                bStill = false
+            end
+
+        end
+
+    end
+
+    tScript.still = bStill
+
+    return bStill
+
+end
+
+-- The outer transform that stands for the cast's outer and an upright, resting root together
+-- (a turn about the vertical and a translation), or nil. Under it the effect plays with the
+-- identity root: it can be recorded and read back like an effect played alone
+-- (engine/cl_replay.lua). An effect's simulation is the same under such a root: nothing in
+-- it tells one heading from another.
+local function fnStillOuter(tCast, tActor, tRoot)
+
+    if CONFIG["recordEffects"] == false or not fnIsStill(tActor.script) then return nil end
+
+    local EPSILON = 1e-6
+
+    if math.abs(tRoot[3]) > EPSILON or math.abs(tRoot[7]) > EPSILON or math.abs(tRoot[9]) > EPSILON
+        or math.abs(tRoot[10]) > EPSILON or math.abs(tRoot[11] - 1) > EPSILON then
+        return nil
+    end
+
+    local tOuter = tCast.outer
+    local flYaw = tOuter.yaw * math.pi / 180
+    local flCos, flSin = math.cos(flYaw), math.sin(flYaw)
+
+    return {
+        pos = tOuter.pos + Vector(flCos * tRoot[4] - flSin * tRoot[8], flSin * tRoot[4] + flCos * tRoot[8], tRoot[12]) * tOuter.scale,
+        yaw = tOuter.yaw + (math.atan2 or math.atan)(tRoot[5], tRoot[1]) * 180 / math.pi,
+        scale = tOuter.scale
+    }
+
+end
+
 -- Start an action of an actor: its motion, then its effect
 local function fnSetAction(tCast, tActor, iIndex)
 
@@ -246,13 +314,49 @@ local function fnSetAction(tCast, tActor, iIndex)
 
     tCast.spawned = tCast.spawned + 1
 
-    local tInstance, sWhy = ENGINE:Launch(tCast.package, sChunk, {
-        outer = tCast.outer,
-        root = fnRootOf(tActor),
-        start = tActor.start + tActor.frame / ENGINE.FPS,
-        seed = tCast.seed + tCast.spawned - 1,
-        beforeUpdate = function() tActor.tick() end
-    })
+    local tRoot = fnRootOf(tActor)
+    local iSeed = tCast.seed + tCast.spawned - 1
+    local flStart = tActor.start + tActor.frame / ENGINE.FPS
+    local fnBefore = function() tActor.tick() end
+    local tStill = fnStillOuter(tCast, tActor, tRoot)
+    local tInstance, sWhy
+
+    if tStill then
+
+        -- The effect of a resting object: read back from its recording, else simulated once
+        -- under the identity root and recorded
+        local sKey = ENGINE:RecordingKey(tCast.package.name, sChunk, iSeed)
+        local tSteps = ENGINE.tRecordings[sKey]
+
+        if tSteps then
+
+            tInstance = ENGINE:LaunchReplay(tCast.package, sChunk, {outer = tStill, start = flStart, beforeUpdate = fnBefore}, tSteps)
+
+        else
+
+            tInstance, sWhy = ENGINE:Launch(tCast.package, sChunk, {outer = tStill, start = flStart, seed = iSeed, beforeUpdate = fnBefore})
+
+            if tInstance then
+                ENGINE:StartRecording(tInstance, sKey)
+            end
+
+        end
+
+        if tInstance then
+            tInstance.still = true
+        end
+
+    else
+
+        tInstance, sWhy = ENGINE:Launch(tCast.package, sChunk, {
+            outer = tCast.outer,
+            root = tRoot,
+            start = flStart,
+            seed = iSeed,
+            beforeUpdate = fnBefore
+        })
+
+    end
 
     if not tInstance then
         fnNote(tCast, tActor.id .. ": " .. tostring(sWhy))
@@ -621,8 +725,12 @@ local function fnFire(tCast, tActor, tEvent, tHit)
         tActor.alive = false
 
         if tActor.instance then
+
+            -- Killed once its animation is over: nothing is cut short, its recording is whole
+            tActor.instance.endedBeforeKill = not tActor.instance.loop and tActor.instance.ticks >= tActor.instance.duration
             tActor.instance.killed = true
             tActor.instance.beforeUpdate = nil
+
         end
 
     elseif sCommand == "SKILL_EVENT_COMMAND_CHANGE_ACTION" then
@@ -747,7 +855,8 @@ local function fnTick(tCast, tActor)
 
     tActor.state.frame = tActor.state.frame + 1
 
-    if tActor.instance then
+    -- A resting object's effect keeps the identity root (its place is in its outer transform)
+    if tActor.instance and not tActor.instance.still then
         tActor.instance.root = fnRootOf(tActor)
     end
 

@@ -356,7 +356,8 @@ local function fnBuildMeshes(tItem, flScale)
 
         -- A skinned mesh's triangles that hang from one palette entry only, built once
         -- (RENDER.SplitSkinned; Config splitSkinned)
-        if tPart.mesh.skin and StormFX.Config["splitSkinned"] ~= false then
+        -- (a mesh whose geometry is only in its studio model, slim_package.py, has none to build)
+        if tPart.mesh.skin and not tPart.mesh.stripped and StormFX.Config["splitSkinned"] ~= false then
 
             tPart.rigidMeshes = {}
 
@@ -371,7 +372,7 @@ local function fnBuildMeshes(tItem, flScale)
         -- with every draw (the game skins into a dynamic buffer too). Neither has a ribbon
         -- (dynamic vertices, 0x141325a50), nor a batched part (its particles' vertices are
         -- sent together every frame).
-        if not tPart.mesh.skin and not tPart.ribbon and not tPart.batched then
+        if not tPart.mesh.skin and not tPart.mesh.stripped and not tPart.ribbon and not tPart.batched then
             tPart.buffer = RENDER.BuildMesh(tPart.mat, tPart.mesh, tPart.static)
             ENGINE.iUploads = ENGINE.iUploads + 1
         end

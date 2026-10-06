@@ -1,5 +1,5 @@
 {
- "installedAt": "20261005_203750",
+ "installedAt": "20261006_193329",
  "gmod": "C:\\SteamCMD\\solve\\garrysmod",
  "server": true,
  "packages": [
@@ -13,7 +13,7 @@
   "4efb_amt1_x",
   "4efb_gkk1_x"
  ],
- "backup": "C:\\SteamCMD\\solve\\garrysmod\\storm_fx_backups\\20261005_203750",
+ "backup": "C:\\SteamCMD\\solve\\garrysmod\\storm_fx_backups\\20261006_193329",
  "files": [
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\autorun\\sh_storm_fx.lua",
@@ -193,7 +193,7 @@
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_packages.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\lua\\storm_fx\\engine\\cl_packages.lua",
-   "sha256": "7e334d37770939370af4eaa956b97d10dc3095be38090d1674e56fa48eca587a"
+   "sha256": "1ce4f901c7e44d6789377cb6390624f827185db48142d6be1686cfe00e585eee"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_trails.lua",
@@ -208,12 +208,12 @@
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_replay.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\lua\\storm_fx\\engine\\cl_replay.lua",
-   "sha256": "a9d956ea376447f2a35a6a1bf4259eb96d4a5905f7c7c8924c0a1aa02b4e91cf"
+   "sha256": "0850cae5055e2d296b9eada96d02e1004c196a419ccd549d3c34928b35131785"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_scripts.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\lua\\storm_fx\\engine\\cl_scripts.lua",
-   "sha256": "ecb01e559b743bfe2368280ef475c9127411b7b59eae2dede62fe189fbaa62ce"
+   "sha256": "75db42544907c668aaf27eb55b30029837ff642686328061e600706d064c3b4f"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_lights.lua",
@@ -233,7 +233,7 @@
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_draw.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\lua\\storm_fx\\engine\\cl_draw.lua",
-   "sha256": "9194fb931e6b42a5d8aebe0f98f47a9cf047c398ee4b1b2d0ed75359326e1ffd"
+   "sha256": "d19161be86f99209e273793988cd2192dfb0e933735ea24aac32264e7679a687"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_fx\\lua\\storm_fx\\engine\\cl_commands.lua",
@@ -281,49 +281,49 @@
    "sha256": "58d020ee22f6727d9d07624deadfec183feaaf7dfdcf5259db878aa6d7611947"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\1fir_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\1fir_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\1fir_x.txt",
-   "sha256": "5f5978ba700eafeedcf2813164a26c00705549c1cd9feefc0518efafd6d0f8a2"
+   "sha256": "b0c19e3a16e0ddff6e5e6ff9a4fcbddc5c408f345d47368941d110d1ad750686"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2efb_rsn_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\2efb_rsn_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\2efb_rsn_x.txt",
-   "sha256": "808ade4351d19a09cef35b94b80455a8df6ed97ecc6fe4293135bf35413bcd73"
+   "sha256": "9939d4dec6396c1f128d265cd5dd35c484f180c43e06f4d4be13f50dedd895c4"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2ksm_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\2ksm_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\2ksm_x.txt",
-   "sha256": "1d06cbc819e68ad522b519e12e8ed52e828f4ac78f4639c2ef45406a71c223f2"
+   "sha256": "2dffacdbd5a75af9478fcecfd16134710d1f7792262469638888739fd4aa8694"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2sik_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\2sik_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\2sik_x.txt",
-   "sha256": "1fbaec0794c26dcce89e296e252e5bbb9c690d7ae033b2219fd270e2a6cfb7f1"
+   "sha256": "3cd9207e188ec9b848f9a90424e89b4e3c7160e3af0f8058f4f89a26b6be326c"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\2sikspl1_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\2sikspl1_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\2sikspl1_x.txt",
-   "sha256": "80d894dad209d962fc73b18068b0b77574098a9a7de861105e91e38a289e7eb3"
+   "sha256": "eee1b784e669580237c818d5b73d71a98891b774ebe99be87623ea6e64ad4267"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\3efb_3ssk1_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\3efb_3ssk1_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\3efb_3ssk1_x.txt",
-   "sha256": "5a4290bbba03ecf7f702640a654b1d4aa80cdbc107caf840dd41ac5e0eb700f4"
+   "sha256": "7c7963828dc874934b87d9c2c8ccef00c5dfd666730047071137972e4fb53e89"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\3efbtf_rsn1_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\3efbtf_rsn1_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\3efbtf_rsn1_x.txt",
-   "sha256": "00c903a800c005910ebe9432962a7ca8ed01b8fa12b0b20e2690670ac92a4806"
+   "sha256": "ef27a5746e3b10719ca9e3d96ae2ef4a1bf3a6abb48ef56e873ac9bc21163097"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\4efb_amt1_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\4efb_amt1_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\4efb_amt1_x.txt",
-   "sha256": "d4103a6326f0db78ef553f7a468568b7f1bded2f515773da046248133ea930c1"
+   "sha256": "cbbba59f2bfc66a5f7c6c8cce2e20b9368ca59a5231ec3da5f608ed3ce38c02a"
   },
   {
-   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\lua\\storm_fx\\packages\\4efb_gkk1_x.lua",
+   "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_connections_itachi_tools\\game_cache\\slim_addon\\lua\\storm_fx\\packages\\4efb_gkk1_x.lua",
    "destination": "C:\\SteamCMD\\solve\\garrysmod\\addons\\storm_fx\\data_static\\storm_fx\\4efb_gkk1_x.txt",
-   "sha256": "0900a87e07e7f43cf3013b25af3ac8dcf9e1c8b159cad2f8a838d71a07fbadc3"
+   "sha256": "7607fae4df58d066961599dad14f17881a146434ce7dc5f9ab416f3dcc1ad610"
   },
   {
    "source": "C:\\Users\\edenm\\Desktop\\Projects\\Storm Connections Reverse\\storm_amaterasu_lab\\materials\\storm_fx\\1efc_blur.vtf",

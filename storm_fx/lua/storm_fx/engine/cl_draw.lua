@@ -239,59 +239,65 @@ local function fnSubmit(tInstance, tItem, tWorld, tFrame, tColor, flAlpha, tAnim
 
     for iIndex, tPart in ipairs(tItem.parts) do
 
-        local tValues
-        tValues, tSlot = fnPartValues(tItem, tPart, tWorld, tFrame, tColor, flAlpha, tAnimated, tContext, tSlot)
-
-        local tSkinned
-
         -- A skinned part the package has as a studio model, posed by the animation baked into
         -- its sequence (engine/cl_studio.lua)
         local tStudio = tPart.studio and tDraw and tDraw.palette and tDraw.poseName == tPart.studio.animation
             and ENGINE:StudioAvailable() and tPart.studio or nil
 
-        -- A split skinned part (Config splitSkinned) is skinned when the list's meshes are built
-        local bSplit = not tStudio and tPart.rigidMeshes ~= nil and tDraw ~= nil and tDraw.palette ~= nil
+        -- A mesh whose geometry is only in its studio model (slim_package.py) is drawn by it
+        -- or not at all
+        if tStudio or not tPart.mesh.stripped then
 
-        if tPart.mesh.skin and tDraw and tDraw.palette and not bSplit and not tStudio then
+            local tValues
+            tValues, tSlot = fnPartValues(tItem, tPart, tWorld, tFrame, tColor, flAlpha, tAnimated, tContext, tSlot)
 
-            tDraw.skinned = tDraw.skinned or {}
-            tSkinned = tDraw.skinned[iIndex]
+            local tSkinned
 
-            if not tSkinned then
+            -- A split skinned part (Config splitSkinned) is skinned when the list's meshes are built
+            local bSplit = not tStudio and tPart.rigidMeshes ~= nil and tDraw ~= nil and tDraw.palette ~= nil
 
-                local tPositions, tNormals = CORE.Skinning.Mesh(tPart.mesh, tDraw.palette, ENGINE.Plain)
+            if tPart.mesh.skin and tDraw and tDraw.palette and not bSplit and not tStudio then
 
-                tSkinned = {positions = tPositions, normals = tNormals}
-                tDraw.skinned[iIndex] = tSkinned
-                ENGINE.iSkinnedVertices = ENGINE.iSkinnedVertices + #tPositions
+                tDraw.skinned = tDraw.skinned or {}
+                tSkinned = tDraw.skinned[iIndex]
+
+                if not tSkinned then
+
+                    local tPositions, tNormals = CORE.Skinning.Mesh(tPart.mesh, tDraw.palette, ENGINE.Plain)
+
+                    tSkinned = {positions = tPositions, normals = tNormals}
+                    tDraw.skinned[iIndex] = tSkinned
+                    ENGINE.iSkinnedVertices = ENGINE.iSkinnedVertices + #tPositions
+
+                end
 
             end
 
-        end
+            local tEntry = fnNewEntry()
 
-        local tEntry = fnNewEntry()
+            tEntry.item = tItem
+            tEntry.part = tPart
+            tEntry.state = tPart.state
+            tEntry.layer = tItem.layer
+            tEntry.depth = flDepth
+            tEntry.skinned = tSkinned
+            tEntry.ribbon = nil
+            tEntry.cachedRibbon = nil
+            tEntry.batched = tPart.batched
+            tEntry.split = bSplit and tDraw or nil
+            tEntry.studio = tStudio
+            tEntry.studioParticle = nil
+            tEntry.studioCycle = tStudio and tDraw.poseTicks / tStudio.duration or nil
 
-        tEntry.item = tItem
-        tEntry.part = tPart
-        tEntry.state = tPart.state
-        tEntry.layer = tItem.layer
-        tEntry.depth = flDepth
-        tEntry.skinned = tSkinned
-        tEntry.ribbon = nil
-        tEntry.cachedRibbon = nil
-        tEntry.batched = tPart.batched
-        tEntry.split = bSplit and tDraw or nil
-        tEntry.studio = tStudio
-        tEntry.studioParticle = nil
-        tEntry.studioCycle = tStudio and tDraw.poseTicks / tStudio.duration or nil
+            fnCopyMatrix(tWorld, tEntry.world)
 
-        fnCopyMatrix(tWorld, tEntry.world)
+            -- A batched part carries its values in its vertices, the others in the pixel constants
+            if tPart.batched then
+                tEntry.static = RENDER.StaticInto(tPart.layout, tValues, tEntry.static or {})
+            else
+                RENDER.PackInto(tPart.layout, tValues, tEntry.packed)
+            end
 
-        -- A batched part carries its values in its vertices, the others in the pixel constants
-        if tPart.batched then
-            tEntry.static = RENDER.StaticInto(tPart.layout, tValues, tEntry.static or {})
-        else
-            RENDER.PackInto(tPart.layout, tValues, tEntry.packed)
         end
 
     end

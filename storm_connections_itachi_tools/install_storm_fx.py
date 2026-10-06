@@ -142,6 +142,22 @@ def package_models(name: str) -> set[str]:
     return out
 
 
+def package_source(name: str, whole: bool) -> Path:
+    """The file installed as a package's data: its slim copy (slim_package.py: without the
+    geometry of the meshes that are only drawn as studio models), made again when the package
+    is newer; the package itself when `whole`."""
+    source = ADDON / 'lua/storm_fx/packages' / f'{name}.lua'
+    if whole or not source.is_file():
+        return source
+    import slim_package
+    target = slim_package.OUT / 'lua/storm_fx/packages' / f'{name}.lua'
+    if not target.is_file() or target.stat().st_mtime < source.stat().st_mtime:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        meshes = slim_package.slim(source, target)
+        print(f'{name}: slim copy made, {len(meshes)} meshes without their geometry')
+    return target
+
+
 def skin_test_assets() -> set[str]:
     """The skinning test variants skin_variants.py made (models, materials, vertex shaders),
     while they are in the addon folder."""
@@ -206,6 +222,9 @@ if __name__ == '__main__':
     ap.add_argument('--content', action='store_true',
                     help='only the content (textures, shaders, packages as data_static), straight into the garrysmod '
                     'folder itself (materials/, shaders/fxc/, data_static/); no Lua, no addon folder')
+    ap.add_argument('--whole', action='store_true',
+                    help='install the packages whole, with the geometry of the meshes only drawn as studio models '
+                    '(default: the slim copies of slim_package.py)')
     ap.add_argument('--remove', action='store_true', help='move the installed addon and its shaders to the backups')
     ap.add_argument('--dry-run', action='store_true')
     args = ap.parse_args()
@@ -235,7 +254,7 @@ if __name__ == '__main__':
         raise SystemExit('client Lua files over GMod\'s 64 KB compressed limit:\n  '
                          + '\n  '.join(f'{name}: {size} bytes' for name, size in too_big.items()))
     plan: list[tuple[Path, Path]] = [(CODE / 'lua' / name, Path('lua') / name) for name in code_lua]
-    plan += [(ADDON / 'lua/storm_fx/packages' / f'{name}.lua', Path('data_static/storm_fx') / f'{name}.txt') for name in packages]
+    plan += [(package_source(name, args.whole), Path('data_static/storm_fx') / f'{name}.txt') for name in packages]
     plan += [(ADDON / 'materials' / f'{name}.vtf', Path('materials') / f'{name}.vtf') for name in sorted(textures)]
     plan += [(ADDON / 'shaders/fxc' / f'{name}.vcs', Path('shaders/fxc') / f'{name}.vcs') for name in sorted(shaders)]
     plan += [(ADDON / name, Path(name)) for name in sorted(models | skin_test_assets())]

@@ -1,0 +1,77 @@
+{
+  "1fir_x": {
+    "stripped meshes": [
+      "1efc_wtr03#1",
+      "1fireff1_01_ne01#1",
+      "1fireff1_01_ne02#1",
+      "1fireff1_01_ne03#1",
+      "1fireff1_01_ne04#1",
+      "1fireff1_01_ne05#1",
+      "1fireff1_07#1",
+      "1fireff1_08#1"
+    ],
+    "KB": {
+      "whole": 2941,
+      "slim": 2783
+    },
+    "plays": 11,
+    "frames": 1290,
+    "studio draws": 3472,
+    "mesh uploads": {
+      "whole": 53,
+      "slim": 45
+    }
+  },
+  "2ksm_x": {
+    "stripped meshes": [
+      "2ksmeff1_wtr08#1"
+    ],
+    "KB": {
+      "whole": 2705,
+      "slim": 1654
+    },
+    "plays": 1,
+    "frames": 239,
+    "studio draws": 874,
+    "mesh uploads": {
+      "whole": 29,
+      "slim": 21
+    }
+  },
+  "2sikspl1_x": {
+    "stripped meshes": [
+      "2efb_kyj01#1",
+      "2efb_kyj02_body#1"
+    ],
+    "KB": {
+      "whole": 722,
+      "slim": 681
+    },
+    "plays": 1,
+    "frames": 321,
+    "studio draws": 2900,
+    "mesh uploads": {
+      "whole": 5,
+      "slim": 4
+    }
+  },
+  "4efb_gkk1_x": {
+    "stripped meshes": [
+      "1efc_ring29#1",
+      "4efb_gkk1_13#1"
+    ],
+    "KB": {
+      "whole": 1825,
+      "slim": 1764
+    },
+    "plays": 12,
+    "frames": 4272,
+    "studio draws": 39527,
+    "mesh uploads": {
+      "whole": 19,
+      "slim": 17
+    }
+  },
+  "failures": [],
+  "scope": "Source entity API stub; no live GMod validation"
+}

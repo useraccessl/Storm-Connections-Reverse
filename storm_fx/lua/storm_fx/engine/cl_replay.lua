@@ -187,7 +187,8 @@ function ENGINE:FinishRecording(tInstance)
 
     local tRecording = tInstance.recording
 
-    if tRecording and not tInstance.failed and not tInstance.removed and not tInstance.killed then
+    -- A script that kills its object once the animation is over cut nothing short
+    if tRecording and not tInstance.failed and not tInstance.removed and (not tInstance.killed or tInstance.endedBeforeKill) then
         self.tRecordings[tRecording.key] = tRecording.steps
     end
 

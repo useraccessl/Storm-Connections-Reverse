@@ -43,7 +43,11 @@ $commands = @(
     @('verify_trails.py', '--package', '4efb_amt1_x', '--frames', '150', '--addon', '..\storm_amaterasu_lab'),
     @('verify_selftest.py'),
     @('verify_resource_billboards.py'),
-    @('verify_api.py')
+    @('verify_api.py'),
+    @('verify_hashirama_import.py'),
+    @('verify_shikamaru_import.py'),
+    @('slim_package.py'),
+    @('verify_slim_packages.py')
 )
 # verify_clean_engine.py (the clean addon against the lab's r27 engine, every draw identical)
 # proved the rewrite of R109; it is retired since the batched packages of R110, which the
